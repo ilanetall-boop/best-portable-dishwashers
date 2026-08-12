@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Clean and Descale a Portable Dishwasher (So It Lasts)</title>
+<meta name="description" content="The mesh filter nobody knows exists, the smell that comes from a sealed tub, limescale, and the descaling schedule that decides whether a countertop dishwasher reaches year five. A real after-each-load, weekly, monthly and quarterly routine.">
+<link rel="canonical" href="https://best-portable-dishwashers.com/how-to-clean-and-descale-a-portable-dishwasher">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Best Portable Dishwashers">
+<meta property="og:title" content="How to Clean and Descale a Portable Dishwasher (So It Lasts)">
+<meta property="og:description" content="Small dishwashers die of neglect long before they die of use. The three killers are a hidden mesh filter, limescale, and standing water in a sealed tub — here is the routine that beats all three.">
+<meta property="og:url" content="https://best-portable-dishwashers.com/how-to-clean-and-descale-a-portable-dishwasher">
+<meta property="og:image" content="https://best-portable-dishwashers.com/images/hero-clean.webp">
+<meta name="theme-color" content="#101820">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="alternate icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  /* premium-editorial-v1 — palette: steel / slate / water-blue.
+     NOTE: the --aqua* and --brass* variable names are inherited from the network template;
+     on this site --aqua carries the water-blue accent and --brass carries brushed chrome.
+     Do not rename (tools/rebuild-site.js and every article file reference them). */
+  :root{
+    --ground:#F4F6F8; --surface:#FFFFFF; --surface-2:#E9EEF3;
+    --ink:#131A21; --ink-soft:#2E3A45; --muted:#69757F; --line:#DCE3EA;
+    --aqua:#1C6E8C; --aqua-deep:#12556F; --aqua-tint:#E8F1F6;
+    --brass:#8D9AA6; --brass-lite:#C9D5DF; --brass-tint:#EDF1F5;
+    --dark:#101820; --dark-2:#1D2A35; --on-dark:#EAF0F5; --on-dark-mute:#9CACB9;
+    --star:#B07E00;
+    --shadow:0 1px 2px rgba(19,26,33,.05),0 22px 48px -26px rgba(19,26,33,.30);
+    --shadow-sm:0 1px 2px rgba(19,26,33,.05),0 10px 24px -16px rgba(19,26,33,.24);
+    --radius:20px; --radius-sm:12px; --maxw:1120px;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ground:#0C1116; --surface:#151E26; --surface-2:#1E2A34;
+    --ink:#EAF0F5; --ink-soft:#CBD7E0; --muted:#93A2AE; --line:#28353F;
+    --aqua:#5CA9C8; --aqua-deep:#7FC3DD; --aqua-tint:#122530;
+    --brass:#C9D5DF; --brass-lite:#DDE7EF; --brass-tint:#16222B;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }}
+  :root[data-theme="dark"]{
+    --ground:#0C1116; --surface:#151E26; --surface-2:#1E2A34;
+    --ink:#EAF0F5; --ink-soft:#CBD7E0; --muted:#93A2AE; --line:#28353F;
+    --aqua:#5CA9C8; --aqua-deep:#7FC3DD; --aqua-tint:#122530;
+    --brass:#C9D5DF; --brass-lite:#DDE7EF; --brass-tint:#16222B;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+    font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  a{color:inherit}
+  h1,h2,h3{margin:0;line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
+  .serif{font-family:var(--serif)}
+  p{margin:0 0 1rem}
+  .eyebrow{font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+  .tnum{font-variant-numeric:tabular-nums}
+  .stars{color:var(--star);letter-spacing:2px}
+
+  /* ---------- header ---------- */
+  header.site{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--ground) 82%,transparent);
+    backdrop-filter:saturate(1.3) blur(12px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-weight:700;letter-spacing:-.01em}
+  .brand .bn{font-family:var(--serif);font-size:1.16rem}
+  nav.site a{color:var(--muted);text-decoration:none;font-size:.86rem;font-weight:600;letter-spacing:.01em;margin-left:22px;transition:color .2s}
+  nav.site a:hover{color:var(--ink)}
+  @media (max-width:660px){nav.site{display:none}}
+
+  /* ---------- hero (immersive dark, water shimmer) ---------- */
+  .hero{position:relative;background:radial-gradient(120% 90% at 80% -10%,var(--dark-2),var(--dark) 60%);color:var(--on-dark);overflow:hidden;isolation:isolate}
+  .caustic{position:absolute;inset:-30%;z-index:0;opacity:.5;pointer-events:none;filter:blur(30px);
+    background:
+      radial-gradient(28% 40% at 22% 30%,rgba(92,169,200,.26),transparent 60%),
+      radial-gradient(24% 34% at 74% 24%,rgba(201,213,223,.20),transparent 60%),
+      radial-gradient(30% 42% at 60% 78%,rgba(28,110,140,.28),transparent 62%);
+    animation:drift 22s ease-in-out infinite alternate}
+  .caustic.b{opacity:.34;animation-duration:30s;animation-direction:alternate-reverse;
+    background:
+      radial-gradient(26% 36% at 40% 60%,rgba(127,195,221,.22),transparent 60%),
+      radial-gradient(22% 30% at 85% 70%,rgba(141,154,166,.20),transparent 60%)}
+  @keyframes drift{0%{transform:translate3d(-2%,-1%,0) scale(1)}50%{transform:translate3d(3%,2%,0) scale(1.08)}100%{transform:translate3d(-1%,3%,0) scale(1.04)}}
+  .hero .wrap{position:relative;z-index:1;padding:74px 26px 88px}
+  .hero .eyebrow{color:var(--brass-lite)}
+  .hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,1.4rem+4.6vw,4.7rem);letter-spacing:-.02em;max-width:15ch;margin:.5rem 0 0}
+  .hero h1 em{font-style:italic;color:var(--brass-lite)}
+  .hero .lede{font-size:1.24rem;line-height:1.55;color:var(--on-dark-mute);max-width:52ch;margin-top:1.3rem}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:26px;font-size:.86rem;color:var(--on-dark-mute)}
+  .hero .meta b{color:var(--on-dark)}
+  .rule{height:1px;background:linear-gradient(90deg,var(--brass),transparent);border:0;margin:26px 0 0;max-width:220px}
+
+  /* ---------- #1 feature (the centerpiece) ---------- */
+  .feature{position:relative;z-index:2;margin:-56px 0 0}
+  .feature .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    display:grid;grid-template-columns:1.1fr 1fr;overflow:hidden}
+  .feature .left{padding:38px}
+  .feature .kick{display:inline-flex;align-items:center;gap:9px;color:var(--brass-text);font-weight:700;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase}
+  .feature .kick::before{content:"";width:26px;height:1px;background:var(--brass)}
+  .feature h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.8rem,1.2rem+2vw,2.7rem);margin:.5rem 0 .2rem}
+  .feature .verdict{color:var(--ink-soft);font-size:1.06rem;margin:.4rem 0 1rem;max-width:44ch}
+  .feature .rl{display:flex;align-items:center;flex-wrap:wrap;gap:8px 10px;font-size:.92rem;color:var(--muted);margin-bottom:1.2rem}
+  .feature .rl b{color:var(--ink)}
+  .btn{display:inline-flex;align-items:center;gap:9px;background:var(--aqua);color:#fff;font-weight:700;
+    padding:14px 26px;border-radius:12px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,background .2s}
+  .btn:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  .btn .arw{transition:transform .2s}.btn:hover .arw{transform:translateX(3px)}
+  .feature .right{background:linear-gradient(160deg,var(--dark-2),var(--dark));color:var(--on-dark);padding:38px;display:flex;flex-direction:column;justify-content:center;gap:6px;position:relative}
+  .feature .right .lab{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-mute)}
+  .feature .bigprice{font-family:var(--serif);font-size:clamp(3rem,2rem+4vw,4.4rem);font-weight:600;line-height:1;color:var(--brass-lite)}
+  .feature .bigprice sup{font-size:.4em;top:-1.2em;color:var(--on-dark)}
+  .feature .right .note{color:var(--on-dark-mute);font-size:.92rem;margin-top:6px;max-width:30ch}
+  .feature .right .mono{margin-top:16px;font-family:var(--serif);font-size:1.05rem;color:var(--on-dark)}
+  @media (max-width:820px){.feature .card{grid-template-columns:1fr}.feature .right{order:-1}}
+
+  /* ---------- generic section ---------- */
+  section{padding:44px 0}
+  .kicker{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+  .kicker .eyebrow{color:var(--aqua-deep)}
+  .kicker::after{content:"";flex:1;height:1px;background:var(--line)}
+  .h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,1.2rem+1.7vw,2.5rem);letter-spacing:-.01em}
+  .sub{color:var(--muted);max-width:62ch;margin:.6rem 0 0}
+
+  .notes{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:24px}
+  .notes .n{background:var(--surface);padding:24px}
+  .notes .num{font-family:var(--serif);font-size:1.5rem;color:var(--brass-text);line-height:1}
+  .notes h3{font-size:1.02rem;font-weight:750;margin:.5rem 0 .35rem}
+  .notes p{font-size:.9rem;color:var(--muted);margin:0}
+  @media (max-width:820px){.notes{grid-template-columns:1fr 1fr}}
+  @media (max-width:520px){.notes{grid-template-columns:1fr}}
+
+  /* honesty band */
+  .band{background:var(--brass-tint);border:1px solid var(--line);border-left:3px solid var(--brass);
+    border-radius:var(--radius-sm);padding:22px 24px;margin-top:26px}
+  .band h3{font-family:var(--serif);font-weight:600;font-size:1.16rem;margin-bottom:.5rem}
+  .band p{color:var(--ink-soft);font-size:.95rem;margin:0}
+  .band p+p{margin-top:.6rem}
+
+  /* comparison */
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);background:var(--surface);margin-top:22px}
+  table{border-collapse:collapse;width:100%;min-width:740px;font-size:.94rem}
+  thead th{background:var(--surface-2);text-align:left;padding:16px;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+  td{padding:15px 16px;border-bottom:1px solid var(--line);vertical-align:middle}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:hover{background:var(--surface-2)}
+  td.name{font-family:var(--serif);font-weight:600;font-size:1.05rem}
+  .win td{background:var(--brass-tint)}
+  .win td.name{color:var(--brass-text)}
+  .win td:first-child{box-shadow:inset 3px 0 0 var(--brass)}
+  .price{font-weight:800;font-variant-numeric:tabular-nums}
+  .rev{color:var(--muted);font-size:.82rem}
+  .tget{display:inline-block;background:var(--ink);color:var(--surface);font-weight:700;font-size:.8rem;padding:8px 14px;border-radius:9px;text-decoration:none;white-space:nowrap;transition:background .2s}
+  .tget:hover{background:var(--aqua-deep);color:#fff}
+
+  /* picks (editorial cards) */
+  .picks{display:flex;flex-direction:column;gap:26px;margin-top:26px}
+  .pick{display:grid;grid-template-columns:96px 1fr auto;gap:26px;align-items:start;
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:28px}
+  .pick .rank{font-family:var(--serif);font-size:2.6rem;color:var(--brass-text);line-height:.9;font-weight:600}
+  .pick .rank small{display:block;font-family:var(--sans);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:8px}
+  .pick h3{font-family:var(--serif);font-weight:600;font-size:1.44rem}
+  .pick .who{color:var(--aqua-deep);font-weight:700;font-size:.9rem;margin:.25rem 0 .5rem}
+  .pick .rl2{display:flex;align-items:center;flex-wrap:wrap;gap:6px 8px;font-size:.86rem;color:var(--muted);margin-bottom:.7rem}
+  .pick .rl2 b{color:var(--ink)}
+  .pick p.body{margin:.2rem 0 0;color:var(--ink-soft)}
+  .quote{border-left:2px solid var(--brass);padding-left:14px;margin:.9rem 0 0;font-family:var(--serif);color:var(--ink);font-size:1.02rem}
+  .quote b{font-family:var(--sans);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass-text);display:block;margin-bottom:.2rem;font-weight:700}
+  .aside{display:flex;flex-direction:column;align-items:flex-end;gap:12px;text-align:right;min-width:150px}
+  .aside .pr{font-family:var(--serif);font-size:2rem;font-weight:600;font-variant-numeric:tabular-nums;line-height:1}
+  .aside .tag{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .buy{display:inline-flex;align-items:center;gap:8px;background:var(--aqua);color:#fff;font-weight:700;padding:11px 20px;border-radius:10px;text-decoration:none;transition:background .2s,transform .15s;font-size:.92rem}
+  .buy:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  @media (max-width:820px){.pick{grid-template-columns:64px 1fr}.aside{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;text-align:left;border-top:1px solid var(--line);padding-top:16px}}
+
+  /* method / faq */
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:22px}
+  @media (max-width:760px){.cols{grid-template-columns:1fr}}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm)}
+  .panel .eyebrow{color:var(--aqua-deep)}
+  .panel h3{font-family:var(--serif);font-weight:600;font-size:1.3rem;margin:.5rem 0 .5rem}
+  .panel p{color:var(--muted);margin:0}
+  .faq details{border-top:1px solid var(--line);padding:16px 0}
+  .faq details:first-of-type{border-top:0}
+  .faq summary{cursor:pointer;font-family:var(--serif);font-size:1.12rem;list-style:none;display:flex;justify-content:space-between;gap:14px;color:var(--ink)}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--brass-text);font-family:var(--sans);font-weight:700}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{margin:.8rem 0 0;color:var(--muted)}
+
+  footer.site{margin-top:20px;background:var(--dark);color:var(--on-dark-mute)}
+  footer .wrap{padding:40px 26px}
+  footer .fbrand{font-family:var(--serif);color:var(--on-dark);font-size:1.2rem}
+  footer p{font-size:.84rem;margin:.6rem 0 0;max-width:80ch}
+  footer a{color:var(--brass-lite)}
+  /* imagery */
+  .hero .wrap{display:grid;grid-template-columns:1.12fr .88fr;gap:48px;align-items:center}
+  .hero .himg{border-radius:20px;border:1px solid rgba(201,213,223,.4);box-shadow:0 30px 60px -30px rgba(0,0,0,.55);width:100%;height:auto;display:block}
+  @media (max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:30px}}
+  .fpimg{background:#fff;border-radius:14px;padding:14px;box-shadow:0 12px 28px -14px rgba(0,0,0,.5);width:min(230px,70%);margin-bottom:16px}
+  .fpimg img{width:100%;height:auto;display:block}
+  .aside .pimg{width:150px;height:150px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;display:flex;align-items:center;justify-content:center}
+  .aside .pimg img{max-width:100%;max-height:100%;display:block}
+  @media (max-width:820px){.aside .pimg{width:96px;height:96px;padding:6px}}
+  td.name{display:flex;align-items:center;gap:12px}
+  .thumb{width:46px;height:46px;flex:0 0 auto;background:#fff;border:1px solid var(--line);border-radius:9px;padding:4px}
+  .thumb img{width:100%;height:100%;object-fit:contain;display:block}
+  :focus-visible{outline:2px solid var(--aqua);outline-offset:3px;border-radius:5px}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}.btn:hover,.buy:hover{transform:none}}
+</style>
+<style>
+  /* article-only additions (premium-editorial-v1) */
+  .hero.article .wrap{grid-template-columns:1fr;padding:64px 26px 74px}
+  .hero.article h1{max-width:24ch;font-size:clamp(2.1rem,1.3rem+3.1vw,3.5rem)}
+  .byline{margin-top:22px;font-size:.9rem;color:var(--on-dark)}
+  .disclose{font-size:.82rem;color:var(--on-dark-mute);margin:.5rem 0 0;max-width:64ch}
+  .heroshot{margin:-46px 0 0;position:relative;z-index:2}
+  .heroshot img{width:100%;height:auto;display:block;border-radius:var(--radius);border:1px solid var(--line);box-shadow:var(--shadow)}
+  .heroshot figcaption{color:var(--muted);font-size:.82rem;margin-top:10px}
+  .prose{max-width:68ch}
+  .prose p{color:var(--ink-soft)}
+  .prose h3{font-family:var(--serif);font-weight:600;font-size:1.32rem;margin:1.8rem 0 .6rem}
+  .prose ul,.prose ol{color:var(--ink-soft);padding-left:1.2rem;margin:0 0 1rem}
+  .prose li{margin:0 0 .55rem}
+  .prose li b,.prose p b{color:var(--ink)}
+  .prose a{color:var(--aqua-deep);font-weight:600;text-decoration:none;border-bottom:1px solid var(--line)}
+  .prose a:hover{border-bottom-color:var(--aqua-deep)}
+  .toc{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);padding:20px 24px;margin:34px 0 0}
+  .toc .eyebrow{color:var(--aqua-deep)}
+  .toc a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}
+  .toc a:hover{border-bottom-color:var(--aqua-deep)}
+  .mcards{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:24px}
+  @media (max-width:760px){.mcards{grid-template-columns:1fr}}
+  .mcard{display:grid;grid-template-columns:112px 1fr;gap:20px;background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:22px}
+  .mcard .mimg{width:112px;height:112px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:8px;display:flex;align-items:center;justify-content:center}
+  .mcard .mimg img{max-width:100%;max-height:100%;display:block}
+  .mcard h3{font-family:var(--serif);font-weight:600;font-size:1.14rem}
+  .mcard .cls{font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:.35rem 0 .5rem}
+  .mcard p{font-size:.92rem;color:var(--ink-soft);margin:0 0 .9rem}
+  .mcard .foot{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .mcard .pr{font-family:var(--serif);font-size:1.2rem;font-weight:600;font-variant-numeric:tabular-nums}
+  .keep{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:22px}
+  @media (max-width:760px){.keep{grid-template-columns:1fr}}
+  .keep a{display:block;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);
+    padding:20px 22px;text-decoration:none;color:var(--ink);box-shadow:var(--shadow-sm);transition:transform .18s}
+  .keep a:hover{transform:translateY(-2px)}
+  .keep .kt{font-family:var(--serif);font-size:1.1rem;display:block}
+  .keep .kd{color:var(--muted);font-size:.88rem;display:block;margin-top:.35rem}
+  @media (prefers-reduced-motion:reduce){.keep a:hover{transform:none}}
+</style>
+<style id="a11y">:root{--brass-text:#4A5865;--star:#B07E00}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--brass-text:#C9D5DF;--star:#E8B84B}}:root[data-theme="dark"]{--brass-text:#C9D5DF;--star:#E8B84B}nav.site a{color:var(--ink-soft)}.stars{color:var(--star)}thead th{color:var(--ink-soft)}.rev{color:var(--ink-soft)}.kick{color:var(--brass-text)}.win td.name{color:var(--brass-text)}a.btn,a.buy,.btn,.buy{background:#12556F !important;color:#fff !important;text-decoration:none !important}a.btn:hover,a.buy:hover,.btn:hover,.buy:hover{background:#0D4056 !important}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) a.btn,:root:not([data-theme="light"]) a.buy,:root:not([data-theme="light"]) .btn,:root:not([data-theme="light"]) .buy{background:#7FC3DD !important;color:#0B1720 !important}:root:not([data-theme="light"]) .btn:hover,:root:not([data-theme="light"]) .buy:hover{background:#A3D6E9 !important}}:root[data-theme="dark"] a.btn,:root[data-theme="dark"] a.buy,:root[data-theme="dark"] .btn,:root[data-theme="dark"] .buy{background:#7FC3DD !important;color:#0B1720 !important}</style>
+</head>
+<body>
+<header class="site"><div class="wrap bar">
+  <a class="brand" href="/" aria-label="Best Portable Dishwashers">
+    <svg class="logomark" width="36" height="36" viewBox="0 0 40 40" aria-hidden="true">
+      <defs><radialGradient id="lm" cx="34%" cy="26%" r="86%"><stop offset="0" stop-color="#9FB4C2"/><stop offset=".68" stop-color="#33454F"/><stop offset="1" stop-color="#16222B"/></radialGradient></defs>
+      <circle cx="20" cy="20" r="19" fill="url(#lm)"/>
+      <circle cx="20" cy="20" r="18.4" fill="none" stroke="#C9D5DF" stroke-width="1.1" stroke-opacity=".92"/>
+      <circle cx="20" cy="20" r="15.3" fill="none" stroke="#EAF0F5" stroke-width=".6" stroke-opacity=".22"/>
+      <rect x="12.4" y="13.2" width="15.2" height="16" rx="2.2" fill="#F4F8FB"/>
+      <path d="M12.4 24.2h15.2" stroke="#33454F" stroke-width="1" stroke-opacity=".5"/>
+      <circle cx="20" cy="20.4" r="3.1" fill="none" stroke="#1C6E8C" stroke-width="1.5"/>
+      <path d="M20 17.3v-2.5" stroke="#1C6E8C" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M16.1 27.1h7.8" stroke="#8D9AA6" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M20 6.6c1.9 2.4 3 4 3 5.2a3 3 0 0 1-6 0c0-1.2 1.1-2.8 3-5.2Z" fill="#C9D5DF" fill-opacity=".85"/>
+    </svg>
+    <span class="bn">Best&thinsp;Portable&thinsp;Dishwashers</span>
+  </a>
+  <nav class="site" aria-label="Primary">
+    <a href="/#feature">Top pick</a><a href="/#compare">Compare</a><a href="/#picks">The eight</a><a href="/#how">Method</a><a href="/#faq">FAQ</a>
+  <a href="/guides">All guides</a></nav>
+</div></header>
+
+<div class="hero article">
+  <div class="caustic" aria-hidden="true"></div><div class="caustic b" aria-hidden="true"></div>
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Maintenance</span>
+      <h1 class="serif">How to Clean and Descale a Portable Dishwasher <em>(So It Lasts)</em></h1>
+      <p class="lede">Small dishwashers rarely die of overwork. They die of a clogged mesh filter, a crust of limescale on the heater, and water left standing in a sealed plastic tub for a week.</p>
+      <div class="byline">By Ilane Tall · Updated August 13, 2026 · Research-based.</div>
+      <p class="disclose">Some links on this page are affiliate links: if you buy through them we may earn a commission, at no extra cost to you. Everything below is general information and manufacturer guidance — your model's manual always outranks this page.</p>
+      <hr class="rule">
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <figure class="heroshot">
+    <img src="/images/hero-clean.webp" alt="A compact countertop dishwasher with its door open on a kitchen counter, filter and spray arm removed and laid out for cleaning" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async">
+    <figcaption>The whole maintenance kit is a soft brush, a toothpick, a cloth and a jar of citric acid.</figcaption>
+  </figure>
+
+  <section id="intro">
+    <div class="prose">
+      <p>A built-in dishwasher hides neglect better: more water, a bigger sump, fixed plumbing, and a cabinet with air around it. A countertop machine has none of that — about five liters of water through a plastic tub the size of a microwave, a drain hose hooked over the sink, and then an airtight box with warm damp plastic inside.</p>
+      <p>So almost nobody wears one of these out. Instead the filter fills, the spray holes narrow, grit appears on the plates, the tub starts to smell, and a year later an element wrapped in limescale stops getting the water hot. Three things do that damage — the filter, scale and standing water — and none of them takes long to prevent.</p>
+      <p>One honest note that shapes everything below: we compare published specifications and prices; we don't run a testing lab; and we don't publish ratings we can't verify, because Amazon returns no rating data for these machines. What follows is mechanism plus manufacturer guidance, with features quoted from the spec sheets of the machines in <a href="/">our main portable dishwasher guide</a>. Where your manual disagrees, follow your manual.</p>
+      <p class="toc"><span class="eyebrow" style="display:block;margin-bottom:.5rem">On this page</span><a href="#filter">The filter</a> · <a href="#spray-arms">Spray arms</a> · <a href="#gasket">Door gasket</a> · <a href="#smell">The smell</a> · <a href="#tank">Tank models</a> · <a href="#descaling">Descaling</a> · <a href="#detergent">Detergent &amp; rinse aid</a> · <a href="#storage">Storage &amp; winterizing</a> · <a href="#machines">By machine</a> · <a href="#never">What not to do</a> · <a href="#calendar">The routine</a> · <a href="#faq">FAQ</a></p>
+    </div>
+  </section>
+
+  <section id="filter">
+    <div class="kicker"><span class="eyebrow">Weekly, and after anything rice-based</span></div>
+    <h2 class="h2">The mesh filter: where it is, how to lift it, what happens when it clogs</h2>
+    <div class="prose">
+      <p>Open the door and look at the floor of the tub. Under the lower spray arm sits a flat plastic or stainless mesh insert, often a round cup dropped into a coarser screen. On most models it lifts straight out, or turns a quarter-turn counter-clockwise first — there is normally an arrow or grip ridges molded in. No tools. If nothing comes out, check the manual before forcing it; a few designs fix the coarse screen and only the center cup lifts.</p>
+      <h3>How to clean it</h3>
+      <p>Rinse it with the mesh facing the tap, so debris is pushed back out the way it came in rather than deeper into the weave. Use a soft brush — an old toothbrush is the standard tool — with a drop of dish liquid if it feels greasy, then hold it to a light: you should see through the whole mesh. While it is out, feel around the sump for what never reaches the filter at all, and wipe it with a paper towel.</p>
+      <h3>What happens when you don't</h3>
+      <p>A clogged filter is a hydraulic problem, not just a hygienic one. These machines recirculate: the pump draws from the sump, pushes water up through the arms, and it falls back through the filter to be used again. Block the return and the pump moves less water than it was designed to. Pressure drops, the wash pattern collapses, and dishes come out with a fine grit — the same debris sprayed back on. Keep going and you get standing water, then a pump laboring against a blockage.</p>
+      <p>Check it weekly if you run the machine most days, and immediately after rice, oatmeal or coffee grounds. Scraping beats rinsing, too: a five-liter cycle has no capacity for half a plate of food, which is why the <a href="https://www.amazon.com/dp/B0FPDFG65H?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">EUHOMY 8-program tank model</a> says to scrape heavy grease before loading and keep bulky pots out.</p>
+    </div>
+  </section>
+
+  <section id="spray-arms">
+    <div class="kicker"><span class="eyebrow">Monthly</span></div>
+    <h2 class="h2">Spray-arm holes: ten minutes that restore cleaning power</h2>
+    <div class="prose">
+      <p>Nearly every machine in this class uses two arms, above and below, because a small tub needs coverage from both directions. HAVA quotes <b>14 water ports</b> across its arms; the <a href="https://www.amazon.com/dp/B0D86J4GFX?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Canbo tabletop machine</a> describes upper and lower arms for 360-degree coverage. Fourteen holes is not many — block three and you have lost a fifth of the wash. Scale narrows them from inside; debris parks in one and stays. The symptom is distinctive: dishes clean in one part of the rack and dirty in the same spot.</p>
+      <ul>
+        <li><b>Spin each arm by hand.</b> Dragging means something is jammed under it or the bearing needs cleaning.</li>
+        <li><b>Remove the arm if the manual allows</b> — most lift off or unscrew from a central nut.</li>
+        <li><b>Clear each hole with a toothpick</b>, never a needle: metal burrs the molded edge and changes the spray angle permanently.</li>
+        <li><b>Flush the arm</b> by running water into the center hub until it exits the jets, carrying grit with it.</li>
+        <li><b>Reseat it fully</b> and spin it again to confirm it clears the rack.</li>
+      </ul>
+      <p>If the holes are scaled rather than blocked — a chalky ring you can scratch with a fingernail — soak the arm in citric-acid solution for twenty minutes instead of picking at it.</p>
+    </div>
+  </section>
+
+  <section id="gasket">
+    <div class="kicker"><span class="eyebrow">Weekly</span></div>
+    <h2 class="h2">The door gasket, and the seam where food actually hides</h2>
+    <div class="prose">
+      <p>The gasket is the flexible strip around the door opening, and it is the dirtiest part of a small dishwasher: water carrying food particles is thrown at it all cycle, then drains away and leaves the particles in the fold. Wipe it weekly, then run a fingertip along the underside of the lip. That fold, and the seam where the gasket meets plastic at the bottom corners of the door, is where the grey-brown film lives; a cotton swab reaches it.</p>
+      <p>This matters beyond appearance. A gasket held slightly open by trapped debris is the most common cause of a small leak, and a countertop machine leaks onto your counter rather than into a cabinet. Rubber left coated in grease also hardens and stops sealing. Check the hinge too: on machines whose door pops open at the end — the <a href="https://www.amazon.com/dp/B0G2MZ9NX8?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">GE Profile countertop model</a> calls it Auto Open Dry — that latch does extra work. Never put oil or grease on a gasket.</p>
+    </div>
+  </section>
+
+  <section id="smell">
+    <div class="kicker"><span class="eyebrow">The problem specific to this category</span></div>
+    <h2 class="h2">Why a small dishwasher smells, and the two habits that stop it</h2>
+    <div class="prose">
+      <p>Here is the situation a countertop machine creates that a built-in mostly doesn't. The cycle ends. There is no heated drying element in most of these machines, so the tub is warm and wet rather than baked dry, and some water sits in the sump by design. Then the door closes on a sealed plastic box that will not be opened for a day or three, because two people do not fill a small dishwasher daily. Warm, damp, dark and still is an ideal culture condition, and what grows is biofilm — in the sump, on the filter, in the gasket fold. That is the stale, sulfurous smell, and it is biology rather than a defect.</p>
+      <h3>Habit one: leave the door ajar</h3>
+      <p>When the load is out, leave the door open a couple of inches — enough to break the seal and let air exchange. A tub that dries overnight cannot support biofilm, and this one habit prevents most odor problems. If the machine will sit unused for a week, leave it ajar the whole time; a closed empty dishwasher is a humidity trap.</p>
+      <h3>Habit two: use the air or drying mode</h3>
+      <p>Several manufacturers designed for this specifically. The <a href="https://www.amazon.com/dp/B0C4KRYJZ5?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">COMFEE' Minilite</a> lists an <b>Air Refresh</b> mode that circulates air to remove moisture and odors, and its spec sheet is explicit that the point is keeping the machine dry, not only the dishes. The <a href="https://www.amazon.com/dp/B0CVX5GBY5?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">EUHOMY 6-program model</a> quotes 60 minutes of hot-air drying then up to 73 hours of automatic ventilation, and says drying can run on its own; AIRMSEN describes 72 hours of ventilated storage. On the <a href="https://www.amazon.com/dp/B0FN8Z3KV2?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">SPT 18-inch portable</a> the equivalent is cracking the door. Treat those ventilation hours as claims rather than measurements — but the mechanism is sound, and a dry-only cycle gives you something to run when the tub smells and you have no full load.</p>
+      <p>If it already smells, work in order: scrub the filter, wipe the gasket fold, run an empty hot cycle with a descaler or cleaner (or the self-clean program, as the Hermitlux model offers), then leave the door open overnight. If the smell survives, check the drain hose — one looped so water sits in a low point develops its own smell.</p>
+    </div>
+  </section>
+
+  <section id="tank">
+    <div class="kicker"><span class="eyebrow">Tank models only</span></div>
+    <h2 class="h2">Emptying the tank and the pump: the step tank owners skip</h2>
+    <div class="prose">
+      <p>A built-in tank is what makes these machines work with no usable faucet — five liters on the <a href="https://www.amazon.com/dp/B089YD3Z91?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">NOVETE countertop model</a>, six on the COMFEE' Miniplus, 152 ounces on the SUNVIVI machines. It also adds a step faucet-fed machines don't have: the tank holds water between loads, and water sitting in warm plastic for a week is the tub problem again — this time water you are about to spray on your plates. If the next load isn't coming soon, run the tank down or empty it.</p>
+      <ul>
+        <li><b>If the tank lifts out</b> — as on the SUNVIVI models — pour it away, rinse it and let it drain upside down before refitting.</li>
+        <li><b>If it doesn't</b>, run a rinse-only or fruit cycle to consume the water. Some machines have a forced-drainage command: EUHOMY documents a long-press of Dry plus Power on the models that offer it.</li>
+        <li><b>Wipe the fill opening</b> — it is a funnel into the machine — and fill it only with water you would drink.</li>
+      </ul>
+      <p>The pump matters too. A little water left in the sump is normal; a lot is not. Persistent standing water is a drain problem: usually a clogged filter, a kinked hose, or a hose hooked too high or low enough to siphon back. <a href="/how-to-hook-up-a-portable-dishwasher">Our hookup guide</a> covers hose height and routing.</p>
+    </div>
+  </section>
+
+  <section id="descaling">
+    <div class="kicker"><span class="eyebrow">Every 1 to 6 months, by hardness</span></div>
+    <h2 class="h2">Descaling: the long-term threat that decides whether you reach year five</h2>
+    <div class="prose">
+      <p>Everything above is housekeeping. Descaling determines the machine's lifespan. Tap water carries dissolved calcium and magnesium, and heating it drops those minerals out as limescale — a hard, thermally insulating layer. It lands in three places that matter: the heating element, which then has to run longer and hotter for the same temperature; the inside of the spray arms, where it narrows the holes; and your glassware, as the film that never rinses off. On the cheaper machines the heater is not a serviceable part, so a scaled element is effectively the end of the machine.</p>
+      <h3>First, find out what your water actually is</h3>
+      <p>Two easy routes: your utility's annual water-quality report, which states hardness in milligrams per liter as calcium carbonate or in grains per gallon, or a hardness test strip — a few dollars and thirty seconds. The conventional US classification runs <b>soft</b> under about 60 mg/L (roughly 3.5 grains per gallon), <b>moderately hard</b> 60 to 120, <b>hard</b> 120 to 180, and <b>very hard</b> above 180; one grain per gallon is about 17.1 mg/L. Read your manual first, but the intervals commonly specified here look like this, assuming a few loads a week.</p>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Your water</th><th>Typical hardness</th><th>Descale every</th><th>What you see if you don't</th></tr></thead>
+        <tbody>
+          <tr><td class="name">Soft</td><td>Under 60 mg/L · under 3.5 gpg</td><td>4–6 months</td><td>Little scale; detergent dose is the likelier problem</td></tr>
+          <tr><td class="name">Moderately hard</td><td>60–120 mg/L · 3.5–7 gpg</td><td>2–3 months</td><td>Slow filming, faint white specks</td></tr>
+          <tr><td class="name">Hard</td><td>120–180 mg/L · 7–10.5 gpg</td><td>6–8 weeks</td><td>Cloudy glassware, chalk in the sump</td></tr>
+          <tr><td class="name">Very hard</td><td>Above 180 mg/L · over 10.5 gpg</td><td>Monthly</td><td>Crust on the element, spray holes narrowing</td></tr>
+        </tbody>
+      </table></div>
+      <h3>What to use</h3>
+      <p>A <b>proprietary dishwasher descaler</b> is the safe default: the manufacturer matched it to the seals and metals inside. <b>Food-grade citric acid</b> is the common alternative — widely specified for kettles and small appliances, cheap by the jar, and it rinses away without a smell. Vinegar is where we would be cautious: acetic acid varies in strength, is harsher on some seals, lingers in a sealed tub, and several manufacturers advise against it.</p>
+      <h3>The routine, step by step</h3>
+      <ol>
+        <li><b>Empty the machine completely.</b> The acid needs to reach the tub walls, arms and element.</li>
+        <li><b>Clean the filter first</b>, or the solution won't circulate and the cycle is wasted.</li>
+        <li><b>Check the manual for the approved product and dose.</b> Where citric acid is permitted without a quantity, a few tablespoons in warm water is the usual starting point for a five-liter machine.</li>
+        <li><b>Add it to the empty tub</b>, not the detergent dispenser — that flap opens partway through the cycle.</li>
+        <li><b>Run the longest, hottest cycle</b> — Heavy, Intensive or Hygiene, not the 29-minute quick program.</li>
+        <li><b>Run a full plain-water cycle</b> to flush the acid out, and a second if there was visible buildup.</li>
+        <li><b>Wipe the tub and gasket fold</b>, and clear the spray-arm holes while softened scale comes out easily.</li>
+        <li><b>Leave the door ajar until dry</b>, and write the date on tape on the back of the machine.</li>
+      </ol>
+      <h3>The machine that changes the schedule</h3>
+      <p>One model attacks the problem at the source. The <a href="https://www.amazon.com/dp/B0DMS6821R?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">HAVA countertop dishwasher with water softener</a> includes a softener you set to your local hardness — the arrangement used in full-size European machines, where a resin bed swaps calcium and magnesium for sodium before the water is heated. That stretches the interval rather than removing it: a hard-water household descaling monthly might move to quarterly. Two caveats — the setting has to match your actual water, and a softener is worth nothing if your water is already soft. At about $329 it runs roughly $40 above comparable machines, a trade-off we weigh in <a href="/best-countertop-dishwashers-under-300">the sub-$300 guide</a>.</p>
+    </div>
+  </section>
+
+  <section id="detergent">
+    <div class="kicker"><span class="eyebrow">Every load</span></div>
+    <h2 class="h2">Detergent dosing, why pods fail here, and why rinse aid matters more</h2>
+    <div class="prose">
+      <p>This is the most common self-inflicted problem in the category. A pod is engineered for a full-size cycle: a given volume of water, temperature and duration. These machines run short, low-volume programs — many advertise a 29-minute quick cycle — on roughly five liters, so a pod can still be sitting half-dissolved in the tub when the cycle ends. The result is a film of detergent on the dishes and a wash that had almost none in it when it mattered.</p>
+      <p>That is why manufacturers here tend to specify powder or gel. COMFEE's own listing is unusually direct: use standard dishwasher powder or detergent, because regular liquid dish soap causes problems — and it adds that RAPID needs half the standard quantity and FRUIT none. In a small tub a full-size dose is too much, and the excess doesn't rinse away in five liters; it lands on your glasses as haze. Hand dish soap is a separate rule: it foams, the suds escape the door seal, and no dose is small enough to be safe.</p>
+      <h3>Rinse aid is not optional here</h3>
+      <p>In a full-size machine rinse aid is a nice-to-have. Here it does real work, because of what these machines lack — a heated drying element. It lowers the surface tension of the final rinse so water sheets off instead of beading, leaving less to evaporate and fewer spots where it dries in place; on hard water it is what stands between you and permanently cloudy glasses. Not every machine has a dispenser, so check first: the <a href="https://www.amazon.com/dp/B0FN8Z3KV2?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">SPT SD-9263SSC 18-inch portable</a> lists a rinse-aid warning indicator, which tells you the dispenser exists and is meant to be kept full. Adding it loose to the tub is not a substitute. If glasses come out with a rainbow sheen, the setting is too high, not too low.</p>
+    </div>
+  </section>
+
+  <section id="storage">
+    <div class="kicker"><span class="eyebrow">Seasonal</span></div>
+    <h2 class="h2">Storing a machine, and winterizing one in an RV</h2>
+    <div class="prose">
+      <p>A large share of these dishwashers live in RVs, boats, cabins and dorm rooms, and those uses come with an annual stretch where the machine sits unused. That is where a lot of them quietly die.</p>
+      <ul>
+        <li><b>Run one empty hot cycle</b> with a descaler or cleaner, so nothing organic is left to ferment.</li>
+        <li><b>Clean and dry the filter</b>, and empty the tank.</li>
+        <li><b>Drain the sump and hoses</b> — use the forced-drain function if you have one, then let both hoses hang down to empty.</li>
+        <li><b>Wipe the tub and gasket dry, unplug, and store with the door open.</b></li>
+      </ul>
+      <p>Freezing is the specific RV risk. Water expands as it freezes, and any left in a pump housing, valve or hose in a vehicle stored below freezing can crack the part it sits in — which you discover in spring, as a leak from somewhere you can't reach. The pump holds water you can't see, so the drain-down matters most there. As for pink RV antifreeze: do not put it into a dishwasher unless the manufacturer explicitly instructs it, because these machines have seals, sensors and a dispenser never specified for it. If the space will be below freezing, the safer move is to carry the machine indoors. <a href="/portable-dishwashers-for-apartments-and-rvs">Our guide to apartments, dorms and RVs</a> covers those constraints. Back in service, run one empty hot cycle before washing anything.</p>
+    </div>
+  </section>
+
+  <section id="machines">
+    <div class="kicker"><span class="eyebrow">Model by model</span></div>
+    <h2 class="h2">What maintenance looks like on specific machines</h2>
+    <p class="sub">Features quoted from the manufacturers' published specifications. Prices move constantly — confirm the current one before buying.</p>
+    <div class="mcards">
+
+      <article class="mcard">
+        <div class="mimg"><img src="/images/amazon-B0C4KRYJZ5.webp" alt="COMFEE' Minilite countertop dishwasher in white" width="500" height="500" loading="lazy" decoding="async"></div>
+        <div>
+          <h3>COMFEE' Minilite</h3>
+          <div class="cls">Countertop · 5 L tank · about $250</div>
+          <p>Air Refresh is the answer to the sealed-tub smell: it circulates air to keep machine and dishes dry. The Hygiene cycle heats to a stated 162°F — use it for the monthly empty run.</p>
+          <div class="foot"><span class="pr">$249.94</span><a class="buy" href="https://www.amazon.com/dp/B0C4KRYJZ5?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+        </div>
+      </article>
+
+      <article class="mcard">
+        <div class="mimg"><img src="/images/amazon-B0DMS6821R.webp" alt="HAVA countertop dishwasher with water softener in black" width="500" height="500" loading="lazy" decoding="async"></div>
+        <div>
+          <h3>HAVA with Water Softener</h3>
+          <div class="cls">Countertop · softener by hardness level · about $329</div>
+          <p>The only machine here that treats water before it is heated. Set the softener to your local hardness and scale forms far more slowly — descaling still happens, just less often.</p>
+          <div class="foot"><span class="pr">$328.99</span><a class="buy" href="https://www.amazon.com/dp/B0DMS6821R?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+        </div>
+      </article>
+
+      <article class="mcard">
+        <div class="mimg"><img src="/images/amazon-B09QC9947J.webp" alt="COMFEE' Miniplus countertop dishwasher with auto door open" width="500" height="500" loading="lazy" decoding="async"></div>
+        <div>
+          <h3>COMFEE' Miniplus</h3>
+          <div class="cls">Countertop · 6 L tank · auto-open · about $290</div>
+          <p>AUTO-OPEN cracks the door at the end of the cycle — the mechanical version of the habit we recommend. The 6 L tank is more water to empty when it sits unused.</p>
+          <div class="foot"><span class="pr">$289.98</span><a class="buy" href="https://www.amazon.com/dp/B09QC9947J?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+        </div>
+      </article>
+
+      <article class="mcard">
+        <div class="mimg"><img src="/images/amazon-B0FN8Z3KV2.webp" alt="SPT SD-9263SSC 18-inch portable dishwasher in stainless steel" width="500" height="500" loading="lazy" decoding="async"></div>
+        <div>
+          <h3>SPT SD-9263SSC 18-Inch</h3>
+          <div class="cls">Freestanding · 8 place settings · about $600</div>
+          <p>A full-size-style tub with a rinse-aid warning indicator, so the machine tells you when to refill. Bigger filter, plus one extra item: the faucet coupling, connected and disconnected every load.</p>
+          <div class="foot"><span class="pr">$599.99</span><a class="buy" href="https://www.amazon.com/dp/B0FN8Z3KV2?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+        </div>
+      </article>
+
+    </div>
+    <div class="prose" style="margin-top:26px">
+      <p>Countertop machines put more of the burden on you; 18-inch freestanding ones mostly need their filter and coupling looked after. Which class suits you is worked through in <a href="/countertop-vs-18-inch-portable-dishwashers">the countertop versus 18-inch comparison</a>.</p>
+    </div>
+  </section>
+
+  <section id="never">
+    <div class="kicker"><span class="eyebrow">Don't</span></div>
+    <h2 class="h2">Five things not to do to a portable dishwasher</h2>
+    <div class="prose">
+      <p><b>Don't use bleach.</b> Chlorine attacks stainless steel, degrades rubber seals, and produces hazardous gas if it meets an acidic descaler or an ammonia cleaner — a real risk in a machine you may descale a week later. A hot empty cycle with a dishwasher cleaner does everything bleach would.</p>
+      <p><b>Don't use abrasive pads or scouring powder on the tub.</b> Many of these tubs are plastic, and abrasives leave fine scratches that hold grease and can never be cleaned out.</p>
+      <p><b>Don't run a descaling cycle with dishes inside.</b> They block the spray and can be etched by a strong solution — aluminum and some glazes especially.</p>
+      <p><b>Don't ignore a machine that stops draining.</b> Standing water means the return path is blocked, and running it again loads the pump against that blockage. Unplug it, pull the filter, check the hose for kinks and low loops, and confirm the hose height matches the manual. Anything past that — a pump humming without moving water, a burning smell, a tripped breaker — is the manufacturer's service line, not a screwdriver. These are 120 V appliances full of water, and that is where general information stops.</p>
+      <p><b>Don't put it away wet.</b> The single habit worth taking from this page: unload it, and leave the door ajar.</p>
+    </div>
+  </section>
+
+  <section id="calendar">
+    <div class="kicker"><span class="eyebrow">Copy this</span></div>
+    <h2 class="h2">The whole routine, on one page</h2>
+    <p class="sub">Tape the descale date to the back of the machine — it is the only task with an interval long enough to forget.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>When</th><th>Time</th><th>What you do</th></tr></thead>
+      <tbody>
+        <tr><td class="name">After each load</td><td>30 sec</td><td>Unload, glance at the filter, leave the door ajar. Empty or run down the tank if the next load isn't coming soon.</td></tr>
+        <tr><td class="name">Weekly</td><td>5 min</td><td>Pull the filter, rinse it against the flow, brush it, check it against a light. Wipe the gasket fold, the tub floor and the tank opening.</td></tr>
+        <tr><td class="name">Monthly</td><td>15 min</td><td>Clear the spray-arm holes and spin both arms. Run an empty hot or self-clean cycle. Check the drain hose for kinks and low loops. Top up rinse aid.</td></tr>
+        <tr><td class="name">Every 1–6 months <span class="rev">(set by hardness)</span></td><td>30–45 min</td><td>Descale with the manufacturer's product or food-grade citric acid: machine empty, longest hottest cycle, then a full plain-water rinse.</td></tr>
+        <tr><td class="name">Before storage or winter</td><td>30 min</td><td>Empty hot cycle, clean and dry the filter, empty the tank, drain sump and hoses, dry tub and gasket, unplug, store door open. Move it indoors if the space will freeze.</td></tr>
+      </tbody>
+    </table></div>
+    <div class="prose" style="margin-top:26px">
+      <p>Under an hour a month, for an appliance costing between $170 and $700. The machines that fail at eighteen months are almost never the ones that got that hour. Whether one is worth buying at all is a separate calculation, run in <a href="/are-portable-dishwashers-worth-it">the cost and water math</a>.</p>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="kicker"><span class="eyebrow">FAQ</span></div>
+    <h2 class="h2">Common questions</h2>
+    <div class="panel faq" style="margin-top:22px">
+      <details open><summary>How often should I clean the filter in a portable dishwasher?</summary><p>Weekly if you run the machine most days, and straight after rice, oatmeal, coffee grounds or breadcrumbs. The filter sits in the floor of the tub under the lower spray arm and usually lifts out or turns a quarter-turn counter-clockwise. Rinse it against the direction the water flowed, brush it, and hold it to a light to check you can see through the whole mesh. A blocked filter starves the pump, weakens the spray and leaves grit on the dishes.</p></details>
+      <details><summary>Can I use vinegar to descale a countertop dishwasher?</summary><p>Only if your manual names it. Acetic acid varies in strength, is harsher on some rubber seals, and its smell lingers in a small sealed plastic tub. The safer options are a proprietary dishwasher descaler or food-grade citric acid dissolved in warm water and poured into the empty tub. Either way, run the longest hottest cycle empty, then a full plain-water cycle to rinse the acid out.</p></details>
+      <details><summary>Why does my portable dishwasher smell even when it's clean?</summary><p>Because it is a sealed plastic box that stays warm and damp between loads. These machines mostly have no heated drying element, some water remains in the sump by design, and a small household does not run one daily — so biofilm establishes itself in the sump, the filter and the door gasket. Two habits fix it: leave the door open a couple of inches after every load, and use an air or drying mode if the machine has one, such as Air Refresh on the COMFEE' Minilite.</p></details>
+      <details><summary>Can I use dishwasher pods in a small countertop dishwasher?</summary><p>Often not well. Pods are formulated for a full-size cycle, and these machines run short, low-volume programs — some as quick as 29 minutes on roughly five liters — so a pod can still be partly undissolved when the cycle ends. Most manufacturers here specify powder or gel at a reduced dose; COMFEE' states its rapid program needs half the standard quantity and its fruit program none. Never use hand dish soap: it foams, and the suds escape the door seal.</p></details>
+    </div>
+  </section>
+
+  <section id="keep-reading">
+    <div class="kicker"><span class="eyebrow">Keep reading</span></div>
+    <h2 class="h2">Next, from the same shelf</h2>
+    <div class="keep">
+      <a href="/how-to-hook-up-a-portable-dishwasher"><span class="kt">How to Hook Up a Portable Dishwasher</span><span class="kd">Adapters, aerator threads and drain-hose height.</span></a>
+      <a href="/countertop-vs-18-inch-portable-dishwashers"><span class="kt">Countertop or 18-Inch on Wheels?</span><span class="kd">The split that decides everything else.</span></a>
+      <a href="/portable-dishwashers-for-apartments-and-rvs"><span class="kt">Apartments, Dorms and RVs</span><span class="kd">How the room you live in narrows the list.</span></a>
+      <a href="/guides"><span class="kt">All guides</span><span class="kd">Everything on the site.</span></a>
+    </div>
+  </section>
+
+</div>
+
+<footer class="site"><div class="wrap">
+  <div class="fbrand">Best Portable Dishwashers</div>
+  <p>Independent, research-based comparisons of portable and countertop dishwashers for kitchens without a hookup.</p>
+  <p style="margin:.5rem 0 0"><a href="/about">About</a> · <a href="/guides">All guides</a> · <a href="/contact">Contact</a> · <a href="/privacy">Privacy</a></p>
+  <p>Reader-supported: we may earn a commission when you buy through our links, at no additional cost to you. Comparisons are based on published specifications and pricing; we do not physically test products and we do not publish ratings we cannot verify. Prices change frequently — confirm the current price on Amazon. As an Amazon Associate, we earn from qualifying purchases. © 2026 Best Portable Dishwashers.</p>
+</div></footer>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article",
+ "headline":"How to Clean and Descale a Portable Dishwasher (So It Lasts)",
+ "description":"The mesh filter nobody knows exists, the smell that comes from a sealed tub, limescale, and the descaling schedule that decides whether a countertop dishwasher reaches year five.",
+ "image":"https://best-portable-dishwashers.com/images/hero-clean.webp",
+ "author":{"@type":"Person","name":"Ilane Tall"},
+ "publisher":{"@type":"Organization","name":"Best Portable Dishwashers"},
+ "datePublished":"2026-08-13","dateModified":"2026-08-13",
+ "mainEntityOfPage":{"@type":"WebPage","@id":"https://best-portable-dishwashers.com/how-to-clean-and-descale-a-portable-dishwasher"},
+ "articleSection":"Maintenance"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HowTo",
+ "name":"How to descale a portable dishwasher",
+ "description":"The descaling routine for a countertop or 18-inch portable dishwasher, using a proprietary dishwasher descaler or food-grade citric acid, at an interval set by local water hardness.",
+ "image":"https://best-portable-dishwashers.com/images/hero-clean.webp",
+ "totalTime":"PT45M",
+ "supply":[{"@type":"HowToSupply","name":"Proprietary dishwasher descaler or food-grade citric acid"},{"@type":"HowToSupply","name":"Water-hardness test strip or your utility's water-quality report"}],
+ "tool":[{"@type":"HowToTool","name":"Soft brush"},{"@type":"HowToTool","name":"Toothpick"},{"@type":"HowToTool","name":"Cloth"}],
+ "step":[
+  {"@type":"HowToStep","position":1,"name":"Empty the machine completely","text":"Remove all dishes, cutlery and anything in the baskets. Descaler works on mineral deposits on the tub walls, spray arms and heating element, and dishes block the spray."},
+  {"@type":"HowToStep","position":2,"name":"Clean the filter first","text":"Lift out the mesh filter in the floor of the tub, rinse it against the flow, brush it and refit it. Descaling solution cannot circulate properly through a clogged filter."},
+  {"@type":"HowToStep","position":3,"name":"Check the manual for the approved product and dose","text":"Use the descaler the manufacturer names. If the manual permits food-grade citric acid, use the stated quantity; where none is given, a few tablespoons dissolved in warm water is the usual starting point for a five-liter machine."},
+  {"@type":"HowToStep","position":4,"name":"Add the descaler to the empty tub","text":"Pour the solution directly into the tub rather than the detergent dispenser, unless the manual says otherwise, so the acid is working from the start of the cycle."},
+  {"@type":"HowToStep","position":5,"name":"Run the longest, hottest cycle","text":"Fill the tank or connect the faucet as normal, then run the Heavy, Intensive or Hygiene program rather than the quick cycle. Heat and time are what dissolve limescale."},
+  {"@type":"HowToStep","position":6,"name":"Run a plain-water rinse cycle","text":"Run one full cycle with nothing added to flush the acid out, and two if the machine had visible buildup."},
+  {"@type":"HowToStep","position":7,"name":"Wipe the tub and clear the spray-arm holes","text":"Wipe the tub, the door and the gasket fold with a damp cloth, and clear the spray-arm holes with a toothpick while softened scale comes out easily."},
+  {"@type":"HowToStep","position":8,"name":"Dry the machine and record the date","text":"Leave the door ajar until the tub is dry, and note the date on tape on the back of the machine so the next descale is not guesswork."}
+ ]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How often should I clean the filter in a portable dishwasher?","acceptedAnswer":{"@type":"Answer","text":"Weekly if you run the machine most days, and straight after rice, oatmeal, coffee grounds or breadcrumbs. The filter sits in the floor of the tub under the lower spray arm and usually lifts out or turns a quarter-turn counter-clockwise. Rinse it against the direction the water flowed, brush it, and hold it to a light to check you can see through the whole mesh. A blocked filter starves the pump, weakens the spray and leaves grit on the dishes."}},{"@type":"Question","name":"Can I use vinegar to descale a countertop dishwasher?","acceptedAnswer":{"@type":"Answer","text":"Only if your manual names it. Acetic acid varies in strength, is harsher on some rubber seals, and its smell lingers in a small sealed plastic tub. The safer options are a proprietary dishwasher descaler or food-grade citric acid dissolved in warm water and poured into the empty tub. Either way, run the longest hottest cycle empty, then a full plain-water cycle to rinse the acid out."}},{"@type":"Question","name":"Why does my portable dishwasher smell even when it is clean?","acceptedAnswer":{"@type":"Answer","text":"Because it is a sealed plastic box that stays warm and damp between loads. These machines mostly have no heated drying element, some water remains in the sump by design, and a small household does not run one daily, so biofilm establishes itself in the sump, the filter and the door gasket. Two habits fix it: leave the door open a couple of inches after every load, and use an air or drying mode if the machine has one, such as Air Refresh on the COMFEE' Minilite."}},{"@type":"Question","name":"Can I use dishwasher pods in a small countertop dishwasher?","acceptedAnswer":{"@type":"Answer","text":"Often not well. Pods are formulated for a full-size cycle, and these machines run short, low-volume programs, some as quick as 29 minutes on roughly five liters, so a pod can still be partly undissolved when the cycle ends. Most manufacturers here specify powder or gel at a reduced dose; COMFEE' states its rapid program needs half the standard quantity and its fruit program none. Never use hand dish soap: it foams, and the suds escape the door seal."}}]}
+</script>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+{
+  "site": {
+    "name": "Best Portable Dishwashers",
+    "domain": "best-portable-dishwashers.com",
+    "base_url": "https://best-portable-dishwashers.com",
+    "affiliate_tag": "bestportabledish-20",
+    "author": "Ilane Tall",
+    "template": "premium-editorial-v1",
+    "static_pages": [
+      { "path": "", "priority": "1.0" },
+      { "path": "guides", "priority": "0.6" },
+      { "path": "about", "priority": "0.3" },
+      { "path": "contact", "priority": "0.3" },
+      { "path": "privacy", "priority": "0.3" }
+    ]
+  },
+  "articles": [
+    {
+      "slug": "countertop-vs-18-inch-portable-dishwashers",
+      "title": "Countertop or 18-Inch on Wheels? The Two Kinds of Portable Dishwasher",
+      "description": "The category splits in two, and the split decides everything: capacity, price, where the machine lives and whether it fits your kitchen at all.",
+      "category": "Comparison",
+      "hero": "hero-types",
+      "minutes": 13,
+      "date": "2026-08-13",
+      "featured": true
+    },
+    {
+      "slug": "how-to-hook-up-a-portable-dishwasher",
+      "title": "How to Hook Up a Portable Dishwasher (Faucet or Tank), Step by Step",
+      "description": "Adapters, aerator threads, drain hoses and the taps that simply won't work — the setup guide to read before you order.",
+      "category": "How-to",
+      "hero": "hero-hookup",
+      "minutes": 12,
+      "date": "2026-08-13",
+      "featured": true
+    },
+    {
+      "slug": "are-portable-dishwashers-worth-it",
+      "title": "Are Portable Dishwashers Worth It? The Honest Cost and Water Math",
+      "description": "What one actually costs to run, how it compares with washing by hand, and the four situations where we'd tell you not to buy one.",
+      "category": "Honest take",
+      "hero": "hero-worth-it",
+      "minutes": 13,
+      "date": "2026-08-13",
+      "featured": true
+    },
+    {
+      "slug": "best-countertop-dishwashers-under-300",
+      "title": "The Best Countertop Dishwashers Under $300 (And What You Give Up)",
+      "description": "What $170, $250 and $300 actually buy you in capacity, cycles, tanks and noise — and where the false economies are.",
+      "category": "Budget picks",
+      "hero": "hero-budget",
+      "minutes": 12,
+      "date": "2026-08-13",
+      "featured": true
+    },
+    {
+      "slug": "portable-dishwashers-for-apartments-and-rvs",
+      "title": "Choosing a Portable Dishwasher for an Apartment, Dorm or RV",
+      "description": "Cabinet height, faucet type, drain reach, power draw and landlord rules — how the room you live in narrows the shortlist.",
+      "category": "Buying advice",
+      "hero": "hero-apartment",
+      "minutes": 12,
+      "date": "2026-08-13",
+      "featured": true
+    },
+    {
+      "slug": "how-to-clean-and-descale-a-portable-dishwasher",
+      "title": "How to Clean and Descale a Portable Dishwasher (So It Lasts)",
+      "description": "The filter nobody knows about, the smell that comes from a sealed tub, and the descaling schedule that decides whether you reach year five.",
+      "category": "Maintenance",
+      "hero": "hero-clean",
+      "minutes": 12,
+      "date": "2026-08-13",
+      "featured": true
+    }
+  ]
+}

@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Are Portable Dishwashers Worth It? The Honest Cost and Water Math</title>
+<meta name="description" content="What a portable dishwasher really costs to buy and to run, worked openly with every assumption stated, how it compares with washing by hand, and the four situations where we'd tell you not to buy one.">
+<link rel="canonical" href="https://best-portable-dishwashers.com/are-portable-dishwashers-worth-it">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Best Portable Dishwashers">
+<meta property="og:title" content="Are Portable Dishwashers Worth It? The Honest Cost and Water Math">
+<meta property="og:description" content="Cents per cycle, gallons per load, payback in years, and the honest finding that a careful basin washer already beats the machine on money. The case is time and heat.">
+<meta property="og:url" content="https://best-portable-dishwashers.com/are-portable-dishwashers-worth-it">
+<meta property="og:image" content="https://best-portable-dishwashers.com/images/hero-worth-it.webp">
+<meta name="theme-color" content="#101820">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="alternate icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  /* premium-editorial-v1 — palette: steel / slate / water-blue.
+     NOTE: the --aqua* and --brass* variable names are inherited from the network template;
+     on this site --aqua carries the water-blue accent and --brass carries brushed chrome.
+     Do not rename (tools/rebuild-site.js and every article file reference them). */
+  :root{
+    --ground:#F4F6F8; --surface:#FFFFFF; --surface-2:#E9EEF3;
+    --ink:#131A21; --ink-soft:#2E3A45; --muted:#69757F; --line:#DCE3EA;
+    --aqua:#1C6E8C; --aqua-deep:#12556F; --aqua-tint:#E8F1F6;
+    --brass:#8D9AA6; --brass-lite:#C9D5DF; --brass-tint:#EDF1F5;
+    --dark:#101820; --dark-2:#1D2A35; --on-dark:#EAF0F5; --on-dark-mute:#9CACB9;
+    --star:#B07E00;
+    --shadow:0 1px 2px rgba(19,26,33,.05),0 22px 48px -26px rgba(19,26,33,.30);
+    --shadow-sm:0 1px 2px rgba(19,26,33,.05),0 10px 24px -16px rgba(19,26,33,.24);
+    --radius:20px; --radius-sm:12px; --maxw:1120px;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ground:#0C1116; --surface:#151E26; --surface-2:#1E2A34;
+    --ink:#EAF0F5; --ink-soft:#CBD7E0; --muted:#93A2AE; --line:#28353F;
+    --aqua:#5CA9C8; --aqua-deep:#7FC3DD; --aqua-tint:#122530;
+    --brass:#C9D5DF; --brass-lite:#DDE7EF; --brass-tint:#16222B;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }}
+  :root[data-theme="dark"]{
+    --ground:#0C1116; --surface:#151E26; --surface-2:#1E2A34;
+    --ink:#EAF0F5; --ink-soft:#CBD7E0; --muted:#93A2AE; --line:#28353F;
+    --aqua:#5CA9C8; --aqua-deep:#7FC3DD; --aqua-tint:#122530;
+    --brass:#C9D5DF; --brass-lite:#DDE7EF; --brass-tint:#16222B;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+    font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  a{color:inherit}
+  h1,h2,h3{margin:0;line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
+  .serif{font-family:var(--serif)}
+  p{margin:0 0 1rem}
+  .eyebrow{font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+  .tnum{font-variant-numeric:tabular-nums}
+  .stars{color:var(--star);letter-spacing:2px}
+
+  /* ---------- header ---------- */
+  header.site{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--ground) 82%,transparent);
+    backdrop-filter:saturate(1.3) blur(12px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-weight:700;letter-spacing:-.01em}
+  .brand .bn{font-family:var(--serif);font-size:1.16rem}
+  nav.site a{color:var(--muted);text-decoration:none;font-size:.86rem;font-weight:600;letter-spacing:.01em;margin-left:22px;transition:color .2s}
+  nav.site a:hover{color:var(--ink)}
+  @media (max-width:660px){nav.site{display:none}}
+
+  /* ---------- hero (immersive dark, water shimmer) ---------- */
+  .hero{position:relative;background:radial-gradient(120% 90% at 80% -10%,var(--dark-2),var(--dark) 60%);color:var(--on-dark);overflow:hidden;isolation:isolate}
+  .caustic{position:absolute;inset:-30%;z-index:0;opacity:.5;pointer-events:none;filter:blur(30px);
+    background:
+      radial-gradient(28% 40% at 22% 30%,rgba(92,169,200,.26),transparent 60%),
+      radial-gradient(24% 34% at 74% 24%,rgba(201,213,223,.20),transparent 60%),
+      radial-gradient(30% 42% at 60% 78%,rgba(28,110,140,.28),transparent 62%);
+    animation:drift 22s ease-in-out infinite alternate}
+  .caustic.b{opacity:.34;animation-duration:30s;animation-direction:alternate-reverse;
+    background:
+      radial-gradient(26% 36% at 40% 60%,rgba(127,195,221,.22),transparent 60%),
+      radial-gradient(22% 30% at 85% 70%,rgba(141,154,166,.20),transparent 60%)}
+  @keyframes drift{0%{transform:translate3d(-2%,-1%,0) scale(1)}50%{transform:translate3d(3%,2%,0) scale(1.08)}100%{transform:translate3d(-1%,3%,0) scale(1.04)}}
+  .hero .wrap{position:relative;z-index:1;padding:74px 26px 88px}
+  .hero .eyebrow{color:var(--brass-lite)}
+  .hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,1.4rem+4.6vw,4.7rem);letter-spacing:-.02em;max-width:15ch;margin:.5rem 0 0}
+  .hero h1 em{font-style:italic;color:var(--brass-lite)}
+  .hero .lede{font-size:1.24rem;line-height:1.55;color:var(--on-dark-mute);max-width:52ch;margin-top:1.3rem}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:26px;font-size:.86rem;color:var(--on-dark-mute)}
+  .hero .meta b{color:var(--on-dark)}
+  .rule{height:1px;background:linear-gradient(90deg,var(--brass),transparent);border:0;margin:26px 0 0;max-width:220px}
+
+  /* ---------- #1 feature (the centerpiece) ---------- */
+  .feature{position:relative;z-index:2;margin:-56px 0 0}
+  .feature .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    display:grid;grid-template-columns:1.1fr 1fr;overflow:hidden}
+  .feature .left{padding:38px}
+  .feature .kick{display:inline-flex;align-items:center;gap:9px;color:var(--brass-text);font-weight:700;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase}
+  .feature .kick::before{content:"";width:26px;height:1px;background:var(--brass)}
+  .feature h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.8rem,1.2rem+2vw,2.7rem);margin:.5rem 0 .2rem}
+  .feature .verdict{color:var(--ink-soft);font-size:1.06rem;margin:.4rem 0 1rem;max-width:44ch}
+  .feature .rl{display:flex;align-items:center;flex-wrap:wrap;gap:8px 10px;font-size:.92rem;color:var(--muted);margin-bottom:1.2rem}
+  .feature .rl b{color:var(--ink)}
+  .btn{display:inline-flex;align-items:center;gap:9px;background:var(--aqua);color:#fff;font-weight:700;
+    padding:14px 26px;border-radius:12px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,background .2s}
+  .btn:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  .btn .arw{transition:transform .2s}.btn:hover .arw{transform:translateX(3px)}
+  .feature .right{background:linear-gradient(160deg,var(--dark-2),var(--dark));color:var(--on-dark);padding:38px;display:flex;flex-direction:column;justify-content:center;gap:6px;position:relative}
+  .feature .right .lab{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-mute)}
+  .feature .bigprice{font-family:var(--serif);font-size:clamp(3rem,2rem+4vw,4.4rem);font-weight:600;line-height:1;color:var(--brass-lite)}
+  .feature .bigprice sup{font-size:.4em;top:-1.2em;color:var(--on-dark)}
+  .feature .right .note{color:var(--on-dark-mute);font-size:.92rem;margin-top:6px;max-width:30ch}
+  .feature .right .mono{margin-top:16px;font-family:var(--serif);font-size:1.05rem;color:var(--on-dark)}
+  @media (max-width:820px){.feature .card{grid-template-columns:1fr}.feature .right{order:-1}}
+
+  /* ---------- generic section ---------- */
+  section{padding:44px 0}
+  .kicker{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+  .kicker .eyebrow{color:var(--aqua-deep)}
+  .kicker::after{content:"";flex:1;height:1px;background:var(--line)}
+  .h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,1.2rem+1.7vw,2.5rem);letter-spacing:-.01em}
+  .sub{color:var(--muted);max-width:62ch;margin:.6rem 0 0}
+
+  .notes{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:24px}
+  .notes .n{background:var(--surface);padding:24px}
+  .notes .num{font-family:var(--serif);font-size:1.5rem;color:var(--brass-text);line-height:1}
+  .notes h3{font-size:1.02rem;font-weight:750;margin:.5rem 0 .35rem}
+  .notes p{font-size:.9rem;color:var(--muted);margin:0}
+  @media (max-width:820px){.notes{grid-template-columns:1fr 1fr}}
+  @media (max-width:520px){.notes{grid-template-columns:1fr}}
+
+  /* honesty band */
+  .band{background:var(--brass-tint);border:1px solid var(--line);border-left:3px solid var(--brass);
+    border-radius:var(--radius-sm);padding:22px 24px;margin-top:26px}
+  .band h3{font-family:var(--serif);font-weight:600;font-size:1.16rem;margin-bottom:.5rem}
+  .band p{color:var(--ink-soft);font-size:.95rem;margin:0}
+  .band p+p{margin-top:.6rem}
+
+  /* comparison */
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);background:var(--surface);margin-top:22px}
+  table{border-collapse:collapse;width:100%;min-width:740px;font-size:.94rem}
+  thead th{background:var(--surface-2);text-align:left;padding:16px;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+  td{padding:15px 16px;border-bottom:1px solid var(--line);vertical-align:middle}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:hover{background:var(--surface-2)}
+  td.name{font-family:var(--serif);font-weight:600;font-size:1.05rem}
+  .win td{background:var(--brass-tint)}
+  .win td.name{color:var(--brass-text)}
+  .win td:first-child{box-shadow:inset 3px 0 0 var(--brass)}
+  .price{font-weight:800;font-variant-numeric:tabular-nums}
+  .rev{color:var(--muted);font-size:.82rem}
+  .tget{display:inline-block;background:var(--ink);color:var(--surface);font-weight:700;font-size:.8rem;padding:8px 14px;border-radius:9px;text-decoration:none;white-space:nowrap;transition:background .2s}
+  .tget:hover{background:var(--aqua-deep);color:#fff}
+
+  /* picks (editorial cards) */
+  .picks{display:flex;flex-direction:column;gap:26px;margin-top:26px}
+  .pick{display:grid;grid-template-columns:96px 1fr auto;gap:26px;align-items:start;
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:28px}
+  .pick .rank{font-family:var(--serif);font-size:2.6rem;color:var(--brass-text);line-height:.9;font-weight:600}
+  .pick .rank small{display:block;font-family:var(--sans);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:8px}
+  .pick h3{font-family:var(--serif);font-weight:600;font-size:1.44rem}
+  .pick .who{color:var(--aqua-deep);font-weight:700;font-size:.9rem;margin:.25rem 0 .5rem}
+  .pick .rl2{display:flex;align-items:center;flex-wrap:wrap;gap:6px 8px;font-size:.86rem;color:var(--muted);margin-bottom:.7rem}
+  .pick .rl2 b{color:var(--ink)}
+  .pick p.body{margin:.2rem 0 0;color:var(--ink-soft)}
+  .quote{border-left:2px solid var(--brass);padding-left:14px;margin:.9rem 0 0;font-family:var(--serif);color:var(--ink);font-size:1.02rem}
+  .quote b{font-family:var(--sans);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass-text);display:block;margin-bottom:.2rem;font-weight:700}
+  .aside{display:flex;flex-direction:column;align-items:flex-end;gap:12px;text-align:right;min-width:150px}
+  .aside .pr{font-family:var(--serif);font-size:2rem;font-weight:600;font-variant-numeric:tabular-nums;line-height:1}
+  .aside .tag{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .buy{display:inline-flex;align-items:center;gap:8px;background:var(--aqua);color:#fff;font-weight:700;padding:11px 20px;border-radius:10px;text-decoration:none;transition:background .2s,transform .15s;font-size:.92rem}
+  .buy:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  @media (max-width:820px){.pick{grid-template-columns:64px 1fr}.aside{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;text-align:left;border-top:1px solid var(--line);padding-top:16px}}
+
+  /* method / faq */
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:22px}
+  @media (max-width:760px){.cols{grid-template-columns:1fr}}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm)}
+  .panel .eyebrow{color:var(--aqua-deep)}
+  .panel h3{font-family:var(--serif);font-weight:600;font-size:1.3rem;margin:.5rem 0 .5rem}
+  .panel p{color:var(--muted);margin:0}
+  .faq details{border-top:1px solid var(--line);padding:16px 0}
+  .faq details:first-of-type{border-top:0}
+  .faq summary{cursor:pointer;font-family:var(--serif);font-size:1.12rem;list-style:none;display:flex;justify-content:space-between;gap:14px;color:var(--ink)}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--brass-text);font-family:var(--sans);font-weight:700}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{margin:.8rem 0 0;color:var(--muted)}
+
+  footer.site{margin-top:20px;background:var(--dark);color:var(--on-dark-mute)}
+  footer .wrap{padding:40px 26px}
+  footer .fbrand{font-family:var(--serif);color:var(--on-dark);font-size:1.2rem}
+  footer p{font-size:.84rem;margin:.6rem 0 0;max-width:80ch}
+  footer a{color:var(--brass-lite)}
+  /* imagery */
+  .hero .wrap{display:grid;grid-template-columns:1.12fr .88fr;gap:48px;align-items:center}
+  .hero .himg{border-radius:20px;border:1px solid rgba(201,213,223,.4);box-shadow:0 30px 60px -30px rgba(0,0,0,.55);width:100%;height:auto;display:block}
+  @media (max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:30px}}
+  .fpimg{background:#fff;border-radius:14px;padding:14px;box-shadow:0 12px 28px -14px rgba(0,0,0,.5);width:min(230px,70%);margin-bottom:16px}
+  .fpimg img{width:100%;height:auto;display:block}
+  .aside .pimg{width:150px;height:150px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;display:flex;align-items:center;justify-content:center}
+  .aside .pimg img{max-width:100%;max-height:100%;display:block}
+  @media (max-width:820px){.aside .pimg{width:96px;height:96px;padding:6px}}
+  td.name{display:flex;align-items:center;gap:12px}
+  .thumb{width:46px;height:46px;flex:0 0 auto;background:#fff;border:1px solid var(--line);border-radius:9px;padding:4px}
+  .thumb img{width:100%;height:100%;object-fit:contain;display:block}
+  :focus-visible{outline:2px solid var(--aqua);outline-offset:3px;border-radius:5px}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}.btn:hover,.buy:hover{transform:none}}
+</style>
+<style id="a11y">:root{--brass-text:#4A5865;--star:#B07E00}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--brass-text:#C9D5DF;--star:#E8B84B}}:root[data-theme="dark"]{--brass-text:#C9D5DF;--star:#E8B84B}nav.site a{color:var(--ink-soft)}.stars{color:var(--star)}thead th{color:var(--ink-soft)}.rev{color:var(--ink-soft)}.kick{color:var(--brass-text)}.win td.name{color:var(--brass-text)}a.btn,a.buy,.btn,.buy{background:#12556F !important;color:#fff !important;text-decoration:none !important}a.btn:hover,a.buy:hover,.btn:hover,.buy:hover{background:#0D4056 !important}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) a.btn,:root:not([data-theme="light"]) a.buy,:root:not([data-theme="light"]) .btn,:root:not([data-theme="light"]) .buy{background:#7FC3DD !important;color:#0B1720 !important}:root:not([data-theme="light"]) .btn:hover,:root:not([data-theme="light"]) .buy:hover{background:#A3D6E9 !important}}:root[data-theme="dark"] a.btn,:root[data-theme="dark"] a.buy,:root[data-theme="dark"] .btn,:root[data-theme="dark"] .buy{background:#7FC3DD !important;color:#0B1720 !important}</style>
+<style id="article">
+  /* article-only additions. The a11y block owns .btn/.buy — never restyle their colours here. */
+  .art{padding:34px 0 8px}
+  .art .cat{color:var(--aqua-deep)}
+  .art h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.1rem,1.3rem+2.9vw,3.5rem);margin:.6rem 0 0;max-width:26ch}
+  .art .lede{font-size:1.2rem;line-height:1.55;color:var(--ink-soft);max-width:64ch;margin-top:1.1rem}
+  .art .byline{font-size:.9rem;color:var(--muted);margin:1.1rem 0 0}
+  .art .byline b{color:var(--ink)}
+  .art .disclosure{font-size:.84rem;color:var(--muted);border-left:2px solid var(--brass);padding-left:13px;margin:.9rem 0 0;max-width:70ch}
+  .artimg{width:100%;height:auto;display:block;border-radius:var(--radius);border:1px solid var(--line);box-shadow:var(--shadow);margin:28px 0 0}
+  .toc{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);padding:18px 24px;margin:28px 0 0;max-width:68ch}
+  .toc .eyebrow{color:var(--aqua-deep)}
+  .toc ol{margin:.6rem 0 0;padding-left:1.25rem;font-size:.95rem;color:var(--muted)}
+  .toc li{margin:.28rem 0}
+  .toc a{color:var(--aqua-deep);font-weight:600;text-decoration:none}
+  .toc a:hover{text-decoration:underline}
+  .prose{max-width:68ch}
+  .prose h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.55rem,1.15rem+1.3vw,2.15rem);margin:2.5rem 0 .85rem;max-width:32ch}
+  .prose h3{font-family:var(--serif);font-weight:600;font-size:1.26rem;margin:2rem 0 .55rem}
+  .prose p{color:var(--ink-soft)}
+  .prose strong{color:var(--ink)}
+  .prose ul{margin:0 0 1rem;padding-left:1.2rem;color:var(--ink-soft)}
+  .prose li{margin:.4rem 0}
+  .prose li b{color:var(--ink)}
+  .prose a{color:var(--aqua-deep);font-weight:600}
+  .caption{font-size:.82rem;color:var(--muted);margin:.7rem 0 0;max-width:68ch}
+  .maths{background:var(--surface-2);border:1px solid var(--line);border-radius:var(--radius-sm);
+    padding:16px 20px;margin:0 0 1.2rem;font-variant-numeric:tabular-nums;max-width:68ch;color:var(--ink)}
+  .maths b{font-family:var(--serif);font-weight:600}
+  .prodrow{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:26px}
+  .prodcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    box-shadow:var(--shadow-sm);padding:22px;display:flex;flex-direction:column}
+  .prodcard .pw{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px;margin-bottom:15px}
+  .prodcard .pw img{width:100%;height:auto;display:block}
+  .prodcard .lab{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass-text);font-weight:700}
+  .prodcard h3{font-family:var(--serif);font-weight:600;font-size:1.14rem;margin:.4rem 0 .3rem}
+  .prodcard p{font-size:.9rem;color:var(--muted);margin:.35rem 0 1rem}
+  .prodcard .pp{font-family:var(--serif);font-size:1.6rem;font-weight:600;font-variant-numeric:tabular-nums;margin:0 0 14px}
+  .prodcard .cta{margin-top:auto}
+  @media (max-width:820px){.prodrow{grid-template-columns:1fr}}
+  .krgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:22px}
+  @media (max-width:700px){.krgrid{grid-template-columns:1fr}}
+  .kr{display:block;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);
+    padding:20px 22px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,border-color .2s}
+  .kr:hover{transform:translateY(-2px);border-color:var(--brass)}
+  .kr .krt{font-family:var(--serif);font-size:1.1rem;color:var(--ink);display:block}
+  .kr .krd{font-size:.87rem;color:var(--muted);display:block;margin-top:.35rem}
+</style>
+</head>
+<body>
+<header class="site"><div class="wrap bar">
+  <a class="brand" href="/" aria-label="Best Portable Dishwashers">
+    <svg class="logomark" width="36" height="36" viewBox="0 0 40 40" aria-hidden="true">
+      <defs><radialGradient id="lm" cx="34%" cy="26%" r="86%"><stop offset="0" stop-color="#9FB4C2"/><stop offset=".68" stop-color="#33454F"/><stop offset="1" stop-color="#16222B"/></radialGradient></defs>
+      <circle cx="20" cy="20" r="19" fill="url(#lm)"/>
+      <circle cx="20" cy="20" r="18.4" fill="none" stroke="#C9D5DF" stroke-width="1.1" stroke-opacity=".92"/>
+      <circle cx="20" cy="20" r="15.3" fill="none" stroke="#EAF0F5" stroke-width=".6" stroke-opacity=".22"/>
+      <rect x="12.4" y="13.2" width="15.2" height="16" rx="2.2" fill="#F4F8FB"/>
+      <path d="M12.4 24.2h15.2" stroke="#33454F" stroke-width="1" stroke-opacity=".5"/>
+      <circle cx="20" cy="20.4" r="3.1" fill="none" stroke="#1C6E8C" stroke-width="1.5"/>
+      <path d="M20 17.3v-2.5" stroke="#1C6E8C" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M16.1 27.1h7.8" stroke="#8D9AA6" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M20 6.6c1.9 2.4 3 4 3 5.2a3 3 0 0 1-6 0c0-1.2 1.1-2.8 3-5.2Z" fill="#C9D5DF" fill-opacity=".85"/>
+    </svg>
+    <span class="bn">Best&thinsp;Portable&thinsp;Dishwashers</span>
+  </a>
+  <nav class="site" aria-label="Primary">
+    <a href="/#feature">Top pick</a><a href="/#compare">Compare</a><a href="/#picks">The eight</a><a href="/#how">Method</a><a href="/#faq">FAQ</a>
+  <a href="/guides">All guides</a></nav>
+</div></header>
+
+<div class="wrap">
+<article class="art">
+
+  <header>
+    <span class="eyebrow cat">Honest take</span>
+    <h1 class="serif">Are Portable Dishwashers Worth It? The Honest Cost and Water Math</h1>
+    <p class="lede">Every listing in this category promises to save you water. Almost none show the arithmetic — and the arithmetic is more interesting than the promise, because on money alone a careful hand-washer already beats the machine. Here is the calculation with every assumption on the table, including the part where the honest answer is "don't buy one."</p>
+    <p class="byline">By <b>Ilane Tall</b> · Updated August 13, 2026 · Research-based.</p>
+    <p class="disclosure">We're reader-supported: if you buy through a link on this page we may earn a commission, at no extra cost to you. It doesn't change a single number below — we compare published specifications and live prices, we don't run a testing lab, and we don't publish ratings we can't verify.</p>
+    <img class="artimg" src="/images/hero-worth-it.webp" alt="Compact countertop dishwasher on a kitchen counter beside a notepad of handwritten water and electricity calculations" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async">
+  </header>
+
+  <div class="toc">
+    <span class="eyebrow">On this page</span>
+    <ol>
+      <li><a href="#short-answer">The short answer</a></li>
+      <li><a href="#sticker">What they cost to buy</a></li>
+      <li><a href="#running">The running cost</a></li>
+      <li><a href="#by-hand">Versus washing by hand</a></li>
+      <li><a href="#payback">Does it pay for itself?</a></li>
+      <li><a href="#time">The time argument</a></li>
+      <li><a href="#hygiene">Heat your hands can't take</a></li>
+      <li><a href="#renters">Portability and resale</a></li>
+      <li><a href="#dont">When not to buy one</a></li>
+      <li><a href="#verdict">Worth it, and worth it for you</a></li>
+      <li><a href="#faq">Questions we get asked</a></li>
+    </ol>
+  </div>
+
+  <div class="prose">
+
+    <h2 id="short-answer">The short answer</h2>
+    <p>A portable dishwasher costs roughly <strong>26 cents a cycle</strong> to run on the assumptions below — about $5.50 a month for a household running it five times a week. That's genuinely cheap, and it's also beside the point, because the thing you're replacing isn't expensive either.</p>
+    <p>If you currently wash under a running tap, the machine saves real water and repays its price in three to five years. If you wash in a filled basin and you're disciplined about it, the machine costs you <em>more</em> per year than you spend now, and no arithmetic rescues the purchase.</p>
+    <p>So the money case is thin in both directions, and the two arguments that hold up are the ones nobody prints on the box: you get back around <strong>fifty hours a year</strong>, and the machine washes at 162 to 167 °F, a temperature your hands physically cannot work in. Below is the working.</p>
+
+    <div class="band">
+      <h3 class="serif">How to read every number on this page</h3>
+      <p>These are <strong>illustrative US figures for 2026</strong>, not measurements from your kitchen. Figures taken from a manufacturer's listing are labelled as claims; our own inputs are labelled as assumptions where they first appear. Swap in your utility rates and the conclusion may legitimately flip. Prices move constantly on Amazon — confirm live before acting on any payback figure.</p>
+    </div>
+
+    <h2 id="sticker">What these machines actually cost to buy</h2>
+    <p>Three price bands, and they aren't gradations of one thing — they're different machines for different kitchens. Our <a href="/countertop-vs-18-inch-portable-dishwashers">breakdown of the two machine types</a> covers the split; here's what the math needs.</p>
+    <p><strong>The bottom is about $170.</strong> That's the Canbo tabletop: built-in tank, five programs including a 29-minute Quick cycle, spray arms top and bottom, 18.03 by 16.54 by 16.54 inches, one to three servings. A small machine sold honestly as a small machine.</p>
+    <p><strong>The mainstream countertop band is $250 to $330.</strong> The EUHOMY six-program model is about $250 with a 5-litre tank or faucet feed, a rated 40 dB and 16.83 by 16.73 by 18.03 inches. The NOVETE is about $290 for four full place settings. At the top, the COMFEE' six-place machine is about $310 for up to 70 pieces, ENERGY STAR certified, in a 17.2 by 21.7 by 19.7 inch body.</p>
+    <p><strong>An 18-inch machine is $540 to $690.</strong> The GE Profile is about $540 — six place settings, 52 dBA, ENERGY STAR, installable on the counter, built in or under a sink. The BLACK+DECKER is about $690 for eight place settings on castors and six cycles.</p>
+    <div class="maths">
+      <b>The three anchors used below:</b><br>
+      entry tank machine <b>$170</b> · mainstream countertop <b>$250–$330</b> · 18-inch on wheels <b>$540–$690</b>
+    </div>
+    <p>Treat capacity claims as claims: "30+ dishes" and "up to 70 pieces" are counted by the manufacturer under ideal loading. A place setting — plate, bowl, glass, cup, saucer, cutlery — is the more honest unit. Four settings is one family dinner; six is roughly half a full-size load.</p>
+
+    <h2 id="running">The running cost, worked in the open</h2>
+    <p>Three lines: water, electricity, detergent. Only one of them is large, and it isn't the one the category advertises.</p>
+
+    <h3>Water: about 1.3 gallons a cycle</h3>
+    <p>This is the one figure here from a published specification. The Hermitlux listing states it uses <strong>just 5 litres per cycle</strong>, and that's corroborated structurally: the tanks on the EUHOMY, NOVETE and COMFEE' machines are 5 litres — 1.32 gallons — and in tank mode the tank is the entire water budget. A machine can't use more water than it holds.</p>
+    <div class="maths">
+      <b>Stated:</b> 5 L per cycle (Hermitlux listing; 5 L tanks on EUHOMY, NOVETE, COMFEE')<br>
+      5 L = <b>1.32 US gallons per cycle</b><br>
+      <b>Assumption:</b> 5 cycles a week — fair for two people who cook most nights<br>
+      5 × 52 = <b>260 cycles a year</b> → 260 × 1.32 = <b>343 gallons a year</b>
+    </div>
+    <p>Faucet-fed machines aren't bound by a tank, so treat 1.32 gallons as the tank-mode figure and add a third for long heavy cycles.</p>
+
+    <h3>Electricity: an assumption, and how we built it</h3>
+    <p>No listing here publishes a kWh-per-cycle figure, so this line has to be assumed. Rather than pluck a number, here's the physics floor plus padding.</p>
+    <div class="maths">
+      Heating 5 kg of water by 50 °C (90 °F): 5 × 4.186 kJ/kg°C × 50 = 1,046 kJ = <b>0.29 kWh</b><br>
+      Plus pump, drain, control board and an hour of fan drying<br>
+      <b>Assumption used throughout: 0.5 kWh per cycle</b><br>
+      <b>Assumption:</b> $0.17 per kWh, roughly the US residential average<br>
+      0.5 × $0.17 = <b>$0.085 per cycle</b> → 130 kWh a year = <b>$22.10</b>
+    </div>
+    <p>Half a kilowatt-hour is deliberately generous against the 0.29 kWh floor, because most of these machines end with a long drying phase — the EUHOMY quotes 60 minutes of hot-air drying then up to 73 hours of ventilation, and that fan isn't free. The rate is the assumption most worth replacing: power runs under $0.13 in parts of the South and over $0.30 in California and New England. At $0.30 the annual line becomes $39 instead of $22, which still wouldn't change a purchase decision — itself a useful finding.</p>
+
+    <h3>Water and sewer: the line people forget to double</h3>
+    <div class="maths">
+      <b>Assumption:</b> $0.015 a gallon for water <em>and</em> sewer combined ($15 per 1,000 gallons)<br>
+      343 gallons × $0.015 = <b>$5.15 a year</b> · per cycle: <b>$0.02</b>
+    </div>
+    <p>Most US utilities bill sewer as a function of metered water, so every gallon is charged roughly twice. Combined rates commonly land between $8 and $20 per 1,000 gallons, which is why we use $15. Even at the top of that range, a year of dishwashing costs under $7 of water.</p>
+
+    <h3>Detergent: the biggest running-cost line</h3>
+    <p>These machines want powder or gel — manufacturers warn against liquid dish soap, and pods frequently fail to dissolve in short, low-volume cycles, which matters when the whole cycle is 5 litres. Rinse aid is closer to mandatory than optional, because almost nothing here has a heated drying element; they dry on residual heat, a fan, or a door that pops open. Skip it and you get spotting, and spotting is what makes people stop using the machine.</p>
+    <div class="maths">
+      <b>Assumption:</b> $0.12 of powder or gel plus $0.03 of rinse aid = <b>$0.15 per cycle</b> → <b>$39 a year</b>
+    </div>
+
+    <div class="tablewrap"><table>
+      <thead><tr><th>Line item</th><th>Stated assumption</th><th>Per cycle</th><th>Per year</th></tr></thead>
+      <tbody>
+        <tr><td class="name">Water and sewer</td><td>1.32 gal at $0.015/gal combined</td><td class="price">$0.02</td><td class="price">$5.15</td></tr>
+        <tr><td class="name">Electricity</td><td>0.5 kWh at $0.17/kWh</td><td class="price">$0.085</td><td class="price">$22.10</td></tr>
+        <tr><td class="name">Detergent + rinse aid</td><td>Powder or gel $0.12, rinse aid $0.03</td><td class="price">$0.15</td><td class="price">$39.00</td></tr>
+        <tr class="win"><td class="name">Total</td><td>260 cycles a year</td><td class="price">$0.26</td><td class="price">$66.25</td></tr>
+      </tbody>
+    </table></div>
+    <p class="caption">Illustrative US 2026 estimates. The 5 L cycle volume is a manufacturer figure; the kWh, the rates and the frequency are our stated assumptions.</p>
+
+    <p>Twenty-six cents a cycle — and note where it sits: <strong>detergent is nearly three-fifths of it</strong>, while the utilities this category advertises itself on come to seven cents a load between them.</p>
+
+    <h2 id="by-hand">How that compares with washing by hand</h2>
+    <p>Here the honest version diverges sharply from the marketing version, and it turns on one thing: <strong>this comparison depends entirely on your hand-washing technique.</strong> Not partly — entirely. Two people at the same sink can differ by a factor of ten, and every "saves up to 83%" claim is quietly measuring itself against the wasteful one.</p>
+
+    <h3>The running tap</h3>
+    <div class="maths">
+      <b>Assumption:</b> faucet flowing at 1.8 gallons a minute (US kitchen faucets are capped at 2.2 gpm; many aerators run 1.5)<br>
+      <b>Assumption:</b> 9 minutes of running water to wash and rinse one load<br>
+      1.8 × 9 = <b>16.2 gallons</b> against 1.32 for the machine — about <b>12×</b>, a 92% reduction<br>
+      <b>Assumption:</b> half that flow is hot, from an electric water heater, raised 45 °F<br>
+      8.1 gal hot = 30.7 kg × 4.186 × 25 °C = 3,213 kJ = <b>0.89 kWh</b> → $0.15<br>
+      Water and sewer: 16.2 × $0.015 = <b>$0.24</b> → <b>$0.39 per wash, utilities only</b>
+    </div>
+
+    <h3>The filled basin</h3>
+    <div class="maths">
+      <b>Assumption:</b> 5 gallons total, half hot at the same 45 °F rise, tap off in between<br>
+      2.5 gal hot = 9.5 kg × 4.186 × 25 = 994 kJ = <b>0.28 kWh</b> → $0.047<br>
+      Water and sewer: 5 × $0.015 = <b>$0.075</b> → <b>$0.12 per wash, utilities only</b><br>
+      The machine, for comparison: <b>$0.105 per cycle</b> in utilities
+    </div>
+    <p>Read those two boxes side by side, because they are the article. Against a running tap the machine costs a quarter as much to run. Against a filled basin the two are <strong>a cent and a half apart</strong> — and once you add dishwasher detergent, which costs far more than a squirt of dish soap, the machine is the dearer of the two.</p>
+
+    <div class="tablewrap"><table>
+      <thead><tr><th>Method</th><th>Water per wash</th><th>Utilities</th><th>Consumables</th><th>All-in, 260 washes</th></tr></thead>
+      <tbody>
+        <tr><td class="name">Hand, running tap</td><td>16.2 gal</td><td class="price">$0.39</td><td>Dish soap ~$0.05</td><td class="price">~$115</td></tr>
+        <tr class="win"><td class="name">Portable dishwasher</td><td>1.32 gal</td><td class="price">$0.105</td><td>Powder + rinse aid $0.15</td><td class="price">~$66</td></tr>
+        <tr><td class="name">Hand, filled basin</td><td>5 gal</td><td class="price">$0.12</td><td>Dish soap ~$0.05</td><td class="price">~$44</td></tr>
+      </tbody>
+    </table></div>
+    <p class="caption">Estimated from the assumptions above: 5 L cycle, 0.5 kWh, $0.17/kWh, $0.015 a gallon of water and sewer, electric water heating.</p>
+
+    <p>So the machine sits in the middle: about $49 a year better than the wasteful hand-wash, about $22 a year worse than the careful one. That's the real shape of the water argument, and it isn't the shape the listings imply.</p>
+    <p>The manufacturer claims aren't lies, though — they're anchored to the running tap. The GE Profile listing says it "reduces water use by over 75% when compared to handwashing"; the Hermitlux says up to 83%. Our numbers put the machine 92% below the running tap and 74% below the filled basin, so both sit inside a defensible band. They chose the comparison that flatters them, as we would if we were selling one.</p>
+
+    <h2 id="payback">Does it ever pay for itself?</h2>
+    <p>Payback here means purchase price divided by annual saving. It ignores repairs, resale and the time value of money, all of which we'd have to invent numbers for.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Machine</th><th>Price</th><th>vs running tap (saves ~$49/yr)</th><th>vs filled basin (costs ~$22/yr more)</th></tr></thead>
+      <tbody>
+        <tr><td class="name">Canbo tabletop</td><td class="price">$169.99</td><td class="price">3.5 years</td><td>Never</td></tr>
+        <tr><td class="name">EUHOMY 40 dB countertop</td><td class="price">$249.99</td><td class="price">5.1 years</td><td>Never</td></tr>
+        <tr><td class="name">COMFEE' 6-place</td><td class="price">$309.99</td><td class="price">6.3 years</td><td>Never</td></tr>
+        <tr><td class="name">GE Profile countertop</td><td class="price">$539.00</td><td class="price">11 years</td><td>Never</td></tr>
+        <tr><td class="name">BLACK+DECKER 18-inch</td><td class="price">$689.27</td><td class="price">14 years</td><td>Never</td></tr>
+      </tbody>
+    </table></div>
+    <p class="caption">Price ÷ annual saving, on the assumptions above. Prices from our database extract; confirm live before buying.</p>
+
+    <p>Three and a half years for the cheapest machine against the least efficient hand-washing; fourteen for the dearest. We have no verified failure-rate data here and won't invent a lifespan, but a payback measured in double-digit years is not a financial argument. <strong>A portable dishwasher does not pay for itself in any way that should move you.</strong> If somebody sold you one on the water saving, they sold you the weakest thing it does.</p>
+
+    <h2 id="time">The time argument, which is usually the real one</h2>
+    <div class="maths">
+      <b>Assumption:</b> 12 minutes a day at the sink for two people who cook<br>
+      <b>Assumption:</b> 4 minutes a day to load, start and unload<br>
+      8 minutes saved × 365 = 2,920 minutes ≈ <b>49 hours a year</b>
+    </div>
+    <p>Roughly six working days, recovered in eight-minute pieces at the exact moment of the evening when eight minutes is worth most. Against a $250 machine that's about $5 an hour in year one, and nothing in year two.</p>
+    <p>Two caveats. This is time, not money — and if you enjoy washing up (some people genuinely do) the saving is negative. And the four-minute figure assumes a machine sized for your household: load a four-setting rack for a family of five and you handle everything twice. Capacity isn't a comfort feature here; it is the entire time argument.</p>
+
+    <h2 id="hygiene">Heat your hands can't take</h2>
+    <p>This argument survives every version of the math, because it isn't about money. It's a physical limit.</p>
+    <p>Comfortable hot tap water is around 105 to 110 °F, and above roughly 120 °F you're into scald territory within minutes. That ceiling is set by your skin, not by your technique or your willingness.</p>
+    <p>These machines run well past it, and several listings quote the figure: the COMFEE' Minilite's Hygiene cycle heats water to <strong>162 °F</strong>, and the EUHOMY's Baby Care/Heavy Duty and NOVETE's Baby Care/Heavy modes both quote <strong>167 °F</strong>. Take those as manufacturer claims rather than measurements — none are independently audited — but the direction isn't in dispute: <strong>the machine works 50 to 60 °F hotter than your hands tolerate</strong>, with detergent, under pressure, from spray arms above and below.</p>
+    <p>That gap is why baby bottles appear on nearly every listing here. Two things not to over-claim: a hot cycle is not a sterilisation cycle, and none of these listings carries an independent sanitisation certification we could verify. Heat also does nothing for food that was never scraped off — the EUHOMY listing says so itself. Our <a href="/how-to-clean-and-descale-a-portable-dishwasher">cleaning and descaling guide</a> covers the filter and the limescale schedule, which is where these machines actually die.</p>
+
+    <h2 id="renters">Portability, moving and what resale is really worth</h2>
+    <p>The category exists because of renters, and this value never shows up in a cost-per-cycle table. A built-in dishwasher is a fixture: someone installs it — usually not your landlord — and it stays in the kitchen when you leave. A portable machine is furniture. It goes in the car.</p>
+    <p>If a move is likely, the specification to look for is install flexibility. The GE Profile is the clearest case: countertop, built-in or under-sink, unicouple included. Buy it in a rental, build it into the cabinetry later. That's much of what its extra $200 buys.</p>
+    <p>On resale we'll decline to give you a number: we have no verified secondhand pricing here, and an invented resale percentage is the sort of figure that gets repeated for years. What can be said without inventing anything is that a portable dishwasher is self-contained with no installation to undo, which is structurally easier to sell than a fixture. Treat resale as an option you hold, not a line in the payback table. And if you're weighing a specific room, the constraints usually decide before the economics do — our guide to <a href="/portable-dishwashers-for-apartments-and-rvs">choosing one for an apartment, dorm or RV</a> works through clearance, drain reach and power draw.</p>
+
+    <h2 id="dont">Four situations where we'd tell you not to buy one</h2>
+    <p>Most guides can't bring themselves to write this section. These four come up constantly, and in all four the right answer is to keep your money.</p>
+
+    <h3>1. No cabinet clearance above the counter</h3>
+    <p>This disqualifies the most kitchens, and it disqualifies them absolutely — no workaround, no adapter, no clever placement. Countertop machines are 18 inches tall and change: 18.03 for the Canbo and EUHOMY, 18.1 for the NOVETE, 18.23 for the Hermitlux. Standard US wall cabinets sit about 18 inches above the countertop.</p>
+    <p>You can't simply match those numbers either, because the machine needs clearance to open and vent. The listings are explicit: the Hermitlux asks for <strong>at least 20.08 inches</strong> between counter and wall cabinet, the COMFEE' Minilite for more than 19.6. So measure that gap before price, before capacity, before anything — our <a href="/how-to-hook-up-a-portable-dishwasher">setup guide</a> covers doing it properly. If there's an end of the counter with nothing above it, you're fine; if not, your only option is an 18-inch machine on the floor at $540 to $690, and without the money and the space, this category doesn't fit your kitchen.</p>
+
+    <h3>2. A pull-down sprayer faucet and no budget for a tank model</h3>
+    <p>Faucet-fed machines connect by unscrewing your tap's aerator and threading on an adapter. That works on most straight kitchen taps. It generally does not work on pull-down or pull-out sprayer faucets, where the spout is a detachable hose head, nor on many designer taps with concealed threading — and sprayer faucets are everywhere in kitchens built or renovated in the last fifteen years.</p>
+    <p>If that's your tap, every faucet-only machine is out: the COMFEE' six-place, the GE Profile with its unicouple, the BLACK+DECKER. Excellent machines; none will connect to your sink. What's left is tank models, from about $170 for the Canbo and clustering at $250 to $290. If that's outside budget, the mistake to avoid is buying the cheap faucet-only machine and hoping — you'll spend an evening with three hardware-store adapters and return it.</p>
+
+    <h3>3. Five people in the house and a four-place rack</h3>
+    <p>This is where the value proposition inverts. The NOVETE holds four full place settings and its listing pitches it at a family of three to four. Five people generating dishes across three meals realistically need two to three runs a day.</p>
+    <div class="maths">
+      <b>Three runs a day at 5 L:</b> 15 L (4 gallons) a day, 1,095 cycles a year<br>
+      At $0.26 a cycle → <b>about $285 a year to run</b>, against $66 at five cycles a week<br>
+      Handling: 3 × load-and-unload ≈ 12 minutes — <b>the time saving is gone</b>
+    </div>
+    <p>You bought an appliance to save eight minutes a day and it now costs twelve, plus three tank refills. Buy enough capacity instead — the COMFEE' six-place at about $310, or the BLACK+DECKER at eight settings — or accept that this category was built around one- and two-person households.</p>
+
+    <h3>4. Moving somewhere that already has a dishwasher</h3>
+    <p>Obvious written down, routinely ignored in practice. If there's a built-in machine in the kitchen you're moving into within six to twelve months, a $250 countertop dishwasher isn't an appliance purchase, it's a short-term rental at roughly $40 a month — and the built-in washes eight to twelve settings at once while yours washes four.</p>
+    <p>Two narrow exceptions: a second small machine for glasses or bottles, where the $170 Canbo is a reasonable buy on its own terms, and one destined for an RV or a garage kitchen after the move. Otherwise wait, and put the money towards something the new kitchen actually lacks.</p>
+
+    <h2 id="verdict">Worth it, and worth it for you</h2>
+    <p>Two different questions, and conflating them is how this category gets oversold.</p>
+    <p><strong>Is it worth it?</strong> As an object, yes. For $250 you get a machine that washes at 167 °F, uses 1.32 gallons a load, needs no plumber and no landlord conversation, and hands back around fifty hours a year. That's a lot of function for the money.</p>
+    <p><strong>Is it worth it for you?</strong> That turns on four things, and none is the price:</p>
+    <ul>
+      <li><b>The vertical clearance.</b> Roughly 19.6 to 20 inches between counter and wall cabinet, per the listings themselves. Measure first.</li>
+      <li><b>Faucet or tank.</b> A pull-down sprayer means a tank model, which narrows the field and sets a price floor.</li>
+      <li><b>Rack size.</b> Four settings for one or two people; six or eight above that, or don't bother.</li>
+      <li><b>What you're replacing.</b> A running tap, and the machine saves water, money and time. A disciplined basin wash, and it buys time and heat for about $22 a year — a fine trade, made with your eyes open.</li>
+    </ul>
+    <p>If the first three are yes, here's where we'd start. The <a href="/">main portable dishwasher guide</a> ranks eight machines by buying situation, and our <a href="/best-countertop-dishwashers-under-300">under-$300 roundup</a> goes further into the false economies.</p>
+
+    <div class="prodrow">
+      <div class="prodcard">
+        <div class="pw"><img src="/images/amazon-B0D86J4GFX.webp" alt="Canbo countertop dishwasher with built-in water tank" width="500" height="500" loading="lazy" decoding="async"></div>
+        <span class="lab">If you're not sure you'll use it</span>
+        <h3>Canbo Tabletop Dishwasher</h3>
+        <p>Built-in tank, five programs, a 29-minute Quick cycle, spray arms top and bottom, plates to 10.5 inches. The lowest-cost way to find out whether the habit sticks.</p>
+        <div class="pp">$169.99</div>
+        <div class="cta"><a class="buy" href="https://www.amazon.com/dp/B0D86J4GFX?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+      </div>
+      <div class="prodcard">
+        <div class="pw"><img src="/images/amazon-B09ST4M8VF.webp" alt="COMFEE' six place setting countertop dishwasher in black" width="500" height="500" loading="lazy" decoding="async"></div>
+        <span class="lab">If the household is three or more</span>
+        <h3>COMFEE' 6-Place Countertop</h3>
+        <p>Six place settings, up to 70 pieces, eight cycles, ENERGY STAR. The capacity that keeps the time saving intact — but faucet-fed, no tank, and it eats worktop.</p>
+        <div class="pp">$309.99</div>
+        <div class="cta"><a class="buy" href="https://www.amazon.com/dp/B09ST4M8VF?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+      </div>
+      <div class="prodcard">
+        <div class="pw"><img src="/images/amazon-B08NMVX6XL.webp" alt="BLACK+DECKER 18-inch portable dishwasher on wheels" width="500" height="500" loading="lazy" decoding="async"></div>
+        <span class="lab">If the cabinets rule out a countertop</span>
+        <h3>BLACK+DECKER 18-Inch Portable</h3>
+        <p>Eight place settings on castors, six cycles, ENERGY STAR, a usable worktop on the lid. It lives on the floor, so cabinet clearance stops being your problem — at double the price.</p>
+        <div class="pp">$689.27</div>
+        <div class="cta"><a class="buy" href="https://www.amazon.com/dp/B08NMVX6XL?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+      </div>
+    </div>
+
+    <p style="margin-top:1.6rem">And if you're the disciplined basin-and-rinse washer, two in the house, with a tap that won't take an adapter and cabinets 18 inches off the counter: don't buy one. The math doesn't support it and the room won't accept it, and we'd rather say so than sell you a machine that ends up in a closet. If any one of those changes — a move, a bigger household, a new faucet — the answer changes with it.</p>
+
+    <h2 id="faq">Questions we get asked</h2>
+    <div class="panel faq" style="margin-top:22px;max-width:68ch">
+      <details open><summary>How much does it cost to run a portable dishwasher?</summary><p>About 26 cents a cycle, or roughly $66 a year at five cycles a week, on the assumptions used here: 5 litres of water per cycle at $0.015 per gallon for water and sewer combined, an assumed 0.5 kWh per cycle at $0.17 per kWh, and 15 cents of detergent and rinse aid. Detergent is the largest of the three lines — electricity and water together come to about seven cents a load. These are estimates, not measurements; replace the rates with your own utility bill.</p></details>
+      <details><summary>Do portable dishwashers use less water than washing by hand?</summary><p>It depends entirely on how you wash by hand, and that is not a hedge. A 5-litre cycle is 1.32 gallons. A tap running at an assumed 1.8 gallons per minute for nine minutes is 16.2 gallons, so the machine uses about 92% less. But a filled basin with the tap off uses perhaps 5 gallons, which puts the machine only about 74% below it and, once dishwasher detergent is priced in, slightly more expensive to run. Manufacturer claims of 75% to 83% savings are comparing against a moderately careful hand wash.</p></details>
+      <details><summary>Will a portable dishwasher pay for itself?</summary><p>Realistically, no. Against a continuously running tap the machine saves about $49 a year all-in, so a $170 machine takes about 3.5 years to repay, a $250 machine about 5 years, and a $690 18-inch model about 14 years. Against a disciplined basin wash it never repays, because it costs roughly $22 a year more to run. Buy one for the time and the wash temperature, not for the savings.</p></details>
+      <details><summary>Who should not buy a portable dishwasher?</summary><p>Four groups. Anyone whose wall cabinets sit at the standard 18 inches above the counter with no gap, since these machines are 18 inches tall and their listings ask for 19.6 to 20 inches of clearance. Anyone with a pull-down sprayer faucet who cannot stretch to a tank model, since faucet adapters generally will not fit those taps. Households of five looking at a four-place rack, which means two or three runs a day and no time saving at all. And anyone moving within a year into a kitchen that already has a built-in machine.</p></details>
+    </div>
+
+    <h2 id="keep-reading">Keep reading</h2>
+    <div class="krgrid">
+      <a class="kr" href="/countertop-vs-18-inch-portable-dishwashers"><span class="krt">Countertop or 18-inch on wheels?</span><span class="krd">The split behind every price band in the math above.</span></a>
+      <a class="kr" href="/portable-dishwashers-for-apartments-and-rvs"><span class="krt">Choosing one for an apartment, dorm or RV</span><span class="krd">Clearance, faucet type, drain reach and landlord rules.</span></a>
+      <a class="kr" href="/how-to-clean-and-descale-a-portable-dishwasher"><span class="krt">Cleaning and descaling, properly</span><span class="krd">The filter and the limescale schedule that decide year five.</span></a>
+      <a class="kr" href="/guides"><span class="krt">All portable dishwasher guides</span><span class="krd">Every guide on the site, from choosing one to living with it.</span></a>
+    </div>
+
+  </div>
+</article>
+</div>
+
+<footer class="site"><div class="wrap">
+  <div class="fbrand">Best Portable Dishwashers</div>
+  <p>Independent, research-based comparisons of portable and countertop dishwashers for kitchens without a hookup.</p>
+  <p style="margin:.5rem 0 0"><a href="/about">About</a> · <a href="/guides">All guides</a> · <a href="/contact">Contact</a> · <a href="/privacy">Privacy</a></p>
+  <p>Reader-supported: we may earn a commission when you buy through our links, at no additional cost to you. Comparisons are based on published specifications and pricing; we do not physically test products and we do not publish ratings we cannot verify. Prices change frequently — confirm the current price on Amazon. As an Amazon Associate, we earn from qualifying purchases. © 2026 Best Portable Dishwashers.</p>
+</div></footer>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Are Portable Dishwashers Worth It? The Honest Cost and Water Math","description":"A worked running-cost model for portable dishwashers with every assumption stated, an honest water comparison against both a running tap and a filled basin, payback figures, and the four situations where you should not buy one.","author":{"@type":"Person","name":"Ilane Tall"},"publisher":{"@type":"Organization","name":"Best Portable Dishwashers"},"datePublished":"2026-08-13","dateModified":"2026-08-13","mainEntityOfPage":{"@type":"WebPage","@id":"https://best-portable-dishwashers.com/are-portable-dishwashers-worth-it"},"image":"https://best-portable-dishwashers.com/images/hero-worth-it.webp","articleSection":"Honest take"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"How much does it cost to run a portable dishwasher?","acceptedAnswer":{"@type":"Answer","text":"About 26 cents a cycle, or roughly $66 a year at five cycles a week, on the assumptions used here: 5 litres of water per cycle at $0.015 per gallon for water and sewer combined, an assumed 0.5 kWh per cycle at $0.17 per kWh, and 15 cents of detergent and rinse aid. Detergent is the largest of the three lines — electricity and water together come to about seven cents a load. These are estimates, not measurements; replace the rates with your own utility bill."}},
+ {"@type":"Question","name":"Do portable dishwashers use less water than washing by hand?","acceptedAnswer":{"@type":"Answer","text":"It depends entirely on how you wash by hand, and that is not a hedge. A 5-litre cycle is 1.32 gallons. A tap running at an assumed 1.8 gallons per minute for nine minutes is 16.2 gallons, so the machine uses about 92% less. But a filled basin with the tap off uses perhaps 5 gallons, which puts the machine only about 74% below it and, once dishwasher detergent is priced in, slightly more expensive to run. Manufacturer claims of 75% to 83% savings are comparing against a moderately careful hand wash."}},
+ {"@type":"Question","name":"Will a portable dishwasher pay for itself?","acceptedAnswer":{"@type":"Answer","text":"Realistically, no. Against a continuously running tap the machine saves about $49 a year all-in, so a $170 machine takes about 3.5 years to repay, a $250 machine about 5 years, and a $690 18-inch model about 14 years. Against a disciplined basin wash it never repays, because it costs roughly $22 a year more to run. Buy one for the time and the wash temperature, not for the savings."}},
+ {"@type":"Question","name":"Who should not buy a portable dishwasher?","acceptedAnswer":{"@type":"Answer","text":"Four groups. Anyone whose wall cabinets sit at the standard 18 inches above the counter with no gap, since these machines are 18 inches tall and their listings ask for 19.6 to 20 inches of clearance. Anyone with a pull-down sprayer faucet who cannot stretch to a tank model, since faucet adapters generally will not fit those taps. Households of five looking at a four-place rack, which means two or three runs a day and no time saving at all. And anyone moving within a year into a kitchen that already has a built-in machine."}}
+]}
+</script>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+# Best Portable Dishwashers
+
+> Independent, research-based comparisons of portable and countertop dishwashers for US kitchens with no dishwasher hookup — rentals, small apartments, dorms and RVs. We compare published specifications, what ships in the box, water source, stated capacity, external dimensions and live pricing across 25 machines. We do not physically test products, and we publish no star ratings because Amazon's product API returns no verifiable rating data for this category — we would rather show nothing than invent a number.
+
+## Top picks (2026)
+
+- **Best overall — COMFEE' 6-Place Countertop Dishwasher (~$310):** six place settings (about 70 pieces), plates to 10 in, 17.2 × 21.7 × 19.7 in, eight cycles including Baby-Care, ECO and Glass, extra-dry function, ENERGY STAR. Faucet-connect only, no built-in tank.
+- **Best full-size portable — BLACK+DECKER BPD8B 18-Inch (~$689):** eight place settings, six cycles (Normal, Heavy, Rapid, Glass, Eco, 90-min), rolls on castors, usable top surface, ENERGY STAR. Needs floor space and a faucet connection.
+- **Best no-plumbing pick — NOVETE Countertop Dishwasher (~$290):** 5 L built-in water tank or inlet hose, four place settings, fits 12 in plates at an angle, 16.9 × 16.8 × 18.1 in, Baby Care/Heavy cycle at 167 °F, air-dry, interior light.
+- **Best for hard water — HAVA Countertop with Water Softener (~$329):** integrated water softener set by local water hardness, optimised ECO mode, adjustable rack. The only machine here that addresses limescale directly.
+- **Most flexible install — GE Profile Countertop (~$539):** countertop, built-in or under-sink installation, six place settings, 52 dBA, ENERGY STAR, WiFi via SmartHQ, Auto Open Dry, unicouple included.
+- **Quietest — EUHOMY 40 dB Countertop (~$250):** manufacturer-rated 40 dB, 5 L tank or faucet, plates to 10.25 in, 16.83 × 16.73 × 18.03 in, cycles Normal, Fast (29 min), Glass, Baby Care/Heavy, Fruit.
+- **Best for tiny counters — COMFEE' Minilite (~$250):** 5 L tank, no hookup needed, six programmes, 360° dual spray arms, Hygiene cycle to 162 °F, Air Refresh mode to stop the tub smelling.
+- **Cheapest worth buying — Canbo Tabletop Dishwasher (~$170):** built-in tank, five programmes, 29-minute Quick cycle, upper and lower spray arms, drying function, 18.03 × 16.54 × 16.54 in, plates to 10.5 in. Unfamiliar brand, smallest capacity.
+
+## How to choose
+
+- **Water source decides the shortlist.** Tank models fill from a jug and work in any kitchen; faucet models never need refilling but require a tap with a removable aerator and standard threads. Pull-down and pull-out sprayer faucets usually cannot be adapted at all — buy a tank model instead.
+- **Height, not width, disqualifies kitchens.** Countertop machines are 17–18.1 in tall and most open upward. Standard US wall cabinets sit about 18 in above the counter. Measure that gap first.
+- **Place settings are optimistic.** A place setting is a plate, bowl, glass, cup, saucer and cutlery. Four settings is one family meal; six is roughly half a full-size load. Capacity quoted as "30+ dishes" instead of place settings is a flattering unit.
+- **Nothing here has a heated drying element.** These machines dry with residual heat, a fan, or a door that pops open. Rinse aid matters more than it does in a full-size machine.
+- **The two classes are different appliances.** Countertop: $170–$330, 1–6 settings, lives on the worktop, tank optional. Freestanding 18-inch on castors: $540–$690, 8 settings, lives on the floor, faucet only.
+- **Drain reach is the second fit problem.** The waste hose hooks over the sink edge, so the machine must sit near the sink and roughly level with or above the drain point.
+
+## Guides
+
+<!--LLMS-GUIDES:START-->
+- [Are Portable Dishwashers Worth It? The Honest Cost and Water Math](https://best-portable-dishwashers.com/are-portable-dishwashers-worth-it): What one actually costs to run, how it compares with washing by hand, and the four situations where we'd tell you not to buy one.
+- [The Best Countertop Dishwashers Under $300 (And What You Give Up)](https://best-portable-dishwashers.com/best-countertop-dishwashers-under-300): What $170, $250 and $300 actually buy you in capacity, cycles, tanks and noise — and where the false economies are.
+- [Countertop or 18-Inch on Wheels? The Two Kinds of Portable Dishwasher](https://best-portable-dishwashers.com/countertop-vs-18-inch-portable-dishwashers): The category splits in two, and the split decides everything: capacity, price, where the machine lives and whether it fits your kitchen at all.
+- [How to Clean and Descale a Portable Dishwasher (So It Lasts)](https://best-portable-dishwashers.com/how-to-clean-and-descale-a-portable-dishwasher): The filter nobody knows about, the smell that comes from a sealed tub, and the descaling schedule that decides whether you reach year five.
+- [How to Hook Up a Portable Dishwasher (Faucet or Tank), Step by Step](https://best-portable-dishwashers.com/how-to-hook-up-a-portable-dishwasher): Adapters, aerator threads, drain hoses and the taps that simply won't work — the setup guide to read before you order.
+- [Choosing a Portable Dishwasher for an Apartment, Dorm or RV](https://best-portable-dishwashers.com/portable-dishwashers-for-apartments-and-rvs): Cabinet height, faucet type, drain reach, power draw and landlord rules — how the room you live in narrows the shortlist.
+<!--LLMS-GUIDES:END-->
+
+## Method
+
+We start from every portable dishwasher we can source through Amazon's official product API (25 machines at the time of writing), sort them by machine class and water source, read the published specifications, and keep one winner per buying situation. We treat manufacturer capacity and decibel figures as claims rather than measurements, and we say so on the page.
+
+We do not physically test these machines and we do not run a testing lab. We publish no star ratings, no review counts and no paraphrased owner-review sentiment, because Amazon's API returns no rating data we can verify for this category.
+
+## About
+
+Best Portable Dishwashers is written and edited by Ilane Tall and published by Neclid LTD, Ashdod, Israel, for a US audience. Reader-supported: we may earn a commission on purchases made through our links, at no additional cost to you. As an Amazon Associate, we earn from qualifying purchases. Commission rates never influence a pick or its position.
+
+Contact: hello@best-portable-dishwashers.com
