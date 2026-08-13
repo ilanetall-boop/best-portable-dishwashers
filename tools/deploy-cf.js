@@ -95,11 +95,13 @@ async function cf(method, urlPath, body) {
   const OUT = path.join(os.tmpdir(), 'cf-deploy-' + PROJECT);
   fs.rmSync(OUT, { recursive: true, force: true });
   fs.mkdirSync(OUT, { recursive: true });
-  sh(`git archive HEAD | tar -x -C "${OUT.replace(/\\/g, '/')}"`, { cwd: ROOT, quiet: true, shell: 'C:/Program Files/Git/bin/bash.exe' });
+  // Git-Bash only exists on the PC; on Linux the default shell handles the pipe.
+  const PIPE = process.platform === 'win32' ? { shell: 'C:/Program Files/Git/bin/bash.exe' } : {};
+  sh(`git archive HEAD | tar -x -C "${OUT.replace(/\\/g, '/')}"`, { cwd: ROOT, quiet: true, ...PIPE });
   for (const forbidden of ['.git', 'tools', 'data']) {
     if (fs.existsSync(path.join(OUT, forbidden))) die(`export contains ${forbidden}/ — check .gitattributes export-ignore`);
   }
-  const n = sh(`find "${OUT.replace(/\\/g, '/')}" -type f | wc -l`, { quiet: true, shell: 'C:/Program Files/Git/bin/bash.exe' }).trim();
+  const n = sh(`find "${OUT.replace(/\\/g, '/')}" -type f | wc -l`, { quiet: true, ...PIPE }).trim();
   console.log(`      ${n} files at ${OUT}`);
 
   /* 3. Account + project. */
