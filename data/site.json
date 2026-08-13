@@ -7,12 +7,33 @@
     "author": "Ilane Tall",
     "template": "premium-editorial-v1",
     "static_pages": [
-      { "path": "", "priority": "1.0" },
-      { "path": "guides", "priority": "0.6" },
-      { "path": "about", "priority": "0.3" },
-      { "path": "contact", "priority": "0.3" },
-      { "path": "privacy", "priority": "0.3" }
-    ]
+      {
+        "path": "",
+        "priority": "1.0"
+      },
+      {
+        "path": "guides",
+        "priority": "0.6"
+      },
+      {
+        "path": "about",
+        "priority": "0.3"
+      },
+      {
+        "path": "contact",
+        "priority": "0.3"
+      },
+      {
+        "path": "privacy",
+        "priority": "0.3"
+      }
+    ],
+    "network_card": {
+      "href": "https://best-espresso-machines.com/",
+      "category": "From our network",
+      "title": "Espresso machines worth the counter space",
+      "description": "Same constraint, different appliance: real espresso in a kitchen with no room to spare."
+    }
   },
   "articles": [
     {
