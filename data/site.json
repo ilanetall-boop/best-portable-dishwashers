@@ -95,6 +95,16 @@
       "minutes": 12,
       "date": "2026-08-13",
       "featured": true
+    },
+    {
+      "slug": "best-portable-dishwashers-for-small-apartments",
+      "title": "The Best Portable Dishwashers for Small Apartments (2026)",
+      "description": "Counter space is the real constraint. The machines that fit a tiny kitchen without giving up a full place setting.",
+      "category": "Buying guide",
+      "hero": "hero-best-portable-dishwashers-for-small-apartments",
+      "minutes": 16,
+      "date": "2026-08-16",
+      "featured": true
     }
   ]
 }
