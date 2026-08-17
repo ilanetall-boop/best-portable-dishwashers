@@ -105,6 +105,16 @@
       "minutes": 16,
       "date": "2026-08-16",
       "featured": true
+    },
+    {
+      "slug": "portable-dishwasher-water-hookup-options",
+      "title": "Portable Dishwasher Water Options: Faucet Adapter vs Built-In Tank",
+      "description": "Hook it to the tap or fill a tank by hand? The trade-off decides which machine you should buy.",
+      "category": "Comparison",
+      "hero": "hero-portable-dishwasher-water-hookup-options",
+      "minutes": 18,
+      "date": "2026-08-17",
+      "featured": true
     }
   ]
 }
