@@ -115,6 +115,16 @@
       "minutes": 18,
       "date": "2026-08-17",
       "featured": true
+    },
+    {
+      "slug": "portable-dishwasher-running-costs",
+      "title": "What a Portable Dishwasher Really Costs to Run (2026)",
+      "description": "Electricity, water and detergent per cycle, and the honest comparison against washing by hand.",
+      "category": "Honest take",
+      "hero": "hero-portable-dishwasher-running-costs",
+      "minutes": 15,
+      "date": "2026-08-18",
+      "featured": true
     }
   ]
 }
