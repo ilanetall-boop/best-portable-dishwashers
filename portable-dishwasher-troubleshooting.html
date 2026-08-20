@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portable Dishwasher Troubleshooting: 10 Problems and Fixes</title>
+<meta name="description" content="Not draining, dishes still dirty, leaking adapter — the most likely cause first, then the fix that actually works.">
+<link rel="canonical" href="https://best-portable-dishwashers.com/portable-dishwasher-troubleshooting">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Best Portable Dishwashers">
+<meta property="og:title" content="Portable Dishwasher Troubleshooting: 10 Problems and Fixes">
+<meta property="og:description" content="Not draining, dishes still dirty, leaking adapter — the most likely cause first, then the fix that actually works.">
+<meta property="og:image" content="https://best-portable-dishwashers.com/images/hero-portable-dishwasher-troubleshooting.webp">
+<meta property="og:url" content="https://best-portable-dishwashers.com/portable-dishwasher-troubleshooting">
+<meta name="theme-color" content="#101820">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="alternate icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  /* premium-editorial-v1 — palette: steel / slate / water-blue.
+     NOTE: the --aqua* and --brass* variable names are inherited from the network template;
+     on this site --aqua carries the water-blue accent and --brass carries brushed chrome.
+     Do not rename (tools/rebuild-site.js and every article file reference them). */
+  :root{
+    --ground:#F4F6F8; --surface:#FFFFFF; --surface-2:#E9EEF3;
+    --ink:#131A21; --ink-soft:#2E3A45; --muted:#69757F; --line:#DCE3EA;
+    --aqua:#1C6E8C; --aqua-deep:#12556F; --aqua-tint:#E8F1F6;
+    --brass:#8D9AA6; --brass-lite:#C9D5DF; --brass-tint:#EDF1F5;
+    --dark:#101820; --dark-2:#1D2A35; --on-dark:#EAF0F5; --on-dark-mute:#9CACB9;
+    --star:#B07E00;
+    --shadow:0 1px 2px rgba(19,26,33,.05),0 22px 48px -26px rgba(19,26,33,.30);
+    --shadow-sm:0 1px 2px rgba(19,26,33,.05),0 10px 24px -16px rgba(19,26,33,.24);
+    --radius:20px; --radius-sm:12px; --maxw:1120px;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ground:#0C1116; --surface:#151E26; --surface-2:#1E2A34;
+    --ink:#EAF0F5; --ink-soft:#CBD7E0; --muted:#93A2AE; --line:#28353F;
+    --aqua:#5CA9C8; --aqua-deep:#7FC3DD; --aqua-tint:#122530;
+    --brass:#C9D5DF; --brass-lite:#DDE7EF; --brass-tint:#16222B;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }}
+  :root[data-theme="dark"]{
+    --ground:#0C1116; --surface:#151E26; --surface-2:#1E2A34;
+    --ink:#EAF0F5; --ink-soft:#CBD7E0; --muted:#93A2AE; --line:#28353F;
+    --aqua:#5CA9C8; --aqua-deep:#7FC3DD; --aqua-tint:#122530;
+    --brass:#C9D5DF; --brass-lite:#DDE7EF; --brass-tint:#16222B;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+    font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  a{color:inherit}
+  h1,h2,h3{margin:0;line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
+  .serif{font-family:var(--serif)}
+  p{margin:0 0 1rem}
+  .eyebrow{font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+  .tnum{font-variant-numeric:tabular-nums}
+  .stars{color:var(--star);letter-spacing:2px}
+
+  /* ---------- header ---------- */
+  header.site{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--ground) 82%,transparent);
+    backdrop-filter:saturate(1.3) blur(12px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-weight:700;letter-spacing:-.01em}
+  .brand .bn{font-family:var(--serif);font-size:1.16rem}
+  nav.site a{color:var(--muted);text-decoration:none;font-size:.86rem;font-weight:600;letter-spacing:.01em;margin-left:22px;transition:color .2s}
+  nav.site a:hover{color:var(--ink)}
+  @media (max-width:660px){nav.site{display:none}}
+
+  /* ---------- hero (immersive dark, water shimmer) ---------- */
+  .hero{position:relative;background:radial-gradient(120% 90% at 80% -10%,var(--dark-2),var(--dark) 60%);color:var(--on-dark);overflow:hidden;isolation:isolate}
+  .caustic{position:absolute;inset:-30%;z-index:0;opacity:.5;pointer-events:none;filter:blur(30px);
+    background:
+      radial-gradient(28% 40% at 22% 30%,rgba(92,169,200,.26),transparent 60%),
+      radial-gradient(24% 34% at 74% 24%,rgba(201,213,223,.20),transparent 60%),
+      radial-gradient(30% 42% at 60% 78%,rgba(28,110,140,.28),transparent 62%);
+    animation:drift 22s ease-in-out infinite alternate}
+  .caustic.b{opacity:.34;animation-duration:30s;animation-direction:alternate-reverse;
+    background:
+      radial-gradient(26% 36% at 40% 60%,rgba(127,195,221,.22),transparent 60%),
+      radial-gradient(22% 30% at 85% 70%,rgba(141,154,166,.20),transparent 60%)}
+  @keyframes drift{0%{transform:translate3d(-2%,-1%,0) scale(1)}50%{transform:translate3d(3%,2%,0) scale(1.08)}100%{transform:translate3d(-1%,3%,0) scale(1.04)}}
+  .hero .wrap{position:relative;z-index:1;padding:74px 26px 88px}
+  .hero .eyebrow{color:var(--brass-lite)}
+  .hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,1.4rem+4.6vw,4.7rem);letter-spacing:-.02em;max-width:15ch;margin:.5rem 0 0}
+  .hero h1 em{font-style:italic;color:var(--brass-lite)}
+  .hero .lede{font-size:1.24rem;line-height:1.55;color:var(--on-dark-mute);max-width:52ch;margin-top:1.3rem}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:26px;font-size:.86rem;color:var(--on-dark-mute)}
+  .hero .meta b{color:var(--on-dark)}
+  .rule{height:1px;background:linear-gradient(90deg,var(--brass),transparent);border:0;margin:26px 0 0;max-width:220px}
+
+  /* ---------- #1 feature (the centerpiece) ---------- */
+  .feature{position:relative;z-index:2;margin:-56px 0 0}
+  .feature .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    display:grid;grid-template-columns:1.1fr 1fr;overflow:hidden}
+  .feature .left{padding:38px}
+  .feature .kick{display:inline-flex;align-items:center;gap:9px;color:var(--brass-text);font-weight:700;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase}
+  .feature .kick::before{content:"";width:26px;height:1px;background:var(--brass)}
+  .feature h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.8rem,1.2rem+2vw,2.7rem);margin:.5rem 0 .2rem}
+  .feature .verdict{color:var(--ink-soft);font-size:1.06rem;margin:.4rem 0 1rem;max-width:44ch}
+  .feature .rl{display:flex;align-items:center;flex-wrap:wrap;gap:8px 10px;font-size:.92rem;color:var(--muted);margin-bottom:1.2rem}
+  .feature .rl b{color:var(--ink)}
+  .btn{display:inline-flex;align-items:center;gap:9px;background:var(--aqua);color:#fff;font-weight:700;
+    padding:14px 26px;border-radius:12px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,background .2s}
+  .btn:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  .btn .arw{transition:transform .2s}.btn:hover .arw{transform:translateX(3px)}
+  .feature .right{background:linear-gradient(160deg,var(--dark-2),var(--dark));color:var(--on-dark);padding:38px;display:flex;flex-direction:column;justify-content:center;gap:6px;position:relative}
+  .feature .right .lab{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-mute)}
+  .feature .bigprice{font-family:var(--serif);font-size:clamp(3rem,2rem+4vw,4.4rem);font-weight:600;line-height:1;color:var(--brass-lite)}
+  .feature .bigprice sup{font-size:.4em;top:-1.2em;color:var(--on-dark)}
+  .feature .right .note{color:var(--on-dark-mute);font-size:.92rem;margin-top:6px;max-width:30ch}
+  .feature .right .mono{margin-top:16px;font-family:var(--serif);font-size:1.05rem;color:var(--on-dark)}
+  @media (max-width:820px){.feature .card{grid-template-columns:1fr}.feature .right{order:-1}}
+
+  /* ---------- generic section ---------- */
+  section{padding:44px 0}
+  .kicker{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+  .kicker .eyebrow{color:var(--aqua-deep)}
+  .kicker::after{content:"";flex:1;height:1px;background:var(--line)}
+  .h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,1.2rem+1.7vw,2.5rem);letter-spacing:-.01em}
+  .sub{color:var(--muted);max-width:62ch;margin:.6rem 0 0}
+
+  .notes{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:24px}
+  .notes .n{background:var(--surface);padding:24px}
+  .notes .num{font-family:var(--serif);font-size:1.5rem;color:var(--brass-text);line-height:1}
+  .notes h3{font-size:1.02rem;font-weight:750;margin:.5rem 0 .35rem}
+  .notes p{font-size:.9rem;color:var(--muted);margin:0}
+  @media (max-width:820px){.notes{grid-template-columns:1fr 1fr}}
+  @media (max-width:520px){.notes{grid-template-columns:1fr}}
+
+  /* honesty band */
+  .band{background:var(--brass-tint);border:1px solid var(--line);border-left:3px solid var(--brass);
+    border-radius:var(--radius-sm);padding:22px 24px;margin-top:26px}
+  .band h3{font-family:var(--serif);font-weight:600;font-size:1.16rem;margin-bottom:.5rem}
+  .band p{color:var(--ink-soft);font-size:.95rem;margin:0}
+  .band p+p{margin-top:.6rem}
+
+  /* comparison */
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);background:var(--surface);margin-top:22px}
+  table{border-collapse:collapse;width:100%;min-width:740px;font-size:.94rem}
+  thead th{background:var(--surface-2);text-align:left;padding:16px;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+  td{padding:15px 16px;border-bottom:1px solid var(--line);vertical-align:middle}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:hover{background:var(--surface-2)}
+  td.name{font-family:var(--serif);font-weight:600;font-size:1.05rem}
+  .win td{background:var(--brass-tint)}
+  .win td.name{color:var(--brass-text)}
+  .win td:first-child{box-shadow:inset 3px 0 0 var(--brass)}
+  .price{font-weight:800;font-variant-numeric:tabular-nums}
+  .rev{color:var(--muted);font-size:.82rem}
+  .tget{display:inline-block;background:var(--ink);color:var(--surface);font-weight:700;font-size:.8rem;padding:8px 14px;border-radius:9px;text-decoration:none;white-space:nowrap;transition:background .2s}
+  .tget:hover{background:var(--aqua-deep);color:#fff}
+
+  /* picks (editorial cards) */
+  .picks{display:flex;flex-direction:column;gap:26px;margin-top:26px}
+  .pick{display:grid;grid-template-columns:96px 1fr auto;gap:26px;align-items:start;
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:28px}
+  .pick .rank{font-family:var(--serif);font-size:2.6rem;color:var(--brass-text);line-height:.9;font-weight:600}
+  .pick .rank small{display:block;font-family:var(--sans);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:8px}
+  .pick h3{font-family:var(--serif);font-weight:600;font-size:1.44rem}
+  .pick .who{color:var(--aqua-deep);font-weight:700;font-size:.9rem;margin:.25rem 0 .5rem}
+  .pick .rl2{display:flex;align-items:center;flex-wrap:wrap;gap:6px 8px;font-size:.86rem;color:var(--muted);margin-bottom:.7rem}
+  .pick .rl2 b{color:var(--ink)}
+  .pick p.body{margin:.2rem 0 0;color:var(--ink-soft)}
+  .quote{border-left:2px solid var(--brass);padding-left:14px;margin:.9rem 0 0;font-family:var(--serif);color:var(--ink);font-size:1.02rem}
+  .quote b{font-family:var(--sans);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass-text);display:block;margin-bottom:.2rem;font-weight:700}
+  .aside{display:flex;flex-direction:column;align-items:flex-end;gap:12px;text-align:right;min-width:150px}
+  .aside .pr{font-family:var(--serif);font-size:2rem;font-weight:600;font-variant-numeric:tabular-nums;line-height:1}
+  .aside .tag{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .buy{display:inline-flex;align-items:center;gap:8px;background:var(--aqua);color:#fff;font-weight:700;padding:11px 20px;border-radius:10px;text-decoration:none;transition:background .2s,transform .15s;font-size:.92rem}
+  .buy:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  @media (max-width:820px){.pick{grid-template-columns:64px 1fr}.aside{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;text-align:left;border-top:1px solid var(--line);padding-top:16px}}
+
+  /* method / faq */
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:22px}
+  @media (max-width:760px){.cols{grid-template-columns:1fr}}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm)}
+  .panel .eyebrow{color:var(--aqua-deep)}
+  .panel h3{font-family:var(--serif);font-weight:600;font-size:1.3rem;margin:.5rem 0 .5rem}
+  .panel p{color:var(--muted);margin:0}
+  .faq details{border-top:1px solid var(--line);padding:16px 0}
+  .faq details:first-of-type{border-top:0}
+  .faq summary{cursor:pointer;font-family:var(--serif);font-size:1.12rem;list-style:none;display:flex;justify-content:space-between;gap:14px;color:var(--ink)}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--brass-text);font-family:var(--sans);font-weight:700}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{margin:.8rem 0 0;color:var(--muted)}
+
+  footer.site{margin-top:20px;background:var(--dark);color:var(--on-dark-mute)}
+  footer .wrap{padding:40px 26px}
+  footer .fbrand{font-family:var(--serif);color:var(--on-dark);font-size:1.2rem}
+  footer p{font-size:.84rem;margin:.6rem 0 0;max-width:80ch}
+  footer a{color:var(--brass-lite)}
+  /* imagery */
+  .hero .wrap{display:grid;grid-template-columns:1.12fr .88fr;gap:48px;align-items:center}
+  .hero .himg{border-radius:20px;border:1px solid rgba(201,213,223,.4);box-shadow:0 30px 60px -30px rgba(0,0,0,.55);width:100%;height:auto;display:block}
+  @media (max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:30px}}
+  .fpimg{background:#fff;border-radius:14px;padding:14px;box-shadow:0 12px 28px -14px rgba(0,0,0,.5);width:min(230px,70%);margin-bottom:16px}
+  .fpimg img{width:100%;height:auto;display:block}
+  .aside .pimg{width:150px;height:150px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;display:flex;align-items:center;justify-content:center}
+  .aside .pimg img{max-width:100%;max-height:100%;display:block}
+  @media (max-width:820px){.aside .pimg{width:96px;height:96px;padding:6px}}
+  td.name{display:flex;align-items:center;gap:12px}
+  .thumb{width:46px;height:46px;flex:0 0 auto;background:#fff;border:1px solid var(--line);border-radius:9px;padding:4px}
+  .thumb img{width:100%;height:100%;object-fit:contain;display:block}
+  :focus-visible{outline:2px solid var(--aqua);outline-offset:3px;border-radius:5px}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}.btn:hover,.buy:hover{transform:none}}
+</style>
+<style>
+  /* article layer — prose column only; never restyle .buy / .btn (the a11y block owns them) */
+  .hero.article .wrap{grid-template-columns:1fr;padding:64px 26px 74px}
+  .hero.article h1{max-width:24ch;font-size:clamp(2.1rem,1.3rem+3.1vw,3.5rem)}
+  .byline{margin-top:22px;font-size:.9rem;color:var(--on-dark)}
+  .disclose{font-size:.82rem;color:var(--on-dark-mute);margin:.5rem 0 0;max-width:64ch}
+  .heroshot{margin:-46px 0 0;position:relative;z-index:2}
+  .heroshot img{width:100%;height:auto;display:block;border-radius:var(--radius);border:1px solid var(--line);box-shadow:var(--shadow)}
+  .heroshot figcaption{color:var(--muted);font-size:.82rem;margin-top:10px}
+  .prose{max-width:68ch}
+  .prose p{color:var(--ink-soft)}
+  .prose h3{font-family:var(--serif);font-weight:600;font-size:1.32rem;margin:1.8rem 0 .6rem}
+  .prose ul,.prose ol{color:var(--ink-soft);padding-left:1.2rem;margin:0 0 1rem}
+  .prose li{margin:0 0 .55rem}
+  .prose li b,.prose p b{color:var(--ink)}
+  .prose a{color:var(--aqua-deep);font-weight:600;text-decoration:none;border-bottom:1px solid var(--line)}
+  .prose a:hover{border-bottom-color:var(--aqua-deep)}
+  .toc{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);padding:20px 24px;margin:34px 0 0}
+  .toc .eyebrow{color:var(--aqua-deep)}
+  .toc a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}
+  .toc a:hover{border-bottom-color:var(--aqua-deep)}
+  .mcards{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:24px}
+  @media (max-width:760px){.mcards{grid-template-columns:1fr}}
+  .mcard{display:grid;grid-template-columns:112px 1fr;gap:20px;background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:22px}
+  .mcard .mimg{width:112px;height:112px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:8px;display:flex;align-items:center;justify-content:center}
+  .mcard .mimg img{max-width:100%;max-height:100%;display:block}
+  .mcard h3{font-family:var(--serif);font-weight:600;font-size:1.14rem}
+  .mcard .cls{font-size:.78rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:.35rem 0 .5rem}
+  .mcard p{font-size:.92rem;color:var(--ink-soft);margin:0 0 .9rem}
+  .mcard .foot{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .mcard .pr{font-family:var(--serif);font-size:1.2rem;font-weight:600;font-variant-numeric:tabular-nums}
+  .keep{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:22px}
+  @media (max-width:760px){.keep{grid-template-columns:1fr}}
+  .keep a{display:block;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);
+    padding:20px 22px;text-decoration:none;color:var(--ink);box-shadow:var(--shadow-sm);transition:transform .18s}
+  .keep a:hover{transform:translateY(-2px)}
+  .keep .kt{font-family:var(--serif);font-size:1.1rem;display:block}
+  .keep .kd{color:var(--muted);font-size:.88rem;display:block;margin-top:.35rem}
+  @media (prefers-reduced-motion:reduce){.keep a:hover{transform:none}}
+</style>
+<style id="a11y">:root{--brass-text:#4A5865;--star:#B07E00}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--brass-text:#C9D5DF;--star:#E8B84B}}:root[data-theme="dark"]{--brass-text:#C9D5DF;--star:#E8B84B}nav.site a{color:var(--ink-soft)}.stars{color:var(--star)}thead th{color:var(--ink-soft)}.rev{color:var(--ink-soft)}.kick{color:var(--brass-text)}.win td.name{color:var(--brass-text)}a.btn,a.buy,.btn,.buy{background:#12556F !important;color:#fff !important;text-decoration:none !important}a.btn:hover,a.buy:hover,.btn:hover,.buy:hover{background:#0D4056 !important}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) a.btn,:root:not([data-theme="light"]) a.buy,:root:not([data-theme="light"]) .btn,:root:not([data-theme="light"]) .buy{background:#7FC3DD !important;color:#0B1720 !important}:root:not([data-theme="light"]) .btn:hover,:root:not([data-theme="light"]) .buy:hover{background:#A3D6E9 !important}}:root[data-theme="dark"] a.btn,:root[data-theme="dark"] a.buy,:root[data-theme="dark"] .btn,:root[data-theme="dark"] .buy{background:#7FC3DD !important;color:#0B1720 !important}</style>
+</head>
+<body>
+<header class="site"><div class="wrap bar">
+  <a class="brand" href="/" aria-label="Best Portable Dishwashers">
+    <svg class="logomark" width="36" height="36" viewBox="0 0 40 40" aria-hidden="true">
+      <defs><radialGradient id="lm" cx="34%" cy="26%" r="86%"><stop offset="0" stop-color="#9FB4C2"/><stop offset=".68" stop-color="#33454F"/><stop offset="1" stop-color="#16222B"/></radialGradient></defs>
+      <circle cx="20" cy="20" r="19" fill="url(#lm)"/>
+      <circle cx="20" cy="20" r="18.4" fill="none" stroke="#C9D5DF" stroke-width="1.1" stroke-opacity=".92"/>
+      <circle cx="20" cy="20" r="15.3" fill="none" stroke="#EAF0F5" stroke-width=".6" stroke-opacity=".22"/>
+      <rect x="12.4" y="13.2" width="15.2" height="16" rx="2.2" fill="#F4F8FB"/>
+      <path d="M12.4 24.2h15.2" stroke="#33454F" stroke-width="1" stroke-opacity=".5"/>
+      <circle cx="20" cy="20.4" r="3.1" fill="none" stroke="#1C6E8C" stroke-width="1.5"/>
+      <path d="M20 17.3v-2.5" stroke="#1C6E8C" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M16.1 27.1h7.8" stroke="#8D9AA6" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M20 6.6c1.9 2.4 3 4 3 5.2a3 3 0 0 1-6 0c0-1.2 1.1-2.8 3-5.2Z" fill="#C9D5DF" fill-opacity=".85"/>
+    </svg>
+    <span class="bn">Best&thinsp;Portable&thinsp;Dishwashers</span>
+  </a>
+  <nav class="site" aria-label="Primary">
+    <a href="/#feature">Top pick</a><a href="/#compare">Compare</a><a href="/#picks">The eight</a><a href="/#how">Method</a><a href="/#faq">FAQ</a>
+  <a href="/guides">All guides</a></nav>
+</div></header>
+
+<div class="hero article">
+  <div class="caustic" aria-hidden="true"></div><div class="caustic b" aria-hidden="true"></div>
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">How-to · Troubleshooting</span>
+      <h1 class="serif">Portable Dishwasher Troubleshooting: <em>10 Problems and Fixes</em></h1>
+      <p class="lede">Ten problems account for nearly every complaint in this category: water that won't drain, dishes that come out gritty, a faucet adapter that drips, a flashing code nobody explains, a chalky film on the glasses, and a tub that smells a day after the cycle ends. Work through the most likely cause first — most of this is a five-minute check, not a repair.</p>
+      <div class="byline">By Ilane Tall · Updated August 20, 2026 · Research-based.</div>
+      <p class="disclose">Some links on this page are affiliate links: if you buy through them we may earn a commission, at no extra cost to you. Everything below is general information and manufacturer guidance — your model's manual always outranks this page, and a genuine electrical or water-damage fault needs a technician, not a blog post.</p>
+      <hr class="rule">
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+  <figure class="heroshot">
+    <img src="/images/hero-portable-dishwasher-troubleshooting.webp" alt="A portable dishwasher pulled from the counter with its drain hose, filter and faucet adapter laid out for troubleshooting" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async">
+    <figcaption>Nearly every fault here traces back to the hose, the filter or the adapter — not the machine itself.</figcaption>
+  </figure>
+
+  <section id="intro">
+    <div class="prose">
+      <p>A portable or countertop dishwasher fails in a small, repeatable set of ways, because it's a small, simple machine: one pump, one heater, two spray arms, a filter, a hose to the sink and — on most models — a tank or a faucet adapter instead of fixed plumbing. Almost nothing about it needs a service call.</p>
+      <p>This page works through ten problems in the order people actually hit them: drainage, cleaning quality, the faucet adapter, error codes, white film, and smell. Each section leads with the single most likely cause, because chasing an unlikely one first is how a five-minute fix turns into an afternoon.</p>
+      <p>One thing this page won't do: pretend to have run these machines through a lab. We compare manufacturer guidance, published specifications, and the mechanics common to this category — we don't physically test these machines and we don't publish ratings we can't verify. Where a fix is our judgment rather than a documented spec, we say so.</p>
+      <div class="band">
+        <h3 class="serif">How this page is built</h3>
+        <p>Every step below comes from manufacturer manuals, the physics of a small recirculating dishwasher, and the published specifications of the machines named further down — never from an invented rating or a review score we have no way to verify.</p>
+      </div>
+      <p class="toc"><span class="eyebrow" style="display:block;margin-bottom:.5rem">Ten problems, in order</span><a href="#draining">1–2. Won't drain</a> · <a href="#gritty">3–4. Gritty dishes</a> · <a href="#leaks">5–6. Adapter leaks</a> · <a href="#codes">7. Error codes</a> · <a href="#film">8–9. White film</a> · <a href="#smells">10. It smells</a> · <a href="#machines">By machine</a> · <a href="#safety">When to stop</a> · <a href="#reference">Quick reference</a> · <a href="#faq">FAQ</a></p>
+    </div>
+  </section>
+
+  <section id="draining">
+    <div class="kicker"><span class="eyebrow">Problems 1–2 · The most common call</span></div>
+    <h2 class="h2">The dishwasher won't drain, or leaves standing water</h2>
+    <div class="prose">
+      <p>This is the single most common complaint in the category, and in the large majority of cases it isn't the pump at fault — it's the hose or the filter.</p>
+      <h3>Check the drain hose height and kinks first</h3>
+      <p>The pump in a small countertop dishwasher isn't strong. It's built to push a few liters of water a short distance uphill and out over the lip of a sink, with very little margin. Two hose problems account for most drainage failures: a kink somewhere along the run, and a loop that dips below the level of the machine's own outlet before it climbs to the sink. Water sitting in a low loop acts like a trap — the pump has to lift it twice, and often can't. Pull the machine out, trace the hose end to end, straighten any kink, and make sure the last few inches hook over the sink edge rather than resting in the basin, where a closed drain stopper can siphon water straight back in.</p>
+      <p>Height matters too: the hose has to run in one continuous rise from the machine to the discharge point, with the end secured above the water line so nothing back-flows once the pump stops. Confirm your routing against the number in your manual before assuming the pump has failed — our <a href="/portable-dishwasher-water-hookup-options">guide to hookup options</a> covers hose routing alongside the faucet-versus-tank decision.</p>
+      <h3>The filter nobody cleans</h3>
+      <p>The second cause is the mesh filter in the floor of the tub, under the lower spray arm. These machines recirculate: the pump draws from the sump, pushes water through the arms, and it falls back through the filter to be reused. A filter packed with rice, coffee grounds or a stray piece of food doesn't just get dirty — it blocks the return path the pump depends on, and the machine shows the same drainage failure as a bad pump. Lift it out (most turn a quarter-turn counter-clockwise or lift straight up), rinse it against the direction water normally flows, brush it, and hold it to a light — you should see clear through the whole mesh. Do this weekly if you run the machine most days, and immediately after rice or oatmeal.</p>
+      <p>On tank-fed machines the tank itself is worth a look too: the <a href="https://www.amazon.com/dp/B0FPDFG65H?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">EUHOMY 8-program 5&nbsp;L tank model</a> specifies scraping heavy food waste before loading and keeping the fill opening clear, because anything that gets into the tank eventually ends up at the filter. If the hose and filter both check out and water still stands in the tub, unplug the machine and stop there — a pump that hums but doesn't move water is a parts issue, not a cleaning one.</p>
+    </div>
+  </section>
+
+  <section id="gritty">
+    <div class="kicker"><span class="eyebrow">Problems 3–4 · Cleaning quality</span></div>
+    <h2 class="h2">Dishes come out gritty, or still visibly dirty</h2>
+    <div class="prose">
+      <h3>Loading and the spray arm</h3>
+      <p>Grit on plates that went in clean is almost always redeposited food, not a detergent problem: something too large for the filter got chopped up by the pump and spread back over everything downstream. Scrape plates before loading rather than just rinsing them — a five-liter cycle has no capacity for half a plate of sauce or egg. Nesting bowls and cups so they shield each other from the spray is the second most common cause: nothing gets clean in the water shadow of another dish.</p>
+      <p>Spin each spray arm by hand before a load starts. If it drags rather than turning freely, something is caught under it or in one of the jet holes, and the fix — a toothpick through each hole, never a metal pin, which burrs the molded edge — takes about ten minutes. On the widest machine of the four in this guide, the <a href="https://www.amazon.com/dp/B096RYWSQM?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">COMFEE' 6-place countertop model</a>, there's simply more rack to load wrong, so check loading before suspecting the arm itself.</p>
+      <h3>Detergent type is doing more work than you think</h3>
+      <p>Pods are built for a full-size cycle: a set volume of water, a set temperature, a set duration. A countertop machine runs a fraction of that, and a pod can still be half-dissolved when a short program ends — leaving an actual film of undissolved detergent rather than clean dishes. Powder or gel, dosed for a small machine, is what most manufacturers specify instead. The <a href="https://www.amazon.com/dp/B089YD3Z91?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">NOVETE 5&nbsp;L tank model</a>'s Baby Care program runs hotter for bottle sanitizing — follow that program-specific guidance over a generic full-size assumption. Never substitute hand dish soap — it foams, the suds find the door seal, and no dose is small enough to be safe.</p>
+    </div>
+  </section>
+
+  <section id="leaks">
+    <div class="kicker"><span class="eyebrow">Problems 5–6 · The faucet adapter</span></div>
+    <h2 class="h2">Leaking where the adapter meets the faucet</h2>
+    <div class="prose">
+      <h3>The washer</h3>
+      <p>A slow drip at the coupling, rather than a spray, is almost always the small rubber washer inside the adapter — it seats against the faucet spout to seal the connection, and it's the one part in the whole hookup designed to wear out. It flattens, takes a permanent set, or falls out during a hose change unnoticed. Check it first: pull the adapter off the faucet, look for the washer, and replace it if it's cracked, flattened or missing rather than reseating a worn one and hoping.</p>
+      <h3>The thread</h3>
+      <p>If a fresh washer doesn't stop it, look at the thread engagement next. Most kitchen faucet adapters are built for a standard removable-aerator thread, and the coupling has to thread on straight and fully — a cross-threaded connection can look tight by hand while leaving a gap the washer can't cover. Back it off, restart the thread by hand until it turns freely for a couple of turns, then tighten. A faucet with a pull-down or pull-out sprayer, or a concealed aerator, generally won't take the adapter at all no matter how careful the thread — that's a compatibility problem, not a leak to keep chasing, and it's why a tank-only machine like the <a href="https://www.amazon.com/dp/B0CVX5GBY5?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">EUHOMY no-hookup countertop model</a> exists. Our <a href="/portable-dishwasher-water-hookup-options">faucet adapter vs. built-in tank guide</a> covers which thread types work before you order anything.</p>
+      <p>One more leak source worth ruling out first: the door gasket. Water pooling at the front of the machine, rather than under the faucet, points at the door seal — wipe the gasket fold weekly, since trapped food is the most common reason a gasket stops sealing.</p>
+    </div>
+  </section>
+
+  <section id="codes">
+    <div class="kicker"><span class="eyebrow">Problem 7 · The panel is flashing</span></div>
+    <h2 class="h2">Error codes, and what they usually mean</h2>
+    <div class="prose">
+      <p>Exact codes vary by brand and model — check your manual before acting on anything below — but across this category codes collapse into a handful of failure types, because the machines share the same things that can actually go wrong.</p>
+    </div>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Code type</th><th>What it usually means</th><th>Check first</th></tr></thead>
+      <tbody>
+        <tr><td class="name">Water supply / fill</td><td>No water detected reaching the tub</td><td>Faucet fully open and adapter seated; tank filled past the minimum line</td></tr>
+        <tr><td class="name">Drain</td><td>Pump can't clear the tub in the expected time</td><td>Hose kinks and height; filter blockage — see Problems 1–2</td></tr>
+        <tr><td class="name">Door / lid</td><td>Latch isn't fully engaged</td><td>Overloaded top rack, warped door, obstruction in the seal</td></tr>
+        <tr><td class="name">Temperature / heating</td><td>A cycle ran long enough to trip a safety cutoff</td><td>Often a symptom of a drain or fill problem, not the heater itself</td></tr>
+      </tbody>
+    </table></div>
+    <div class="prose" style="margin-top:22px">
+      <p>If a code repeats after you've cleared the obvious cause, or a full reset — unplug for a minute, then plug back in — doesn't clear it, that's the point to stop and call the manufacturer's support line rather than keep guessing. A persistent code on a machine full of water and running on household current isn't a DIY repair.</p>
+    </div>
+  </section>
+
+  <section id="film">
+    <div class="kicker"><span class="eyebrow">Problems 8–9 · Cloudy glasses, chalky plates</span></div>
+    <h2 class="h2">White film on glasses and dishes</h2>
+    <div class="prose">
+      <h3>Hard water</h3>
+      <p>A white, slightly gritty film that won't wipe off with a cloth is limescale — calcium and magnesium dropping out of solution as the water heats, the same crust that eventually coats a heating element. It's a water-hardness problem, not a machine fault, and it worsens the harder your local water is. Check your utility's water-quality report or a cheap hardness test strip before assuming the dishwasher itself is the problem.</p>
+      <h3>Rinse aid and salt</h3>
+      <p>Rinse aid does more work in a small dishwasher than in a full-size one, because almost none of these machines carry a heated drying element — they rely on residual heat and air, so anything that helps water sheet off rather than bead and evaporate in place directly reduces spotting. Keep the reservoir topped up, and if film persists with it full, the dose may need to go up on machines with an adjustable setting. A separate water-softener salt reservoir, common on full-size European dishwashers, is rare in this category — none of the four machines named on this page list one, so check your own manual before assuming yours has it.</p>
+      <p>Film that survives both a hardness check and a full rinse-aid reservoir is usually scale already built up inside the tub and spray arms, which needs a descaling cycle rather than a detergent change — the full schedule, set by water hardness, is in <a href="/how-to-clean-and-descale-a-portable-dishwasher">our cleaning and descaling guide</a>.</p>
+    </div>
+  </section>
+
+  <section id="smells">
+    <div class="kicker"><span class="eyebrow">Problem 10</span></div>
+    <h2 class="h2">The tub smells, even right after a cycle</h2>
+    <div class="prose">
+      <p>This is close to universal in the category, and it isn't a defect — it's what happens when a sealed plastic box that ran warm and wet gets closed for a day or more before the next load. Most of these machines have no heated drying element, some water sits in the sump by design, and a small household doesn't fill a compact dishwasher daily, so the tub sits warm and damp in the dark — exactly the conditions that let odor-causing residue build up in the sump, the filter and the door-gasket fold.</p>
+      <p>Three things fix nearly all of it. Leave the door cracked open a couple of inches after every load rather than closing it on a wet tub — this single habit prevents most odor complaints. Keep the filter on the weekly schedule from Problem 2; a food-packed filter is a smell source too. And build in a monthly habit: run one empty hot cycle, ideally with a dishwasher cleaner, to flush the sump and gasket fold before a smell shows up. If it survives all three, check the drain hose for a low loop where water sits between cycles — the same routing problem behind Problems 1–2 also causes smell.</p>
+    </div>
+  </section>
+
+  <section id="machines">
+    <div class="kicker"><span class="eyebrow">By machine</span></div>
+    <h2 class="h2">Where these problems show up on four specific machines</h2>
+    <p class="sub">Features quoted from each manufacturer's published specification. Prices move constantly — confirm the current one before buying.</p>
+    <div class="mcards">
+
+      <article class="mcard">
+        <div class="mimg"><img src="/images/amazon-B0CVX5GBY5.webp" alt="EUHOMY countertop dishwasher, no-hookup, 40 dB" width="500" height="500" loading="lazy" decoding="async"></div>
+        <div>
+          <h3>EUHOMY No-Hookup Countertop</h3>
+          <div class="cls">Countertop · 6 programs · 40 dB · no hookup</div>
+          <p>Built around not needing a faucet at all, which sidesteps Problems 5–6 entirely — no adapter to leak or cross-thread. Rated at 40 dB, so a drain-pump whine at the end of a cycle stands out more than on a louder machine; that's expected, not a fault.</p>
+          <div class="foot"><span class="pr">$249.00</span><a class="buy" href="https://www.amazon.com/dp/B0CVX5GBY5?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+        </div>
+      </article>
+
+      <article class="mcard">
+        <div class="mimg"><img src="/images/amazon-B0FPDFG65H.webp" alt="EUHOMY 8-program countertop dishwasher with 5 liter tank in black" width="500" height="500" loading="lazy" decoding="async"></div>
+        <div>
+          <h3>EUHOMY 8-Program, 5&nbsp;L Tank</h3>
+          <div class="cls">Countertop · 8 programs · 5&nbsp;L tank · 40 dB</div>
+          <p>Eight programs mean eight fill-and-drain timings, so if an error code only appears on one program, note which one before calling support — it narrows the fault fast. The 5&nbsp;L tank is the first place to check for standing-water smell, since it holds water between loads.</p>
+          <div class="foot"><span class="pr">$275.38</span><a class="buy" href="https://www.amazon.com/dp/B0FPDFG65H?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+        </div>
+      </article>
+
+      <article class="mcard">
+        <div class="mimg"><img src="/images/amazon-B089YD3Z91.webp" alt="NOVETE countertop dishwasher with 5 liter built-in water tank and inlet hose" width="500" height="500" loading="lazy" decoding="async"></div>
+        <div>
+          <h3>NOVETE 5&nbsp;L Tank &amp; Inlet Hose</h3>
+          <div class="cls">Countertop · 5&nbsp;L tank or faucet · 5 programs · Baby Care · air-dry</div>
+          <p>One of the few machines here that runs from either a tank or an inlet hose, so confirm which mode is active before troubleshooting a drain or fill code — the two fail differently. Its Baby Care program runs hotter for bottle sanitizing, and is the likeliest to trip a heating code if the tub is overloaded.</p>
+          <div class="foot"><span class="pr">$289.99</span><a class="buy" href="https://www.amazon.com/dp/B089YD3Z91?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+        </div>
+      </article>
+
+      <article class="mcard">
+        <div class="mimg"><img src="/images/amazon-B096RYWSQM.webp" alt="COMFEE' 6-place countertop dishwasher, ENERGY STAR" width="500" height="500" loading="lazy" decoding="async"></div>
+        <div>
+          <h3>COMFEE' 6-Place, ENERGY STAR</h3>
+          <div class="cls">Countertop · 6 place settings · faucet-connect · 19.7"D&nbsp;×&nbsp;21.6"W&nbsp;×&nbsp;17.2"H</div>
+          <p>The largest footprint of the four at 21.6 inches wide, so loading mistakes — nesting bowls, an overloaded top rack — are the likelier cause of gritty dishes here than a mechanical fault. Faucet-only, so the washer and thread checks in Problems 5–6 apply directly.</p>
+          <div class="foot"><span class="pr">$309.99</span><a class="buy" href="https://www.amazon.com/dp/B096RYWSQM?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="safety">
+    <div class="kicker"><span class="eyebrow">Before you call for service</span></div>
+    <h2 class="h2">What to check yourself, and when to stop</h2>
+    <div class="prose">
+      <p>Everything above is a five- to twenty-minute check: hose, filter, washer, thread, rack loading, rinse aid. Work through those in order before assuming a part has failed — most service calls in this category turn out to be one of them.</p>
+      <p>Stop and call the manufacturer's support line rather than opening the machine further if: a code repeats after a full reset and an obvious-cause check; the pump hums but no water moves; you smell burning rather than food; a breaker trips when the machine starts; or there's water inside the cabinet the machine sits in, not just around the drain hose. These are 120-volt appliances plumbed to a water supply, and a genuine electrical or leak fault is a manufacturer or technician job. Whether a machine is worth repairing at that point is worth weighing against <a href="/portable-dishwasher-running-costs">what a portable dishwasher costs to run</a>.</p>
+    </div>
+  </section>
+
+  <section id="reference">
+    <div class="kicker"><span class="eyebrow">Copy this</span></div>
+    <h2 class="h2">Ten problems, most likely cause first</h2>
+    <p class="sub">Work down this list before assuming anything needs replacing.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Problem</th><th>Check first</th></tr></thead>
+      <tbody>
+        <tr><td class="name">1. Won't drain</td><td>Hose kinks and a continuous rise to the sink — see <a href="#draining">Problems 1–2</a></td></tr>
+        <tr><td class="name">2. Standing water</td><td>Mesh filter clogged under the lower spray arm</td></tr>
+        <tr><td class="name">3. Gritty dishes</td><td>Scrape before loading; check the spray arm spins freely — see <a href="#gritty">Problems 3–4</a></td></tr>
+        <tr><td class="name">4. Still dirty after a cycle</td><td>Pods vs. powder; correct dose for a small tub</td></tr>
+        <tr><td class="name">5. Slow drip at the adapter</td><td>Replace the rubber washer — see <a href="#leaks">Problems 5–6</a></td></tr>
+        <tr><td class="name">6. Adapter won't seal</td><td>Re-thread it straight; confirm your faucet type is compatible</td></tr>
+        <tr><td class="name">7. Flashing error code</td><td>Match the code type to fill, drain, door or heating — see <a href="#codes">Problem 7</a></td></tr>
+        <tr><td class="name">8. Chalky film</td><td>Test your water hardness — see <a href="#film">Problems 8–9</a></td></tr>
+        <tr><td class="name">9. Spotty glasses</td><td>Top up or increase the rinse-aid dose</td></tr>
+        <tr><td class="name">10. Tub smells</td><td>Crack the door after loads; monthly empty hot cycle — see <a href="#smells">Problem 10</a></td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section id="faq">
+    <div class="kicker"><span class="eyebrow">FAQ</span></div>
+    <h2 class="h2">Common questions</h2>
+    <div class="panel faq" style="margin-top:22px">
+      <details open><summary>Why is my portable dishwasher not draining?</summary><p>Two causes explain most cases. First, the drain hose: check for a kink along its length and confirm it runs in a continuous rise to the sink, with no dip below the machine's own outlet that would trap water. Second, the mesh filter in the floor of the tub — a filter packed with food blocks the water the pump needs to recirculate and exit, which produces the same symptom as a failed pump. Clear both before assuming the pump itself is broken.</p></details>
+      <details><summary>Why do my dishes come out gritty or still dirty?</summary><p>Usually redeposited food rather than a detergent failure: something too large for the filter got broken up by the pump and spread across the load, or dishes were nested in a way that shielded them from the spray. Scrape plates before loading instead of rinsing, spin each spray arm by hand to confirm it isn't jammed, and use powder or gel rather than a pod, which can stay half-dissolved in these machines' short, low-volume cycles.</p></details>
+      <details><summary>Why does my faucet adapter keep leaking?</summary><p>Start with the small rubber washer inside the adapter — it seats against the faucet spout and is the part most likely to wear, flatten or go missing. Replace it before anything else. If the leak continues, check that the coupling is threaded on straight rather than cross-threaded; back it off and restart the thread by hand. A pull-down, pull-out or concealed-aerator faucet generally can't take the adapter at all, which calls for a tank-fed machine instead.</p></details>
+      <details><summary>Why is there a white film on my glasses?</summary><p>Most often hard water: dissolved minerals dropping out as the water heats and leaving a chalky residue, worse the harder your local water is. Check a hardness test strip or your utility's water report, and make sure the rinse-aid reservoir is full — rinse aid does more work in these machines because most lack a heated drying element. If film persists with both addressed, it's usually scale already built up inside the tub, which needs a descaling cycle.</p></details>
+    </div>
+  </section>
+
+  <section id="keep-reading">
+    <div class="kicker"><span class="eyebrow">Keep reading</span></div>
+    <h2 class="h2">Next, from the same shelf</h2>
+    <div class="keep">
+      <a href="/how-to-clean-and-descale-a-portable-dishwasher"><span class="kt">How to Clean and Descale a Portable Dishwasher</span><span class="kd">The maintenance schedule that prevents most of the problems above.</span></a>
+      <a href="/portable-dishwasher-water-hookup-options"><span class="kt">Faucet Adapter vs. Built-In Tank</span><span class="kd">Which water source fits your kitchen, before you troubleshoot one.</span></a>
+      <a href="/are-portable-dishwashers-worth-it"><span class="kt">Are Portable Dishwashers Worth It?</span><span class="kd">The honest cost and water math, repairs included.</span></a>
+      <a href="/guides"><span class="kt">All guides</span><span class="kd">Everything on the site.</span></a>
+    </div>
+  </section>
+
+</div>
+
+<footer class="site"><div class="wrap">
+  <div class="fbrand">Best Portable Dishwashers</div>
+  <p>Independent, research-based comparisons of portable and countertop dishwashers for kitchens without a hookup.</p>
+  <p style="margin:.5rem 0 0"><a href="/about">About</a> · <a href="/guides">All guides</a> · <a href="/contact">Contact</a> · <a href="/privacy">Privacy</a></p>
+  <p>Reader-supported: we may earn a commission when you buy through our links, at no additional cost to you. Comparisons are based on published specifications and pricing; we do not physically test products and we do not publish ratings we cannot verify. Prices change frequently — confirm the current price on Amazon. As an Amazon Associate, we earn from qualifying purchases. © 2026 Best Portable Dishwashers.</p>
+</div></footer>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article",
+ "headline":"Portable Dishwasher Troubleshooting: 10 Problems and Fixes",
+ "description":"Not draining, dishes still dirty, leaking adapter — the most likely cause first, then the fix that actually works.",
+ "image":"https://best-portable-dishwashers.com/images/hero-portable-dishwasher-troubleshooting.webp",
+ "author":{"@type":"Person","name":"Ilane Tall"},
+ "publisher":{"@type":"Organization","name":"Best Portable Dishwashers"},
+ "datePublished":"2026-08-20","dateModified":"2026-08-20",
+ "mainEntityOfPage":{"@type":"WebPage","@id":"https://best-portable-dishwashers.com/portable-dishwasher-troubleshooting"},
+ "articleSection":"How-to"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HowTo",
+ "name":"How to fix a portable dishwasher that won't drain",
+ "description":"The diagnostic routine for a countertop or portable dishwasher that won't drain or leaves standing water, working through the drain hose and the mesh filter before assuming the pump has failed.",
+ "image":"https://best-portable-dishwashers.com/images/hero-portable-dishwasher-troubleshooting.webp",
+ "totalTime":"PT20M",
+ "tool":[{"@type":"HowToTool","name":"Soft brush"},{"@type":"HowToTool","name":"Cloth"}],
+ "step":[
+  {"@type":"HowToStep","position":1,"name":"Unplug the machine and pull it out","text":"Unplug it and pull the machine out far enough to see the full run of the drain hose from the outlet to the sink."},
+  {"@type":"HowToStep","position":2,"name":"Trace the hose for kinks","text":"Follow the hose end to end and straighten any kink. A pinched hose is the single most common drainage failure in this category."},
+  {"@type":"HowToStep","position":3,"name":"Confirm the hose rises continuously","text":"Make sure the hose climbs in one continuous rise to the sink with no low loop that could trap water below the machine's own outlet."},
+  {"@type":"HowToStep","position":4,"name":"Remove and rinse the mesh filter","text":"Lift the filter from the floor of the tub under the lower spray arm, rinse it against the direction water normally flows, and brush it clean."},
+  {"@type":"HowToStep","position":5,"name":"Hold the filter to a light","text":"Check you can see clearly through the whole mesh before refitting it. A partially blocked filter will reproduce the same drainage symptom."},
+  {"@type":"HowToStep","position":6,"name":"Reseat the filter and hose, then test","text":"Refit the filter, secure the hose over the sink edge, plug the machine back in, and run a short rinse-only cycle to confirm it drains before running a full load."}
+ ]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"Why is my portable dishwasher not draining?","acceptedAnswer":{"@type":"Answer","text":"Two causes explain most cases. First, the drain hose: check for a kink along its length and confirm it runs in a continuous rise to the sink, with no dip below the machine's own outlet that would trap water. Second, the mesh filter in the floor of the tub — a filter packed with food blocks the water the pump needs to recirculate and exit, which produces the same symptom as a failed pump. Clear both before assuming the pump itself is broken."}},
+ {"@type":"Question","name":"Why do my dishes come out gritty or still dirty?","acceptedAnswer":{"@type":"Answer","text":"Usually redeposited food rather than a detergent failure: something too large for the filter got broken up by the pump and spread across the load, or dishes were nested in a way that shielded them from the spray. Scrape plates before loading instead of rinsing, spin each spray arm by hand to confirm it isn't jammed, and use powder or gel rather than a pod, which can stay half-dissolved in these machines' short, low-volume cycles."}},
+ {"@type":"Question","name":"Why does my faucet adapter keep leaking?","acceptedAnswer":{"@type":"Answer","text":"Start with the small rubber washer inside the adapter — it seats against the faucet spout and is the part most likely to wear, flatten or go missing. Replace it before anything else. If the leak continues, check that the coupling is threaded on straight rather than cross-threaded; back it off and restart the thread by hand. A pull-down, pull-out or concealed-aerator faucet generally can't take the adapter at all, which calls for a tank-fed machine instead."}},
+ {"@type":"Question","name":"Why is there a white film on my glasses?","acceptedAnswer":{"@type":"Answer","text":"Most often hard water: dissolved minerals dropping out as the water heats and leaving a chalky residue, worse the harder your local water is. Check a hardness test strip or your utility's water report, and make sure the rinse-aid reservoir is full — rinse aid does more work in these machines because most lack a heated drying element. If film persists with both addressed, it's usually scale already built up inside the tub, which needs a descaling cycle."}}
+]}
+</script>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

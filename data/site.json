@@ -135,6 +135,16 @@
       "minutes": 14,
       "date": "2026-08-19",
       "featured": true
+    },
+    {
+      "slug": "portable-dishwasher-troubleshooting",
+      "title": "Portable Dishwasher Troubleshooting: 10 Problems and Fixes",
+      "description": "Not draining, dishes still dirty, leaking adapter — the fixes that work, most likely first.",
+      "category": "How-to",
+      "hero": "hero-portable-dishwasher-troubleshooting",
+      "minutes": 15,
+      "date": "2026-08-20",
+      "featured": true
     }
   ]
 }
