@@ -145,6 +145,16 @@
       "minutes": 15,
       "date": "2026-08-20",
       "featured": true
+    },
+    {
+      "slug": "how-to-load-a-portable-dishwasher",
+      "title": "How to Load a Portable Dishwasher (So Everything Actually Gets Clean)",
+      "description": "Small baskets punish bad loading. The layout rules that fix most 'it doesn't clean well' complaints.",
+      "category": "How-to",
+      "hero": "hero-how-to-load-a-portable-dishwasher",
+      "minutes": 13,
+      "date": "2026-08-21",
+      "featured": true
     }
   ]
 }
