@@ -155,6 +155,16 @@
       "minutes": 13,
       "date": "2026-08-21",
       "featured": true
+    },
+    {
+      "slug": "portable-dishwasher-vs-dish-drying-rack",
+      "title": "Portable Dishwasher vs Hand Washing: An Honest Comparison",
+      "description": "Time, water, counter space and money — when the machine genuinely wins, and when it doesn't.",
+      "category": "Honest take",
+      "hero": "hero-portable-dishwasher-vs-dish-drying-rack",
+      "minutes": 15,
+      "date": "2026-08-22",
+      "featured": true
     }
   ]
 }
