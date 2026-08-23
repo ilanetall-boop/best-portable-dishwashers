@@ -165,6 +165,16 @@
       "minutes": 15,
       "date": "2026-08-22",
       "featured": true
+    },
+    {
+      "slug": "portable-dishwasher-buying-guide",
+      "title": "How to Choose a Portable Dishwasher (2026 Buying Guide)",
+      "description": "Types, sizes, hookups and the specs that matter — with a decision tree that picks your machine.",
+      "category": "Buying guide",
+      "hero": "hero-portable-dishwasher-buying-guide",
+      "minutes": 15,
+      "date": "2026-08-23",
+      "featured": true
     }
   ]
 }
