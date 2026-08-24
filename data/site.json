@@ -175,6 +175,16 @@
       "minutes": 15,
       "date": "2026-08-23",
       "featured": true
+    },
+    {
+      "slug": "best-quiet-portable-dishwashers",
+      "title": "The Quietest Portable Dishwashers (2026)",
+      "description": "In a studio, decibels matter more than programs. The machines you can run while you're in the room.",
+      "category": "Buying guide",
+      "hero": "hero-best-quiet-portable-dishwashers",
+      "minutes": 16,
+      "date": "2026-08-24",
+      "featured": true
     }
   ]
 }
