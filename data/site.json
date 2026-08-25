@@ -185,6 +185,16 @@
       "minutes": 16,
       "date": "2026-08-24",
       "featured": true
+    },
+    {
+      "slug": "portable-dishwasher-maintenance-guide",
+      "title": "Portable Dishwasher Maintenance: The Monthly Routine That Prevents Repairs",
+      "description": "Filters, hoses, seals and hard water — 20 minutes a month is the difference between five years and two.",
+      "category": "How-to",
+      "hero": "hero-portable-dishwasher-maintenance-guide",
+      "minutes": 14,
+      "date": "2026-08-25",
+      "featured": true
     }
   ]
 }
