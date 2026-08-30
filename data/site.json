@@ -195,6 +195,16 @@
       "minutes": 14,
       "date": "2026-08-25",
       "featured": true
+    },
+    {
+      "slug": "portable-dishwasher-vs-built-in",
+      "title": "Portable vs Built-In Dishwasher: What You Give Up",
+      "description": "No plumbing, no cabinet cut, no landlord conversation. And three trade-offs nobody mentions until you own one.",
+      "category": "Comparison",
+      "hero": "hero-portable-dishwasher-vs-built-in",
+      "minutes": 16,
+      "date": "2026-08-30",
+      "featured": true
     }
   ]
 }
