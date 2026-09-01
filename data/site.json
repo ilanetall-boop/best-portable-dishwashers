@@ -215,6 +215,16 @@
       "minutes": 16,
       "date": "2026-08-31",
       "featured": true
+    },
+    {
+      "slug": "portable-dishwasher-detergent-guide",
+      "title": "Which Detergent for a Portable Dishwasher, and How Much",
+      "description": "Pods, powder or gel. The dispenser on a small tub behaves nothing like the one in a built-in.",
+      "category": "Guide",
+      "hero": "hero-portable-dishwasher-detergent-guide",
+      "minutes": 14,
+      "date": "2026-09-01",
+      "featured": true
     }
   ]
 }
