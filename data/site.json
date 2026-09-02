@@ -225,6 +225,16 @@
       "minutes": 14,
       "date": "2026-09-01",
       "featured": true
+    },
+    {
+      "slug": "why-portable-dishwashers-leave-dishes-wet",
+      "title": "Why Your Portable Dishwasher Leaves Dishes Wet",
+      "description": "Condensation drying, no heating element, and the four habits that fix most of it.",
+      "category": "Guide",
+      "hero": "hero-why-portable-dishwashers-leave-dishes-wet",
+      "minutes": 15,
+      "date": "2026-09-02",
+      "featured": true
     }
   ]
 }
