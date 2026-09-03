@@ -235,6 +235,16 @@
       "minutes": 15,
       "date": "2026-09-02",
       "featured": true
+    },
+    {
+      "slug": "portable-dishwasher-cycle-times-explained",
+      "title": "Why a Portable Dishwasher Cycle Takes Two Hours",
+      "description": "Small heater, small pump, long soak. What each programme is actually doing with that time, and which ones you can skip.",
+      "category": "Guide",
+      "hero": "hero-portable-dishwasher-cycle-times-explained",
+      "minutes": 15,
+      "date": "2026-09-03",
+      "featured": true
     }
   ]
 }
