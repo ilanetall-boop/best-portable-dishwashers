@@ -245,6 +245,16 @@
       "minutes": 15,
       "date": "2026-09-03",
       "featured": true
+    },
+    {
+      "slug": "best-energy-star-portable-dishwashers",
+      "title": "The Best Energy Star Portable Dishwashers",
+      "description": "The certification means a measured water and power figure, not a marketing claim. What it buys per year.",
+      "category": "Buying guide",
+      "hero": "hero-best-energy-star-portable-dishwashers",
+      "minutes": 16,
+      "date": "2026-09-04",
+      "featured": true
     }
   ]
 }
