@@ -255,6 +255,16 @@
       "minutes": 16,
       "date": "2026-09-04",
       "featured": true
+    },
+    {
+      "slug": "best-portable-dishwashers-for-hard-water",
+      "title": "The Best Portable Dishwashers for Hard Water",
+      "description": "Limescale is what kills small dishwashers. The features that delay it, and the one that prevents it.",
+      "category": "Buying guide",
+      "hero": "hero-best-portable-dishwashers-for-hard-water",
+      "minutes": 15,
+      "date": "2026-09-05",
+      "featured": true
     }
   ]
 }
