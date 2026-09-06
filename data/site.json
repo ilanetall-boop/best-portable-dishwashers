@@ -265,6 +265,16 @@
       "minutes": 15,
       "date": "2026-09-05",
       "featured": true
+    },
+    {
+      "slug": "how-much-water-does-a-portable-dishwasher-use",
+      "title": "How Much Water a Portable Dishwasher Really Uses",
+      "description": "Less than a hand wash, more than the box implies. The figures, per cycle and per year.",
+      "category": "Guide",
+      "hero": "hero-how-much-water-does-a-portable-dishwasher-use",
+      "minutes": 15,
+      "date": "2026-09-06",
+      "featured": true
     }
   ]
 }
