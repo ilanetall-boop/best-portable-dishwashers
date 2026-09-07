@@ -275,6 +275,16 @@
       "minutes": 15,
       "date": "2026-09-06",
       "featured": true
+    },
+    {
+      "slug": "why-your-portable-dishwasher-smells",
+      "title": "Why Your Portable Dishwasher Smells (and How to Stop It)",
+      "description": "Small tubs dry slowly and hold water in three places. All three are cleanable in ten minutes.",
+      "category": "Guide",
+      "hero": "hero-why-your-portable-dishwasher-smells",
+      "minutes": 12,
+      "date": "2026-09-07",
+      "featured": true
     }
   ]
 }
