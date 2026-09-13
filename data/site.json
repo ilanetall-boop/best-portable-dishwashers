@@ -295,6 +295,16 @@
       "minutes": 14,
       "date": "2026-09-08",
       "featured": true
+    },
+    {
+      "slug": "portable-dishwasher-power-and-outlet-requirements",
+      "title": "What a Portable Dishwasher Needs From Your Outlet",
+      "description": "They heat their own water, which is why an extension cord is the wrong answer and a shared circuit trips.",
+      "category": "Guide",
+      "hero": "hero-portable-dishwasher-power-and-outlet-requirements",
+      "minutes": 14,
+      "date": "2026-09-13",
+      "featured": true
     }
   ]
 }
