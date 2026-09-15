@@ -315,6 +315,16 @@
       "minutes": 14,
       "date": "2026-09-14",
       "featured": true
+    },
+    {
+      "slug": "best-portable-dishwashers-under-400",
+      "title": "The Best Portable Dishwashers Under $400",
+      "description": "The band where countertop models stop cutting corners: real place settings, a stainless tub and a cycle that actually dries.",
+      "category": "Roundup",
+      "hero": "hero-best-portable-dishwashers-under-400",
+      "minutes": 16,
+      "date": "2026-09-15",
+      "featured": true
     }
   ]
 }
