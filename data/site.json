@@ -335,6 +335,16 @@
       "minutes": 16,
       "date": "2026-09-16",
       "featured": true
+    },
+    {
+      "slug": "moving-and-storing-a-portable-dishwasher-between-uses",
+      "title": "Moving and Storing a Portable Dishwasher Between Uses",
+      "description": "Rolling an 18-inch machine to the sink and back is routine for some owners and a dealbreaker for others. What the wheels, weight and hoses actually involve.",
+      "category": "How-to",
+      "hero": "hero-moving-and-storing-a-portable-dishwasher-between-uses",
+      "minutes": 16,
+      "date": "2026-09-17",
+      "featured": true
     }
   ]
 }
