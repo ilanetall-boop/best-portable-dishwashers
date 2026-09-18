@@ -345,6 +345,16 @@
       "minutes": 16,
       "date": "2026-09-17",
       "featured": true
+    },
+    {
+      "slug": "can-a-portable-dishwasher-clean-pots-and-pans",
+      "title": "Can a Portable Dishwasher Actually Clean Pots and Pans?",
+      "description": "The spec sheets are blunter than the marketing photos: several listings say outright that bulky pots don't belong inside. What actually fits, and what doesn't.",
+      "category": "Honest take",
+      "hero": "hero-can-a-portable-dishwasher-clean-pots-and-pans",
+      "minutes": 14,
+      "date": "2026-09-18",
+      "featured": true
     }
   ]
 }
