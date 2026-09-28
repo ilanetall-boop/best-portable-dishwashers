@@ -64,7 +64,7 @@ const PAGES = {
     lede: `${N} exists because buying a dishwasher for a kitchen with no hookup is unnecessarily hard: dozens of near-identical listings from brands you&rsquo;ve never heard of, flattering capacity claims, and no easy way to tell whether the machine will even fit under your cabinets. We do the comparing.`,
     body: `
 <h2 id="who">Who writes this</h2>
-<p class="lead">${N} is written and edited by ${A} and published by Neclid LTD, a small company based in Ashdod, Israel, writing for a US audience.</p>
+<p class="lead">${N} is written and edited by ${A} and published by Neto Consulting & Services Ltd (UK company 17423608), writing for a US audience.</p>
 <p>There is no anonymous content team here and no rotating cast of invented experts with stock-photo headshots. One editor makes the calls, and the reasoning behind each call is written out on the page so you can disagree with it. If a recommendation on this site is wrong, there is exactly one person to hold responsible for it.</p>
 
 <h2 id="method">How we choose what to recommend</h2>
@@ -95,8 +95,8 @@ const PAGES = {
     schema: () => JSON.stringify({
       '@context': 'https://schema.org', '@type': 'AboutPage',
       url: `${U}/about`, name: `About ${N}`,
-      publisher: { '@type': 'Organization', name: 'Neclid LTD', url: U, address: { '@type': 'PostalAddress', addressLocality: 'Ashdod', addressCountry: 'IL' } },
-      about: { '@type': 'Person', name: A, jobTitle: 'Editor', worksFor: { '@type': 'Organization', name: 'Neclid LTD' } }
+      publisher: { '@type': 'Organization', name: 'Neto Consulting & Services Ltd', url: U, address: { '@type': 'PostalAddress', addressCountry: 'GB' } },
+      about: { '@type': 'Person', name: A, jobTitle: 'Editor', worksFor: { '@type': 'Organization', name: 'Neto Consulting & Services Ltd' } }
     })
   },
 
@@ -126,7 +126,7 @@ const PAGES = {
 </ul>
 
 <h2 id="who">Who you&rsquo;re writing to</h2>
-<p>${N} is written by ${A} and published by Neclid LTD, Ashdod, Israel. More about the method and the no-ratings policy is on the <a href="/about">about page</a>.</p>`,
+<p>${N} is written by ${A} and published by Neto Consulting & Services Ltd (UK company 17423608). More about the method and the no-ratings policy is on the <a href="/about">about page</a>.</p>`,
     schema: () => JSON.stringify({
       '@context': 'https://schema.org', '@type': 'ContactPage', url: `${U}/contact`, name: `Contact ${N}`,
       mainEntity: { '@type': 'Organization', name: N, email: `hello@${D}`, url: U }
@@ -163,10 +163,10 @@ const PAGES = {
 <p>You can block analytics with a browser extension or your browser&rsquo;s tracker-blocking setting; you can clear affiliate cookies through your browser at any time; and if you believe we hold data about you and want it removed, write to <a href="mailto:hello@${D}">hello@${D}</a> and we will deal with it.</p>
 
 <h2 id="who">Who we are</h2>
-<p>${N} is published by Neclid LTD, Ashdod, Israel. Questions about this policy: <a href="mailto:hello@${D}">hello@${D}</a>. See also <a href="/about">about</a> and <a href="/contact">contact</a>.</p>`,
+<p>${N} is published by Neto Consulting & Services Ltd (UK company 17423608). Questions about this policy: <a href="mailto:hello@${D}">hello@${D}</a>. See also <a href="/about">about</a> and <a href="/contact">contact</a>.</p>`,
     schema: () => JSON.stringify({
       '@context': 'https://schema.org', '@type': 'WebPage', url: `${U}/privacy`, name: `Privacy Policy — ${N}`,
-      publisher: { '@type': 'Organization', name: 'Neclid LTD' }
+      publisher: { '@type': 'Organization', name: 'Neto Consulting & Services Ltd' }
     })
   }
 };
@@ -197,7 +197,7 @@ ${header}
 <div class="phero"><div class="wrap"><span class="eyebrow">${p.eyebrow}</span><h1 class="serif">${p.h1}</h1><p>${p.lede}</p></div></div>
 <div class="wrap"><div class="prose">
 ${p.body.trim()}
-<p class="meta-updated">Last updated ${UPDATED} · ${N} · Published by Neclid LTD, Ashdod, Israel.</p>
+<p class="meta-updated">Last updated ${UPDATED} · ${N} · Published by Neto Consulting & Services Ltd (UK company 17423608).</p>
 </div></div>
 ${footer}
 <script type="application/ld+json">
