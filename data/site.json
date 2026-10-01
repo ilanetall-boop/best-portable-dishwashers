@@ -439,6 +439,16 @@
       "minutes": 15,
       "date": "2026-10-01",
       "featured": true
+    },
+    {
+      "slug": "best-portable-dishwashers-for-camping-and-boats",
+      "title": "The Best Portable Dishwashers for Camping and Boats",
+      "description": "No shore water, no dock hookup, sometimes a generator instead of a full circuit. The tank-and-faucet dual-mode machines actually built for that.",
+      "category": "Buying advice",
+      "hero": "hero-best-portable-dishwashers-for-camping-and-boats",
+      "minutes": 17,
+      "date": "2026-10-02",
+      "featured": true
     }
   ]
 }
