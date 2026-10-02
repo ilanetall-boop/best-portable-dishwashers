@@ -449,6 +449,16 @@
       "minutes": 17,
       "date": "2026-10-02",
       "featured": true
+    },
+    {
+      "slug": "best-portable-dishwashers-under-200",
+      "title": "The Best Portable Dishwashers Under $200",
+      "description": "What $140 to $200 actually buys in a countertop dishwasher, and which corners get cut first at this price.",
+      "category": "Budget picks",
+      "hero": "hero-best-portable-dishwashers-under-200",
+      "minutes": 14,
+      "date": "2026-10-03",
+      "featured": true
     }
   ]
 }
