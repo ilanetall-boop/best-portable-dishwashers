@@ -459,6 +459,16 @@
       "minutes": 14,
       "date": "2026-10-03",
       "featured": true
+    },
+    {
+      "slug": "white-vs-stainless-steel-portable-dishwashers",
+      "title": "White or Stainless Steel? Choosing a Portable Dishwasher Finish",
+      "description": "The finish changes the price, the fingerprint maintenance, and how well it matches a rental kitchen. What to weigh before picking a color.",
+      "category": "Guide",
+      "hero": "hero-white-vs-stainless-steel-portable-dishwashers",
+      "minutes": 17,
+      "date": "2026-10-04",
+      "featured": true
     }
   ]
 }
