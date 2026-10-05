@@ -479,6 +479,16 @@
       "minutes": 15,
       "date": "2026-10-05",
       "featured": true
+    },
+    {
+      "slug": "what-comes-in-the-box-with-a-portable-dishwasher",
+      "title": "What Comes in the Box With a Portable Dishwasher (and What You'll Still Need)",
+      "description": "The adapter, the hoses and the manual are standard. The extra fittings or drain bucket you'll likely need to buy separately depend on the model.",
+      "category": "How-to",
+      "hero": "hero-what-comes-in-the-box-with-a-portable-dishwasher",
+      "minutes": 14,
+      "date": "2026-10-06",
+      "featured": true
     }
   ]
 }
