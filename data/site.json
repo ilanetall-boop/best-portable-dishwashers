@@ -509,6 +509,16 @@
       "minutes": 15,
       "date": "2026-10-08",
       "featured": true
+    },
+    {
+      "slug": "how-long-does-a-portable-dishwasher-last",
+      "title": "How Long Does a Portable Dishwasher Actually Last?",
+      "description": "Small pumps, small heaters and more moving parts pushed harder per cycle. What shortens a machine's life, and when replacing beats repairing.",
+      "category": "Honest take",
+      "hero": "hero-how-long-does-a-portable-dishwasher-last",
+      "minutes": 15,
+      "date": "2026-10-09",
+      "featured": true
     }
   ]
 }
