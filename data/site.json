@@ -519,6 +519,16 @@
       "minutes": 15,
       "date": "2026-10-09",
       "featured": true
+    },
+    {
+      "slug": "rinse-only-and-quick-cycles-on-a-portable-dishwasher",
+      "title": "Rinse-Only and Quick Cycles on a Portable Dishwasher: When to Use Them",
+      "description": "A 20-minute quick cycle isn't a shortcut for dirty dishes. What it's actually built for, and where a full Normal cycle is still the right call.",
+      "category": "Guide",
+      "hero": "hero-rinse-only-and-quick-cycles-on-a-portable-dishwasher",
+      "minutes": 14,
+      "date": "2026-10-10",
+      "featured": true
     }
   ]
 }
