@@ -609,6 +609,16 @@
       "minutes": 14,
       "date": "2026-10-18",
       "featured": true
+    },
+    {
+      "slug": "spt-sd-9263-finish-variants-explained",
+      "title": "SPT SD-9263: Why There Are Seven Nearly Identical Listings (and How to Pick One)",
+      "description": "Same model number, seven different listings. What the suffix letters on an SD-9263 actually mean.",
+      "category": "Honest take",
+      "hero": "hero-spt-sd-9263-finish-variants-explained",
+      "minutes": 15,
+      "date": "2026-10-19",
+      "featured": true
     }
   ]
 }
