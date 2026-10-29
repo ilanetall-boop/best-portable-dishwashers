@@ -709,6 +709,16 @@
       "minutes": 14,
       "date": "2026-10-28",
       "featured": true
+    },
+    {
+      "slug": "half-load-and-small-batch-cycles-on-a-portable-dishwasher",
+      "title": "Half Load and Mini-Party Cycles: Running a Portable Dishwasher for Just a Few Dishes",
+      "description": "A full cycle on a half-empty rack wastes water and detergent. The machines built with a dedicated small-batch program instead.",
+      "category": "Guide",
+      "hero": "hero-half-load-and-small-batch-cycles-on-a-portable-dishwasher",
+      "minutes": 13,
+      "date": "2026-10-29",
+      "featured": true
     }
   ]
 }

@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Half Load and Mini-Party Cycles: Running a Portable Dishwasher for Just a Few Dishes</title>
+<meta name="description" content="A full cycle on a half-empty rack wastes water and detergent. The machines built with a dedicated small-batch program instead.">
+<link rel="canonical" href="https://best-portable-dishwashers.com/half-load-and-small-batch-cycles-on-a-portable-dishwasher">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Best Portable Dishwashers">
+<meta property="og:title" content="Half Load and Mini-Party Cycles: Running a Portable Dishwasher for Just a Few Dishes">
+<meta property="og:description" content="A dishwasher's fill level and heat time are set for a full rack, not whatever's actually in it. The two different ways machines correct for that, by the numbers on the spec sheet.">
+<meta property="og:image" content="https://best-portable-dishwashers.com/images/hero-half-load-and-small-batch-cycles-on-a-portable-dishwasher.webp">
+<meta property="og:url" content="https://best-portable-dishwashers.com/half-load-and-small-batch-cycles-on-a-portable-dishwasher">
+<meta name="theme-color" content="#101820">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="alternate icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  /* premium-editorial-v1 — palette: steel / slate / water-blue.
+     NOTE: the --aqua* and --brass* variable names are inherited from the network template;
+     on this site --aqua carries the water-blue accent and --brass carries brushed chrome.
+     Do not rename (tools/rebuild-site.js and every article file reference them). */
+  :root{
+    --ground:#F4F6F8; --surface:#FFFFFF; --surface-2:#E9EEF3;
+    --ink:#131A21; --ink-soft:#2E3A45; --muted:#69757F; --line:#DCE3EA;
+    --aqua:#1C6E8C; --aqua-deep:#12556F; --aqua-tint:#E8F1F6;
+    --brass:#8D9AA6; --brass-lite:#C9D5DF; --brass-tint:#EDF1F5;
+    --dark:#101820; --dark-2:#1D2A35; --on-dark:#EAF0F5; --on-dark-mute:#9CACB9;
+    --star:#B07E00;
+    --shadow:0 1px 2px rgba(19,26,33,.05),0 22px 48px -26px rgba(19,26,33,.30);
+    --shadow-sm:0 1px 2px rgba(19,26,33,.05),0 10px 24px -16px rgba(19,26,33,.24);
+    --radius:20px; --radius-sm:12px; --maxw:1120px;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ground:#0C1116; --surface:#151E26; --surface-2:#1E2A34;
+    --ink:#EAF0F5; --ink-soft:#CBD7E0; --muted:#93A2AE; --line:#28353F;
+    --aqua:#5CA9C8; --aqua-deep:#7FC3DD; --aqua-tint:#122530;
+    --brass:#C9D5DF; --brass-lite:#DDE7EF; --brass-tint:#16222B;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }}
+  :root[data-theme="dark"]{
+    --ground:#0C1116; --surface:#151E26; --surface-2:#1E2A34;
+    --ink:#EAF0F5; --ink-soft:#CBD7E0; --muted:#93A2AE; --line:#28353F;
+    --aqua:#5CA9C8; --aqua-deep:#7FC3DD; --aqua-tint:#122530;
+    --brass:#C9D5DF; --brass-lite:#DDE7EF; --brass-tint:#16222B;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+    font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  a{color:inherit}
+  h1,h2,h3{margin:0;line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
+  .serif{font-family:var(--serif)}
+  p{margin:0 0 1rem}
+  .eyebrow{font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+  .tnum{font-variant-numeric:tabular-nums}
+  .stars{color:var(--star);letter-spacing:2px}
+
+  /* ---------- header ---------- */
+  header.site{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--ground) 82%,transparent);
+    backdrop-filter:saturate(1.3) blur(12px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-weight:700;letter-spacing:-.01em}
+  .brand .bn{font-family:var(--serif);font-size:1.16rem}
+  nav.site a{color:var(--muted);text-decoration:none;font-size:.86rem;font-weight:600;letter-spacing:.01em;margin-left:22px;transition:color .2s}
+  nav.site a:hover{color:var(--ink)}
+  @media (max-width:660px){nav.site{display:none}}
+
+  /* ---------- hero (immersive dark, water shimmer) ---------- */
+  .hero{position:relative;background:radial-gradient(120% 90% at 80% -10%,var(--dark-2),var(--dark) 60%);color:var(--on-dark);overflow:hidden;isolation:isolate}
+  .caustic{position:absolute;inset:-30%;z-index:0;opacity:.5;pointer-events:none;filter:blur(30px);
+    background:
+      radial-gradient(28% 40% at 22% 30%,rgba(92,169,200,.26),transparent 60%),
+      radial-gradient(24% 34% at 74% 24%,rgba(201,213,223,.20),transparent 60%),
+      radial-gradient(30% 42% at 60% 78%,rgba(28,110,140,.28),transparent 62%);
+    animation:drift 22s ease-in-out infinite alternate}
+  .caustic.b{opacity:.34;animation-duration:30s;animation-direction:alternate-reverse;
+    background:
+      radial-gradient(26% 36% at 40% 60%,rgba(127,195,221,.22),transparent 60%),
+      radial-gradient(22% 30% at 85% 70%,rgba(141,154,166,.20),transparent 60%)}
+  @keyframes drift{0%{transform:translate3d(-2%,-1%,0) scale(1)}50%{transform:translate3d(3%,2%,0) scale(1.08)}100%{transform:translate3d(-1%,3%,0) scale(1.04)}}
+  .hero .wrap{position:relative;z-index:1;padding:74px 26px 88px}
+  .hero .eyebrow{color:var(--brass-lite)}
+  .hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,1.4rem+4.6vw,4.7rem);letter-spacing:-.02em;max-width:15ch;margin:.5rem 0 0}
+  .hero h1 em{font-style:italic;color:var(--brass-lite)}
+  .hero .lede{font-size:1.24rem;line-height:1.55;color:var(--on-dark-mute);max-width:52ch;margin-top:1.3rem}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:26px;font-size:.86rem;color:var(--on-dark-mute)}
+  .hero .meta b{color:var(--on-dark)}
+  .rule{height:1px;background:linear-gradient(90deg,var(--brass),transparent);border:0;margin:26px 0 0;max-width:220px}
+
+  /* ---------- #1 feature (the centerpiece) ---------- */
+  .feature{position:relative;z-index:2;margin:-56px 0 0}
+  .feature .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    display:grid;grid-template-columns:1.1fr 1fr;overflow:hidden}
+  .feature .left{padding:38px}
+  .feature .kick{display:inline-flex;align-items:center;gap:9px;color:var(--brass-text);font-weight:700;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase}
+  .feature .kick::before{content:"";width:26px;height:1px;background:var(--brass)}
+  .feature h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.8rem,1.2rem+2vw,2.7rem);margin:.5rem 0 .2rem}
+  .feature .verdict{color:var(--ink-soft);font-size:1.06rem;margin:.4rem 0 1rem;max-width:44ch}
+  .feature .rl{display:flex;align-items:center;flex-wrap:wrap;gap:8px 10px;font-size:.92rem;color:var(--muted);margin-bottom:1.2rem}
+  .feature .rl b{color:var(--ink)}
+  .btn{display:inline-flex;align-items:center;gap:9px;background:var(--aqua);color:#fff;font-weight:700;
+    padding:14px 26px;border-radius:12px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,background .2s}
+  .btn:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  .btn .arw{transition:transform .2s}.btn:hover .arw{transform:translateX(3px)}
+  .feature .right{background:linear-gradient(160deg,var(--dark-2),var(--dark));color:var(--on-dark);padding:38px;display:flex;flex-direction:column;justify-content:center;gap:6px;position:relative}
+  .feature .right .lab{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-mute)}
+  .feature .bigprice{font-family:var(--serif);font-size:clamp(3rem,2rem+4vw,4.4rem);font-weight:600;line-height:1;color:var(--brass-lite)}
+  .feature .bigprice sup{font-size:.4em;top:-1.2em;color:var(--on-dark)}
+  .feature .right .note{color:var(--on-dark-mute);font-size:.92rem;margin-top:6px;max-width:30ch}
+  .feature .right .mono{margin-top:16px;font-family:var(--serif);font-size:1.05rem;color:var(--on-dark)}
+  @media (max-width:820px){.feature .card{grid-template-columns:1fr}.feature .right{order:-1}}
+
+  /* ---------- generic section ---------- */
+  section{padding:44px 0}
+  .kicker{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+  .kicker .eyebrow{color:var(--aqua-deep)}
+  .kicker::after{content:"";flex:1;height:1px;background:var(--line)}
+  .h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,1.2rem+1.7vw,2.5rem);letter-spacing:-.01em}
+  .sub{color:var(--muted);max-width:62ch;margin:.6rem 0 0}
+
+  .notes{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:24px}
+  .notes .n{background:var(--surface);padding:24px}
+  .notes .num{font-family:var(--serif);font-size:1.5rem;color:var(--brass-text);line-height:1}
+  .notes h3{font-size:1.02rem;font-weight:750;margin:.5rem 0 .35rem}
+  .notes p{font-size:.9rem;color:var(--muted);margin:0}
+  @media (max-width:820px){.notes{grid-template-columns:1fr 1fr}}
+  @media (max-width:520px){.notes{grid-template-columns:1fr}}
+
+  /* honesty band */
+  .band{background:var(--brass-tint);border:1px solid var(--line);border-left:3px solid var(--brass);
+    border-radius:var(--radius-sm);padding:22px 24px;margin-top:26px}
+  .band h3{font-family:var(--serif);font-weight:600;font-size:1.16rem;margin-bottom:.5rem}
+  .band p{color:var(--ink-soft);font-size:.95rem;margin:0}
+  .band p+p{margin-top:.6rem}
+
+  /* comparison */
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);background:var(--surface);margin-top:22px}
+  table{border-collapse:collapse;width:100%;min-width:740px;font-size:.94rem}
+  thead th{background:var(--surface-2);text-align:left;padding:16px;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+  td{padding:15px 16px;border-bottom:1px solid var(--line);vertical-align:middle}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:hover{background:var(--surface-2)}
+  td.name{font-family:var(--serif);font-weight:600;font-size:1.05rem}
+  .win td{background:var(--brass-tint)}
+  .win td.name{color:var(--brass-text)}
+  .win td:first-child{box-shadow:inset 3px 0 0 var(--brass)}
+  .price{font-weight:800;font-variant-numeric:tabular-nums}
+  .rev{color:var(--muted);font-size:.82rem}
+  .tget{display:inline-block;background:var(--ink);color:var(--surface);font-weight:700;font-size:.8rem;padding:8px 14px;border-radius:9px;text-decoration:none;white-space:nowrap;transition:background .2s}
+  .tget:hover{background:var(--aqua-deep);color:#fff}
+
+  /* picks (editorial cards) */
+  .picks{display:flex;flex-direction:column;gap:26px;margin-top:26px}
+  .pick{display:grid;grid-template-columns:96px 1fr auto;gap:26px;align-items:start;
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:28px}
+  .pick .rank{font-family:var(--serif);font-size:2.6rem;color:var(--brass-text);line-height:.9;font-weight:600}
+  .pick .rank small{display:block;font-family:var(--sans);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:8px}
+  .pick h3{font-family:var(--serif);font-weight:600;font-size:1.44rem}
+  .pick .who{color:var(--aqua-deep);font-weight:700;font-size:.9rem;margin:.25rem 0 .5rem}
+  .pick .rl2{display:flex;align-items:center;flex-wrap:wrap;gap:6px 8px;font-size:.86rem;color:var(--muted);margin-bottom:.7rem}
+  .pick .rl2 b{color:var(--ink)}
+  .pick p.body{margin:.2rem 0 0;color:var(--ink-soft)}
+  .quote{border-left:2px solid var(--brass);padding-left:14px;margin:.9rem 0 0;font-family:var(--serif);color:var(--ink);font-size:1.02rem}
+  .quote b{font-family:var(--sans);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass-text);display:block;margin-bottom:.2rem;font-weight:700}
+  .aside{display:flex;flex-direction:column;align-items:flex-end;gap:12px;text-align:right;min-width:150px}
+  .aside .pr{font-family:var(--serif);font-size:2rem;font-weight:600;font-variant-numeric:tabular-nums;line-height:1}
+  .aside .tag{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .buy{display:inline-flex;align-items:center;gap:8px;background:var(--aqua);color:#fff;font-weight:700;padding:11px 20px;border-radius:10px;text-decoration:none;transition:background .2s,transform .15s;font-size:.92rem}
+  .buy:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  @media (max-width:820px){.pick{grid-template-columns:64px 1fr}.aside{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;text-align:left;border-top:1px solid var(--line);padding-top:16px}}
+
+  /* method / faq */
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:22px}
+  @media (max-width:760px){.cols{grid-template-columns:1fr}}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm)}
+  .panel .eyebrow{color:var(--aqua-deep)}
+  .panel h3{font-family:var(--serif);font-weight:600;font-size:1.3rem;margin:.5rem 0 .5rem}
+  .panel p{color:var(--muted);margin:0}
+  .faq details{border-top:1px solid var(--line);padding:16px 0}
+  .faq details:first-of-type{border-top:0}
+  .faq summary{cursor:pointer;font-family:var(--serif);font-size:1.12rem;list-style:none;display:flex;justify-content:space-between;gap:14px;color:var(--ink)}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--brass-text);font-family:var(--sans);font-weight:700}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{margin:.8rem 0 0;color:var(--muted)}
+
+  footer.site{margin-top:20px;background:var(--dark);color:var(--on-dark-mute)}
+  footer .wrap{padding:40px 26px}
+  footer .fbrand{font-family:var(--serif);color:var(--on-dark);font-size:1.2rem}
+  footer p{font-size:.84rem;margin:.6rem 0 0;max-width:80ch}
+  footer a{color:var(--brass-lite)}
+  /* imagery */
+  .hero .wrap{display:grid;grid-template-columns:1.12fr .88fr;gap:48px;align-items:center}
+  .hero .himg{border-radius:20px;border:1px solid rgba(201,213,223,.4);box-shadow:0 30px 60px -30px rgba(0,0,0,.55);width:100%;height:auto;display:block}
+  @media (max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:30px}}
+  .fpimg{background:#fff;border-radius:14px;padding:14px;box-shadow:0 12px 28px -14px rgba(0,0,0,.5);width:min(230px,70%);margin-bottom:16px}
+  .fpimg img{width:100%;height:auto;display:block}
+  .aside .pimg{width:150px;height:150px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;display:flex;align-items:center;justify-content:center}
+  .aside .pimg img{max-width:100%;max-height:100%;display:block}
+  @media (max-width:820px){.aside .pimg{width:96px;height:96px;padding:6px}}
+  td.name{display:flex;align-items:center;gap:12px}
+  .thumb{width:46px;height:46px;flex:0 0 auto;background:#fff;border:1px solid var(--line);border-radius:9px;padding:4px}
+  .thumb img{width:100%;height:100%;object-fit:contain;display:block}
+  :focus-visible{outline:2px solid var(--aqua);outline-offset:3px;border-radius:5px}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}.btn:hover,.buy:hover{transform:none}}
+</style>
+<style>
+  /* article layer — prose column only; never restyle .buy / .btn (the a11y block owns them) */
+  .prose{max-width:68ch}
+  .prose p{color:var(--ink-soft);margin:0 0 1.05rem}
+  .prose p b{color:var(--ink)}
+  .prose h3{font-family:var(--serif);font-weight:600;font-size:1.28rem;color:var(--ink);margin:1.7rem 0 .6rem;line-height:1.2}
+  .prose ul{color:var(--ink-soft);margin:0 0 1.15rem;padding-left:1.15rem}
+  .prose li{margin:.4rem 0}
+  .prose a{color:var(--aqua-deep);font-weight:600;text-underline-offset:3px}
+  .disclosure{font-size:.86rem;color:var(--muted);border-left:2px solid var(--brass);padding-left:14px;margin:0}
+  section#intro{padding-top:34px}
+</style>
+<style id="a11y">:root{--brass-text:#4A5865;--star:#B07E00}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--brass-text:#C9D5DF;--star:#E8B84B}}:root[data-theme="dark"]{--brass-text:#C9D5DF;--star:#E8B84B}nav.site a{color:var(--ink-soft)}.stars{color:var(--star)}thead th{color:var(--ink-soft)}.rev{color:var(--ink-soft)}.kick{color:var(--brass-text)}.win td.name{color:var(--brass-text)}a.btn,a.buy,.btn,.buy{background:#12556F !important;color:#fff !important;text-decoration:none !important}a.btn:hover,a.buy:hover,.btn:hover,.buy:hover{background:#0D4056 !important}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) a.btn,:root:not([data-theme="light"]) a.buy,:root:not([data-theme="light"]) .btn,:root:not([data-theme="light"]) .buy{background:#7FC3DD !important;color:#0B1720 !important}:root:not([data-theme="light"]) .btn:hover,:root:not([data-theme="light"]) .buy:hover{background:#A3D6E9 !important}}:root[data-theme="dark"] a.btn,:root[data-theme="dark"] a.buy,:root[data-theme="dark"] .btn,:root[data-theme="dark"] .buy{background:#7FC3DD !important;color:#0B1720 !important}</style>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "y1k8hct9nk");
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B93FNJGK0K"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());gtag('config', 'G-B93FNJGK0K');</script>
+</head>
+<body>
+<header class="site"><div class="wrap bar">
+  <a class="brand" href="/" aria-label="Best Portable Dishwashers">
+    <svg class="logomark" width="36" height="36" viewBox="0 0 40 40" aria-hidden="true">
+      <defs><radialGradient id="lm" cx="34%" cy="26%" r="86%"><stop offset="0" stop-color="#9FB4C2"/><stop offset=".68" stop-color="#33454F"/><stop offset="1" stop-color="#16222B"/></radialGradient></defs>
+      <circle cx="20" cy="20" r="19" fill="url(#lm)"/>
+      <circle cx="20" cy="20" r="18.4" fill="none" stroke="#C9D5DF" stroke-width="1.1" stroke-opacity=".92"/>
+      <circle cx="20" cy="20" r="15.3" fill="none" stroke="#EAF0F5" stroke-width=".6" stroke-opacity=".22"/>
+      <rect x="12.4" y="13.2" width="15.2" height="16" rx="2.2" fill="#F4F8FB"/>
+      <path d="M12.4 24.2h15.2" stroke="#33454F" stroke-width="1" stroke-opacity=".5"/>
+      <circle cx="20" cy="20.4" r="3.1" fill="none" stroke="#1C6E8C" stroke-width="1.5"/>
+      <path d="M20 17.3v-2.5" stroke="#1C6E8C" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M16.1 27.1h7.8" stroke="#8D9AA6" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M20 6.6c1.9 2.4 3 4 3 5.2a3 3 0 0 1-6 0c0-1.2 1.1-2.8 3-5.2Z" fill="#C9D5DF" fill-opacity=".85"/>
+    </svg>
+    <span class="bn">Best&thinsp;Portable&thinsp;Dishwashers</span>
+  </a>
+  <nav class="site" aria-label="Primary">
+    <a href="/#feature">Top pick</a><a href="/#compare">Compare</a><a href="/#picks">The eight</a><a href="/#how">Method</a><a href="/#faq">FAQ</a>
+  <a href="/guides">All guides</a></nav>
+</div></header>
+
+<a id="top"></a>
+<div class="hero">
+  <div class="caustic" aria-hidden="true"></div><div class="caustic b" aria-hidden="true"></div>
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Guide · Small-batch wash cycles</span>
+      <h1 class="serif">Half Load. Mini-party. <em>Built for a few dishes.</em></h1>
+      <p class="lede">A standard wash cycle fills, heats and circulates the same amount of water whether the rack is packed or holds three plates and a fork. Two different fixes exist on real listings — a Half Load option that scales the cycle down, and a Mini-party program that replaces it outright — and the spec sheets explain neither perfectly. Here's what each one actually changes.</p>
+      <div class="meta"><span>By <b>Ilane Tall</b></span><span>Updated October 29, 2026</span><span>Research-based — <b>no testing lab, no invented ratings</b></span></div>
+      <hr class="rule">
+    </div>
+    <img class="himg" src="/images/hero-half-load-and-small-batch-cycles-on-a-portable-dishwasher.webp" alt="A portable dishwasher rack holding only a handful of plates, cups and cutlery instead of a full load" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async">
+  </div>
+</div>
+
+<div class="wrap">
+
+  <section id="intro">
+    <div class="prose">
+      <p class="disclosure">Reader-supported: we may earn a commission when you buy through the links on this page, at no additional cost to you. Prices move constantly — confirm the live price before you order.</p>
+
+      <p style="margin-top:1.4rem">Load six plates and a saucepan into a dishwasher built for twelve, or four water glasses into a machine built for six, and the control board only knows one thing: run the program you selected, start to finish, exactly as it would for a full rack. Nothing in a standard Normal or Heavy cycle measures how much is actually inside before deciding how much water to pull in, how long to heat it, or how many minutes to spend circulating it through the spray arms. That is the quiet cost of running a dishwasher "anyway" after a small dinner or a handful of leftover party glasses: the machine spends a full load's water, detergent and electricity on a fraction of a load's dishes.</p>
+
+      <p>Two different engineering answers to that problem show up on real listings, and this guide compares both using three machines we can actually point to specs for: the COMFEE' six-place countertop dishwasher, sold in white and black under two separate ASINs, which carries a dedicated <b>Mini-party</b> program among its eight cycles; and the Sharp SDW6504MS, a larger 24-inch machine built around a <b>Half Load Option</b> instead. They solve the same complaint in genuinely different ways, and knowing which is which changes how much water and detergent you're actually saving by using it.</p>
+
+      <div class="band">
+        <h3 class="serif">How this page is built</h3>
+        <p>We compare published specifications, what's named in the listing copy, place settings, dimensions and price. We do not physically test these machines, we do not run a testing lab, and we do not publish ratings we cannot verify — Amazon returns no rating and no review count for this category, so there are no stars on this site. Where a listing doesn't give us a number — and on cycle time and per-cycle water use, none of the three here do — we say so rather than estimate one.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="the-waste">
+    <div class="kicker"><span class="eyebrow">The problem</span></div>
+    <h2 class="h2">Why a half-empty rack still runs a full-size cycle</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>A dishwasher cycle is a fixed sequence — fill, wash, drain, rinse, heat, dry — and the volume of water pulled in for the wash and rinse stages is set to whatever the engineers decided a "Normal" or "Heavy" wash needs for that model's rated capacity. It is not set by what you actually loaded that morning. A machine rated for six place settings fills roughly the same amount of water for two plates as it does for a full rack of seventy pieces, because nothing in the control board is reading the rack; it is reading a timer and a program selector. None of the dishwashers here publish a <a href="/portable-dishwashers-with-automatic-soil-sensing-cycles">soil-sensing</a> system that adjusts automatically to how dirty or how full a load is — that is a separate, less common feature, and fill-level sensing for partial racks is rarer still.</p>
+      <p>Detergent follows the same logic and makes the waste more visible. A dosing cup or pod is formulated for a full load's worth of soil, and the dose doesn't shrink because there are fewer dishes in the rack. Run a full detergent dose on three cups and a saucer and most of it never touches a dish — it dissolves, circulates past empty rack space, and drains away unused, which is wasted product on top of the wasted water and electricity that heated it.</p>
+      <p>This is specifically the gap that a dedicated small-batch cycle is built to close — by changing how much the machine spends on a given program, or by changing which program you run altogether. Those are two different fixes, and the next section is about telling them apart.</p>
+    </div>
+  </section>
+
+  <section id="mechanics">
+    <div class="kicker"><span class="eyebrow">Mechanically</span></div>
+    <h2 class="h2">What Half Load actually changes, versus what Mini-party changes</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Read the two listings side by side and the difference in design philosophy is right there in how each one is counted. COMFEE's listing names eight separate washing cycles: Heavy, Normal, Baby-Care, ECO, Glass, Speed, Mini-party and Rinse. Mini-party sits in that list as its own program, selected from the dial or panel instead of Normal — not a modifier layered on top of one. The honest reading is that it's a shorter, lighter wash profile built for the assumption behind its name: a few glasses and small plates left over after a handful of guests, not a greasy roasting pan. Choosing it is choosing a different wash, not telling the machine how full the rack is. For more on how brands count — and sometimes split — their cycle lists, see our breakdown of <a href="/what-5-plus-1-wash-programs-means-on-a-dishwasher">what the "5+1" notation on budget listings is actually counting</a>.</p>
+      <p>Sharp's listing counts five cycles for the SDW6504MS and describes Half Load as a separate bullet: "Half Load Option enables washing smaller loads while reducing water and energy usage." It isn't listed as a sixth program. The more consistent reading, and the one that matches how full-size-style dishwashers with this feature generally work, is that Half Load is a modifier you select alongside whichever program you'd already run — Normal stays Normal — telling the control board the rack is only half full so it pulls in less water and runs the heater for less of the cycle. The wash intensity doesn't change; the resource spend scaled to it does.</p>
+      <p>So the practical distinction is this: Mini-party swaps in a different, lighter wash for a different kind of load. Half Load keeps the wash you'd normally choose and scales its water and energy down to match roughly half a rack. One is a program choice; the other is a quantity adjustment. Neither one reads the rack automatically — you still have to know your own load is small enough to use it.</p>
+    </div>
+  </section>
+
+  <section id="picks">
+    <div class="kicker"><span class="eyebrow">The machines</span></div>
+    <h2 class="h2">The two approaches, and what each one is actually for</h2>
+    <div class="picks">
+
+      <article class="pick">
+        <div class="rank">01<small>Mini-party cycle</small></div>
+        <div>
+          <h3>COMFEE' 6-Place Countertop Dishwasher</h3>
+          <div class="who">A handful of glasses and small plates after a few guests, on a machine already sized for small loads</div>
+          <div class="rl2"><b>Countertop, faucet-connect</b> · <span>6 place settings, up to 70 pieces</span> · <span>plates to 10&nbsp;in</span> · <span>17.2&nbsp;×&nbsp;21.6–21.7&nbsp;×&nbsp;19.7&nbsp;in</span> · <span>ENERGY&nbsp;STAR</span></div>
+          <p class="body">COMFEE' sells this chassis under two ASINs that differ only in color and the order their dimensions are listed in — white at B096RYWSQM, black at B09ST4M8VF — and both carry the identical eight-cycle list, the same 6-place, 70-piece capacity and the same ENERGY STAR certification, which makes the color pick purely cosmetic (see our separate look at a different brand's <a href="/honeywell-portable-dishwasher-colors-compared">color-only variants</a> for how common that pattern is). Mini-party is one of those eight cycles, named for a load lighter than Normal was built for: a few just-used glasses and plates rather than a full evening's dishes. It connects to a standard faucet with an adapter and adds an extra-dry function on most cycles.</p>
+          <p class="quote"><b>The trade-off</b>Mini-party is still a full program selection on a machine already scaled down to six place settings — it's for a handful of items, not whatever happens to be in the rack that day. Load more than a handful and you're back to Normal or Heavy, running the same full-size fill this guide opened with.</p>
+        </div>
+        <div class="aside"><div class="pimg"><img src="/images/amazon-B09ST4M8VF.webp" alt="COMFEE' six-place countertop dishwasher in black" width="500" height="500" loading="lazy" decoding="async"></div><div class="pr">$278.97</div><span class="tag">Mini-party cycle</span><a class="buy" href="https://www.amazon.com/dp/B09ST4M8VF?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+      </article>
+
+      <article class="pick">
+        <div class="rank">02<small>Half Load option</small></div>
+        <div>
+          <h3>Sharp SDW6504MS 24-Inch Portable Dishwasher</h3>
+          <div class="who">A bigger machine that covers both a full dinner party and a Tuesday-night rack of four</div>
+          <div class="rl2"><b>24-in, pocket handle, hybrid tub</b> · <span>12 place settings</span> · <span>5 cycles</span> · <span>heated dry</span> · <span>52&nbsp;dBA</span> · <span>adjustable upper rack (+2&nbsp;in)</span></div>
+          <p class="body">The Sharp is a different class of machine entirely — a 24-inch, 12-place-setting <a href="/best-high-capacity-portable-dishwashers-for-large-families">high-capacity</a> dishwasher with a hybrid tub and an actual heated-dry element, rather than the residual-heat drying the two COMFEE' countertop twins rely on. Its upper rack adjusts two inches for taller glassware, and it's rated at 52 dBA. Half Load is the listing's own answer to the obvious objection to a 12-setting machine in a smaller household: most days don't produce twelve place settings of dirty dishes, and this option exists to keep the machine from pretending otherwise every single cycle.</p>
+          <p class="quote"><b>The trade-off</b>At $449 it costs considerably more than either COMFEE' twin, and a full 12-place capacity is more machine than a studio or a two-person kitchen needs most days — exactly the gap Half Load is meant to close, not a reason to avoid the machine if you already need the larger capacity occasionally.</p>
+        </div>
+        <div class="aside"><div class="pimg"><img src="/images/amazon-B0FGB53WVT.webp" alt="Sharp SDW6504MS 24-inch stainless steel portable dishwasher" width="500" height="500" loading="lazy" decoding="async"></div><div class="pr">$449</div><span class="tag">Half Load option</span><a class="buy" href="https://www.amazon.com/dp/B0FGB53WVT?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="compare">
+    <div class="kicker"><span class="eyebrow">At a glance</span></div>
+    <h2 class="h2">The three listings side by side</h2>
+    <p class="sub">All figures are manufacturer specifications; prices are approximate and move constantly.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Machine</th><th>Class</th><th>Small-batch cycle</th><th>Place settings</th><th>Price</th><th></th></tr></thead>
+      <tbody>
+        <tr class="win"><td class="name"><span class="thumb"><img src="/images/amazon-B09ST4M8VF.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span><span>COMFEE' 6-Place Countertop (Black)</span></td><td>Countertop, faucet</td><td>Mini-party (1 of 8 cycles)</td><td>6 settings, ~70 pcs</td><td class="price">$278.97</td><td><a class="tget" href="https://www.amazon.com/dp/B09ST4M8VF?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Price</a></td></tr>
+        <tr><td class="name"><span class="thumb"><img src="/images/amazon-B096RYWSQM.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span><span>COMFEE' 6-Place Countertop (White)</span></td><td>Countertop, faucet</td><td>Mini-party (1 of 8 cycles)</td><td>6 settings, ~70 pcs</td><td class="price">$278.94</td><td><a class="tget" href="https://www.amazon.com/dp/B096RYWSQM?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Price</a></td></tr>
+        <tr><td class="name"><span class="thumb"><img src="/images/amazon-B0FGB53WVT.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span><span>Sharp SDW6504MS 24&Prime;</span></td><td>24-in, hybrid tub</td><td>Half Load Option (modifier)</td><td>12 settings</td><td class="price">$449.00</td><td><a class="tget" href="https://www.amazon.com/dp/B0FGB53WVT?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Price</a></td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section id="numbers">
+    <div class="kicker"><span class="eyebrow">By the numbers</span></div>
+    <h2 class="h2">What the spec sheets actually quantify — and what they don't</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>None of the three listings states an exact gallon figure or a minute count for its small-batch option, and that's worth saying plainly rather than papering over with an estimate. Sharp's own bullet promises "reducing water and energy usage" without attaching a number to either. COMFEE' doesn't quote a duration for Mini-party at all — it's named alongside a separately-labeled Speed cycle, which tells you Mini-party isn't necessarily the fastest program on the panel, just the lightest one in intent.</p>
+      <p>One comparison does come straight from the spec sheets, with no invented figure attached to it: half of the Sharp's rated 12 place settings is six — which happens to be the full rated capacity of each COMFEE' countertop twin running flat out on its largest ordinary cycle. Pressing Half Load on the Sharp for a six-setting load is, by the numbers each company publishes, washing roughly the same quantity of dishes the two countertop machines are built to handle at full capacity in one run. A bigger machine on Half Load and a smaller machine at full tilt land on comparable dish counts.</p>
+      <p>On water use generally — not a claim about any of these three products specifically, since neither company publishes a per-cycle gallon figure for any of their programs — residential dishwasher water use has fallen under federal efficiency standards that have applied to new machines since the mid-1990s, and standard-size machines sold today are commonly built to run a full cycle well under the volume older machines used. That's useful backdrop for reading "reducing water and energy usage" honestly: the direction of the claim is plausible and consistent with how a fill-level modifier like Half Load would work, but the size of the saving isn't something either manufacturer has published, and we won't invent a figure to fill that gap.</p>
+    </div>
+  </section>
+
+  <section id="wait">
+    <div class="kicker"><span class="eyebrow">The exception</span></div>
+    <h2 class="h2">When it's still smarter to wait for a full load</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>A detergent dose is set per cycle, not per dish, and that fact cuts against running a small-batch program too often. Two Mini-party loads in a day instead of one Normal load covering the same total dish count means two separate fill-heat-wash-drain-rinse-heat-dry sequences instead of one, and each of those sequences draws its own detergent dose and runs its own heated-dry stage. Even though each individual Mini-party run uses less than a full Normal cycle would, running two of them can cost more total water, detergent and electricity than waiting a few hours and running one Normal load with everything in it.</p>
+      <p>Half Load has a narrower version of the same catch: the discount is built around roughly half a rated load, not whatever smaller amount is actually sitting in the machine. Two bowls in the Sharp's 12-place tub with Half Load engaged is less wasteful than running the same two bowls on a full-size program, but it's still proportionally generous relative to two bowls — the saving scales to "half," not to "whatever's actually in there."</p>
+      <p>The practical rule: if the gap between what's dirty now and a genuinely half-to-full rack is only a few hours away — breakfast dishes that can sit until after dinner — waiting is usually the better trade. Run the small-batch cycle anyway when the dishes can't wait for hygiene reasons, when a single sink is blocked until the rack clears, or when the alternative is letting food residue sit and harden, which costs more scrubbing later than the water saved now.</p>
+    </div>
+  </section>
+
+  <section id="without">
+    <div class="kicker"><span class="eyebrow">No small-batch option</span></div>
+    <h2 class="h2">Machines without this option, and the manual workaround</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Plenty of countertop and portable dishwashers on the market skip a dedicated small-batch program entirely and ship with only the basics — a Normal, a Heavy, an Eco and a plain Speed or Quick cycle — because a fill-sensing system or an extra lightweight program costs more to engineer than a flat control board with a fixed cycle list. Sharp's own five-cycle count on the SDW6504MS is already on the shorter end for a 12-place machine, which is part of why Half Load is doing real work there rather than being one feature among many.</p>
+      <p>On a machine with neither a Half Load option nor a Mini-party cycle, the closest manual substitute is choosing the shortest ordinary program available — COMFEE's own Speed cycle, or any machine's labeled Quick or Rapid program. That doesn't reduce the water pulled in, since fill level generally isn't tied to which program you select, but it does cut the minutes the heater and pump run, which is the only lever available on a machine that can't scale its fill automatically. For a few just-rinsed glasses with no food residue, a plain Rinse program — offered as its own separate cycle on both COMFEE' twins — is closer to a true small-batch wash than running Normal on an almost-empty rack.</p>
+      <p>And the oldest workaround still works regardless of what the panel offers: hold the rack a few more hours and let the next meal's dishes join the first batch, so the full-size cycle you eventually run is actually washing a close-to-full load instead of a half-empty one.</p>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="kicker"><span class="eyebrow">FAQ</span></div>
+    <h2 class="h2">Common questions about small-batch cycles</h2>
+    <div class="panel faq" style="margin-top:22px">
+      <details open><summary>What's the real difference between Half Load and a Mini-party cycle?</summary><p>Mini-party, as COMFEE' lists it, is its own separate program you choose instead of Normal — a lighter, shorter wash profile built for a few items rather than a full rack. Half Load, as Sharp describes it, is a modifier you apply alongside whichever program you'd already run, telling the machine to use less water and energy because the rack is only about half full. One swaps in a different wash; the other scales the resource spend of the wash you'd pick anyway.</p></details>
+      <details><summary>Does a half-load or mini-party cycle actually save water?</summary><p>Directionally, yes — that's the stated purpose of both features. Neither Sharp nor COMFEE' publishes an exact gallon figure for the saving, though, so treat the benefit as real but unquantified rather than a number you can bank on. The one concrete comparison the spec sheets support is that half of Sharp's 12-place-setting capacity equals the full rated capacity of each COMFEE' countertop twin.</p></details>
+      <details><summary>Can I just use the Speed or Quick cycle instead of a dedicated small-batch program?</summary><p>Partly. A shorter program cuts the minutes the heater and pump run, which saves time and some electricity, but it generally doesn't change how much water the machine fills with, since fill level and program choice aren't the same setting on most machines. It's a reasonable workaround on a machine that has no Half Load or Mini-party option, just not an equivalent one.</p></details>
+      <details><summary>Is it better to wait for a full load than run a small-batch cycle?</summary><p>Usually, if the wait is only a few hours — two small-batch cycles in a day can use more total water and detergent than one full cycle covering the same dishes, because each run draws its own dose and its own heating stage. Run the small-batch cycle anyway when dishes can't wait for hygiene reasons or when a single sink needs to stay clear.</p></details>
+    </div>
+  </section>
+
+  <section id="keep-reading">
+    <div class="kicker"><span class="eyebrow">Keep reading</span></div>
+    <h2 class="h2">Next, from this site</h2>
+    <div class="cols" style="margin-top:22px">
+      <a class="panel" style="text-decoration:none;display:block" href="/midea-countertop-vs-built-in-portable-dishwashers">
+        <span class="eyebrow" style="color:var(--brass-text)">Brand guide</span>
+        <h3 class="serif" style="margin-top:6px">Midea Makes Both: Countertop Tank Dishwashers and 18-Inch Built-In-Style Machines</h3>
+        <p>Another case of one brand spanning the same two machine classes compared here. <span style="color:var(--aqua-deep);font-weight:700">Read →</span></p>
+      </a>
+      <a class="panel" style="text-decoration:none;display:block" href="/portable-dishwashers-with-a-water-level-window">
+        <span class="eyebrow" style="color:var(--brass-text)">Guide</span>
+        <h3 class="serif" style="margin-top:6px">Water-Level Windows on a Portable Dishwasher: Do You Need to Watch the Tank?</h3>
+        <p>A different way some machines let you see what the control board can't measure on its own. <span style="color:var(--aqua-deep);font-weight:700">Read →</span></p>
+      </a>
+      <a class="panel" style="text-decoration:none;display:block" href="/generic-brand-portable-dishwashers-what-you-give-up">
+        <span class="eyebrow" style="color:var(--brass-text)">Honest take</span>
+        <h3 class="serif" style="margin-top:6px">Generic-Brand Portable Dishwashers: What a No-Name Listing Gets Right and Wrong</h3>
+        <p>Dedicated cycles like Mini-party and Half Load are usually the first thing a cheaper listing cuts. <span style="color:var(--aqua-deep);font-weight:700">Read →</span></p>
+      </a>
+    </div>
+  </section>
+
+</div>
+
+<footer class="site"><div class="wrap">
+  <div class="fbrand">Best Portable Dishwashers</div>
+  <p>Independent, research-based comparisons of portable and countertop dishwashers for kitchens without a hookup.</p>
+  <p style="margin:.5rem 0 0"><a href="/about">About</a> · <a href="/guides">All guides</a> · <a href="/contact">Contact</a> · <a href="/privacy">Privacy</a></p>
+  <p>Reader-supported: we may earn a commission when you buy through our links, at no additional cost to you. Comparisons are based on published specifications and pricing; we do not physically test products and we do not publish ratings we cannot verify. Prices change frequently — confirm the current price on Amazon. As an Amazon Associate, we earn from qualifying purchases. © 2026 Best Portable Dishwashers.</p>
+</div></footer>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Half Load and Mini-Party Cycles: Running a Portable Dishwasher for Just a Few Dishes","description":"A full cycle on a half-empty rack wastes water and detergent. The machines built with a dedicated small-batch program instead.","image":"https://best-portable-dishwashers.com/images/hero-half-load-and-small-batch-cycles-on-a-portable-dishwasher.webp","datePublished":"2026-10-29","dateModified":"2026-10-29","author":{"@type":"Person","name":"Ilane Tall"},"publisher":{"@type":"Organization","name":"Best Portable Dishwashers"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://best-portable-dishwashers.com/half-load-and-small-batch-cycles-on-a-portable-dishwasher"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ItemList","name":"Half Load vs Mini-Party: Small-Batch Dishwasher Cycles","itemListElement":[
+ {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"COMFEE' Countertop Dishwasher, 6 Place Settings, Energy Star (White)","brand":{"@type":"Brand","name":"COMFEE'"},"offers":{"@type":"Offer","price":"278.94","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B096RYWSQM?tag=bestportabledish-20"}}},
+ {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"COMFEE' Countertop Dishwasher, 6 Place Settings, 8 Washing Programs (Black)","brand":{"@type":"Brand","name":"COMFEE'"},"offers":{"@type":"Offer","price":"278.97","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B09ST4M8VF?tag=bestportabledish-20"}}},
+ {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Sharp SDW6504MS 24-Inch Portable Dishwasher with Half Load Option","brand":{"@type":"Brand","name":"Sharp"},"offers":{"@type":"Offer","price":"449.00","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B0FGB53WVT?tag=bestportabledish-20"}}}
+]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"What's the real difference between Half Load and a Mini-party cycle?","acceptedAnswer":{"@type":"Answer","text":"Mini-party, as COMFEE' lists it, is its own separate program you choose instead of Normal — a lighter, shorter wash profile built for a few items rather than a full rack. Half Load, as Sharp describes it, is a modifier you apply alongside whichever program you'd already run, telling the machine to use less water and energy because the rack is only about half full. One swaps in a different wash; the other scales the resource spend of the wash you'd pick anyway."}},
+ {"@type":"Question","name":"Does a half-load or mini-party cycle actually save water?","acceptedAnswer":{"@type":"Answer","text":"Directionally, yes — that's the stated purpose of both features. Neither Sharp nor COMFEE' publishes an exact gallon figure for the saving, so treat the benefit as real but unquantified. The one concrete comparison the spec sheets support is that half of Sharp's 12-place-setting capacity equals the full rated capacity of each COMFEE' countertop twin."}},
+ {"@type":"Question","name":"Can I just use the Speed or Quick cycle instead of a dedicated small-batch program?","acceptedAnswer":{"@type":"Answer","text":"Partly. A shorter program cuts the minutes the heater and pump run, saving time and some electricity, but it generally doesn't change how much water the machine fills with, since fill level and program choice aren't the same setting on most machines. It's a reasonable workaround on a machine with no Half Load or Mini-party option, just not an equivalent one."}},
+ {"@type":"Question","name":"Is it better to wait for a full load than run a small-batch cycle?","acceptedAnswer":{"@type":"Answer","text":"Usually, if the wait is only a few hours — two small-batch cycles in a day can use more total water and detergent than one full cycle covering the same dishes, because each run draws its own dose and its own heating stage. Run the small-batch cycle anyway when dishes can't wait for hygiene reasons or when a single sink needs to stay clear."}}
+]}
+</script>
+
+<script src="/site.js" defer></script>
+</body>
+</html>
