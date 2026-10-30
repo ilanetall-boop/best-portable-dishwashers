@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Automatic Detergent Dispensing on a Portable Dishwasher: Does It Replace the Drawer?</title>
+<meta name="description" content="One listing in the catalogue claims automatic detergent dispensing instead of a drawer you fill each time. What that means mechanically, and what it doesn't.">
+<link rel="canonical" href="https://best-portable-dishwashers.com/automatic-detergent-dispensing-portable-dishwashers-explained">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Best Portable Dishwashers">
+<meta property="og:title" content="Automatic Detergent Dispensing on a Portable Dishwasher: Does It Replace the Drawer?">
+<meta property="og:description" content="One listing in our database skips the detergent compartment for a reservoir it doses on its own. We pulled apart what that mechanically does and doesn't do, against the two machines nearby in price that still use the ordinary system.">
+<meta property="og:image" content="https://best-portable-dishwashers.com/images/hero-automatic-detergent-dispensing-portable-dishwashers-explained.webp">
+<meta property="og:url" content="https://best-portable-dishwashers.com/automatic-detergent-dispensing-portable-dishwashers-explained">
+<meta name="theme-color" content="#101820">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="alternate icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  /* premium-editorial-v1 — palette: steel / slate / water-blue.
+     NOTE: the --aqua* and --brass* variable names are inherited from the network template;
+     on this site --aqua carries the water-blue accent and --brass carries brushed chrome.
+     Do not rename (tools/rebuild-site.js and every article file reference them). */
+  :root{
+    --ground:#F4F6F8; --surface:#FFFFFF; --surface-2:#E9EEF3;
+    --ink:#131A21; --ink-soft:#2E3A45; --muted:#69757F; --line:#DCE3EA;
+    --aqua:#1C6E8C; --aqua-deep:#12556F; --aqua-tint:#E8F1F6;
+    --brass:#8D9AA6; --brass-lite:#C9D5DF; --brass-tint:#EDF1F5;
+    --dark:#101820; --dark-2:#1D2A35; --on-dark:#EAF0F5; --on-dark-mute:#9CACB9;
+    --star:#B07E00;
+    --shadow:0 1px 2px rgba(19,26,33,.05),0 22px 48px -26px rgba(19,26,33,.30);
+    --shadow-sm:0 1px 2px rgba(19,26,33,.05),0 10px 24px -16px rgba(19,26,33,.24);
+    --radius:20px; --radius-sm:12px; --maxw:1120px;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ground:#0C1116; --surface:#151E26; --surface-2:#1E2A34;
+    --ink:#EAF0F5; --ink-soft:#CBD7E0; --muted:#93A2AE; --line:#28353F;
+    --aqua:#5CA9C8; --aqua-deep:#7FC3DD; --aqua-tint:#122530;
+    --brass:#C9D5DF; --brass-lite:#DDE7EF; --brass-tint:#16222B;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }}
+  :root[data-theme="dark"]{
+    --ground:#0C1116; --surface:#151E26; --surface-2:#1E2A34;
+    --ink:#EAF0F5; --ink-soft:#CBD7E0; --muted:#93A2AE; --line:#28353F;
+    --aqua:#5CA9C8; --aqua-deep:#7FC3DD; --aqua-tint:#122530;
+    --brass:#C9D5DF; --brass-lite:#DDE7EF; --brass-tint:#16222B;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+    font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  a{color:inherit}
+  h1,h2,h3{margin:0;line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
+  .serif{font-family:var(--serif)}
+  p{margin:0 0 1rem}
+  .eyebrow{font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+  .tnum{font-variant-numeric:tabular-nums}
+  .stars{color:var(--star);letter-spacing:2px}
+
+  /* ---------- header ---------- */
+  header.site{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--ground) 82%,transparent);
+    backdrop-filter:saturate(1.3) blur(12px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-weight:700;letter-spacing:-.01em}
+  .brand .bn{font-family:var(--serif);font-size:1.16rem}
+  nav.site a{color:var(--muted);text-decoration:none;font-size:.86rem;font-weight:600;letter-spacing:.01em;margin-left:22px;transition:color .2s}
+  nav.site a:hover{color:var(--ink)}
+  @media (max-width:660px){nav.site{display:none}}
+
+  /* ---------- hero (immersive dark, water shimmer) ---------- */
+  .hero{position:relative;background:radial-gradient(120% 90% at 80% -10%,var(--dark-2),var(--dark) 60%);color:var(--on-dark);overflow:hidden;isolation:isolate}
+  .caustic{position:absolute;inset:-30%;z-index:0;opacity:.5;pointer-events:none;filter:blur(30px);
+    background:
+      radial-gradient(28% 40% at 22% 30%,rgba(92,169,200,.26),transparent 60%),
+      radial-gradient(24% 34% at 74% 24%,rgba(201,213,223,.20),transparent 60%),
+      radial-gradient(30% 42% at 60% 78%,rgba(28,110,140,.28),transparent 62%);
+    animation:drift 22s ease-in-out infinite alternate}
+  .caustic.b{opacity:.34;animation-duration:30s;animation-direction:alternate-reverse;
+    background:
+      radial-gradient(26% 36% at 40% 60%,rgba(127,195,221,.22),transparent 60%),
+      radial-gradient(22% 30% at 85% 70%,rgba(141,154,166,.20),transparent 60%)}
+  @keyframes drift{0%{transform:translate3d(-2%,-1%,0) scale(1)}50%{transform:translate3d(3%,2%,0) scale(1.08)}100%{transform:translate3d(-1%,3%,0) scale(1.04)}}
+  .hero .wrap{position:relative;z-index:1;padding:74px 26px 88px}
+  .hero .eyebrow{color:var(--brass-lite)}
+  .hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,1.4rem+4.6vw,4.7rem);letter-spacing:-.02em;max-width:15ch;margin:.5rem 0 0}
+  .hero h1 em{font-style:italic;color:var(--brass-lite)}
+  .hero .lede{font-size:1.24rem;line-height:1.55;color:var(--on-dark-mute);max-width:52ch;margin-top:1.3rem}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:26px;font-size:.86rem;color:var(--on-dark-mute)}
+  .hero .meta b{color:var(--on-dark)}
+  .rule{height:1px;background:linear-gradient(90deg,var(--brass),transparent);border:0;margin:26px 0 0;max-width:220px}
+
+  /* ---------- #1 feature (the centerpiece) ---------- */
+  .feature{position:relative;z-index:2;margin:-56px 0 0}
+  .feature .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    display:grid;grid-template-columns:1.1fr 1fr;overflow:hidden}
+  .feature .left{padding:38px}
+  .feature .kick{display:inline-flex;align-items:center;gap:9px;color:var(--brass-text);font-weight:700;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase}
+  .feature .kick::before{content:"";width:26px;height:1px;background:var(--brass)}
+  .feature h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.8rem,1.2rem+2vw,2.7rem);margin:.5rem 0 .2rem}
+  .feature .verdict{color:var(--ink-soft);font-size:1.06rem;margin:.4rem 0 1rem;max-width:44ch}
+  .feature .rl{display:flex;align-items:center;flex-wrap:wrap;gap:8px 10px;font-size:.92rem;color:var(--muted);margin-bottom:1.2rem}
+  .feature .rl b{color:var(--ink)}
+  .btn{display:inline-flex;align-items:center;gap:9px;background:var(--aqua);color:#fff;font-weight:700;
+    padding:14px 26px;border-radius:12px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,background .2s}
+  .btn:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  .btn .arw{transition:transform .2s}.btn:hover .arw{transform:translateX(3px)}
+  .feature .right{background:linear-gradient(160deg,var(--dark-2),var(--dark));color:var(--on-dark);padding:38px;display:flex;flex-direction:column;justify-content:center;gap:6px;position:relative}
+  .feature .right .lab{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-mute)}
+  .feature .bigprice{font-family:var(--serif);font-size:clamp(3rem,2rem+4vw,4.4rem);font-weight:600;line-height:1;color:var(--brass-lite)}
+  .feature .bigprice sup{font-size:.4em;top:-1.2em;color:var(--on-dark)}
+  .feature .right .note{color:var(--on-dark-mute);font-size:.92rem;margin-top:6px;max-width:30ch}
+  .feature .right .mono{margin-top:16px;font-family:var(--serif);font-size:1.05rem;color:var(--on-dark)}
+  @media (max-width:820px){.feature .card{grid-template-columns:1fr}.feature .right{order:-1}}
+
+  /* ---------- generic section ---------- */
+  section{padding:44px 0}
+  .kicker{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+  .kicker .eyebrow{color:var(--aqua-deep)}
+  .kicker::after{content:"";flex:1;height:1px;background:var(--line)}
+  .h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,1.2rem+1.7vw,2.5rem);letter-spacing:-.01em}
+  .sub{color:var(--muted);max-width:62ch;margin:.6rem 0 0}
+
+  .notes{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:24px}
+  .notes .n{background:var(--surface);padding:24px}
+  .notes .num{font-family:var(--serif);font-size:1.5rem;color:var(--brass-text);line-height:1}
+  .notes h3{font-size:1.02rem;font-weight:750;margin:.5rem 0 .35rem}
+  .notes p{font-size:.9rem;color:var(--muted);margin:0}
+  @media (max-width:820px){.notes{grid-template-columns:1fr 1fr}}
+  @media (max-width:520px){.notes{grid-template-columns:1fr}}
+
+  /* honesty band */
+  .band{background:var(--brass-tint);border:1px solid var(--line);border-left:3px solid var(--brass);
+    border-radius:var(--radius-sm);padding:22px 24px;margin-top:26px}
+  .band h3{font-family:var(--serif);font-weight:600;font-size:1.16rem;margin-bottom:.5rem}
+  .band p{color:var(--ink-soft);font-size:.95rem;margin:0}
+  .band p+p{margin-top:.6rem}
+
+  /* comparison */
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);background:var(--surface);margin-top:22px}
+  table{border-collapse:collapse;width:100%;min-width:740px;font-size:.94rem}
+  thead th{background:var(--surface-2);text-align:left;padding:16px;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+  td{padding:15px 16px;border-bottom:1px solid var(--line);vertical-align:middle}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:hover{background:var(--surface-2)}
+  td.name{font-family:var(--serif);font-weight:600;font-size:1.05rem}
+  .win td{background:var(--brass-tint)}
+  .win td.name{color:var(--brass-text)}
+  .win td:first-child{box-shadow:inset 3px 0 0 var(--brass)}
+  .price{font-weight:800;font-variant-numeric:tabular-nums}
+  .rev{color:var(--muted);font-size:.82rem}
+  .tget{display:inline-block;background:var(--ink);color:var(--surface);font-weight:700;font-size:.8rem;padding:8px 14px;border-radius:9px;text-decoration:none;white-space:nowrap;transition:background .2s}
+  .tget:hover{background:var(--aqua-deep);color:#fff}
+
+  /* picks (editorial cards) */
+  .picks{display:flex;flex-direction:column;gap:26px;margin-top:26px}
+  .pick{display:grid;grid-template-columns:96px 1fr auto;gap:26px;align-items:start;
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:28px}
+  .pick .rank{font-family:var(--serif);font-size:2.6rem;color:var(--brass-text);line-height:.9;font-weight:600}
+  .pick .rank small{display:block;font-family:var(--sans);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:8px}
+  .pick h3{font-family:var(--serif);font-weight:600;font-size:1.44rem}
+  .pick .who{color:var(--aqua-deep);font-weight:700;font-size:.9rem;margin:.25rem 0 .5rem}
+  .pick .rl2{display:flex;align-items:center;flex-wrap:wrap;gap:6px 8px;font-size:.86rem;color:var(--muted);margin-bottom:.7rem}
+  .pick .rl2 b{color:var(--ink)}
+  .pick p.body{margin:.2rem 0 0;color:var(--ink-soft)}
+  .quote{border-left:2px solid var(--brass);padding-left:14px;margin:.9rem 0 0;font-family:var(--serif);color:var(--ink);font-size:1.02rem}
+  .quote b{font-family:var(--sans);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass-text);display:block;margin-bottom:.2rem;font-weight:700}
+  .aside{display:flex;flex-direction:column;align-items:flex-end;gap:12px;text-align:right;min-width:150px}
+  .aside .pr{font-family:var(--serif);font-size:2rem;font-weight:600;font-variant-numeric:tabular-nums;line-height:1}
+  .aside .tag{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .buy{display:inline-flex;align-items:center;gap:8px;background:var(--aqua);color:#fff;font-weight:700;padding:11px 20px;border-radius:10px;text-decoration:none;transition:background .2s,transform .15s;font-size:.92rem}
+  .buy:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  @media (max-width:820px){.pick{grid-template-columns:64px 1fr}.aside{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;text-align:left;border-top:1px solid var(--line);padding-top:16px}}
+
+  /* method / faq */
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:22px}
+  @media (max-width:760px){.cols{grid-template-columns:1fr}}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm)}
+  .panel .eyebrow{color:var(--aqua-deep)}
+  .panel h3{font-family:var(--serif);font-weight:600;font-size:1.3rem;margin:.5rem 0 .5rem}
+  .panel p{color:var(--muted);margin:0}
+  .faq details{border-top:1px solid var(--line);padding:16px 0}
+  .faq details:first-of-type{border-top:0}
+  .faq summary{cursor:pointer;font-family:var(--serif);font-size:1.12rem;list-style:none;display:flex;justify-content:space-between;gap:14px;color:var(--ink)}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--brass-text);font-family:var(--sans);font-weight:700}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{margin:.8rem 0 0;color:var(--muted)}
+
+  footer.site{margin-top:20px;background:var(--dark);color:var(--on-dark-mute)}
+  footer .wrap{padding:40px 26px}
+  footer .fbrand{font-family:var(--serif);color:var(--on-dark);font-size:1.2rem}
+  footer p{font-size:.84rem;margin:.6rem 0 0;max-width:80ch}
+  footer a{color:var(--brass-lite)}
+  /* imagery */
+  .hero .wrap{display:grid;grid-template-columns:1.12fr .88fr;gap:48px;align-items:center}
+  .hero .himg{border-radius:20px;border:1px solid rgba(201,213,223,.4);box-shadow:0 30px 60px -30px rgba(0,0,0,.55);width:100%;height:auto;display:block}
+  @media (max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:30px}}
+  .fpimg{background:#fff;border-radius:14px;padding:14px;box-shadow:0 12px 28px -14px rgba(0,0,0,.5);width:min(230px,70%);margin-bottom:16px}
+  .fpimg img{width:100%;height:auto;display:block}
+  .aside .pimg{width:150px;height:150px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;display:flex;align-items:center;justify-content:center}
+  .aside .pimg img{max-width:100%;max-height:100%;display:block}
+  @media (max-width:820px){.aside .pimg{width:96px;height:96px;padding:6px}}
+  td.name{display:flex;align-items:center;gap:12px}
+  .thumb{width:46px;height:46px;flex:0 0 auto;background:#fff;border:1px solid var(--line);border-radius:9px;padding:4px}
+  .thumb img{width:100%;height:100%;object-fit:contain;display:block}
+  :focus-visible{outline:2px solid var(--aqua);outline-offset:3px;border-radius:5px}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}.btn:hover,.buy:hover{transform:none}}
+</style>
+<style>
+  /* article layer — prose column only; never restyle .buy / .btn (the a11y block owns them) */
+  .prose{max-width:68ch}
+  .prose p{color:var(--ink-soft);margin:0 0 1.05rem}
+  .prose p b{color:var(--ink)}
+  .prose h3{font-family:var(--serif);font-weight:600;font-size:1.28rem;color:var(--ink);margin:1.7rem 0 .6rem;line-height:1.2}
+  .prose ul{color:var(--ink-soft);margin:0 0 1.15rem;padding-left:1.15rem}
+  .prose li{margin:.4rem 0}
+  .prose a{color:var(--aqua-deep);font-weight:600;text-underline-offset:3px}
+  .disclosure{font-size:.86rem;color:var(--muted);border-left:2px solid var(--brass);padding-left:14px;margin:0}
+  section#intro{padding-top:34px}
+</style>
+<style id="a11y">:root{--brass-text:#4A5865;--star:#B07E00}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--brass-text:#C9D5DF;--star:#E8B84B}}:root[data-theme="dark"]{--brass-text:#C9D5DF;--star:#E8B84B}nav.site a{color:var(--ink-soft)}.stars{color:var(--star)}thead th{color:var(--ink-soft)}.rev{color:var(--ink-soft)}.kick{color:var(--brass-text)}.win td.name{color:var(--brass-text)}a.btn,a.buy,.btn,.buy{background:#12556F !important;color:#fff !important;text-decoration:none !important}a.btn:hover,a.buy:hover,.btn:hover,.buy:hover{background:#0D4056 !important}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) a.btn,:root:not([data-theme="light"]) a.buy,:root:not([data-theme="light"]) .btn,:root:not([data-theme="light"]) .buy{background:#7FC3DD !important;color:#0B1720 !important}:root:not([data-theme="light"]) .btn:hover,:root:not([data-theme="light"]) .buy:hover{background:#A3D6E9 !important}}:root[data-theme="dark"] a.btn,:root[data-theme="dark"] a.buy,:root[data-theme="dark"] .btn,:root[data-theme="dark"] .buy{background:#7FC3DD !important;color:#0B1720 !important}</style>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "y1k8hct9nk");
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B93FNJGK0K"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());gtag('config', 'G-B93FNJGK0K');</script>
+</head>
+<body>
+<header class="site"><div class="wrap bar">
+  <a class="brand" href="/" aria-label="Best Portable Dishwashers">
+    <svg class="logomark" width="36" height="36" viewBox="0 0 40 40" aria-hidden="true">
+      <defs><radialGradient id="lm" cx="34%" cy="26%" r="86%"><stop offset="0" stop-color="#9FB4C2"/><stop offset=".68" stop-color="#33454F"/><stop offset="1" stop-color="#16222B"/></radialGradient></defs>
+      <circle cx="20" cy="20" r="19" fill="url(#lm)"/>
+      <circle cx="20" cy="20" r="18.4" fill="none" stroke="#C9D5DF" stroke-width="1.1" stroke-opacity=".92"/>
+      <circle cx="20" cy="20" r="15.3" fill="none" stroke="#EAF0F5" stroke-width=".6" stroke-opacity=".22"/>
+      <rect x="12.4" y="13.2" width="15.2" height="16" rx="2.2" fill="#F4F8FB"/>
+      <path d="M12.4 24.2h15.2" stroke="#33454F" stroke-width="1" stroke-opacity=".5"/>
+      <circle cx="20" cy="20.4" r="3.1" fill="none" stroke="#1C6E8C" stroke-width="1.5"/>
+      <path d="M20 17.3v-2.5" stroke="#1C6E8C" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M16.1 27.1h7.8" stroke="#8D9AA6" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M20 6.6c1.9 2.4 3 4 3 5.2a3 3 0 0 1-6 0c0-1.2 1.1-2.8 3-5.2Z" fill="#C9D5DF" fill-opacity=".85"/>
+    </svg>
+    <span class="bn">Best&thinsp;Portable&thinsp;Dishwashers</span>
+  </a>
+  <nav class="site" aria-label="Primary">
+    <a href="/#feature">Top pick</a><a href="/#compare">Compare</a><a href="/#picks">The eight</a><a href="/#how">Method</a><a href="/#faq">FAQ</a>
+  <a href="/guides">All guides</a></nav>
+</div></header>
+
+<a id="top"></a>
+<div class="hero">
+  <div class="caustic" aria-hidden="true"></div><div class="caustic b" aria-hidden="true"></div>
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Honest take · Automatic detergent dispensing</span>
+      <h1 class="serif">One listing says automatic. <em>Here's what that means.</em></h1>
+      <p class="lede">A single machine in our database skips the detergent compartment you fill before every cycle for a reservoir the listing says doses itself. The bullet copy even borrows the wording from laundry appliances. We pulled apart what that promises mechanically, what it doesn't, and measured it against the two machines nearby in price that still use the ordinary system.</p>
+      <div class="meta"><span>By Ilane Tall · Updated October 30, 2026 · Research-based.</span></div>
+      <hr class="rule">
+    </div>
+    <img src="/images/hero-automatic-detergent-dispensing-portable-dishwashers-explained.webp" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async" class="himg" alt="Open detergent reservoir compartment on a portable countertop dishwasher beside a single-use dish detergent pod on the counter">
+  </div>
+</div>
+
+<div class="wrap">
+
+  <section id="intro">
+    <div class="prose">
+      <p class="disclosure">Reader-supported: we may earn a commission when you buy through the links on this page, at no additional cost to you. Prices move constantly — confirm the live price before you order.</p>
+
+      <p style="margin-top:1.4rem">Among the countertop dishwashers in our database, exactly one listing advertises something the others don't: a detergent system the manufacturer calls automatic. The bullet copy reads "Laundry detergent automatic dispensing function" — a phrase that, on its face, describes a washing machine rather than a dishwasher, and that odd wording is itself worth sitting with before taking the rest of the listing at face value. This piece is about untangling what that one feature actually does, mechanically, on the $369.99 machine that claims it, and setting it beside two cheaper countertop machines that make no such claim and rely on the drawer-and-compartment system almost every dishwasher, portable or built-in, has used for decades.</p>
+
+      <p>We don't own a testing lab, so this is a close read rather than a trial run: what "automatic dispensing" can and can't mean given how a reservoir-and-pump system is built, matched against the plain facts of price, water source and program count for all three machines, and a frank answer to the question most buyers actually have — does any of this save enough time to matter, or is it a convenience priced at a premium out of habit. For the fine print the listing leaves out, skip ahead to <a href="#fine-print">what the manufacturer claim doesn't tell you</a>.</p>
+
+      <div class="band">
+        <h3 class="serif">How this page is built</h3>
+        <p>We compare what each listing's own title and bullet copy publish, against general, verifiable facts about how reservoir-dosing systems and dishwasher detergent compartments work mechanically. We do not physically test these machines and we do not run a testing lab. Amazon's product data returns no rating and no review count for any of the three ASINs below, so there are no stars on this page, and we don't paraphrase review sentiment we have no record of — that would be the same offense as inventing a score.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="mechanism">
+    <div class="kicker"><span class="eyebrow">The mechanism</span></div>
+    <h2 class="h2">What "automatic dispensing" means on this listing, mechanically</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Start with what doesn't change. On an ordinary dishwasher — a full-size built-in or a $220 countertop tank model alike — the detergent dispenser is a small, spring-loaded compartment on the door or the lid. You load a pod, a capful of gel, or a scoop of powder before the cycle starts, and a timer or a wax-motor latch pops the flap open at a programmed point partway through the wash, dropping that one dose into the water already circulating. That release is "automatic" in the sense that you don't open the door mid-cycle to add anything — every machine in this category has always worked that way, headline feature or not.</p>
+      <p>The listing that uses the phrase "Laundry detergent automatic dispensing function" — the 6.4L-tank, 5-place-setting, 8-program model with a water softener and an auto-opening door — is describing something different: a small reservoir, separate from the water tank, holding enough detergent for more than one wash. Rather than a flap releasing whatever you loaded that same cycle, a reservoir like this meters out a measured amount from its own stored supply at the start of each run, the same way an auto-dispense laundry machine doses from a jug topped up every few weeks rather than measured into a cup every load. The practical difference: you stop adding detergent before each cycle and instead refill a larger reservoir on a longer interval.</p>
+      <p>What the listing doesn't say is just as telling. It doesn't state the reservoir's own capacity — the 6.4L figure belongs to the water tank, not the detergent chamber — so there's no way to calculate how many cycles one refill actually covers. It also sits alongside two other automated claims on the same SKU, an auto-opening door and an integrated water softener: a machine built around removing manual steps generally, not one standout feature, priced accordingly against the two plainer machines below. It's the same instinct behind a listing that advertises a sensor doing the thinking for you, which we worked through in <a href="/portable-dishwashers-with-automatic-soil-sensing-cycles">our look at automatic soil-sensing cycles</a> — a feature name that promises more autonomy than the spec sheet confirms.</p>
+    </div>
+  </section>
+
+  <section id="detergent-types">
+    <div class="kicker"><span class="eyebrow">Compatibility</span></div>
+    <h2 class="h2">Pods, powder and gel: which ones still work with it</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>The listing doesn't specify which detergent form the reservoir is designed around, so nothing here should be read as a confirmed spec — but the mechanics of a pumped reservoir narrow the possibilities. Dosing a measured amount into the wash at the start of a cycle means moving detergent through a small channel or valve, the same basic plumbing an auto-dispense laundry machine uses for liquid detergent. That kind of system can meter a liquid or gel in small, repeatable amounts. It cannot meter a fraction of a sealed pod, built to drop whole into a compartment, not pumped in partial doses. Loose powder fits worse still: left sitting for days or weeks between refills, especially in the damp interior of a countertop appliance, it can clump rather than flow through a narrow channel.</p>
+      <p>None of that is stated by the manufacturer, and it's worth confirming in the listing's own Q&amp;A or with customer service before ordering, especially if you already own a case of pods. The reverse case is clearer: neither other machine here claims an automatic dispensing feature, so both almost certainly use the conventional compartment-and-flap system most portable dishwashers rely on — genuinely pod-, powder- and gel-agnostic, because you choose what goes in fresh at the start of every cycle, exactly like a full-size built-in.</p>
+      <p>One general caution applies to every machine in this category regardless of dispensing method: pods often fail to dissolve fully in the short, low-volume cycles these compact dishwashers run, which is why several manufacturers specify powder or gel at a smaller dose instead. That's a fact about cycle length and water volume, not about any one listing's dispensing claim — but it matters more, not less, once detergent is being metered automatically rather than chosen fresh each time, because a reservoir system that's pre-loaded with the wrong form of detergent will keep making the same mistake on every cycle until someone empties and refills it.</p>
+    </div>
+  </section>
+
+  <section id="picks">
+    <div class="kicker"><span class="eyebrow">The three listings</span></div>
+    <h2 class="h2">The picks, and what the standard alternative looks like</h2>
+    <p class="sub">All figures are manufacturer specifications stated in each listing's own title; prices are approximate and move constantly on Amazon.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Listing</th><th>Detergent system</th><th>Water source</th><th>Programs</th><th>Price</th><th></th></tr></thead>
+      <tbody>
+        <tr class="win"><td class="name"><span class="thumb"><img src="/images/amazon-B0HDYJD6HT.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span><span>6.4L Softener Countertop</span></td><td>Automatic dispensing reservoir</td><td>6.4&nbsp;L built-in tank</td><td>8</td><td class="price">$369.99</td><td><a class="tget" href="https://www.amazon.com/dp/B0HDYJD6HT?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Price</a></td></tr>
+        <tr><td class="name"><span class="thumb"><img src="/images/amazon-B0HKV33BK9.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span><span>AIRMSEN Countertop</span></td><td>Compartment-fill (no auto-dispense claim)</td><td>Built-in, "no hookup needed"</td><td>Not stated in title</td><td class="price">$339.99</td><td><a class="tget" href="https://www.amazon.com/dp/B0HKV33BK9?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Price</a></td></tr>
+        <tr><td class="name"><span class="thumb"><img src="/images/amazon-B0GZNT3TN6.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span><span>Compact Tank &amp; Faucet Countertop</span></td><td>Compartment-fill (no auto-dispense claim)</td><td>5&nbsp;L manual tank or faucet</td><td>6</td><td class="price">$219.99</td><td><a class="tget" href="https://www.amazon.com/dp/B0GZNT3TN6?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Price</a></td></tr>
+      </tbody>
+    </table></div>
+
+    <div class="picks">
+
+      <article class="pick">
+        <div class="rank">01<small>Automatic dispensing</small></div>
+        <div>
+          <h3>Portable Countertop Dishwasher, 6.4L Tank, Integrated Water Softener</h3>
+          <div class="who">Buyers who specifically want to stop measuring detergent before every run</div>
+          <div class="rl2"><b>Countertop</b> · <span>6.4&nbsp;L built-in water tank</span> · <span>5 place settings</span> · <span>8 programs</span> · <span>X-spray system</span> · <span>integrated water softener</span> · <span>auto door open</span> · <span>automatic detergent dispensing function</span></div>
+          <p class="body">At $369.99 this is the most expensive of the three and the only one bundling several automated steps onto one machine: a softener set against local water hardness, a door that opens on its own at the end of the cycle, and the detergent reservoir this guide is about. The pitch is consistent across all three features — load it, start it, interact with it less between cycles.</p>
+          <p class="quote"><b>The trade-off</b>The listing doesn't state the reservoir's own capacity, a refill interval, or which detergent forms it's built for. At $369.99 it also costs $150 more than the cheapest machine here for exactly those unconfirmed conveniences.</p>
+        </div>
+        <div class="aside"><div class="pimg"><img src="/images/amazon-B0HDYJD6HT.webp" alt="Portable countertop dishwasher with built-in water softener and automatic detergent dispensing" width="800" height="800" loading="lazy" decoding="async"></div><div class="pr">$370</div><span class="tag">Auto-dispense</span><a class="buy" href="https://www.amazon.com/dp/B0HDYJD6HT?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+      </article>
+
+      <article class="pick">
+        <div class="rank">02<small>Standard dispenser</small></div>
+        <div>
+          <h3>AIRMSEN Portable Countertop Dishwasher, No Hookup Needed</h3>
+          <div class="who">Kitchens that need a machine running from a tank, confirmed up front</div>
+          <div class="rl2"><b>Countertop</b> · <span>no hookup needed</span> · <span>no auto-dispense claim in the listing</span></div>
+          <p class="body">AIRMSEN's listing leads with the clearest single claim of the three on water source — "No Hookup Needed" — and at $339.99 sits between the other two on price. Unlike the softener model above or the tank-and-faucet model below, it states no program count or tank volume in its headline. Since nothing in the title mentions automatic dispensing, treat it as using the conventional compartment system loaded fresh before each cycle.</p>
+          <p class="quote"><b>The trade-off</b>It costs more than the tank-and-faucet model below while publishing fewer concrete numbers in its title — a premium over the cheapest option here without the program count or capacity figures to judge what it buys.</p>
+        </div>
+        <div class="aside"><div class="pimg"><img src="/images/amazon-B0HKV33BK9.webp" alt="AIRMSEN portable countertop dishwasher with no hookup needed" width="800" height="800" loading="lazy" decoding="async"></div><div class="pr">$340</div><span class="tag">No hookup</span><a class="buy" href="https://www.amazon.com/dp/B0HKV33BK9?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+      </article>
+
+      <article class="pick">
+        <div class="rank">03<small>Cheapest, standard dispenser</small></div>
+        <div>
+          <h3>Countertop Dishwasher With Faucet &amp; Manual Water Tank (5L)</h3>
+          <div class="who">The lowest-cost way into this group, with dual water source</div>
+          <div class="rl2"><b>Countertop, compact</b> · <span>5&nbsp;L manual water tank or faucet</span> · <span>6 programs</span> · <span>marketed for RV, apartments, small kitchens</span></div>
+          <p class="body">At $219.99 this is the cheapest of the three, and like several dual-mode machines on this site it runs from either its own 5-litre tank or a connected faucet. It makes no automatic dispensing claim, so detergent goes into a compartment filled before each run — the same manual step a full-size built-in asks for, and the step the pricier softener model above sells a way around.</p>
+          <p class="quote"><b>The trade-off</b>You add detergent every cycle rather than every few cycles. Whether that few-second difference is worth $150 more for the auto-dispensing machine is a fair question, and we work through the honest math in <a href="#time-savings">the time-savings section below</a>.</p>
+        </div>
+        <div class="aside"><div class="pimg"><img src="/images/amazon-B0GZNT3TN6.webp" alt="Compact portable countertop dishwasher with faucet and manual water tank" width="800" height="800" loading="lazy" decoding="async"></div><div class="pr">$220</div><span class="tag">Lowest price</span><a class="buy" href="https://www.amazon.com/dp/B0GZNT3TN6?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+      </article>
+
+    </div>
+    <div class="prose" style="margin-top:26px">
+      <p>Program count is the other number worth reading carefully across all three. The 6-program and 8-program figures here are both plain counts, not the "5+1" or "5+2" notation some budget listings use for a baseline cycle set plus bonus options — a distinction that matters more than it sounds, as we found when we <a href="/what-5-plus-1-wash-programs-means-on-a-dishwasher">traced what that extra number actually counts</a> on other listings in this category. A plain number here is at least counting the same thing across all three machines, which isn't always true elsewhere.</p>
+    </div>
+  </section>
+
+  <section id="risks">
+    <div class="kicker"><span class="eyebrow">What could go wrong</span></div>
+    <h2 class="h2">What could go wrong with a reservoir you don't load every time</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>A reservoir you fill once and draw from over several cycles trades one set of problems for another. None of the failure modes below are confirmed for this specific machine — we have no review data and no rating for it, and we won't paraphrase sentiment we don't have. What follows is how reservoir-and-pump dosing systems behave generally, on dishwashers and on the laundry machines this listing's wording borrows from.</p>
+      <ul>
+        <li><b>Residue in the dosing channel.</b> Detergent left sitting in a narrow pump line for days or weeks between refills can thicken or leave a film, which is the mechanical reason manufacturers of auto-dispense laundry machines recommend periodic cleaning cycles for the dispenser itself — a maintenance step a compartment-and-flap system simply doesn't need, because nothing sits in it between loads.</li>
+        <li><b>A damp chamber that sits unused.</b> Any sealed reservoir inside a small, often-humid countertop appliance is a plausible place for mold or a biofilm to develop over time if it isn't emptied and dried periodically — a risk that scales with how long detergent sits rather than how often the machine runs.</li>
+        <li><b>Under- or over-dosing if the valve drifts.</b> A compartment you fill by hand gives you a fresh, visible dose every cycle. A pump or valve metering from a shared reservoir can under-dose — leaving a film on dishes — or over-dose, which on a machine that dries with residual heat rather than a heating element can mean more rinse residue, not less.</li>
+        <li><b>No obvious empty signal.</b> Part of what makes a compartment system reassuring is that you can see it's empty before you fill it. A sealed reservoir housed inside the machine doesn't offer that at-a-glance check unless the manufacturer adds one — the same visibility problem several tank-fed machines solve for their water supply with a <a href="/portable-dishwashers-with-a-water-level-window">visible water-level window</a>, a feature this listing doesn't mention having for its detergent chamber.</li>
+      </ul>
+      <p>The compounding risk is specific to a shared-supply system: a bad dose from a fresh compartment is a problem you correct next cycle. A reservoir dosing the wrong amount repeats the mistake on every wash until someone notices and refills it correctly — a real cost of convenience, not a reason to avoid it outright.</p>
+    </div>
+  </section>
+
+  <section id="time-savings">
+    <div class="kicker"><span class="eyebrow">The honest math</span></div>
+    <h2 class="h2">Whether this saves meaningfully more time than a pod drawer</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Filling a detergent compartment — dropping in a pod, or measuring a capful of gel or a scoop of powder — takes a matter of seconds. It happens while you're already standing at the machine loading dishes, a task that itself takes several minutes, and the wash cycle that follows typically runs an hour or more. Set against that timeline, the step an automatic dispensing reservoir removes is small in absolute terms: a few seconds, not a few minutes, per cycle.</p>
+      <p>Where it could add up is frequency rather than duration. A household running small loads often — the use case covered in <a href="/half-load-and-small-batch-cycles-on-a-portable-dishwasher">our guide to half-load and small-batch cycles</a> — repeats that few-second step more times per week than a household running one large load every few days. More cycles means more instances of the saving, even though each instance is tiny.</p>
+      <p>But the reservoir isn't free of the same task, only less frequent with it: pouring in a bottle's worth of detergent instead of a capful takes longer per instance even if it happens less often. Add it up over a month and the two approaches are plausibly close to a wash in total time spent on detergent; what differs is where that time lands. Our honest read: the real case for paying more here is not a stopwatch-measurable saving, it's not having to remember the step at all — worth something to some buyers, and worth nothing to someone who's never once forgotten to add detergent before starting a load.</p>
+    </div>
+  </section>
+
+  <section id="fine-print">
+    <div class="kicker"><span class="eyebrow">The fine print</span></div>
+    <h2 class="h2">What the manufacturer claim doesn't tell you</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Start with the wording itself. "Laundry detergent automatic dispensing function," on a dishwasher listing, is the kind of phrase that suggests bullet copy written for one appliance category and reused, lightly edited or not at all, for another. That's not proof of anything wrong with the machine — plenty of functional hardware ships with rough or recycled listing copy, a pattern we traced in more detail in <a href="/generic-brand-portable-dishwashers-what-you-give-up">our look at generic-brand listings</a> — but it's a reason to read the rest of the listing a little more skeptically than one written specifically, and correctly, for a dishwasher.</p>
+      <p>Beyond the wording, four numbers are absent from the title and headline bullets: the reservoir's own capacity, how often it needs refilling under normal use, which detergent forms it's designed to accept, and whether it's removable for cleaning. None of these are confirmed one way or the other, and a buyer choosing between this $369.99 machine and either cheaper machine below is weighing a convenience claim with real unknowns against a system — the drawer you fill each time — with no unknowns left to discover, because every dishwasher in this category has used it for years.</p>
+      <p>That's the actual decision on this page, stripped of marketing language: pay more for a feature that removes a small, frequent task and adds a few unconfirmed ones, or keep the task and the certainty that comes with it. Both are reasonable choices. What isn't reasonable is assuming "automatic" means less to think about overall — on the evidence available, it mostly means thinking about detergent on a different schedule, not thinking about it less.</p>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="kicker"><span class="eyebrow">FAQ</span></div>
+    <h2 class="h2">Common questions about automatic detergent dispensing</h2>
+    <div class="panel faq" style="margin-top:22px">
+      <details open><summary>Does automatic detergent dispensing mean the dishwasher never needs detergent added?</summary><p>No. It means the reservoir holds enough for more than one cycle, so you refill it on some longer interval instead of adding detergent before every single run. The listing that makes this claim doesn't state how large that reservoir is or how often it needs topping up, so there's no published figure for how long one refill lasts.</p></details>
+      <details><summary>Can I use a dish detergent pod in an automatic-dispensing reservoir?</summary><p>Probably not, based on how these systems are built, though the listing doesn't say directly. A pumped reservoir doses a measured amount through a small channel or valve, which works for a liquid or a gel but can't meter a fraction of a sealed pod. If pods are what you already own, a machine with a conventional fill-each-time compartment is the safer match, and that's worth confirming in the listing's Q&amp;A before you order either way.</p></details>
+      <details><summary>How often do I need to refill a reservoir like this one?</summary><p>We don't know, and neither does the listing say: it doesn't publish the detergent reservoir's capacity or a refill interval, only the 6.4-litre figure for the separate water tank. Refill frequency on any such system depends on the size of the reservoir and how much it doses per cycle, neither of which is stated here.</p></details>
+      <details><summary>Does automatic dispensing save a meaningful amount of time compared with filling a compartment each cycle?</summary><p>Not by much, on the numbers available. Filling a compartment takes a matter of seconds, done while you're already loading dishes for a cycle that runs an hour or more. A reservoir removes that small step but has to be refilled less often with a larger amount, which takes longer per instance. The honest saving is closer to a change in when you handle detergent than a reduction in how much time you spend on it.</p></details>
+    </div>
+  </section>
+
+  <section id="keep-reading">
+    <div class="kicker"><span class="eyebrow">Keep reading</span></div>
+    <h2 class="h2">Next, from this site</h2>
+    <div class="cols" style="margin-top:22px">
+      <a class="panel" style="text-decoration:none;display:block" href="/portable-dishwashers-with-automatic-soil-sensing-cycles">
+        <span class="eyebrow" style="color:var(--brass-text)">Guide</span>
+        <h3 class="serif" style="margin-top:6px">Soil-Sensing Wash Cycles on a Portable Dishwasher: What They Actually Measure</h3>
+        <p>A few step-up machines claim a sensor that adjusts the cycle to how dirty the load is. What the listing says it measures, and what it doesn't. <span style="color:var(--aqua-deep);font-weight:700">Read →</span></p>
+      </a>
+      <a class="panel" style="text-decoration:none;display:block" href="/portable-dishwashers-with-a-water-level-window">
+        <span class="eyebrow" style="color:var(--brass-text)">Guide</span>
+        <h3 class="serif" style="margin-top:6px">Water-Level Windows on a Portable Dishwasher: Do You Need to Watch the Tank?</h3>
+        <p>A few tank-fed models add a visible water-level window or indicator so you know when to refill. What it actually prevents, and what it doesn't. <span style="color:var(--aqua-deep);font-weight:700">Read →</span></p>
+      </a>
+      <a class="panel" style="text-decoration:none;display:block" href="/generic-brand-portable-dishwashers-what-you-give-up">
+        <span class="eyebrow" style="color:var(--brass-text)">Honest take</span>
+        <h3 class="serif" style="margin-top:6px">Generic-Brand Portable Dishwashers: What a No-Name Listing Gets Right and Wrong</h3>
+        <p>Collier, Canbo and JOJTETTY aren't names most buyers recognize. What you actually give up, and don't, compared with an established brand at a similar price. <span style="color:var(--aqua-deep);font-weight:700">Read →</span></p>
+      </a>
+    </div>
+  </section>
+
+</div>
+
+<footer class="site"><div class="wrap">
+  <div class="fbrand">Best Portable Dishwashers</div>
+  <p>Independent, research-based comparisons of portable and countertop dishwashers for kitchens without a hookup.</p>
+  <p style="margin:.5rem 0 0"><a href="/about">About</a> · <a href="/guides">All guides</a> · <a href="/contact">Contact</a> · <a href="/privacy">Privacy</a></p>
+  <p>Reader-supported: we may earn a commission when you buy through our links, at no additional cost to you. Comparisons are based on published specifications and pricing; we do not physically test products and we do not publish ratings we cannot verify. Prices change frequently — confirm the current price on Amazon. As an Amazon Associate, we earn from qualifying purchases. © 2026 Best Portable Dishwashers.</p>
+</div></footer>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Automatic Detergent Dispensing on a Portable Dishwasher: Does It Replace the Drawer?","description":"One listing in the catalogue claims automatic detergent dispensing instead of a drawer you fill each time. What that means mechanically, and what it doesn't.","image":"https://best-portable-dishwashers.com/images/hero-automatic-detergent-dispensing-portable-dishwashers-explained.webp","datePublished":"2026-10-30","dateModified":"2026-10-30","author":{"@type":"Person","name":"Ilane Tall"},"publisher":{"@type":"Organization","name":"Best Portable Dishwashers"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://best-portable-dishwashers.com/automatic-detergent-dispensing-portable-dishwashers-explained"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ItemList","name":"Automatic vs standard detergent dispensing, compared","itemListElement":[
+ {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Portable Countertop Dishwashers, 6.4L Built-in Water Tank, 5 Place Settings, 8 Programs, X-spray system, Integrated Water Softener, Auto Door Open, Laundry detergent automatic dispensing function","offers":{"@type":"Offer","price":"369.99","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B0HDYJD6HT?tag=bestportabledish-20"}}},
+ {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"AIRMSEN Portable Countertop Dishwasher, No Hookup Needed","brand":{"@type":"Brand","name":"AIRMSEN"},"offers":{"@type":"Offer","price":"339.99","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B0HKV33BK9?tag=bestportabledish-20"}}},
+ {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Countertop Dishwasher, Portable Compact Dishwasher with Faucet & Manual Water Tank (5L), 6 Programs, Ideal for RV, Apartments, Small Kitchens","offers":{"@type":"Offer","price":"219.99","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B0GZNT3TN6?tag=bestportabledish-20"}}}
+]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"Does automatic detergent dispensing mean the dishwasher never needs detergent added?","acceptedAnswer":{"@type":"Answer","text":"No. It means the reservoir holds enough for more than one cycle, so you refill it on some longer interval instead of adding detergent before every single run. The listing that makes this claim doesn't state how large that reservoir is or how often it needs topping up."}},
+ {"@type":"Question","name":"Can I use a dish detergent pod in an automatic-dispensing reservoir?","acceptedAnswer":{"@type":"Answer","text":"Probably not, based on how these systems are built, though the listing doesn't say directly. A pumped reservoir doses a measured amount through a small channel or valve, which works for a liquid or a gel but can't meter a fraction of a sealed pod. If pods are what you already own, a machine with a conventional fill-each-time compartment is the safer match."}},
+ {"@type":"Question","name":"How often do I need to refill a reservoir like this one?","acceptedAnswer":{"@type":"Answer","text":"The listing doesn't publish the detergent reservoir's capacity or a refill interval, only a separate 6.4-litre figure for the water tank. Refill frequency on any such system depends on the size of the reservoir and how much it doses per cycle, neither of which is stated."}},
+ {"@type":"Question","name":"Does automatic dispensing save a meaningful amount of time compared with filling a compartment each cycle?","acceptedAnswer":{"@type":"Answer","text":"Not by much. Filling a compartment takes a matter of seconds, done while already loading dishes for a cycle that runs an hour or more. A reservoir removes that small step but needs refilling less often with a larger amount, which takes longer per instance. The real difference is when detergent is handled, not how much time is spent on it overall."}}
+]}
+</script>
+
+<script src="/site.js" defer></script>
+</body>
+</html>
