@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Silonn's Two Countertop Dishwashers: App Control vs the Standard Dial</title>
+<meta name="description" content="One Silonn listing adds app control, the other doesn't — and it isn't the app version that costs more. What actually separates the two.">
+<link rel="canonical" href="https://best-portable-dishwashers.com/silonn-portable-dishwasher-app-control-vs-standard-compared">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Best Portable Dishwashers">
+<meta property="og:title" content="Silonn's Two Countertop Dishwashers: App Control vs the Standard Dial">
+<meta property="og:description" content="One Silonn listing adds app control, the other doesn't — and it isn't the app version that costs more. What actually separates the two.">
+<meta property="og:image" content="https://best-portable-dishwashers.com/images/hero-silonn-portable-dishwasher-app-control-vs-standard-compared.webp">
+<meta property="og:url" content="https://best-portable-dishwashers.com/silonn-portable-dishwasher-app-control-vs-standard-compared">
+<meta name="theme-color" content="#101820">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="alternate icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  /* premium-editorial-v1 — palette: steel / slate / water-blue.
+     NOTE: the --aqua* and --brass* variable names are inherited from the network template;
+     on this site --aqua carries the water-blue accent and --brass carries brushed chrome.
+     Do not rename (tools/rebuild-site.js and every article file reference them). */
+  :root{
+    --ground:#F4F6F8; --surface:#FFFFFF; --surface-2:#E9EEF3;
+    --ink:#131A21; --ink-soft:#2E3A45; --muted:#69757F; --line:#DCE3EA;
+    --aqua:#1C6E8C; --aqua-deep:#12556F; --aqua-tint:#E8F1F6;
+    --brass:#8D9AA6; --brass-lite:#C9D5DF; --brass-tint:#EDF1F5;
+    --dark:#101820; --dark-2:#1D2A35; --on-dark:#EAF0F5; --on-dark-mute:#9CACB9;
+    --star:#B07E00;
+    --shadow:0 1px 2px rgba(19,26,33,.05),0 22px 48px -26px rgba(19,26,33,.30);
+    --shadow-sm:0 1px 2px rgba(19,26,33,.05),0 10px 24px -16px rgba(19,26,33,.24);
+    --radius:20px; --radius-sm:12px; --maxw:1120px;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ground:#0C1116; --surface:#151E26; --surface-2:#1E2A34;
+    --ink:#EAF0F5; --ink-soft:#CBD7E0; --muted:#93A2AE; --line:#28353F;
+    --aqua:#5CA9C8; --aqua-deep:#7FC3DD; --aqua-tint:#122530;
+    --brass:#C9D5DF; --brass-lite:#DDE7EF; --brass-tint:#16222B;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }}
+  :root[data-theme="dark"]{
+    --ground:#0C1116; --surface:#151E26; --surface-2:#1E2A34;
+    --ink:#EAF0F5; --ink-soft:#CBD7E0; --muted:#93A2AE; --line:#28353F;
+    --aqua:#5CA9C8; --aqua-deep:#7FC3DD; --aqua-tint:#122530;
+    --brass:#C9D5DF; --brass-lite:#DDE7EF; --brass-tint:#16222B;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+    font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  a{color:inherit}
+  h1,h2,h3{margin:0;line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
+  .serif{font-family:var(--serif)}
+  p{margin:0 0 1rem}
+  .eyebrow{font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+  .tnum{font-variant-numeric:tabular-nums}
+  .stars{color:var(--star);letter-spacing:2px}
+
+  /* ---------- header ---------- */
+  header.site{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--ground) 82%,transparent);
+    backdrop-filter:saturate(1.3) blur(12px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-weight:700;letter-spacing:-.01em}
+  .brand .bn{font-family:var(--serif);font-size:1.16rem}
+  nav.site a{color:var(--muted);text-decoration:none;font-size:.86rem;font-weight:600;letter-spacing:.01em;margin-left:22px;transition:color .2s}
+  nav.site a:hover{color:var(--ink)}
+  @media (max-width:660px){nav.site{display:none}}
+
+  /* ---------- hero (immersive dark, water shimmer) ---------- */
+  .hero{position:relative;background:radial-gradient(120% 90% at 80% -10%,var(--dark-2),var(--dark) 60%);color:var(--on-dark);overflow:hidden;isolation:isolate}
+  .caustic{position:absolute;inset:-30%;z-index:0;opacity:.5;pointer-events:none;filter:blur(30px);
+    background:
+      radial-gradient(28% 40% at 22% 30%,rgba(92,169,200,.26),transparent 60%),
+      radial-gradient(24% 34% at 74% 24%,rgba(201,213,223,.20),transparent 60%),
+      radial-gradient(30% 42% at 60% 78%,rgba(28,110,140,.28),transparent 62%);
+    animation:drift 22s ease-in-out infinite alternate}
+  .caustic.b{opacity:.34;animation-duration:30s;animation-direction:alternate-reverse;
+    background:
+      radial-gradient(26% 36% at 40% 60%,rgba(127,195,221,.22),transparent 60%),
+      radial-gradient(22% 30% at 85% 70%,rgba(141,154,166,.20),transparent 60%)}
+  @keyframes drift{0%{transform:translate3d(-2%,-1%,0) scale(1)}50%{transform:translate3d(3%,2%,0) scale(1.08)}100%{transform:translate3d(-1%,3%,0) scale(1.04)}}
+  .hero .wrap{position:relative;z-index:1;padding:74px 26px 88px}
+  .hero .eyebrow{color:var(--brass-lite)}
+  .hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,1.4rem+4.6vw,4.7rem);letter-spacing:-.02em;max-width:15ch;margin:.5rem 0 0}
+  .hero h1 em{font-style:italic;color:var(--brass-lite)}
+  .hero .lede{font-size:1.24rem;line-height:1.55;color:var(--on-dark-mute);max-width:52ch;margin-top:1.3rem}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:26px;font-size:.86rem;color:var(--on-dark-mute)}
+  .hero .meta b{color:var(--on-dark)}
+  .rule{height:1px;background:linear-gradient(90deg,var(--brass),transparent);border:0;margin:26px 0 0;max-width:220px}
+
+  /* ---------- #1 feature (the centerpiece) ---------- */
+  .feature{position:relative;z-index:2;margin:-56px 0 0}
+  .feature .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    display:grid;grid-template-columns:1.1fr 1fr;overflow:hidden}
+  .feature .left{padding:38px}
+  .feature .kick{display:inline-flex;align-items:center;gap:9px;color:var(--brass-text);font-weight:700;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase}
+  .feature .kick::before{content:"";width:26px;height:1px;background:var(--brass)}
+  .feature h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.8rem,1.2rem+2vw,2.7rem);margin:.5rem 0 .2rem}
+  .feature .verdict{color:var(--ink-soft);font-size:1.06rem;margin:.4rem 0 1rem;max-width:44ch}
+  .feature .rl{display:flex;align-items:center;flex-wrap:wrap;gap:8px 10px;font-size:.92rem;color:var(--muted);margin-bottom:1.2rem}
+  .feature .rl b{color:var(--ink)}
+  .btn{display:inline-flex;align-items:center;gap:9px;background:var(--aqua);color:#fff;font-weight:700;
+    padding:14px 26px;border-radius:12px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,background .2s}
+  .btn:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  .btn .arw{transition:transform .2s}.btn:hover .arw{transform:translateX(3px)}
+  .feature .right{background:linear-gradient(160deg,var(--dark-2),var(--dark));color:var(--on-dark);padding:38px;display:flex;flex-direction:column;justify-content:center;gap:6px;position:relative}
+  .feature .right .lab{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-mute)}
+  .feature .bigprice{font-family:var(--serif);font-size:clamp(3rem,2rem+4vw,4.4rem);font-weight:600;line-height:1;color:var(--brass-lite)}
+  .feature .bigprice sup{font-size:.4em;top:-1.2em;color:var(--on-dark)}
+  .feature .right .note{color:var(--on-dark-mute);font-size:.92rem;margin-top:6px;max-width:30ch}
+  .feature .right .mono{margin-top:16px;font-family:var(--serif);font-size:1.05rem;color:var(--on-dark)}
+  @media (max-width:820px){.feature .card{grid-template-columns:1fr}.feature .right{order:-1}}
+
+  /* ---------- generic section ---------- */
+  section{padding:44px 0}
+  .kicker{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+  .kicker .eyebrow{color:var(--aqua-deep)}
+  .kicker::after{content:"";flex:1;height:1px;background:var(--line)}
+  .h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,1.2rem+1.7vw,2.5rem);letter-spacing:-.01em}
+  .sub{color:var(--muted);max-width:62ch;margin:.6rem 0 0}
+
+  .notes{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:24px}
+  .notes .n{background:var(--surface);padding:24px}
+  .notes .num{font-family:var(--serif);font-size:1.5rem;color:var(--brass-text);line-height:1}
+  .notes h3{font-size:1.02rem;font-weight:750;margin:.5rem 0 .35rem}
+  .notes p{font-size:.9rem;color:var(--muted);margin:0}
+  @media (max-width:820px){.notes{grid-template-columns:1fr 1fr}}
+  @media (max-width:520px){.notes{grid-template-columns:1fr}}
+
+  /* honesty band */
+  .band{background:var(--brass-tint);border:1px solid var(--line);border-left:3px solid var(--brass);
+    border-radius:var(--radius-sm);padding:22px 24px;margin-top:26px}
+  .band h3{font-family:var(--serif);font-weight:600;font-size:1.16rem;margin-bottom:.5rem}
+  .band p{color:var(--ink-soft);font-size:.95rem;margin:0}
+  .band p+p{margin-top:.6rem}
+
+  /* comparison */
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);background:var(--surface);margin-top:22px}
+  table{border-collapse:collapse;width:100%;min-width:740px;font-size:.94rem}
+  thead th{background:var(--surface-2);text-align:left;padding:16px;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+  td{padding:15px 16px;border-bottom:1px solid var(--line);vertical-align:middle}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:hover{background:var(--surface-2)}
+  td.name{font-family:var(--serif);font-weight:600;font-size:1.05rem}
+  .win td{background:var(--brass-tint)}
+  .win td.name{color:var(--brass-text)}
+  .win td:first-child{box-shadow:inset 3px 0 0 var(--brass)}
+  .price{font-weight:800;font-variant-numeric:tabular-nums}
+  .rev{color:var(--muted);font-size:.82rem}
+  .tget{display:inline-block;background:var(--ink);color:var(--surface);font-weight:700;font-size:.8rem;padding:8px 14px;border-radius:9px;text-decoration:none;white-space:nowrap;transition:background .2s}
+  .tget:hover{background:var(--aqua-deep);color:#fff}
+
+  /* picks (editorial cards) */
+  .picks{display:flex;flex-direction:column;gap:26px;margin-top:26px}
+  .pick{display:grid;grid-template-columns:96px 1fr auto;gap:26px;align-items:start;
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:28px}
+  .pick .rank{font-family:var(--serif);font-size:2.6rem;color:var(--brass-text);line-height:.9;font-weight:600}
+  .pick .rank small{display:block;font-family:var(--sans);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:8px}
+  .pick h3{font-family:var(--serif);font-weight:600;font-size:1.44rem}
+  .pick .who{color:var(--aqua-deep);font-weight:700;font-size:.9rem;margin:.25rem 0 .5rem}
+  .pick .rl2{display:flex;align-items:center;flex-wrap:wrap;gap:6px 8px;font-size:.86rem;color:var(--muted);margin-bottom:.7rem}
+  .pick .rl2 b{color:var(--ink)}
+  .pick p.body{margin:.2rem 0 0;color:var(--ink-soft)}
+  .quote{border-left:2px solid var(--brass);padding-left:14px;margin:.9rem 0 0;font-family:var(--serif);color:var(--ink);font-size:1.02rem}
+  .quote b{font-family:var(--sans);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass-text);display:block;margin-bottom:.2rem;font-weight:700}
+  .aside{display:flex;flex-direction:column;align-items:flex-end;gap:12px;text-align:right;min-width:150px}
+  .aside .pr{font-family:var(--serif);font-size:2rem;font-weight:600;font-variant-numeric:tabular-nums;line-height:1}
+  .aside .tag{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .buy{display:inline-flex;align-items:center;gap:8px;background:var(--aqua);color:#fff;font-weight:700;padding:11px 20px;border-radius:10px;text-decoration:none;transition:background .2s,transform .15s;font-size:.92rem}
+  .buy:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  @media (max-width:820px){.pick{grid-template-columns:64px 1fr}.aside{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;text-align:left;border-top:1px solid var(--line);padding-top:16px}}
+
+  /* method / faq */
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:22px}
+  @media (max-width:760px){.cols{grid-template-columns:1fr}}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm)}
+  .panel .eyebrow{color:var(--aqua-deep)}
+  .panel h3{font-family:var(--serif);font-weight:600;font-size:1.3rem;margin:.5rem 0 .5rem}
+  .panel p{color:var(--muted);margin:0}
+  .faq details{border-top:1px solid var(--line);padding:16px 0}
+  .faq details:first-of-type{border-top:0}
+  .faq summary{cursor:pointer;font-family:var(--serif);font-size:1.12rem;list-style:none;display:flex;justify-content:space-between;gap:14px;color:var(--ink)}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--brass-text);font-family:var(--sans);font-weight:700}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{margin:.8rem 0 0;color:var(--muted)}
+
+  footer.site{margin-top:20px;background:var(--dark);color:var(--on-dark-mute)}
+  footer .wrap{padding:40px 26px}
+  footer .fbrand{font-family:var(--serif);color:var(--on-dark);font-size:1.2rem}
+  footer p{font-size:.84rem;margin:.6rem 0 0;max-width:80ch}
+  footer a{color:var(--brass-lite)}
+  /* imagery */
+  .hero .wrap{display:grid;grid-template-columns:1.12fr .88fr;gap:48px;align-items:center}
+  .hero .himg{border-radius:20px;border:1px solid rgba(201,213,223,.4);box-shadow:0 30px 60px -30px rgba(0,0,0,.55);width:100%;height:auto;display:block}
+  @media (max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:30px}}
+  .fpimg{background:#fff;border-radius:14px;padding:14px;box-shadow:0 12px 28px -14px rgba(0,0,0,.5);width:min(230px,70%);margin-bottom:16px}
+  .fpimg img{width:100%;height:auto;display:block}
+  .aside .pimg{width:150px;height:150px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;display:flex;align-items:center;justify-content:center}
+  .aside .pimg img{max-width:100%;max-height:100%;display:block}
+  @media (max-width:820px){.aside .pimg{width:96px;height:96px;padding:6px}}
+  td.name{display:flex;align-items:center;gap:12px}
+  .thumb{width:46px;height:46px;flex:0 0 auto;background:#fff;border:1px solid var(--line);border-radius:9px;padding:4px}
+  .thumb img{width:100%;height:100%;object-fit:contain;display:block}
+  :focus-visible{outline:2px solid var(--aqua);outline-offset:3px;border-radius:5px}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}.btn:hover,.buy:hover{transform:none}}
+</style>
+<style>
+  /* article layer — prose column only; never restyle .buy / .btn (the a11y block owns them) */
+  .prose{max-width:68ch}
+  .prose p{color:var(--ink-soft);margin:0 0 1.05rem}
+  .prose p b{color:var(--ink)}
+  .prose h3{font-family:var(--serif);font-weight:600;font-size:1.28rem;color:var(--ink);margin:1.7rem 0 .6rem;line-height:1.2}
+  .prose ul{color:var(--ink-soft);margin:0 0 1.15rem;padding-left:1.15rem}
+  .prose li{margin:.4rem 0}
+  .prose a{color:var(--aqua-deep);font-weight:600;text-underline-offset:3px}
+  .disclosure{font-size:.86rem;color:var(--muted);border-left:2px solid var(--brass);padding-left:14px;margin:0}
+  section#intro{padding-top:34px}
+</style>
+<style id="a11y">:root{--brass-text:#4A5865;--star:#B07E00}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--brass-text:#C9D5DF;--star:#E8B84B}}:root[data-theme="dark"]{--brass-text:#C9D5DF;--star:#E8B84B}nav.site a{color:var(--ink-soft)}.stars{color:var(--star)}thead th{color:var(--ink-soft)}.rev{color:var(--ink-soft)}.kick{color:var(--brass-text)}.win td.name{color:var(--brass-text)}a.btn,a.buy,.btn,.buy{background:#12556F !important;color:#fff !important;text-decoration:none !important}a.btn:hover,a.buy:hover,.btn:hover,.buy:hover{background:#0D4056 !important}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) a.btn,:root:not([data-theme="light"]) a.buy,:root:not([data-theme="light"]) .btn,:root:not([data-theme="light"]) .buy{background:#7FC3DD !important;color:#0B1720 !important}:root:not([data-theme="light"]) .btn:hover,:root:not([data-theme="light"]) .buy:hover{background:#A3D6E9 !important}}:root[data-theme="dark"] a.btn,:root[data-theme="dark"] a.buy,:root[data-theme="dark"] .btn,:root[data-theme="dark"] .buy{background:#7FC3DD !important;color:#0B1720 !important}</style>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "y1k8hct9nk");
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B93FNJGK0K"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());gtag('config', 'G-B93FNJGK0K');</script>
+</head>
+<body>
+<header class="site"><div class="wrap bar">
+  <a class="brand" href="/" aria-label="Best Portable Dishwashers">
+    <svg class="logomark" width="36" height="36" viewBox="0 0 40 40" aria-hidden="true">
+      <defs><radialGradient id="lm" cx="34%" cy="26%" r="86%"><stop offset="0" stop-color="#9FB4C2"/><stop offset=".68" stop-color="#33454F"/><stop offset="1" stop-color="#16222B"/></radialGradient></defs>
+      <circle cx="20" cy="20" r="19" fill="url(#lm)"/>
+      <circle cx="20" cy="20" r="18.4" fill="none" stroke="#C9D5DF" stroke-width="1.1" stroke-opacity=".92"/>
+      <circle cx="20" cy="20" r="15.3" fill="none" stroke="#EAF0F5" stroke-width=".6" stroke-opacity=".22"/>
+      <rect x="12.4" y="13.2" width="15.2" height="16" rx="2.2" fill="#F4F8FB"/>
+      <path d="M12.4 24.2h15.2" stroke="#33454F" stroke-width="1" stroke-opacity=".5"/>
+      <circle cx="20" cy="20.4" r="3.1" fill="none" stroke="#1C6E8C" stroke-width="1.5"/>
+      <path d="M20 17.3v-2.5" stroke="#1C6E8C" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M16.1 27.1h7.8" stroke="#8D9AA6" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M20 6.6c1.9 2.4 3 4 3 5.2a3 3 0 0 1-6 0c0-1.2 1.1-2.8 3-5.2Z" fill="#C9D5DF" fill-opacity=".85"/>
+    </svg>
+    <span class="bn">Best&thinsp;Portable&thinsp;Dishwashers</span>
+  </a>
+  <nav class="site" aria-label="Primary">
+    <a href="/#feature">Top pick</a><a href="/#compare">Compare</a><a href="/#picks">The eight</a><a href="/#how">Method</a><a href="/#faq">FAQ</a>
+  <a href="/guides">All guides</a></nav>
+</div></header>
+
+<a id="top"></a>
+<div class="hero">
+  <div class="caustic" aria-hidden="true"></div><div class="caustic b" aria-hidden="true"></div>
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Comparison · Silonn app control vs standard dial</span>
+      <h1 class="serif">Silonn makes this dishwasher twice. <em>Only one has an app.</em></h1>
+      <p class="lede">Silonn sells two nearly identical 5-litre countertop dishwashers: one you start and monitor from your phone, one you run from the unit itself. The app version is the cheaper of the two. That alone tells you the app isn't where the money went — so what is the real difference, and does it matter for a four-place-setting kitchen?</p>
+      <div class="meta"><span>By Ilane Tall · Updated October 31, 2026 · Research-based.</span></div>
+      <hr class="rule">
+    </div>
+    <img class="himg" src="/images/hero-silonn-portable-dishwasher-app-control-vs-standard-compared.webp" alt="Two compact Silonn countertop dishwashers side by side, one with a phone showing an app control screen and one with a physical dial" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async">
+  </div>
+</div>
+
+<div class="wrap">
+
+  <section id="intro">
+    <div class="prose">
+      <p class="disclosure">Reader-supported: we may earn a commission when you buy through the links on this page, at no additional cost to you. Prices move constantly — confirm the live price before you order.</p>
+
+      <p style="margin-top:1.4rem">Silonn's catalogue includes two 5-litre tank countertop dishwashers that are easy to mix up at a glance: both are compact, both run from a built-in water tank with no plumbing, both are listed for apartments, RVs and dorms, and both are rated for four place settings. The difference that actually separates them is the control layer. One model, ASIN B0F2GQCKYG, adds app control and lists 8 wash programs. The other, ASIN B0F79X8Q1B, has no app, runs its 7 wash programs from an onboard panel, and adds a 360° spray arm callout the app version's listing doesn't make.</p>
+
+      <p>Here's the part that reverses the usual assumption: the app-controlled machine is listed at $290.39, and the standard, dial-only machine at $309.99 — a $19.60 gap in favor of the connected model. Most buyers assume a smart-home feature is the expensive add-on and a plain mechanical version is the budget pick. On this pair, that assumption is backwards, and figuring out why is more useful than picking a favorite on price alone.</p>
+
+      <div class="band">
+        <h3 class="serif">How this page is built</h3>
+        <p>We compare the two listings on published specifications, what each one claims in its title and bullets, and live pricing. We do not physically test these machines, we do not run a testing lab, and we do not publish ratings we cannot verify — Amazon returns no rating and no review count for either model, so there are no stars on this site. Where the listings don't itemize a spec, we say so rather than guess at it.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="two-models">
+    <div class="kicker"><span class="eyebrow">The two listings</span></div>
+    <h2 class="h2">What each one actually claims</h2>
+    <div class="prose" style="margin-top:1rem">
+      <h3>The app-control model</h3>
+      <p>Silonn's app-connected unit is titled "Portable Countertop Dishwasher with App Control, Mini Dishwasher with 5L Water Tank for Apartments/RVs No Hookup Needed, Dish washer with 8 Wash Programs 4 Place Settings Auto Air Dry." Strip the keyword stuffing and the claims are: a 5-litre built-in tank, no plumbing hookup required, 8 wash programs, 4 place settings, and an auto air-dry finish. The app sits on top of that hardware as a control and monitoring layer — the listing doesn't describe it as replacing any physical control, only adding to it.</p>
+      <h3>The standard, dial-only model</h3>
+      <p>The non-connected unit is titled "Silonn Portable Countertop Dishwasher, 5L Tank No Plumbing Needed 7 Wash Prog 360° Spray, 4-Place Settings Dishwasher Auto Dry for Apartments RVs Dorms." Same tank size, same no-hookup design, one fewer wash program at 7, the same 4 place settings, and a 360° spray callout the app model's own title doesn't repeat. "Auto Dry" rather than "Auto Air Dry" is likely the same feature described with slightly different marketing copy rather than two different drying mechanisms — neither listing breaks the dry cycle down further, so we won't either.</p>
+      <p>Both are sold under the Silonn brand, both ship to the same use cases, and neither listing states an external dimension or a decibel rating, so we can't compare this pair on footprint or noise the way our <a href="/countertop-vs-18-inch-portable-dishwashers">countertop-vs-18-inch comparison</a> does for the wider category. What we can compare, with real numbers from the titles themselves, is control method, program count and price.</p>
+    </div>
+  </section>
+
+  <section id="price">
+    <div class="kicker"><span class="eyebrow">Price</span></div>
+    <h2 class="h2">Why the connected model is the cheaper one</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>$290.39 for the app model against $309.99 for the standard one is not a typo, and it's not how this category usually prices. Elsewhere on this site, a WiFi-connected countertop dishwasher from a major appliance brand commands a real premium over a plain one with comparable capacity. Here the direction is reversed, and the honest explanation isn't that app control is a cost center Silonn is discounting to move units — it's simpler than that.</p>
+      <p>A Bluetooth or WiFi radio and the companion firmware are inexpensive at the manufacturing scale a brand like Silonn operates at; they are not the part of a small appliance that drives bill-of-materials cost. The standard model's extra $19.60, by contrast, lines up with the one hardware difference its own title calls out: a 360° spray arm, which is a mechanical change — more moving parts, a different pump routing — rather than a software one. Put simply, you're not paying less for the app model because the app is worth less. You're paying more for the standard model because of a spray-arm design the app model's listing doesn't claim.</p>
+      <p>That matters because it undercuts the instinct to treat "the cheaper one" as "the stripped-down one." On this pair, cheaper is the one with a phone app and one extra wash program; the pricier one has no app and a different spray mechanism. Neither is the discount model in every respect, and the lesson generalizes: in <a href="/what-5-plus-1-wash-programs-means-on-a-dishwasher">a category where program counts get inflated for marketing</a>, price is not a reliable stand-in for which features a given SKU carries. Read what's actually listed, not what the price implies should be listed.</p>
+      <p>One caveat worth stating plainly: both prices are live Amazon snapshots taken two days apart in our database — October 16 and October 18, 2026 — and prices on both listings move on their own schedule from week to week. Treat the $19.60 gap as directionally real rather than permanently fixed, and check the current price on each listing before deciding the gap still favors the app model the day you buy.</p>
+    </div>
+  </section>
+
+  <section id="app">
+    <div class="kicker"><span class="eyebrow">The app</span></div>
+    <h2 class="h2">What app control actually adds</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Strip away the marketing language and an app layer on a small countertop appliance like this one tends to add three things, in order of usefulness: remote start, cycle selection from your phone instead of the unit's own panel, and status notifications so you're not walking over to check a light. None of those three is a wash feature. They're a convenience layer sitting on top of the same tank, the same pump, and the same spray mechanism the dial model also has.</p>
+      <p>That's the honest framing for "nothing it can't do locally": the app doesn't let the connected Silonn clean anything the standard Silonn structurally cannot, because the parts of the machine that actually wash — water heater, pump, spray arm, detergent dose — are the same category of hardware either way. What the app changes is where you stand when you press start. For someone in a small apartment or an RV, being able to start the wash from the next room, or from outside while running an errand, is a real convenience; it just isn't a cleaning upgrade.</p>
+      <p>The one number that complicates "nothing it can't do locally" is the program count: 8 for the app model versus 7 for the standard one. We won't paper over that. But an extra wash program on a different SKU usually comes from a firmware or hardware revision tied to that specific listing, not from "having an app" as a general rule — a phone app doesn't invent a new wash cycle the machine's own pump and heater can't execute. Buy the extra program for what it is, a spec difference between two SKUs, not as evidence that app control itself expands what a dishwasher can wash.</p>
+      <p>You still do the same physical work on either machine: load the rack, add detergent, fill the 5-litre tank by hand, since neither model connects to a faucet. The app removes a few seconds of walking to the unit. It does not remove the tank-filling step.</p>
+    </div>
+  </section>
+
+  <section id="sensors">
+    <div class="kicker"><span class="eyebrow">Status reporting</span></div>
+    <h2 class="h2">A dial you can see versus a sensor you're told about</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Neither Silonn listing itemizes the internal sensor hardware inside its control board, so we won't claim a precision-sensor spec for either model that isn't written down. What we can describe honestly is the difference in how each machine's status reaches you, because that's a function of the control method itself rather than a hidden component.</p>
+      <p>On the standard, dial-controlled unit, status is whatever is physically visible on the machine: a selector position, an indicator light, and on countertop dishwashers in this category generally, sometimes a water-level cue the tank design provides directly — see our separate look at <a href="/portable-dishwashers-with-a-water-level-window">water-level windows on a portable dishwasher</a> for what that feature does and doesn't tell you. Whatever the standard Silonn is doing at any moment, you confirm it by looking at the unit, not by trusting an intermediary.</p>
+      <p>On the app-controlled unit, the same underlying readings — cycle stage, time remaining, completion — are captured by the machine's control board and relayed to your phone through firmware. That's genuinely convenient, and it's also an extra layer between the raw reading and what you see: if the app's connection lags, or the firmware's interpretation is off, you're trusting a software summary instead of a light you can look at directly. This isn't a flaw specific to Silonn; it's the trade every app-connected small appliance makes, and it's the same trade discussed in more depth in our guide to <a href="/portable-dishwashers-with-automatic-soil-sensing-cycles">automatic soil-sensing cycles</a>, where the sensor-versus-interpretation gap matters even more.</p>
+      <p>Neither approach is more "precise" in a way either listing actually proves — we're describing how each control method is built to communicate, not asserting a sensor-accuracy claim for either specific unit.</p>
+    </div>
+  </section>
+
+  <section id="connectivity">
+    <div class="kicker"><span class="eyebrow">Connectivity</span></div>
+    <h2 class="h2">What happens if the app or your WiFi goes down</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>This is the question app-control skeptics ask first, and it deserves a direct, hedged answer rather than a reassuring guess. Neither Silonn listing spells out offline behavior in its bullet points, so we can't quote a manufacturer guarantee here. What we can say is what's standard across this class of WiFi-connected small kitchen appliance, and why it's a reasonable expectation rather than a confirmed fact for this specific SKU.</p>
+      <p>You still have to physically stand at the machine to load dishes and fill its 5-litre tank — no app changes that. Appliances built around that reality typically retain an onboard control panel as the baseline way to run a cycle, with the app layered on as an optional remote-start and monitoring path rather than the only way in. If that pattern holds here, a WiFi outage or an app server hiccup would cost you the convenience of starting from your phone and the push notification when the cycle finishes — not the ability to run the dishwasher at all, since you're standing next to it anyway for the parts the app can't do remotely.</p>
+      <p>The more practical risk sits exactly where the listing's own marketing points: "Apartments/RVs" are also the places most likely to have an unreliable or absent home WiFi network. An RV parked somewhere without a strong signal, or an apartment with a router in another room, is precisely where a remote-start feature is least likely to work when you'd actually use it. If connectivity in your space is shaky, the feature you're paying less for may deliver less value than the price gap suggests. Before relying on remote start specifically, check the listing's own Q&A and the manual for how the unit behaves without a network connection — that's a confirmable detail the title alone doesn't settle.</p>
+    </div>
+  </section>
+
+  <section id="compare">
+    <div class="kicker"><span class="eyebrow">At a glance</span></div>
+    <h2 class="h2">The two Silonn models, side by side</h2>
+    <p class="sub">Both figures are taken directly from each listing's title; prices are live snapshots and move on their own schedule.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Model</th><th>Control</th><th>Programs</th><th>Place settings</th><th>Water source</th><th>Price</th><th></th></tr></thead>
+      <tbody>
+        <tr class="win"><td class="name"><span class="thumb"><img src="/images/amazon-B0F2GQCKYG.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span><span>Silonn App Control</span></td><td>App + onboard panel</td><td>8 programs</td><td>4 settings</td><td>5&nbsp;L tank, no hookup</td><td class="price">$290.39</td><td><a class="tget" href="https://www.amazon.com/dp/B0F2GQCKYG?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Price</a></td></tr>
+        <tr><td class="name"><span class="thumb"><img src="/images/amazon-B0F79X8Q1B.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span><span>Silonn Standard Dial</span></td><td>Onboard dial/panel only</td><td>7 programs</td><td>4 settings</td><td>5&nbsp;L tank, no hookup</td><td class="price">$309.99</td><td><a class="tget" href="https://www.amazon.com/dp/B0F79X8Q1B?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Price</a></td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section id="picks">
+    <div class="kicker"><span class="eyebrow">The two</span></div>
+    <h2 class="h2">Each model, and who it actually fits</h2>
+    <div class="picks">
+
+      <article class="pick">
+        <div class="rank">01<small>Lower price, one more program</small></div>
+        <div>
+          <h3>Silonn Portable Countertop Dishwasher with App Control</h3>
+          <div class="who">For a renter or RV owner who wants to start the wash from another room</div>
+          <div class="rl2"><b>5&nbsp;L tank, no hookup</b> · <span>App control + onboard panel</span> · <span>8 wash programs</span> · <span>4 place settings</span> · <span>Auto Air Dry</span></div>
+          <p class="body">This is the model the price gap favors, and the title backs it up with an extra wash program the standard unit doesn't list. The app adds remote start and status checks without removing the physical steps of filling the tank and loading the rack. For a small household that already runs its home on a phone — thermostat, lights, router — adding one more connected appliance costs nothing extra here and saves a few trips across the room per load.</p>
+          <p class="quote"><b>The trade-off</b>App control is only as useful as your home WiFi. Neither listing confirms how the unit behaves mid-outage, and the extra program is a listing-specific spec, not a benefit of "having an app" in general — don't expect every connected small appliance to come with a free bonus cycle.</p>
+        </div>
+        <div class="aside"><div class="pimg"><img src="/images/amazon-B0F2GQCKYG.webp" alt="Silonn portable countertop dishwasher with app control" width="500" height="500" loading="lazy" decoding="async"></div><div class="pr">$290</div><span class="tag">8 programs</span><a class="buy" href="https://www.amazon.com/dp/B0F2GQCKYG?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+      </article>
+
+      <article class="pick">
+        <div class="rank">02<small>No app to maintain</small></div>
+        <div>
+          <h3>Silonn Portable Countertop Dishwasher, Standard</h3>
+          <div class="who">For someone who doesn't want another household app account, at any price</div>
+          <div class="rl2"><b>5&nbsp;L tank, no hookup</b> · <span>Onboard dial/panel control</span> · <span>7 wash programs</span> · <span>4 place settings</span> · <span>360° spray</span> · <span>Auto Dry</span></div>
+          <p class="body">The standard model costs more here, and its own title gives the likely reason: a 360° spray arm the app model's listing doesn't claim. If what you actually want is a dishwasher that works the same way on day one and day one thousand — no firmware update, no app account, no dependency on a phone or a router staying healthy — this is the version built for that, and it doesn't ask you to accept any fewer place settings to get it.</p>
+          <p class="quote"><b>The trade-off</b>One fewer wash program than the connected model, no remote start, and a roughly $20 higher price for a machine that, on paper, does less in software. If convenience features matter more to you than control-method simplicity, the app model is the better buy at the lower price.</p>
+        </div>
+        <div class="aside"><div class="pimg"><img src="/images/amazon-B0F79X8Q1B.webp" alt="Silonn portable countertop dishwasher standard dial model" width="500" height="500" loading="lazy" decoding="async"></div><div class="pr">$310</div><span class="tag">360° spray</span><a class="buy" href="https://www.amazon.com/dp/B0F79X8Q1B?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="decide">
+    <div class="kicker"><span class="eyebrow">The decision</span></div>
+    <h2 class="h2">Which one makes sense for a 4-place-setting household</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Here's the part that makes this pair an unusually clean comparison: capacity doesn't decide it. Both machines are rated for the same 4 place settings — roughly a dinner for one or two people with a little room to spare, or a lighter meal for a family of three or four eating in shifts, the same arithmetic we lay out in our guide to <a href="/best-high-capacity-portable-dishwashers-for-large-families">high-capacity portable dishwashers for larger households</a>. If you were hoping one model would wash more than the other, neither title supports that; this choice is about control method and price, not how many dishes fit.</p>
+      <p>Given that, our honest read for a typical 4-place-setting household — a studio, a one-bedroom apartment, an RV, a dorm — starts with the app model, because it's both cheaper and lists one more program, and because that household is exactly the one most likely to benefit from starting a wash remotely while out running an errand. There's no capacity penalty for choosing it, and no premium either.</p>
+      <p>The case for the standard dial model instead isn't about saving money — it costs more here — it's about accepting a small premium for one thing the app can't give you: total independence from your phone, your home network, and a firmware update schedule you don't control. If you've been burned by a smart-home gadget that got slower or buggier after an app update, or you simply don't want a kitchen appliance tied to an account, paying the roughly $20 more for the version with a dial and nothing else to maintain is a defensible, specific reason — not a vague preference for "simpler," but a real trade you're choosing with your eyes open.</p>
+      <p>One more household-size note worth flagging honestly: four place settings is a real ceiling on either model. If your household regularly runs more than one meal's worth of dishes a day, no amount of app convenience or spray-arm design closes that gap — you're better served reading our comparison of <a href="/countertop-vs-18-inch-portable-dishwashers">countertop machines against full-size 18-inch portables on castors</a>, which cover six to eight place settings, or our guide to <a href="/half-load-and-small-batch-cycles-on-a-portable-dishwasher">half-load cycles</a> if the real issue is running a tiny machine efficiently rather than needing a bigger one.</p>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="kicker"><span class="eyebrow">FAQ</span></div>
+    <h2 class="h2">Common questions about these two models</h2>
+    <div class="panel faq" style="margin-top:22px">
+      <details open><summary>Does the Silonn app add a wash cycle the dial version can't run?</summary><p>Not in any way either listing supports. The app model's title lists 8 wash programs against 7 for the standard model, but that extra program is a spec difference tied to that specific listing's control board and firmware, not a capability the app itself creates. The parts of the machine that actually clean — the heater, pump and spray mechanism — are the same category of hardware on both units.</p></details>
+      <details><summary>Why is the app-controlled Silonn the cheaper of the two?</summary><p>Because the WiFi hardware and firmware behind app control are inexpensive at manufacturing scale, while the standard model's title calls out a 360° spray arm — a mechanical difference that plausibly explains the roughly $20 higher price. The gap isn't the app being discounted; it's the dial model carrying a different physical feature.</p></details>
+      <details><summary>What happens to the app-controlled Silonn if my WiFi goes down?</summary><p>Neither listing states this explicitly, so treat this as a reasonable expectation rather than a confirmed spec: you still have to stand at the machine to load it and fill its 5-litre tank, so appliances built this way typically keep an onboard panel as the baseline way to run a cycle, with the app as an optional remote-start layer on top. Confirm offline behavior in the listing's Q&A or manual before relying on remote start specifically.</p></details>
+      <details><summary>Are either of these Silonn dishwashers big enough for a household of four?</summary><p>Both are rated for 4 place settings, which suits one or two people comfortably or a small family eating in shifts — it is not enough capacity for a full family dinner's worth of dishes in one cycle. Households that regularly exceed that should look at 6-to-8-place-setting countertop or full-size 18-inch portable models instead.</p></details>
+    </div>
+  </section>
+
+  <section id="keep-reading">
+    <div class="kicker"><span class="eyebrow">Keep reading</span></div>
+    <h2 class="h2">Next, from this site</h2>
+    <div class="cols" style="margin-top:22px">
+      <a class="panel" style="text-decoration:none;display:block" href="/what-5-plus-1-wash-programs-means-on-a-dishwasher">
+        <span class="eyebrow" style="color:var(--brass-text)">Honest take</span>
+        <h3 class="serif" style="margin-top:6px">'5+1' or '5+2' Wash Programs: What the Extra Number on a Budget Dishwasher Means</h3>
+        <p>Program counts on countertop dishwasher listings are rarely what they look like at first glance. <span style="color:var(--aqua-deep);font-weight:700">Read →</span></p>
+      </a>
+      <a class="panel" style="text-decoration:none;display:block" href="/portable-dishwashers-with-a-water-level-window">
+        <span class="eyebrow" style="color:var(--brass-text)">Guide</span>
+        <h3 class="serif" style="margin-top:6px">Water-Level Windows on a Portable Dishwasher: Do You Need to Watch the Tank?</h3>
+        <p>What a visible water-level indicator actually prevents on a tank-fed machine, and what it doesn't. <span style="color:var(--aqua-deep);font-weight:700">Read →</span></p>
+      </a>
+      <a class="panel" style="text-decoration:none;display:block" href="/portable-dishwashers-with-a-child-lock">
+        <span class="eyebrow" style="color:var(--brass-text)">Guide</span>
+        <h3 class="serif" style="margin-top:6px">Portable Dishwashers With a Child Lock: What It Actually Locks</h3>
+        <p>A connected control panel raises the same question a physical lock does: what's actually being secured. <span style="color:var(--aqua-deep);font-weight:700">Read →</span></p>
+      </a>
+    </div>
+  </section>
+
+</div>
+
+<footer class="site"><div class="wrap">
+  <div class="fbrand">Best Portable Dishwashers</div>
+  <p>Independent, research-based comparisons of portable and countertop dishwashers for kitchens without a hookup.</p>
+  <p style="margin:.5rem 0 0"><a href="/about">About</a> · <a href="/guides">All guides</a> · <a href="/contact">Contact</a> · <a href="/privacy">Privacy</a></p>
+  <p>Reader-supported: we may earn a commission when you buy through our links, at no additional cost to you. Comparisons are based on published specifications and pricing; we do not physically test products and we do not publish ratings we cannot verify. Prices change frequently — confirm the current price on Amazon. As an Amazon Associate, we earn from qualifying purchases. © 2026 Best Portable Dishwashers.</p>
+</div></footer>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Silonn's Two Countertop Dishwashers: App Control vs the Standard Dial","description":"One Silonn listing adds app control, the other doesn't — and it isn't the app version that costs more. What actually separates the two.","image":"https://best-portable-dishwashers.com/images/hero-silonn-portable-dishwasher-app-control-vs-standard-compared.webp","datePublished":"2026-10-31","dateModified":"2026-10-31","author":{"@type":"Person","name":"Ilane Tall"},"publisher":{"@type":"Organization","name":"Best Portable Dishwashers"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://best-portable-dishwashers.com/silonn-portable-dishwasher-app-control-vs-standard-compared"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ItemList","name":"Silonn App Control vs Standard Countertop Dishwasher","itemListElement":[
+ {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Silonn Portable Countertop Dishwasher with App Control, 8 Wash Programs 4 Place Settings","brand":{"@type":"Brand","name":"Silonn"},"offers":{"@type":"Offer","price":"290.39","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B0F2GQCKYG?tag=bestportabledish-20"}}},
+ {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Silonn Portable Countertop Dishwasher, 5L Tank, 7 Wash Programs 360° Spray 4-Place Settings","brand":{"@type":"Brand","name":"Silonn"},"offers":{"@type":"Offer","price":"309.99","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B0F79X8Q1B?tag=bestportabledish-20"}}}
+]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"Does the Silonn app add a wash cycle the dial version can't run?","acceptedAnswer":{"@type":"Answer","text":"Not in any way either listing supports. The app model's title lists 8 wash programs against 7 for the standard model, but that extra program is a spec difference tied to that specific listing's control board and firmware, not a capability the app itself creates. The parts of the machine that actually clean are the same category of hardware on both units."}},
+ {"@type":"Question","name":"Why is the app-controlled Silonn the cheaper of the two?","acceptedAnswer":{"@type":"Answer","text":"Because the WiFi hardware and firmware behind app control are inexpensive at manufacturing scale, while the standard model's title calls out a 360-degree spray arm, a mechanical difference that plausibly explains the roughly $20 higher price. The gap is not the app being discounted; it is the dial model carrying a different physical feature."}},
+ {"@type":"Question","name":"What happens to the app-controlled Silonn if my WiFi goes down?","acceptedAnswer":{"@type":"Answer","text":"Neither listing states this explicitly, so treat it as a reasonable expectation rather than a confirmed spec: you still have to stand at the machine to load it and fill its 5-litre tank, so appliances built this way typically keep an onboard panel as the baseline way to run a cycle, with the app as an optional remote-start layer on top."}},
+ {"@type":"Question","name":"Are either of these Silonn dishwashers big enough for a household of four?","acceptedAnswer":{"@type":"Answer","text":"Both are rated for 4 place settings, which suits one or two people comfortably or a small family eating in shifts. It is not enough capacity for a full family dinner's worth of dishes in one cycle; households that regularly exceed that should look at 6-to-8-place-setting countertop or full-size 18-inch portable models instead."}}
+]}
+</script>
+
+<script src="/site.js" defer></script>
+</body>
+</html>
