@@ -739,6 +739,16 @@
       "minutes": 15,
       "date": "2026-10-31",
       "featured": true
+    },
+    {
+      "slug": "hamilton-beach-portable-dishwasher-lineup-compared",
+      "title": "Hamilton Beach Makes Three Portable Dishwashers: Which One Is Actually Right for You",
+      "description": "Two nearly identical 18-inch wheeled machines in different finishes, and one completely different tank-fed countertop unit, all under one brand name.",
+      "category": "Comparison",
+      "hero": "hero-hamilton-beach-portable-dishwasher-lineup-compared",
+      "minutes": 14,
+      "date": "2026-11-01",
+      "featured": true
     }
   ]
 }
