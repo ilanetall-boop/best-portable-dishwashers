@@ -749,6 +749,16 @@
       "minutes": 14,
       "date": "2026-11-01",
       "featured": true
+    },
+    {
+      "slug": "ul-and-etl-certified-portable-dishwashers-explained",
+      "title": "UL and ETL Certification on a Portable Dishwasher: What the Safety Mark Actually Tests",
+      "description": "A handful of listings carry a UL or ETL mark alongside Energy Star. What that certification actually tests, and how it differs from the sanitation or efficiency labels already on the box.",
+      "category": "Guide",
+      "hero": "hero-ul-and-etl-certified-portable-dishwashers-explained",
+      "minutes": 15,
+      "date": "2026-11-02",
+      "featured": true
     }
   ]
 }
