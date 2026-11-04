@@ -769,6 +769,16 @@
       "minutes": 14,
       "date": "2026-11-03",
       "featured": true
+    },
+    {
+      "slug": "ada-compliant-portable-dishwashers-explained",
+      "title": "ADA-Compliant Portable Dishwashers: What the Designation Actually Covers",
+      "description": "Two listings in this category specifically call out ADA compliance. What the standard actually requires on a dishwasher, and what it leaves untouched.",
+      "category": "Guide",
+      "hero": "hero-ada-compliant-portable-dishwashers-explained",
+      "minutes": 14,
+      "date": "2026-11-04",
+      "featured": true
     }
   ]
 }
