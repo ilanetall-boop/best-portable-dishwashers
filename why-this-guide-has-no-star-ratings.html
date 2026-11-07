@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why You Won't See a Star Rating Anywhere in This Guide</title>
+<meta name="description" content="Amazon's product API stopped returning rating and review counts for nearly every machine in this category. What that means for how we compare them instead.">
+<link rel="canonical" href="https://best-portable-dishwashers.com/why-this-guide-has-no-star-ratings">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Best Portable Dishwashers">
+<meta property="og:title" content="Why You Won't See a Star Rating Anywhere in This Guide">
+<meta property="og:description" content="The data feed behind every listing on this site stopped returning rating and review counts for almost every portable dishwasher. Here's what we compare instead, and why we won't fake the rest.">
+<meta property="og:image" content="https://best-portable-dishwashers.com/images/hero-why-this-guide-has-no-star-ratings.webp">
+<meta property="og:url" content="https://best-portable-dishwashers.com/why-this-guide-has-no-star-ratings">
+<meta name="theme-color" content="#101820">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="alternate icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  /* premium-editorial-v1 — palette: steel / slate / water-blue.
+     NOTE: the --aqua* and --brass* variable names are inherited from the network template;
+     on this site --aqua carries the water-blue accent and --brass carries brushed chrome.
+     Do not rename (tools/rebuild-site.js and every article file reference them). */
+  :root{
+    --ground:#F4F6F8; --surface:#FFFFFF; --surface-2:#E9EEF3;
+    --ink:#131A21; --ink-soft:#2E3A45; --muted:#69757F; --line:#DCE3EA;
+    --aqua:#1C6E8C; --aqua-deep:#12556F; --aqua-tint:#E8F1F6;
+    --brass:#8D9AA6; --brass-lite:#C9D5DF; --brass-tint:#EDF1F5;
+    --dark:#101820; --dark-2:#1D2A35; --on-dark:#EAF0F5; --on-dark-mute:#9CACB9;
+    --star:#B07E00;
+    --shadow:0 1px 2px rgba(19,26,33,.05),0 22px 48px -26px rgba(19,26,33,.30);
+    --shadow-sm:0 1px 2px rgba(19,26,33,.05),0 10px 24px -16px rgba(19,26,33,.24);
+    --radius:20px; --radius-sm:12px; --maxw:1120px;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ground:#0C1116; --surface:#151E26; --surface-2:#1E2A34;
+    --ink:#EAF0F5; --ink-soft:#CBD7E0; --muted:#93A2AE; --line:#28353F;
+    --aqua:#5CA9C8; --aqua-deep:#7FC3DD; --aqua-tint:#122530;
+    --brass:#C9D5DF; --brass-lite:#DDE7EF; --brass-tint:#16222B;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }}
+  :root[data-theme="dark"]{
+    --ground:#0C1116; --surface:#151E26; --surface-2:#1E2A34;
+    --ink:#EAF0F5; --ink-soft:#CBD7E0; --muted:#93A2AE; --line:#28353F;
+    --aqua:#5CA9C8; --aqua-deep:#7FC3DD; --aqua-tint:#122530;
+    --brass:#C9D5DF; --brass-lite:#DDE7EF; --brass-tint:#16222B;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+    font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  a{color:inherit}
+  h1,h2,h3{margin:0;line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
+  .serif{font-family:var(--serif)}
+  p{margin:0 0 1rem}
+  .eyebrow{font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+  .tnum{font-variant-numeric:tabular-nums}
+  .stars{color:var(--star);letter-spacing:2px}
+
+  /* ---------- header ---------- */
+  header.site{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--ground) 82%,transparent);
+    backdrop-filter:saturate(1.3) blur(12px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-weight:700;letter-spacing:-.01em}
+  .brand .bn{font-family:var(--serif);font-size:1.16rem}
+  nav.site a{color:var(--muted);text-decoration:none;font-size:.86rem;font-weight:600;letter-spacing:.01em;margin-left:22px;transition:color .2s}
+  nav.site a:hover{color:var(--ink)}
+  @media (max-width:660px){nav.site{display:none}}
+
+  /* ---------- hero (immersive dark, water shimmer) ---------- */
+  .hero{position:relative;background:radial-gradient(120% 90% at 80% -10%,var(--dark-2),var(--dark) 60%);color:var(--on-dark);overflow:hidden;isolation:isolate}
+  .caustic{position:absolute;inset:-30%;z-index:0;opacity:.5;pointer-events:none;filter:blur(30px);
+    background:
+      radial-gradient(28% 40% at 22% 30%,rgba(92,169,200,.26),transparent 60%),
+      radial-gradient(24% 34% at 74% 24%,rgba(201,213,223,.20),transparent 60%),
+      radial-gradient(30% 42% at 60% 78%,rgba(28,110,140,.28),transparent 62%);
+    animation:drift 22s ease-in-out infinite alternate}
+  .caustic.b{opacity:.34;animation-duration:30s;animation-direction:alternate-reverse;
+    background:
+      radial-gradient(26% 36% at 40% 60%,rgba(127,195,221,.22),transparent 60%),
+      radial-gradient(22% 30% at 85% 70%,rgba(141,154,166,.20),transparent 60%)}
+  @keyframes drift{0%{transform:translate3d(-2%,-1%,0) scale(1)}50%{transform:translate3d(3%,2%,0) scale(1.08)}100%{transform:translate3d(-1%,3%,0) scale(1.04)}}
+  .hero .wrap{position:relative;z-index:1;padding:74px 26px 88px}
+  .hero .eyebrow{color:var(--brass-lite)}
+  .hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,1.4rem+4.6vw,4.7rem);letter-spacing:-.02em;max-width:15ch;margin:.5rem 0 0}
+  .hero h1 em{font-style:italic;color:var(--brass-lite)}
+  .hero .lede{font-size:1.24rem;line-height:1.55;color:var(--on-dark-mute);max-width:52ch;margin-top:1.3rem}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:26px;font-size:.86rem;color:var(--on-dark-mute)}
+  .hero .meta b{color:var(--on-dark)}
+  .rule{height:1px;background:linear-gradient(90deg,var(--brass),transparent);border:0;margin:26px 0 0;max-width:220px}
+
+  /* ---------- #1 feature (the centerpiece) ---------- */
+  .feature{position:relative;z-index:2;margin:-56px 0 0}
+  .feature .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    display:grid;grid-template-columns:1.1fr 1fr;overflow:hidden}
+  .feature .left{padding:38px}
+  .feature .kick{display:inline-flex;align-items:center;gap:9px;color:var(--brass-text);font-weight:700;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase}
+  .feature .kick::before{content:"";width:26px;height:1px;background:var(--brass)}
+  .feature h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.8rem,1.2rem+2vw,2.7rem);margin:.5rem 0 .2rem}
+  .feature .verdict{color:var(--ink-soft);font-size:1.06rem;margin:.4rem 0 1rem;max-width:44ch}
+  .feature .rl{display:flex;align-items:center;flex-wrap:wrap;gap:8px 10px;font-size:.92rem;color:var(--muted);margin-bottom:1.2rem}
+  .feature .rl b{color:var(--ink)}
+  .btn{display:inline-flex;align-items:center;gap:9px;background:var(--aqua);color:#fff;font-weight:700;
+    padding:14px 26px;border-radius:12px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,background .2s}
+  .btn:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  .btn .arw{transition:transform .2s}.btn:hover .arw{transform:translateX(3px)}
+  .feature .right{background:linear-gradient(160deg,var(--dark-2),var(--dark));color:var(--on-dark);padding:38px;display:flex;flex-direction:column;justify-content:center;gap:6px;position:relative}
+  .feature .right .lab{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-mute)}
+  .feature .bigprice{font-family:var(--serif);font-size:clamp(3rem,2rem+4vw,4.4rem);font-weight:600;line-height:1;color:var(--brass-lite)}
+  .feature .bigprice sup{font-size:.4em;top:-1.2em;color:var(--on-dark)}
+  .feature .right .note{color:var(--on-dark-mute);font-size:.92rem;margin-top:6px;max-width:30ch}
+  .feature .right .mono{margin-top:16px;font-family:var(--serif);font-size:1.05rem;color:var(--on-dark)}
+  @media (max-width:820px){.feature .card{grid-template-columns:1fr}.feature .right{order:-1}}
+
+  /* ---------- generic section ---------- */
+  section{padding:44px 0}
+  .kicker{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+  .kicker .eyebrow{color:var(--aqua-deep)}
+  .kicker::after{content:"";flex:1;height:1px;background:var(--line)}
+  .h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,1.2rem+1.7vw,2.5rem);letter-spacing:-.01em}
+  .sub{color:var(--muted);max-width:62ch;margin:.6rem 0 0}
+
+  .notes{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:24px}
+  .notes .n{background:var(--surface);padding:24px}
+  .notes .num{font-family:var(--serif);font-size:1.5rem;color:var(--brass-text);line-height:1}
+  .notes h3{font-size:1.02rem;font-weight:750;margin:.5rem 0 .35rem}
+  .notes p{font-size:.9rem;color:var(--muted);margin:0}
+  @media (max-width:820px){.notes{grid-template-columns:1fr 1fr}}
+  @media (max-width:520px){.notes{grid-template-columns:1fr}}
+
+  /* honesty band */
+  .band{background:var(--brass-tint);border:1px solid var(--line);border-left:3px solid var(--brass);
+    border-radius:var(--radius-sm);padding:22px 24px;margin-top:26px}
+  .band h3{font-family:var(--serif);font-weight:600;font-size:1.16rem;margin-bottom:.5rem}
+  .band p{color:var(--ink-soft);font-size:.95rem;margin:0}
+  .band p+p{margin-top:.6rem}
+
+  /* comparison */
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);background:var(--surface);margin-top:22px}
+  table{border-collapse:collapse;width:100%;min-width:740px;font-size:.94rem}
+  thead th{background:var(--surface-2);text-align:left;padding:16px;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+  td{padding:15px 16px;border-bottom:1px solid var(--line);vertical-align:middle}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:hover{background:var(--surface-2)}
+  td.name{font-family:var(--serif);font-weight:600;font-size:1.05rem}
+  .win td{background:var(--brass-tint)}
+  .win td.name{color:var(--brass-text)}
+  .win td:first-child{box-shadow:inset 3px 0 0 var(--brass)}
+  .price{font-weight:800;font-variant-numeric:tabular-nums}
+  .rev{color:var(--muted);font-size:.82rem}
+  .tget{display:inline-block;background:var(--ink);color:var(--surface);font-weight:700;font-size:.8rem;padding:8px 14px;border-radius:9px;text-decoration:none;white-space:nowrap;transition:background .2s}
+  .tget:hover{background:var(--aqua-deep);color:#fff}
+
+  /* picks (editorial cards) */
+  .picks{display:flex;flex-direction:column;gap:26px;margin-top:26px}
+  .pick{display:grid;grid-template-columns:96px 1fr auto;gap:26px;align-items:start;
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:28px}
+  .pick .rank{font-family:var(--serif);font-size:2.6rem;color:var(--brass-text);line-height:.9;font-weight:600}
+  .pick .rank small{display:block;font-family:var(--sans);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:8px}
+  .pick h3{font-family:var(--serif);font-weight:600;font-size:1.44rem}
+  .pick .who{color:var(--aqua-deep);font-weight:700;font-size:.9rem;margin:.25rem 0 .5rem}
+  .pick .rl2{display:flex;align-items:center;flex-wrap:wrap;gap:6px 8px;font-size:.86rem;color:var(--muted);margin-bottom:.7rem}
+  .pick .rl2 b{color:var(--ink)}
+  .pick p.body{margin:.2rem 0 0;color:var(--ink-soft)}
+  .quote{border-left:2px solid var(--brass);padding-left:14px;margin:.9rem 0 0;font-family:var(--serif);color:var(--ink);font-size:1.02rem}
+  .quote b{font-family:var(--sans);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass-text);display:block;margin-bottom:.2rem;font-weight:700}
+  .aside{display:flex;flex-direction:column;align-items:flex-end;gap:12px;text-align:right;min-width:150px}
+  .aside .pr{font-family:var(--serif);font-size:2rem;font-weight:600;font-variant-numeric:tabular-nums;line-height:1}
+  .aside .tag{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .buy{display:inline-flex;align-items:center;gap:8px;background:var(--aqua);color:#fff;font-weight:700;padding:11px 20px;border-radius:10px;text-decoration:none;transition:background .2s,transform .15s;font-size:.92rem}
+  .buy:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  @media (max-width:820px){.pick{grid-template-columns:64px 1fr}.aside{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;text-align:left;border-top:1px solid var(--line);padding-top:16px}}
+
+  /* method / faq */
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:22px}
+  @media (max-width:760px){.cols{grid-template-columns:1fr}}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm)}
+  .panel .eyebrow{color:var(--aqua-deep)}
+  .panel h3{font-family:var(--serif);font-weight:600;font-size:1.3rem;margin:.5rem 0 .5rem}
+  .panel p{color:var(--muted);margin:0}
+  .faq details{border-top:1px solid var(--line);padding:16px 0}
+  .faq details:first-of-type{border-top:0}
+  .faq summary{cursor:pointer;font-family:var(--serif);font-size:1.12rem;list-style:none;display:flex;justify-content:space-between;gap:14px;color:var(--ink)}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--brass-text);font-family:var(--sans);font-weight:700}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{margin:.8rem 0 0;color:var(--muted)}
+
+  footer.site{margin-top:20px;background:var(--dark);color:var(--on-dark-mute)}
+  footer .wrap{padding:40px 26px}
+  footer .fbrand{font-family:var(--serif);color:var(--on-dark);font-size:1.2rem}
+  footer p{font-size:.84rem;margin:.6rem 0 0;max-width:80ch}
+  footer a{color:var(--brass-lite)}
+  /* imagery */
+  .hero .wrap{display:grid;grid-template-columns:1.12fr .88fr;gap:48px;align-items:center}
+  .hero .himg{border-radius:20px;border:1px solid rgba(201,213,223,.4);box-shadow:0 30px 60px -30px rgba(0,0,0,.55);width:100%;height:auto;display:block}
+  @media (max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:30px}}
+  .fpimg{background:#fff;border-radius:14px;padding:14px;box-shadow:0 12px 28px -14px rgba(0,0,0,.5);width:min(230px,70%);margin-bottom:16px}
+  .fpimg img{width:100%;height:auto;display:block}
+  .aside .pimg{width:150px;height:150px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;display:flex;align-items:center;justify-content:center}
+  .aside .pimg img{max-width:100%;max-height:100%;display:block}
+  @media (max-width:820px){.aside .pimg{width:96px;height:96px;padding:6px}}
+  td.name{display:flex;align-items:center;gap:12px}
+  .thumb{width:46px;height:46px;flex:0 0 auto;background:#fff;border:1px solid var(--line);border-radius:9px;padding:4px}
+  .thumb img{width:100%;height:100%;object-fit:contain;display:block}
+  :focus-visible{outline:2px solid var(--aqua);outline-offset:3px;border-radius:5px}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}.btn:hover,.buy:hover{transform:none}}
+</style>
+<style>
+  /* article layer — prose column only; never restyle .buy / .btn (the a11y block owns them) */
+  .prose{max-width:68ch}
+  .prose p{color:var(--ink-soft);margin:0 0 1.05rem}
+  .prose p b{color:var(--ink)}
+  .prose h3{font-family:var(--serif);font-weight:600;font-size:1.28rem;color:var(--ink);margin:1.7rem 0 .6rem;line-height:1.2}
+  .prose ul{color:var(--ink-soft);margin:0 0 1.15rem;padding-left:1.15rem}
+  .prose li{margin:.4rem 0}
+  .prose a{color:var(--aqua-deep);font-weight:600;text-underline-offset:3px}
+  .disclosure{font-size:.86rem;color:var(--muted);border-left:2px solid var(--brass);padding-left:14px;margin:0}
+  section#intro{padding-top:34px}
+</style>
+<style id="a11y">:root{--brass-text:#4A5865;--star:#B07E00}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--brass-text:#C9D5DF;--star:#E8B84B}}:root[data-theme="dark"]{--brass-text:#C9D5DF;--star:#E8B84B}nav.site a{color:var(--ink-soft)}.stars{color:var(--star)}thead th{color:var(--ink-soft)}.rev{color:var(--ink-soft)}.kick{color:var(--brass-text)}.win td.name{color:var(--brass-text)}a.btn,a.buy,.btn,.buy{background:#12556F !important;color:#fff !important;text-decoration:none !important}a.btn:hover,a.buy:hover,.btn:hover,.buy:hover{background:#0D4056 !important}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) a.btn,:root:not([data-theme="light"]) a.buy,:root:not([data-theme="light"]) .btn,:root:not([data-theme="light"]) .buy{background:#7FC3DD !important;color:#0B1720 !important}:root:not([data-theme="light"]) .btn:hover,:root:not([data-theme="light"]) .buy:hover{background:#A3D6E9 !important}}:root[data-theme="dark"] a.btn,:root[data-theme="dark"] a.buy,:root[data-theme="dark"] .btn,:root[data-theme="dark"] .buy{background:#7FC3DD !important;color:#0B1720 !important}</style>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "y1k8hct9nk");
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B93FNJGK0K"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());gtag('config', 'G-B93FNJGK0K');</script>
+</head>
+<body>
+<header class="site"><div class="wrap bar">
+  <a class="brand" href="/" aria-label="Best Portable Dishwashers">
+    <svg class="logomark" width="36" height="36" viewBox="0 0 40 40" aria-hidden="true">
+      <defs><radialGradient id="lm" cx="34%" cy="26%" r="86%"><stop offset="0" stop-color="#9FB4C2"/><stop offset=".68" stop-color="#33454F"/><stop offset="1" stop-color="#16222B"/></radialGradient></defs>
+      <circle cx="20" cy="20" r="19" fill="url(#lm)"/>
+      <circle cx="20" cy="20" r="18.4" fill="none" stroke="#C9D5DF" stroke-width="1.1" stroke-opacity=".92"/>
+      <circle cx="20" cy="20" r="15.3" fill="none" stroke="#EAF0F5" stroke-width=".6" stroke-opacity=".22"/>
+      <rect x="12.4" y="13.2" width="15.2" height="16" rx="2.2" fill="#F4F8FB"/>
+      <path d="M12.4 24.2h15.2" stroke="#33454F" stroke-width="1" stroke-opacity=".5"/>
+      <circle cx="20" cy="20.4" r="3.1" fill="none" stroke="#1C6E8C" stroke-width="1.5"/>
+      <path d="M20 17.3v-2.5" stroke="#1C6E8C" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M16.1 27.1h7.8" stroke="#8D9AA6" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M20 6.6c1.9 2.4 3 4 3 5.2a3 3 0 0 1-6 0c0-1.2 1.1-2.8 3-5.2Z" fill="#C9D5DF" fill-opacity=".85"/>
+    </svg>
+    <span class="bn">Best&thinsp;Portable&thinsp;Dishwashers</span>
+  </a>
+  <nav class="site" aria-label="Primary">
+    <a href="/#feature">Top pick</a><a href="/#compare">Compare</a><a href="/#picks">The eight</a><a href="/#how">Method</a><a href="/#faq">FAQ</a>
+  <a href="/guides">All guides</a></nav>
+</div></header>
+
+<a id="top"></a>
+<div class="hero">
+  <div class="caustic" aria-hidden="true"></div><div class="caustic b" aria-hidden="true"></div>
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Honest take · The no-ratings policy</span>
+      <h1 class="serif">Why you won't see a star rating <em>anywhere in this guide.</em></h1>
+      <p class="lede">Amazon's product data feed stopped returning a rating or a review count for nearly every machine in this category. We could paper over the gap with "owners love this" and nobody would check. Instead, here's exactly what changed, what we compare in its place, and why the four machines below are judged on specs and price alone.</p>
+      <div class="meta"><span>By Ilane Tall · Updated November 7, 2026 · Research-based.</span></div>
+      <hr class="rule">
+    </div>
+    <img class="himg" src="/images/hero-why-this-guide-has-no-star-ratings.webp" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async" alt="A blank, unlabeled star-rating row above a countertop dishwasher, representing the missing rating data behind this guide">
+  </div>
+</div>
+
+<div class="wrap">
+
+  <section id="intro">
+    <div class="prose">
+      <p class="disclosure">Reader-supported: we may earn a commission when you buy through the links on this page, at no additional cost to you. Prices move constantly — confirm the live price before you order.</p>
+
+      <p style="margin-top:1.4rem">Every comparison page on this site carries some version of the same line in small print: no star ratings, no review counts, nothing dressed up as a buyer verdict. It's easy to read that as a cautious brand choice, a bit of legal hedging that any affiliate site might paste in. It isn't. It's a direct, literal description of what the data feed behind this site currently returns, and the honest version of that story is longer than a footer line — long enough that it deserves its own page instead of a repeated aside at the bottom of every roundup.</p>
+
+      <p>The short version: the API that supplies every specification and price on this site stopped returning a rating value and a review count for almost everything in the portable and countertop dishwasher category. Below, in order: <a href="#what-changed">what actually changed in the feed</a> and why it touches nearly every listing here, <a href="#no-paraphrase">why we won't quietly swap in paraphrased review language</a> to fill the gap a number used to occupy, <a href="#compare">what we compare instead</a> — specs, published cycle details, price and what ships in the box — <a href="#picks">four machines picked on that basis alone</a>, <a href="#legacy">the small number of older listings elsewhere in our wider catalogue</a> that still carry a rating we captured before the change, and <a href="#read-critically">how to read any single listing's own description</a> once you've accepted there's no review signal to lean on.</p>
+
+      <div class="band">
+        <h3 class="serif">The one-sentence version</h3>
+        <p>We have no verifiable rating or review count for these four machines, so we don't display one, we don't invent one, and we don't paraphrase sentiment we've never actually read — we compare the things that are still published and checkable: specifications, price and what's in the box.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="what-changed">
+    <div class="kicker"><span class="eyebrow">What changed</span></div>
+    <h2 class="h2">A data feed stopped reporting a field, and almost nobody noticed</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Every price, ASIN, image and specification on this site is pulled from Amazon's product API — the same programmatic feed every Amazon affiliate site of any size relies on rather than typing numbers in by hand. For years that feed returned, alongside a product's title and price, a rating value and a review count: the star rating and the review-count figure that used to sit under almost every listing we cited. At some point in the recent past, for the overwhelming majority of listings in this category, those two fields stopped coming back. The product still exists, the price still updates, the images still load — the rating and review-count fields simply arrive empty.</p>
+      <p>We didn't choose this. It's not a policy decision by this site, and it isn't limited to one brand or one price tier — it affects countertop machines and 18-inch freestanding ones, budget listings and premium ones, in roughly equal measure. What it means practically is that for almost every portable dishwasher we could cite, the honest answer to "what's it rated?" is "the feed doesn't tell us," not "four and a half stars." Running a review count anyway — one borrowed from a product page six months ago, or guessed at because a listing "feels" well-reviewed — would mean printing a number we can't currently stand behind. We'd rather print nothing.</p>
+      <p>This isn't the only place that gap shows up. The same feed's "in stock" signal over-flags listings as unavailable far more often than reality, which is a separate problem, but it's part of the same pattern: a programmatic feed is a convenience, not a guarantee, and the responsible move when it goes quiet on a field is to stop citing that field — not to fill it with something that sounds plausible.</p>
+    </div>
+  </section>
+
+  <section id="no-paraphrase">
+    <div class="kicker"><span class="eyebrow">The tempting shortcut</span></div>
+    <h2 class="h2">Why we won't write "owners love this" instead</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>There's an obvious workaround for a missing star rating, and it's the one most listicles quietly take: drop the number, keep the sentiment. Swap a specific star rating and buyer count for a vague gesture at how the crowd supposedly feels about the capacity or the noise level, and the page still reads like somebody checked. Nobody asks to see the review the sentence is supposedly standing in for.</p>
+      <p>We won't do that, for a plain reason: we have no review data to stand in for. Without the rating and review-count fields, we don't have access to a sample of verified buyer reviews for most of these listings either — and even where a handful of comments are publicly visible on a product page, treating three visible comments as a stand-in for general buyer sentiment invents a consensus that may not exist. A made-up phrase that sounds like it came from real buyers is not a softer version of a fabricated star rating. It's the same offense in different words — a confidence signal we can't actually verify, dressed up to look sourced.</p>
+      <p>So this guide, and every comparison page linked from it, sticks to claims we can trace to a specific, checkable origin: the manufacturer's own listing copy (labeled as a claim, not a fact, where it can't be independently confirmed), a published dimension or cycle name, a live price, or a general fact about how the appliance category works — the kind of thing true of place settings or cabinet heights regardless of which brand is involved. Where something is a judgment call rather than a spec, we say "the trade-off is" in our own voice, instead of attributing the opinion to a crowd of buyers who never said it.</p>
+    </div>
+  </section>
+
+  <section id="compare">
+    <div class="kicker"><span class="eyebrow">What we use instead</span></div>
+    <h2 class="h2">Specs, published cycle details, price, and what's in the box</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Dropping ratings doesn't mean dropping standards — it means being precise about what kind of fact each sentence on this site actually is. Four things remain fully available and checkable for essentially every listing, rating or no rating, and they're what this guide and its sibling pages lean on:</p>
+      <ul>
+        <li><b>Specifications.</b> Place settings, external dimensions, decibel figures, certification marks, water source (tank, faucet, or both) — the numbers a manufacturer publishes and stands behind on the listing itself, even if nobody outside the company has measured them independently.</li>
+        <li><b>Published cycle details.</b> The named programs a machine actually lists — Normal, Heavy, Eco, Glass, a 90-minute cycle — rather than a vague "multiple wash modes" claim. We compared exactly this kind of detail across stated wash temperatures in <a href="/how-hot-does-a-portable-dishwasher-get-wash-temperatures-compared">how hot a portable dishwasher actually gets</a>, where the useful comparison turned out to be the published number, read skeptically, not a star rating.</li>
+        <li><b>Price.</b> The one figure in this whole category that's genuinely live and genuinely ours to check, because it updates on the same page we're reading from. We treat it as a snapshot, not a promise — confirm it before you buy.</li>
+        <li><b>What's in the box.</b> Hoses, adapters, baskets, a rinse-aid reservoir — physical contents a listing either states or doesn't, independent of anyone's opinion about how well the machine performs.</li>
+      </ul>
+      <p>Certification marks earn a special mention, because they're the one piece of this list that isn't just a manufacturer's self-reported claim. A UL or ETL mark means an independent lab tested the machine against a published electrical-safety standard — we go through exactly what that mark does and doesn't cover in <a href="/ul-and-etl-certified-portable-dishwashers-explained">UL and ETL certification on a portable dishwasher</a> — and ENERGY STAR status is a program a manufacturer has to qualify for, not an adjective it gets to choose. Neither one tells you whether a machine washes well. Both are a layer of verification a star rating never actually provided anyway, since a rating only ever told you what other buyers felt, not what a lab confirmed.</p>
+      <div class="tablewrap"><table>
+        <thead><tr><th>Dishwasher</th><th>Price</th><th>What the listing confirms</th><th>What it doesn't</th></tr></thead>
+        <tbody>
+          <tr><td class="name"><span class="thumb"><img src="/images/amazon-B0CLVBQS15.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span><span>EUHOMY 6-Program Countertop</span></td><td class="price">$269.99</td><td>40&nbsp;dB claim, 6 programs, 5&nbsp;L tank or faucet, Large size option</td><td>No independent noise test; "Large" variant pricing may differ from other sizes on the same listing</td></tr>
+          <tr><td class="name"><span class="thumb"><img src="/images/amazon-B0DD3DH7ZP.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span><span>Midea 6-Place Countertop</span></td><td class="price">$299.99</td><td>6 place settings claimed, ENERGY STAR certified</td><td>No stated external dimensions, no named cycle list, no size variant</td></tr>
+          <tr><td class="name"><span class="thumb"><img src="/images/amazon-B0H5164T8V.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span><span>Hamilton Beach SS/Platinum</span></td><td class="price">$599.99</td><td>Stainless/platinum finish, current price</td><td>No place-setting figure, water source or certification given</td></tr>
+          <tr><td class="name"><span class="thumb"><img src="/images/amazon-B08NMVX6XL.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span><span>BLACK+DECKER BPD8B 18&Prime;</span></td><td class="price">$609.99</td><td>8 place settings, ENERGY STAR, 18&nbsp;in wide, freestanding on castors</td><td>No independent durability data — the full spec sheet still can't say how it ages</td></tr>
+        </tbody>
+      </table></div>
+    </div>
+  </section>
+
+  <section id="picks">
+    <div class="kicker"><span class="eyebrow">The picks</span></div>
+    <h2 class="h2">Four machines, judged on specs and price alone</h2>
+    <p class="sub">Ordered by price. Every claim below traces to a stated spec, a published listing detail or a live price — nothing here is a paraphrase of a rating we don't have.</p>
+    <div class="picks">
+
+      <article class="pick">
+        <div class="rank">01<small>Lowest price, thinnest noise claim</small></div>
+        <div>
+          <h3>EUHOMY 6 Programs Countertop Dishwasher, 40&nbsp;dB, 360° Coverage</h3>
+          <div class="who">For anyone who wants the quietest claim in the lineup and is willing to read it as a claim</div>
+          <div class="rl2"><b>Countertop</b> · <span>5&nbsp;L tank or faucet</span> · <span>6 programs</span> · <span>40&nbsp;dB claimed</span> · <span>Large size option</span></div>
+          <p class="body">This listing's own title leads with two numbers — a 40&nbsp;dB noise figure and a six-program cycle count — and both are manufacturer claims rather than anything we, or any reviewer whose words we'd otherwise be borrowing, measured independently. We can tell you the figure as published and that the price above applies to the Large size option currently listed. What we can't tell you is whether a given buyer in a given kitchen found it quiet, because there's no review count behind this ASIN for us to draw on, and we're not going to invent one by paraphrasing feedback nobody has shown us.</p>
+          <p class="quote"><b>The trade-off</b>Treat 40&nbsp;dB as a figure measured under conditions the listing doesn't disclose, not a promise. If the listing offers more than one size, confirm "Large" is still the configuration priced here before you order — sellers do change which variant a listing defaults to.</p>
+        </div>
+        <div class="aside"><div class="pimg"><img src="/images/amazon-B0CLVBQS15.webp" alt="EUHOMY countertop dishwasher, Large size option" width="800" height="800" loading="lazy" decoding="async"></div><div class="pr">$270</div><span class="tag">40 dB claimed</span><a class="buy" href="https://www.amazon.com/dp/B0CLVBQS15?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+      </article>
+
+      <article class="pick">
+        <div class="rank">02<small>Confirmed certification</small></div>
+        <div>
+          <h3>Midea Countertop Dishwasher, 6 Place Settings, Energy Star</h3>
+          <div class="who">For buyers who want one verifiable certification and won't pretend to know more than the listing says</div>
+          <div class="rl2"><b>Countertop</b> · <span>6 place settings claimed</span> · <span>ENERGY&nbsp;STAR certified</span></div>
+          <p class="body">Six place settings and an ENERGY STAR certification are the two facts this product's own title commits to, and they're also the two facts we're willing to compare it on. The certification is worth something specific here: unlike a star rating, ENERGY STAR status isn't a crowd's opinion, it's a qualification standard a manufacturer has to actually meet, which is a different and more durable kind of verification than anything a review count was ever giving you.</p>
+          <p class="quote"><b>The trade-off</b>Beyond the place-setting count and the certification, this listing gives us little else to compare against the rest of this category — no stated external dimensions, no named cycle list, no size variant called out. That's not unusual in this category, but it means the responsible comparison stops at price and those two confirmed specs. Check the current listing yourself for dimensions before assuming it matches the larger six-place machines covered elsewhere on this site.</p>
+        </div>
+        <div class="aside"><div class="pimg"><img src="/images/amazon-B0DD3DH7ZP.webp" alt="Midea countertop dishwasher, 6 place settings, Energy Star" width="800" height="800" loading="lazy" decoding="async"></div><div class="pr">$300</div><span class="tag">6 place settings</span><a class="buy" href="https://www.amazon.com/dp/B0DD3DH7ZP?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+      </article>
+
+      <article class="pick">
+        <div class="rank">03<small>The thinnest spec sheet here</small></div>
+        <div>
+          <h3>Hamilton Beach Portable Dishwasher, SS/Platinum</h3>
+          <div class="who">A case study in how little a listing sometimes gives you to go on</div>
+          <div class="rl2"><b>Stainless/Platinum finish</b> · <span>price confirmed in database, 2026-11</span></div>
+          <p class="body">The listing data behind this one is the thinnest in this guide: a brand, a finish, a price. We don't have a stated place-setting figure for it, a certification, or a declared water source — and we're not going to borrow those details from the other Hamilton Beach portable dishwashers covered in <a href="/hamilton-beach-portable-dishwasher-lineup-compared">our lineup comparison</a>. Those are different models with different ASINs and different published specs; lending this one their numbers would be exactly the kind of invention this page exists to rule out, just dressed up as helpfulness instead of a star rating.</p>
+          <p class="quote"><b>The trade-off</b>At $599.99 this sits at 18-inch-class pricing without a confirmed place-setting count to justify that comparison. If capacity matters to your decision, it's on the current Amazon listing, not on this page — read it yourself before paying full-size-class money for an unconfirmed capacity.</p>
+        </div>
+        <div class="aside"><div class="pimg"><img src="/images/amazon-B0H5164T8V.webp" alt="Hamilton Beach portable dishwasher in stainless steel and platinum" width="800" height="800" loading="lazy" decoding="async"></div><div class="pr">$600</div><span class="tag">SS/Platinum</span><a class="buy" href="https://www.amazon.com/dp/B0H5164T8V?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+      </article>
+
+      <article class="pick">
+        <div class="rank">04<small>Fullest spec sheet, same gap</small></div>
+        <div>
+          <h3>BLACK+DECKER 18-Inch Portable Dishwasher, BPD8B</h3>
+          <div class="who">Proof that a complete spec sheet doesn't close the gap a rating used to fill</div>
+          <div class="rl2"><b>Freestanding on castors</b> · <span>18&nbsp;in wide</span> · <span>8 place settings</span> · <span>ENERGY&nbsp;STAR</span></div>
+          <p class="body">Of the four machines in this guide, this one has by far the fullest public spec sheet — eight place settings, an 18-inch width, and an ENERGY STAR certification, all independently stated on the listing. It's worth including here precisely because it shows the limits of what specs alone were ever going to answer. A full spec sheet tells you what the machine is built to do on day one. It was never going to tell you how the pump sounds after two hundred cycles, which is exactly the kind of long-run fact a star rating, if we had one, still wouldn't answer reliably either — reviews skew toward the first few weeks of ownership, not the fifth year.</p>
+          <p class="quote"><b>The trade-off</b>Full spec sheet or not, we can tell you what's in the box and what it's rated to do; nobody without one running in their kitchen for a year can tell you how it ages, with or without a star rating attached.</p>
+        </div>
+        <div class="aside"><div class="pimg"><img src="/images/amazon-B08NMVX6XL.webp" alt="BLACK+DECKER 18-inch portable dishwasher, Energy Star certified" width="800" height="800" loading="lazy" decoding="async"></div><div class="pr">$610</div><span class="tag">8 place settings</span><a class="buy" href="https://www.amazon.com/dp/B08NMVX6XL?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a></div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="legacy">
+    <div class="kicker"><span class="eyebrow">The exception, explained</span></div>
+    <h2 class="h2">The handful of older listings that still carry a rating</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>If you browse beyond this specific page into our wider product catalogue, you may run into a small number of listings — a handful, not a trend — that still show a star rating and a review count. Those weren't fabricated after the fact and they aren't an inconsistency in our policy. They're legacy data: a rating the API genuinely returned for that exact ASIN at some point before the field went quiet, which we recorded, dated, and have kept attached to that specific listing because we can show where it came from.</p>
+      <p>None of the four machines in this guide fall into that category. Every one of them comes back from the current feed with the rating field empty, which is the entire reason none of them is shown with a number here. We don't backfill an old figure onto a current listing just because the product looks similar to one that has one, and we don't borrow a rating from a different ASIN under the same brand — even a close relative, like the other Hamilton Beach models in <a href="/hamilton-beach-portable-dishwasher-lineup-compared">our lineup comparison</a> or the seven EUHOMY listings covered in <a href="/euhomy-portable-dishwasher-lineup-explained">EUHOMY's portable dishwasher lineup</a>. If a rating isn't returned for the exact ASIN a buy button points to, it doesn't appear next to that model's name. No exceptions, no "close enough."</p>
+    </div>
+  </section>
+
+  <section id="read-critically">
+    <div class="kicker"><span class="eyebrow">What you can still do</span></div>
+    <h2 class="h2">How to read a listing's own description once the rating is gone</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Losing a star rating doesn't leave you with nothing — it leaves you with the listing's own words, which were always worth reading skeptically anyway. A few habits do most of the work:</p>
+      <ul>
+        <li><b>Separate counted facts from adjectives.</b> A listing that says "30+ dishes" is making a vaguer claim than one that itemizes four bowls, four cups, four small plates, four dinner plates and seven place settings of cutlery — the same distinction that matters when comparing published wash temperatures, where one listing's precise 162°F reads very differently from another's unqualified "sanitizing heat" in <a href="/how-hot-does-a-portable-dishwasher-get-wash-temperatures-compared">our comparison of stated wash temperatures</a>.</li>
+        <li><b>Trust the certification mark over the marketing copy around it.</b> "Hospital-grade clean" is a phrase; a UL or ETL mark is a standard an independent lab actually tested against. We walk through what that mark covers, and what it doesn't, in <a href="/ul-and-etl-certified-portable-dishwashers-explained">UL and ETL certification on a portable dishwasher</a>.</li>
+        <li><b>Check whether the same brand reuses boilerplate across listings.</b> When one manufacturer sells several near-identical machines under different model numbers — as both EUHOMY and Hamilton Beach do, covered respectively in <a href="/euhomy-portable-dishwasher-lineup-explained">EUHOMY's lineup</a> and <a href="/hamilton-beach-portable-dishwasher-lineup-compared">Hamilton Beach's lineup</a> — identical phrasing across listings is a sign you're reading copy, not a description specific to that unit.</li>
+        <li><b>Read what ships in the box as literally as the drain hose question.</b> A hose with no stated reach, or no mention of a hose at all, is the kind of gap that causes real returns; we go through exactly how far that hose needs to go in <a href="/portable-dishwasher-drain-hose-explained">where a portable dishwasher's drain hose actually goes</a>.</li>
+        <li><b>Assume manufacturer figures are optimistic, not false.</b> Capacity and decibel numbers are produced by the company selling the machine, under conditions it chose and doesn't have to disclose. Treating them as claims rather than measurements — the same posture this whole site takes — gets you closer to what you'll actually experience than treating them as fact, or discarding them because there's no star rating to corroborate them.</li>
+      </ul>
+      <p>None of this replaces a review count. It's slower, and it asks more of the reader than scanning a star icon ever did. It's also the only version of "trust the listing" that doesn't require trusting a number nobody can currently verify.</p>
+    </div>
+  </section>
+
+  <section id="method">
+    <div class="cols">
+      <div class="panel">
+        <span class="eyebrow">How we picked</span>
+        <h3 class="serif">Four machines, one constraint</h3>
+        <p>We didn't choose these four because they're the best-reviewed — we have no review data to make that claim. We chose a spread across this guide's price range, from the cheapest listing with a specific, checkable claim (EUHOMY's 40&nbsp;dB figure) to the one with the fullest public spec sheet (BLACK+DECKER's BPD8B), with one deliberately thin listing (Hamilton Beach) included to show what a bare-minimum spec sheet looks like next to a fuller one.</p>
+      </div>
+      <div class="panel">
+        <span class="eyebrow">How we compared</span>
+        <h3 class="serif">Research, not a lab, and no invented stars</h3>
+        <p>We're honest about this: <strong style="color:var(--ink)">we don't physically test these machines and we don't run a testing lab.</strong> We compare published specifications, what ships in the box, water source, capacity, dimensions, certification and live pricing. We show no star ratings because the data feed behind this site returns none we can verify for this category, and we never substitute a paraphrase of review sentiment for the number we don't have.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="kicker"><span class="eyebrow">FAQ</span></div>
+    <h2 class="h2">Common questions about the no-ratings policy</h2>
+    <div class="panel faq" style="margin-top:22px">
+      <details open><summary>Why doesn't this site show star ratings for portable dishwashers?</summary><p>The product API this site pulls specifications and prices from stopped returning a rating value and a review count for almost every listing in this category. We have no way to verify a figure for most of these machines, so rather than guess, copy a stale number, or paraphrase review sentiment we've never actually read, we don't display a rating at all. We compare specs, published cycle details, price and what's in the box instead.</p></details>
+      <details><summary>Does Amazon still show a star rating on the product page itself?</summary><p>Often, yes. The gap is specifically in the programmatic data feed that independent sites like this one pull from, not necessarily on Amazon's own retail page for that product. If a rating matters to your decision, check the live Amazon listing directly before you buy — we simply can't verify or reproduce that figure here, and we'd rather say so than guess at it.</p></details>
+      <details><summary>If a listing has no visible rating here, does that mean the product is bad?</summary><p>No. A missing rating on this site reflects a gap in the data feed, not a judgment about the product. All four machines in this guide are missing a rating for the same reason — the feed doesn't return one for their ASINs — regardless of price, brand or how complete their other specifications are.</p></details>
+      <details><summary>How do you decide what to recommend if you can't cite a rating?</summary><p>We compare what's still fully verifiable: published place settings, dimensions, certification marks like UL, ETL and ENERGY STAR, named wash cycles, water source, what ships in the box, and live price. Where a listing simply doesn't state something — a dimension, a cycle list, a certification — we say so rather than filling the gap with a guess.</p></details>
+    </div>
+  </section>
+
+  <section id="keep-reading">
+    <div class="kicker"><span class="eyebrow">Keep reading</span></div>
+    <h2 class="h2">Next, from this site</h2>
+    <div class="cols" style="margin-top:22px">
+      <a class="panel" style="text-decoration:none;display:block" href="/automatic-detergent-dispensing-portable-dishwashers-explained">
+        <span class="eyebrow" style="color:var(--brass-text)">Guide</span>
+        <h3 class="serif" style="margin-top:6px">Automatic Detergent Dispensing on a Portable Dishwasher: Does It Replace the Drawer?</h3>
+        <p>Another feature that sounds more automated than the listing copy actually confirms. <span style="color:var(--aqua-deep);font-weight:700">Read →</span></p>
+      </a>
+      <a class="panel" style="text-decoration:none;display:block" href="/silonn-portable-dishwasher-app-control-vs-standard-compared">
+        <span class="eyebrow" style="color:var(--brass-text)">Comparison</span>
+        <h3 class="serif" style="margin-top:6px">Silonn's Two Countertop Dishwashers: App Control vs the Standard Dial</h3>
+        <p>Two listings, one brand, and a spec-by-spec read of what the app actually adds. <span style="color:var(--aqua-deep);font-weight:700">Read →</span></p>
+      </a>
+      <a class="panel" style="text-decoration:none;display:block" href="/ada-compliant-portable-dishwashers-explained">
+        <span class="eyebrow" style="color:var(--brass-text)">Guide</span>
+        <h3 class="serif" style="margin-top:6px">ADA-Compliant Portable Dishwashers: What the Designation Actually Covers</h3>
+        <p>Another label worth reading as a defined standard rather than a marketing adjective. <span style="color:var(--aqua-deep);font-weight:700">Read →</span></p>
+      </a>
+    </div>
+  </section>
+
+</div>
+
+<footer class="site"><div class="wrap">
+  <div class="fbrand">Best Portable Dishwashers</div>
+  <p>Independent, research-based comparisons of portable and countertop dishwashers for kitchens without a hookup.</p>
+  <p style="margin:.5rem 0 0"><a href="/about">About</a> · <a href="/guides">All guides</a> · <a href="/contact">Contact</a> · <a href="/privacy">Privacy</a></p>
+  <p>Reader-supported: we may earn a commission when you buy through our links, at no additional cost to you. Comparisons are based on published specifications and pricing; we do not physically test products and we do not publish ratings we cannot verify. Prices change frequently — confirm the current price on Amazon. As an Amazon Associate, we earn from qualifying purchases. © 2026 Best Portable Dishwashers.</p>
+</div></footer>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Why You Won't See a Star Rating Anywhere in This Guide","description":"Amazon's product API stopped returning rating and review counts for nearly every machine in this category. What that means for how we compare them instead.","image":"https://best-portable-dishwashers.com/images/hero-why-this-guide-has-no-star-ratings.webp","datePublished":"2026-11-07","dateModified":"2026-11-07","author":{"@type":"Person","name":"Ilane Tall"},"publisher":{"@type":"Organization","name":"Best Portable Dishwashers"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://best-portable-dishwashers.com/why-this-guide-has-no-star-ratings"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"Why doesn't this site show star ratings for portable dishwashers?","acceptedAnswer":{"@type":"Answer","text":"The product API this site pulls specifications and prices from stopped returning a rating value and a review count for almost every listing in this category. We have no way to verify a figure for most of these machines, so rather than guess, copy a stale number, or paraphrase review sentiment we've never actually read, we don't display a rating at all. We compare specs, published cycle details, price and what's in the box instead."}},
+ {"@type":"Question","name":"Does Amazon still show a star rating on the product page itself?","acceptedAnswer":{"@type":"Answer","text":"Often, yes. The gap is specifically in the programmatic data feed that independent sites like this one pull from, not necessarily on Amazon's own retail page for that product. If a rating matters to your decision, check the live Amazon listing directly before you buy — we simply can't verify or reproduce that figure here, and we'd rather say so than guess at it."}},
+ {"@type":"Question","name":"If a listing has no visible rating here, does that mean the product is bad?","acceptedAnswer":{"@type":"Answer","text":"No. A missing rating on this site reflects a gap in the data feed, not a judgment about the product. All four machines in this guide are missing a rating for the same reason — the feed doesn't return one for their ASINs — regardless of price, brand or how complete their other specifications are."}},
+ {"@type":"Question","name":"How do you decide what to recommend if you can't cite a rating?","acceptedAnswer":{"@type":"Answer","text":"We compare what's still fully verifiable: published place settings, dimensions, certification marks like UL, ETL and ENERGY STAR, named wash cycles, water source, what ships in the box, and live price. Where a listing simply doesn't state something — a dimension, a cycle list, a certification — we say so rather than filling the gap with a guess."}}
+]}
+</script>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

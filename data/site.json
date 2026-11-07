@@ -799,6 +799,16 @@
       "minutes": 16,
       "date": "2026-11-06",
       "featured": true
+    },
+    {
+      "slug": "why-this-guide-has-no-star-ratings",
+      "title": "Why You Won't See a Star Rating Anywhere in This Guide",
+      "description": "Amazon's product API stopped returning rating and review counts for nearly every machine in this category. What that means for how we compare them instead.",
+      "category": "Honest take",
+      "hero": "hero-why-this-guide-has-no-star-ratings",
+      "minutes": 16,
+      "date": "2026-11-07",
+      "featured": true
     }
   ]
 }
