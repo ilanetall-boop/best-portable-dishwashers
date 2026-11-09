@@ -819,6 +819,16 @@
       "minutes": 13,
       "date": "2026-11-08",
       "featured": true
+    },
+    {
+      "slug": "first-wash-new-portable-dishwasher-setup",
+      "title": "The First Wash: Running a New Portable Dishwasher Empty Before You Use It",
+      "description": "Manuals bury it in a short paragraph, but nearly every listing in this category recommends one empty rinse cycle before the first real load. What it actually accomplishes.",
+      "category": "How-to",
+      "hero": "hero-first-wash-new-portable-dishwasher-setup",
+      "minutes": 14,
+      "date": "2026-11-09",
+      "featured": true
     }
   ]
 }

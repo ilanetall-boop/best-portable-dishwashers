@@ -25,6 +25,7 @@
 ## Guides
 
 <!--LLMS-GUIDES:START-->
+- [The First Wash: Running a New Portable Dishwasher Empty Before You Use It](https://best-portable-dishwashers.com/first-wash-new-portable-dishwasher-setup): Manuals bury it in a short paragraph, but nearly every listing in this category recommends one empty rinse cycle before the first real load. What it actually accomplishes.
 - [The Only Smart Dishwasher in This Category: Is GE Profile's WiFi Countertop Worth the Price Jump?](https://best-portable-dishwashers.com/ge-profile-smart-dishwasher-worth-it): One model in this entire catalogue connects to an app. Everything else is a dial or a button panel. What the $533 price actually buys over a $290-370 countertop unit.
 - [Why You Won't See a Star Rating Anywhere in This Guide](https://best-portable-dishwashers.com/why-this-guide-has-no-star-ratings): Amazon's product API stopped returning rating and review counts for nearly every machine in this category. What that means for how we compare them instead.
 - [Where Does a Portable Dishwasher's Drain Hose Actually Go?](https://best-portable-dishwashers.com/portable-dishwasher-drain-hose-explained): Hooking up the water in is only half the installation. The drain hose has its own height, reach and hook-over-the-sink requirements that trip people up just as often.
