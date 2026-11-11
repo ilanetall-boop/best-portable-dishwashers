@@ -1,0 +1,506 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Why the Same Portable Dishwasher Shows Up at Two Different Prices on Amazon</title>
+<meta name="description" content="SPT's SD-9254SSB appears under at least two separate ASINs, one priced at $461.99 and another at $500.99 — same name, same specs, different listing. Here's why that happens and how to tell a genuine duplicate from a different model wearing a similar name.">
+<link rel="canonical" href="https://best-portable-dishwashers.com/same-model-different-price-portable-dishwasher-listings-explained">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Best Portable Dishwashers">
+<meta property="og:title" content="Why the Same Portable Dishwasher Shows Up at Two Different Prices on Amazon">
+<meta property="og:description" content="Same name, same specs, two ASINs, two prices. How Amazon catalog duplicates happen with appliance brands like SPT, and how to check a listing before you click buy.">
+<meta property="og:image" content="https://best-portable-dishwashers.com/images/hero-same-model-different-price-portable-dishwasher-listings-explained.webp">
+<meta property="og:url" content="https://best-portable-dishwashers.com/same-model-different-price-portable-dishwasher-listings-explained">
+<meta name="theme-color" content="#101820">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
+<link rel="alternate icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<style>
+  /* premium-editorial-v1 — palette: steel / slate / water-blue.
+     NOTE: the --aqua* and --brass* variable names are inherited from the network template;
+     on this site --aqua carries the water-blue accent and --brass carries brushed chrome.
+     Do not rename (tools/rebuild-site.js and every article file reference them). */
+  :root{
+    --ground:#F4F6F8; --surface:#FFFFFF; --surface-2:#E9EEF3;
+    --ink:#131A21; --ink-soft:#2E3A45; --muted:#69757F; --line:#DCE3EA;
+    --aqua:#1C6E8C; --aqua-deep:#12556F; --aqua-tint:#E8F1F6;
+    --brass:#8D9AA6; --brass-lite:#C9D5DF; --brass-tint:#EDF1F5;
+    --dark:#101820; --dark-2:#1D2A35; --on-dark:#EAF0F5; --on-dark-mute:#9CACB9;
+    --star:#B07E00;
+    --shadow:0 1px 2px rgba(19,26,33,.05),0 22px 48px -26px rgba(19,26,33,.30);
+    --shadow-sm:0 1px 2px rgba(19,26,33,.05),0 10px 24px -16px rgba(19,26,33,.24);
+    --radius:20px; --radius-sm:12px; --maxw:1120px;
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+    --ground:#0C1116; --surface:#151E26; --surface-2:#1E2A34;
+    --ink:#EAF0F5; --ink-soft:#CBD7E0; --muted:#93A2AE; --line:#28353F;
+    --aqua:#5CA9C8; --aqua-deep:#7FC3DD; --aqua-tint:#122530;
+    --brass:#C9D5DF; --brass-lite:#DDE7EF; --brass-tint:#16222B;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }}
+  :root[data-theme="dark"]{
+    --ground:#0C1116; --surface:#151E26; --surface-2:#1E2A34;
+    --ink:#EAF0F5; --ink-soft:#CBD7E0; --muted:#93A2AE; --line:#28353F;
+    --aqua:#5CA9C8; --aqua-deep:#7FC3DD; --aqua-tint:#122530;
+    --brass:#C9D5DF; --brass-lite:#DDE7EF; --brass-tint:#16222B;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 24px 52px -28px rgba(0,0,0,.7);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4),0 12px 26px -18px rgba(0,0,0,.6);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+    font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px}
+  a{color:inherit}
+  h1,h2,h3{margin:0;line-height:1.08;letter-spacing:-.01em;text-wrap:balance}
+  .serif{font-family:var(--serif)}
+  p{margin:0 0 1rem}
+  .eyebrow{font-family:var(--sans);font-size:.72rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase}
+  .tnum{font-variant-numeric:tabular-nums}
+  .stars{color:var(--star);letter-spacing:2px}
+
+  /* ---------- header ---------- */
+  header.site{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--ground) 82%,transparent);
+    backdrop-filter:saturate(1.3) blur(12px);border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:inline-flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink);font-weight:700;letter-spacing:-.01em}
+  .brand .bn{font-family:var(--serif);font-size:1.16rem}
+  nav.site a{color:var(--muted);text-decoration:none;font-size:.86rem;font-weight:600;letter-spacing:.01em;margin-left:22px;transition:color .2s}
+  nav.site a:hover{color:var(--ink)}
+  @media (max-width:660px){nav.site{display:none}}
+
+  /* ---------- hero (immersive dark, water shimmer) ---------- */
+  .hero{position:relative;background:radial-gradient(120% 90% at 80% -10%,var(--dark-2),var(--dark) 60%);color:var(--on-dark);overflow:hidden;isolation:isolate}
+  .caustic{position:absolute;inset:-30%;z-index:0;opacity:.5;pointer-events:none;filter:blur(30px);
+    background:
+      radial-gradient(28% 40% at 22% 30%,rgba(92,169,200,.26),transparent 60%),
+      radial-gradient(24% 34% at 74% 24%,rgba(201,213,223,.20),transparent 60%),
+      radial-gradient(30% 42% at 60% 78%,rgba(28,110,140,.28),transparent 62%);
+    animation:drift 22s ease-in-out infinite alternate}
+  .caustic.b{opacity:.34;animation-duration:30s;animation-direction:alternate-reverse;
+    background:
+      radial-gradient(26% 36% at 40% 60%,rgba(127,195,221,.22),transparent 60%),
+      radial-gradient(22% 30% at 85% 70%,rgba(141,154,166,.20),transparent 60%)}
+  @keyframes drift{0%{transform:translate3d(-2%,-1%,0) scale(1)}50%{transform:translate3d(3%,2%,0) scale(1.08)}100%{transform:translate3d(-1%,3%,0) scale(1.04)}}
+  .hero .wrap{position:relative;z-index:1;padding:74px 26px 88px}
+  .hero .eyebrow{color:var(--brass-lite)}
+  .hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(2.5rem,1.4rem+4.6vw,4.7rem);letter-spacing:-.02em;max-width:15ch;margin:.5rem 0 0}
+  .hero h1 em{font-style:italic;color:var(--brass-lite)}
+  .hero .lede{font-size:1.24rem;line-height:1.55;color:var(--on-dark-mute);max-width:52ch;margin-top:1.3rem}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:10px 26px;margin-top:26px;font-size:.86rem;color:var(--on-dark-mute)}
+  .hero .meta b{color:var(--on-dark)}
+  .rule{height:1px;background:linear-gradient(90deg,var(--brass),transparent);border:0;margin:26px 0 0;max-width:220px}
+
+  /* ---------- #1 feature (the centerpiece) ---------- */
+  .feature{position:relative;z-index:2;margin:-56px 0 0}
+  .feature .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);
+    display:grid;grid-template-columns:1.1fr 1fr;overflow:hidden}
+  .feature .left{padding:38px}
+  .feature .kick{display:inline-flex;align-items:center;gap:9px;color:var(--brass-text);font-weight:700;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase}
+  .feature .kick::before{content:"";width:26px;height:1px;background:var(--brass)}
+  .feature h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.8rem,1.2rem+2vw,2.7rem);margin:.5rem 0 .2rem}
+  .feature .verdict{color:var(--ink-soft);font-size:1.06rem;margin:.4rem 0 1rem;max-width:44ch}
+  .feature .rl{display:flex;align-items:center;flex-wrap:wrap;gap:8px 10px;font-size:.92rem;color:var(--muted);margin-bottom:1.2rem}
+  .feature .rl b{color:var(--ink)}
+  .btn{display:inline-flex;align-items:center;gap:9px;background:var(--aqua);color:#fff;font-weight:700;
+    padding:14px 26px;border-radius:12px;text-decoration:none;box-shadow:var(--shadow-sm);transition:transform .15s,background .2s}
+  .btn:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  .btn .arw{transition:transform .2s}.btn:hover .arw{transform:translateX(3px)}
+  .feature .right{background:linear-gradient(160deg,var(--dark-2),var(--dark));color:var(--on-dark);padding:38px;display:flex;flex-direction:column;justify-content:center;gap:6px;position:relative}
+  .feature .right .lab{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--on-dark-mute)}
+  .feature .bigprice{font-family:var(--serif);font-size:clamp(3rem,2rem+4vw,4.4rem);font-weight:600;line-height:1;color:var(--brass-lite)}
+  .feature .bigprice sup{font-size:.4em;top:-1.2em;color:var(--on-dark)}
+  .feature .right .note{color:var(--on-dark-mute);font-size:.92rem;margin-top:6px;max-width:30ch}
+  .feature .right .mono{margin-top:16px;font-family:var(--serif);font-size:1.05rem;color:var(--on-dark)}
+  @media (max-width:820px){.feature .card{grid-template-columns:1fr}.feature .right{order:-1}}
+
+  /* ---------- generic section ---------- */
+  section{padding:44px 0}
+  .kicker{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+  .kicker .eyebrow{color:var(--aqua-deep)}
+  .kicker::after{content:"";flex:1;height:1px;background:var(--line)}
+  .h2{font-family:var(--serif);font-weight:600;font-size:clamp(1.7rem,1.2rem+1.7vw,2.5rem);letter-spacing:-.01em}
+  .sub{color:var(--muted);max-width:62ch;margin:.6rem 0 0}
+
+  .notes{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:24px}
+  .notes .n{background:var(--surface);padding:24px}
+  .notes .num{font-family:var(--serif);font-size:1.5rem;color:var(--brass-text);line-height:1}
+  .notes h3{font-size:1.02rem;font-weight:750;margin:.5rem 0 .35rem}
+  .notes p{font-size:.9rem;color:var(--muted);margin:0}
+  @media (max-width:820px){.notes{grid-template-columns:1fr 1fr}}
+  @media (max-width:520px){.notes{grid-template-columns:1fr}}
+
+  /* honesty band */
+  .band{background:var(--brass-tint);border:1px solid var(--line);border-left:3px solid var(--brass);
+    border-radius:var(--radius-sm);padding:22px 24px;margin-top:26px}
+  .band h3{font-family:var(--serif);font-weight:600;font-size:1.16rem;margin-bottom:.5rem}
+  .band p{color:var(--ink-soft);font-size:.95rem;margin:0}
+  .band p+p{margin-top:.6rem}
+
+  /* comparison */
+  .tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);background:var(--surface);margin-top:22px}
+  table{border-collapse:collapse;width:100%;min-width:740px;font-size:.94rem}
+  thead th{background:var(--surface-2);text-align:left;padding:16px;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--line)}
+  td{padding:15px 16px;border-bottom:1px solid var(--line);vertical-align:middle}
+  tbody tr:last-child td{border-bottom:0}
+  tbody tr:hover{background:var(--surface-2)}
+  td.name{font-family:var(--serif);font-weight:600;font-size:1.05rem}
+  .win td{background:var(--brass-tint)}
+  .win td.name{color:var(--brass-text)}
+  .win td:first-child{box-shadow:inset 3px 0 0 var(--brass)}
+  .price{font-weight:800;font-variant-numeric:tabular-nums}
+  .rev{color:var(--muted);font-size:.82rem}
+  .tget{display:inline-block;background:var(--ink);color:var(--surface);font-weight:700;font-size:.8rem;padding:8px 14px;border-radius:9px;text-decoration:none;white-space:nowrap;transition:background .2s}
+  .tget:hover{background:var(--aqua-deep);color:#fff}
+
+  /* picks (editorial cards) */
+  .picks{display:flex;flex-direction:column;gap:26px;margin-top:26px}
+  .pick{display:grid;grid-template-columns:96px 1fr auto;gap:26px;align-items:start;
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:28px}
+  .pick .rank{font-family:var(--serif);font-size:2.6rem;color:var(--brass-text);line-height:.9;font-weight:600}
+  .pick .rank small{display:block;font-family:var(--sans);font-size:.6rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:700;margin-top:8px}
+  .pick h3{font-family:var(--serif);font-weight:600;font-size:1.44rem}
+  .pick .who{color:var(--aqua-deep);font-weight:700;font-size:.9rem;margin:.25rem 0 .5rem}
+  .pick .rl2{display:flex;align-items:center;flex-wrap:wrap;gap:6px 8px;font-size:.86rem;color:var(--muted);margin-bottom:.7rem}
+  .pick .rl2 b{color:var(--ink)}
+  .pick p.body{margin:.2rem 0 0;color:var(--ink-soft)}
+  .quote{border-left:2px solid var(--brass);padding-left:14px;margin:.9rem 0 0;font-family:var(--serif);color:var(--ink);font-size:1.02rem}
+  .quote b{font-family:var(--sans);font-size:.74rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brass-text);display:block;margin-bottom:.2rem;font-weight:700}
+  .aside{display:flex;flex-direction:column;align-items:flex-end;gap:12px;text-align:right;min-width:150px}
+  .aside .pr{font-family:var(--serif);font-size:2rem;font-weight:600;font-variant-numeric:tabular-nums;line-height:1}
+  .aside .tag{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+  .buy{display:inline-flex;align-items:center;gap:8px;background:var(--aqua);color:#fff;font-weight:700;padding:11px 20px;border-radius:10px;text-decoration:none;transition:background .2s,transform .15s;font-size:.92rem}
+  .buy:hover{background:var(--aqua-deep);transform:translateY(-1px)}
+  @media (max-width:820px){.pick{grid-template-columns:64px 1fr}.aside{grid-column:1/-1;flex-direction:row;justify-content:space-between;align-items:center;text-align:left;border-top:1px solid var(--line);padding-top:16px}}
+
+  /* method / faq */
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:26px;margin-top:22px}
+  @media (max-width:760px){.cols{grid-template-columns:1fr}}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow-sm)}
+  .panel .eyebrow{color:var(--aqua-deep)}
+  .panel h3{font-family:var(--serif);font-weight:600;font-size:1.3rem;margin:.5rem 0 .5rem}
+  .panel p{color:var(--muted);margin:0}
+  .faq details{border-top:1px solid var(--line);padding:16px 0}
+  .faq details:first-of-type{border-top:0}
+  .faq summary{cursor:pointer;font-family:var(--serif);font-size:1.12rem;list-style:none;display:flex;justify-content:space-between;gap:14px;color:var(--ink)}
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{content:"+";color:var(--brass-text);font-family:var(--sans);font-weight:700}
+  .faq details[open] summary::after{content:"–"}
+  .faq p{margin:.8rem 0 0;color:var(--muted)}
+
+  footer.site{margin-top:20px;background:var(--dark);color:var(--on-dark-mute)}
+  footer .wrap{padding:40px 26px}
+  footer .fbrand{font-family:var(--serif);color:var(--on-dark);font-size:1.2rem}
+  footer p{font-size:.84rem;margin:.6rem 0 0;max-width:80ch}
+  footer a{color:var(--brass-lite)}
+  /* imagery */
+  .hero .wrap{display:grid;grid-template-columns:1.12fr .88fr;gap:48px;align-items:center}
+  .hero .himg{border-radius:20px;border:1px solid rgba(201,213,223,.4);box-shadow:0 30px 60px -30px rgba(0,0,0,.55);width:100%;height:auto;display:block}
+  @media (max-width:860px){.hero .wrap{grid-template-columns:1fr;gap:30px}}
+  .fpimg{background:#fff;border-radius:14px;padding:14px;box-shadow:0 12px 28px -14px rgba(0,0,0,.5);width:min(230px,70%);margin-bottom:16px}
+  .fpimg img{width:100%;height:auto;display:block}
+  .aside .pimg{width:150px;height:150px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:10px;display:flex;align-items:center;justify-content:center}
+  .aside .pimg img{max-width:100%;max-height:100%;display:block}
+  @media (max-width:820px){.aside .pimg{width:96px;height:96px;padding:6px}}
+  td.name{display:flex;align-items:center;gap:12px}
+  .thumb{width:46px;height:46px;flex:0 0 auto;background:#fff;border:1px solid var(--line);border-radius:9px;padding:4px}
+  .thumb img{width:100%;height:100%;object-fit:contain;display:block}
+  :focus-visible{outline:2px solid var(--aqua);outline-offset:3px;border-radius:5px}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}.btn:hover,.buy:hover{transform:none}}
+</style>
+<style>
+  /* article layer — prose column only; never restyle .buy / .btn (the a11y block owns them) */
+  .prose{max-width:68ch}
+  .prose p{color:var(--ink-soft);margin:0 0 1.05rem}
+  .prose p b{color:var(--ink)}
+  .prose h3{font-family:var(--serif);font-weight:600;font-size:1.28rem;color:var(--ink);margin:1.7rem 0 .6rem;line-height:1.2}
+  .prose ul{color:var(--ink-soft);margin:0 0 1.15rem;padding-left:1.15rem}
+  .prose li{margin:.4rem 0}
+  .prose a{color:var(--aqua-deep);font-weight:600;text-underline-offset:3px}
+  .disclosure{font-size:.86rem;color:var(--muted);border-left:2px solid var(--brass);padding-left:14px;margin:0}
+  section#intro{padding-top:34px}
+  .twin{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:22px}
+  @media (max-width:760px){.twin{grid-template-columns:1fr}}
+  .twin .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:24px}
+  .twin .card img{width:120px;height:120px;object-fit:contain;background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px;margin-bottom:14px}
+  .twin .card .tag{font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);display:block;margin-bottom:6px}
+  .twin .card .pr{font-family:var(--serif);font-size:1.9rem;font-weight:600;margin:4px 0 10px}
+  .twin .card ul{margin:0 0 14px;padding-left:1.1rem;color:var(--ink-soft);font-size:.92rem}
+  .twin .card li{margin:.3rem 0}
+</style>
+<style id="a11y">:root{--brass-text:#4A5865;--star:#B07E00}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--brass-text:#C9D5DF;--star:#E8B84B}}:root[data-theme="dark"]{--brass-text:#C9D5DF;--star:#E8B84B}nav.site a{color:var(--ink-soft)}.stars{color:var(--star)}thead th{color:var(--ink-soft)}.rev{color:var(--ink-soft)}.kick{color:var(--brass-text)}.win td.name{color:var(--brass-text)}a.btn,a.buy,.btn,.buy{background:#12556F !important;color:#fff !important;text-decoration:none !important}a.btn:hover,a.buy:hover,.btn:hover,.buy:hover{background:#0D4056 !important}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) a.btn,:root:not([data-theme="light"]) a.buy,:root:not([data-theme="light"]) .btn,:root:not([data-theme="light"]) .buy{background:#7FC3DD !important;color:#0B1720 !important}:root:not([data-theme="light"]) .btn:hover,:root:not([data-theme="light"]) .buy:hover{background:#A3D6E9 !important}}:root[data-theme="dark"] a.btn,:root[data-theme="dark"] a.buy,:root[data-theme="dark"] .btn,:root[data-theme="dark"] .buy{background:#7FC3DD !important;color:#0B1720 !important}</style>
+<script type="text/javascript">
+(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "y1k8hct9nk");
+</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B93FNJGK0K"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());gtag('config', 'G-B93FNJGK0K');</script>
+</head>
+<body>
+<header class="site"><div class="wrap bar">
+  <a class="brand" href="/" aria-label="Best Portable Dishwashers">
+    <svg class="logomark" width="36" height="36" viewBox="0 0 40 40" aria-hidden="true">
+      <defs><radialGradient id="lm" cx="34%" cy="26%" r="86%"><stop offset="0" stop-color="#9FB4C2"/><stop offset=".68" stop-color="#33454F"/><stop offset="1" stop-color="#16222B"/></radialGradient></defs>
+      <circle cx="20" cy="20" r="19" fill="url(#lm)"/>
+      <circle cx="20" cy="20" r="18.4" fill="none" stroke="#C9D5DF" stroke-width="1.1" stroke-opacity=".92"/>
+      <circle cx="20" cy="20" r="15.3" fill="none" stroke="#EAF0F5" stroke-width=".6" stroke-opacity=".22"/>
+      <rect x="12.4" y="13.2" width="15.2" height="16" rx="2.2" fill="#F4F8FB"/>
+      <path d="M12.4 24.2h15.2" stroke="#33454F" stroke-width="1" stroke-opacity=".5"/>
+      <circle cx="20" cy="20.4" r="3.1" fill="none" stroke="#1C6E8C" stroke-width="1.5"/>
+      <path d="M20 17.3v-2.5" stroke="#1C6E8C" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M16.1 27.1h7.8" stroke="#8D9AA6" stroke-width="1.2" stroke-linecap="round"/>
+      <path d="M20 6.6c1.9 2.4 3 4 3 5.2a3 3 0 0 1-6 0c0-1.2 1.1-2.8 3-5.2Z" fill="#C9D5DF" fill-opacity=".85"/>
+    </svg>
+    <span class="bn">Best&thinsp;Portable&thinsp;Dishwashers</span>
+  </a>
+  <nav class="site" aria-label="Primary">
+    <a href="/#feature">Top pick</a><a href="/#compare">Compare</a><a href="/#picks">The eight</a><a href="/#how">Method</a><a href="/#faq">FAQ</a>
+  <a href="/guides">All guides</a></nav>
+</div></header>
+
+<a id="top"></a>
+<div class="hero">
+  <div class="caustic" aria-hidden="true"></div><div class="caustic b" aria-hidden="true"></div>
+  <div class="wrap">
+    <div>
+      <span class="eyebrow">Honest take · SPT SD-9254SSB</span>
+      <h1 class="serif">Same dishwasher, <em>two different prices.</em></h1>
+      <p class="lede">Search Amazon for the SPT SD-9254SSB and you can land on two listings that read like the same product page copied twice — same name, same size, same stainless tub — priced $40 apart. Neither is a typo. Here's what's actually going on, how to check it yourself in under a minute, and which listing to buy.</p>
+      <div class="meta"><span>By <b>Ilane Tall</b> · Updated November 11, 2026 · Research-based.</span></div>
+      <hr class="rule">
+    </div>
+    <img src="/images/hero-same-model-different-price-portable-dishwasher-listings-explained.webp" width="1600" height="900" loading="eager" fetchpriority="high" decoding="async" class="himg" alt="Two Amazon product listing pages for the same SPT stainless steel built-in dishwasher, shown side by side with two different prices">
+  </div>
+</div>
+
+<div class="wrap">
+
+  <section id="intro">
+    <div class="prose">
+      <p class="disclosure">Reader-supported: we may earn a commission when you buy through the links on this page, at no additional cost to you. Prices move constantly — confirm the live price before you order.</p>
+
+      <p style="margin-top:1.4rem">This isn't a rare glitch. If you shop appliances on Amazon for long enough you'll run into a listing that looks like a mirror image of one you saw an hour ago — same title down to the punctuation, same bullet points, same product photos, different ASIN, different price. With the SPT SD-9254SSB, a compact 18-inch built-in dishwasher meant to slide under a counter, it's easy to prove: one listing (ASIN B07RC27S9G) is priced at $461.99, and another listing for a dishwasher with the exact same name (ASIN B09V9Z8HCX) is priced at $502.44 — a $40.45 gap, roughly 8.8 percent, for what the titles claim is the identical machine.</p>
+
+      <p>We're not going to tell you that's always harmless, and we're not going to tell you it's always a scam. It's a structural feature of how Amazon's catalog works, especially for appliance brands that sell through more than one storefront or fulfillment path. What matters to you as a buyer is being able to tell, in under a minute, whether two listings really are the same product before you pay the higher one by mistake — or dismiss the cheaper one as "too good to be true" when it's exactly the same machine.</p>
+
+      <div class="band">
+        <h3 class="serif">How this page is built</h3>
+        <p>We compare the published title, size, color, feature bullets and price fields for both ASINs exactly as they appear in our product data, plus general, publicly documented facts about how Amazon's catalog and seller system work. We do not physically test these machines, we do not run a testing lab, and we do not publish ratings we cannot verify — Amazon returns no rating and no review count for either listing discussed here, which is itself consistent with newer or re-listed catalog entries. More on that policy in <a href="/why-this-guide-has-no-star-ratings">why this guide never prints a star rating</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="listing">
+    <div class="kicker"><span class="eyebrow">The evidence</span></div>
+    <h2 class="h2">The listing: one name, two ASINs, two prices</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Both listings carry the identical product title: <b>"SPT SD-9254SSB 18″ Wide Built-In Stainless Steel Dishwasher w/Heated Drying, ENERGY STAR, 6 Wash Programs, 8 Place Settings and Stainless Steel Tub."</b> Not a similar title — the same string, word for word, including the model code. That's the detail that should make a careful buyer stop and check, because a genuine model variant (a different color, a different trim kit) almost always shows up as a different title or at least a different suffix letter, not an identical one.</p>
+    </div>
+    <div class="twin">
+      <div class="card">
+        <span class="tag">Listing A · ASIN B07RC27S9G</span>
+        <img src="/images/amazon-B07RC27S9G.webp" width="800" height="800" loading="lazy" decoding="async" alt="SPT SD-9254SSB built-in stainless steel dishwasher, listing A">
+        <div class="pr">$461.99</div>
+        <ul>
+          <li>Size field: <b>18″</b></li>
+          <li>Color field: <b>Gray</b></li>
+          <li>Built-in, top-mount installation</li>
+          <li>6 wash programs: Normal, Heavy, Energy, Glass, Quick, Rinse</li>
+          <li>Heating function during drying cycle</li>
+        </ul>
+        <a class="buy" href="https://www.amazon.com/dp/B07RC27S9G?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a>
+      </div>
+      <div class="card">
+        <span class="tag">Listing B · ASIN B09V9Z8HCX</span>
+        <img src="/images/amazon-B09V9Z8HCX.webp" width="800" height="800" loading="lazy" decoding="async" alt="SPT SD-9254SSB built-in stainless steel dishwasher, listing B">
+        <div class="pr">$502.44</div>
+        <ul>
+          <li>Size field: not stated in this listing's data</li>
+          <li>Color field: <b>Stainless</b></li>
+          <li>Time delay feature, 1–24 hours</li>
+          <li>Error alarm with fault-code display</li>
+          <li>Heating function during drying cycle</li>
+        </ul>
+        <a class="buy" href="https://www.amazon.com/dp/B09V9Z8HCX?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Check price →</a>
+      </div>
+    </div>
+    <div class="prose" style="margin-top:22px">
+      <p>Notice what's different between the two cards above, and what isn't. The title, the 18-inch built-in form factor, the stainless tub, the heated-drying claim, the ENERGY STAR mention in the title, the 8 place settings and the 6 wash programs are identical on both. What differs is cosmetic: one listing's color field reads "Gray" and the other reads "Stainless" — almost certainly two sellers describing the same brushed-steel finish differently, not two different finishes — and the two listings surface a different subset of feature bullets, which is normal when the same manufacturer copy gets pulled into separate listings by different means. Neither difference describes a different machine.</p>
+    </div>
+  </section>
+
+  <section id="why">
+    <div class="kicker"><span class="eyebrow">The mechanism</span></div>
+    <h2 class="h2">How a listing like this happens on Amazon</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>A single retail listing on Amazon is tied to one ASIN, and in theory a manufacturer's catalog maps one physical product to one ASIN. In practice, appliance categories are some of the worst offenders for breaking that rule, for a handful of well-documented reasons that have nothing to do with the specific brand being shady:</p>
+      <ul>
+        <li><b>Multiple sellers, multiple listings.</b> A brand like SPT sells through its own storefront and through third-party resellers and distributors. If a reseller creates a new product page instead of attaching their offer to the manufacturer's existing one — sometimes because Amazon's "same product" matching didn't catch it, sometimes because the reseller wants their own reviews and Buy Box — the result is two live ASINs for one physical item.</li>
+        <li><b>Old listings that never got merged.</b> When a model is re-photographed, re-boxed, or re-submitted with slightly different bullet copy, Amazon's catalog system sometimes treats it as a new product rather than recognizing it as the same one. The old ASIN doesn't disappear; it just sits there, sometimes with stale pricing, sometimes competing directly with the new one.</li>
+        <li><b>Fulfillment and warehouse differences.</b> Two ASINs for the same item can be priced differently because one ships from a different fulfillment center, carries different warehousing or freight cost, or is sold by a different party paying a different wholesale price — all of which is invisible on the product page itself.</li>
+        <li><b>Bundle and packaging variants that don't announce themselves.</b> Occasionally a higher-priced ASIN includes something the cheaper one doesn't — an extra fitting, a different power cord region, faster shipping eligibility — without the title reflecting it. This is the one case where the higher price can be justified, and it's exactly why checking rather than assuming matters.</li>
+      </ul>
+      <p>None of this requires bad faith. It's simply what happens when a manufacturer's catalog, several resellers' inventory feeds, and Amazon's own product-matching logic all have to agree on what counts as "the same item," and they don't always agree in time — we ran into the same reseller-driven split while mapping <a href="/danby-and-edgestar-portable-dishwashers-compared">Danby and EdgeStar's listings</a> for a separate comparison.</p>
+    </div>
+  </section>
+
+  <section id="specsheet">
+    <div class="kicker"><span class="eyebrow">Verification</span></div>
+    <h2 class="h2">Reading the spec sheet line by line</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>The fastest way to confirm two listings are the same machine isn't to trust the title — titles get copied wholesale whether or not the rest of the listing matches — it's to check the fields underneath it against each other, in order:</p>
+      <ul>
+        <li><b>Full title string.</b> Copy both titles into a text field and compare character by character. If they match exactly, including the model code, that's the strongest single signal of a genuine duplicate rather than a variant.</li>
+        <li><b>Brand and model code.</b> Both of these listings show brand "SPT" and model code "SD-9254SSB" with no suffix change. A variant would typically change the trailing letters (more on that below).</li>
+        <li><b>Stated size or dimension.</b> Listing A states an 18″ size field explicitly; Listing B's size field isn't populated in our data at all, which is common for listings scraped at different times — it doesn't mean the dishwasher is a different size, since the title itself states "18″ Wide" on both. When a field is genuinely missing, treat it as unconfirmed rather than assuming either way.</li>
+        <li><b>Feature bullets, for overlap not identity.</b> Listing A's bullets mention the installation type and the wash-program list; Listing B's bullets mention the time-delay feature and the error-alarm display. These aren't contradictions — a single real product typically ships with five or six manufacturer bullet points, and different listings (or different scrapes of the same listing) often surface a different three of them. What would be a red flag is a bullet that actively contradicts the other listing — a different place-setting count, a different tub material, a different voltage. Here, the one bullet both listings share word for word, "HEATING function during drying cycle," is the tell: it's the same manufacturer copy block.</li>
+        <li><b>Product photos.</b> Both listings draw from the same small pool of manufacturer images of this chassis — not pixel-identical crops, but the same physical unit photographed for the same product family, which is consistent with one appliance platform licensed to two listings rather than two different dishwashers that happen to share a name.</li>
+      </ul>
+      <p>If every one of those checks lines up and only the price (and maybe the seller) differs, you're looking at a genuine catalog duplicate, and the sane move is to buy the cheaper one. If even one of them contradicts — a different place-setting count, a tub material that doesn't match, a width that's off by more than rounding — stop and treat them as two different products, whatever the title says. The same bullet-overlap-but-not-identical pattern shows up again in <a href="/euhomy-portable-dishwasher-lineup-explained">EUHOMY's seven-listing lineup</a>, a different brand with the same habit.</p>
+    </div>
+  </section>
+
+  <section id="naming">
+    <div class="kicker"><span class="eyebrow">The trap</span></div>
+    <h2 class="h2">SD-9254 vs SD-9263: the pattern that trips people up</h2>
+    <div class="prose" style="margin-top:1rem">
+      <p>Here's where it gets genuinely confusing, because SPT's own model-numbering pattern looks almost designed to be misread at a glance. The two ASINs above are both "SD-9254SSB" — same four-digit chassis code, same trim letters. But search a little further and you'll also find the <b>SD-9263SSA</b>, a dishwasher from the same brand, in the same finish, at a similar price point, with a model number one digit removed from the first pair. It is a different machine, not a third listing of the same one.</p>
+      <p>The title tells you so if you read past the brand name: the SD-9254SSB is described as "18″ Wide <b>Built-In</b> Stainless Steel Dishwasher," built to install top-mount under a counter with a separate panel. The SD-9263SSA is described as "18″ Wide <b>Portable</b> Stainless Steel Dishwasher" — a freestanding chassis in the same family that SPT also sells on castors in other trims, the same portable-class platform covered in our <a href="/countertop-vs-18-inch-portable-dishwashers">countertop-vs-18-inch comparison</a>. Both carry 8 place settings, 6 wash programs and ENERGY STAR certification, which is exactly why the two chassis get confused — the spec summary reads almost the same even though the installation method doesn't.</p>
+      <p>The practical rule: the four-digit chassis code (9254 versus 9263) tells you which physical dishwasher you're looking at — built-in versus portable — and that's not negotiable between listings. The trailing letters (SSA, SSB, SSC and so on) typically mark finish or minor trim variants within the same chassis, the way SPT's portable line also appears as SD-9263W in white and SD-9263SSC in stainless in other listings we've tracked. Two listings sharing the full code including the trailing letters, like the pair at the top of this page, are candidates for a true duplicate. Two listings differing in the chassis digits are not — they're different appliances that happen to share a brand, a finish and a marketing paragraph.</p>
+    </div>
+  </section>
+
+  <section id="compare">
+    <div class="kicker"><span class="eyebrow">At a glance</span></div>
+    <h2 class="h2">All three listings, side by side</h2>
+    <p class="sub">Prices are approximate and move constantly on Amazon — confirm the live price before you buy.</p>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Listing</th><th>Model code</th><th>Class</th><th>Price</th><th></th></tr></thead>
+      <tbody>
+        <tr class="win"><td class="name"><span class="thumb"><img src="/images/amazon-B07RC27S9G.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span><span>SPT SD-9254SSB (Listing A)</span></td><td>SD-9254SSB</td><td>Built-in, 18″</td><td class="price">$461.99</td><td><a class="tget" href="https://www.amazon.com/dp/B07RC27S9G?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Price</a></td></tr>
+        <tr><td class="name"><span class="thumb"><img src="/images/amazon-B09V9Z8HCX.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span><span>SPT SD-9254SSB (Listing B)</span></td><td>SD-9254SSB</td><td>Built-in, 18″</td><td class="price">$502.44</td><td><a class="tget" href="https://www.amazon.com/dp/B09V9Z8HCX?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Price</a></td></tr>
+        <tr><td class="name"><span class="thumb"><img src="/images/amazon-B08ZVNRB1C.webp" alt="" width="46" height="46" loading="lazy" decoding="async"></span><span>SPT SD-9263SSA</span></td><td>SD-9263SSA</td><td>Portable, 18″</td><td class="price">$623.48</td><td><a class="tget" href="https://www.amazon.com/dp/B08ZVNRB1C?tag=bestportabledish-20" rel="nofollow sponsored noopener" target="_blank">Price</a></td></tr>
+      </tbody>
+    </table></div>
+    <div class="prose" style="margin-top:22px">
+      <p>Laid out this way, the pattern is easier to see than it is when you're three browser tabs deep in Amazon search results: two rows that are the same chassis code at two prices, and a third row that merely looks related. Anyone comparing all three on price alone, without reading the chassis code, could easily end up thinking the SD-9263SSA at $623.48 is just a pricier tier of the same dishwasher — it isn't. It's a different installation type at a different footprint, and the <a href="/portable-dishwasher-drain-hose-explained">drain and hookup requirements</a> differ accordingly.</p>
+    </div>
+  </section>
+
+  <section id="checklist">
+    <div class="kicker"><span class="eyebrow">Before you click buy</span></div>
+    <h2 class="h2">A checklist for spotting a duplicate listing</h2>
+    <div class="notes">
+      <div class="n"><div class="num">01</div><h3>Match the full title</h3><p>Copy both titles and compare them character by character, including the model code. An exact match is the strongest signal of a true duplicate.</p></div>
+      <div class="n"><div class="num">02</div><h3>Check the chassis digits</h3><p>On SPT's catalog and similar appliance brands, the core numeric code (9254, 9263, and so on) identifies the physical platform. A different code is a different machine, full stop.</p></div>
+      <div class="n"><div class="num">03</div><h3>Scan for a contradicting bullet</h3><p>A different place-setting count, tub material, or dimension in the feature list overrides a matching title. Treat it as a different product.</p></div>
+      <div class="n"><div class="num">04</div><h3>Compare photos, not thumbnails</h3><p>Open the full image set on both listings. The same manufacturer photo pool, reused across listings, supports a duplicate; entirely different staging photos are a flag to slow down.</p></div>
+    </div>
+    <div class="prose" style="margin-top:22px">
+      <p>If all four checks line up, you're very likely looking at the same physical dishwasher sold under two ASINs, and price is the only variable left to decide on.</p>
+    </div>
+  </section>
+
+  <section id="decide">
+    <div class="kicker"><span class="eyebrow">The decision</span></div>
+    <h2 class="h2">Which listing to actually buy</h2>
+    <div class="cols">
+      <div class="panel">
+        <span class="eyebrow">Buy the cheaper ASIN if</span>
+        <h3 class="serif">Every spec-sheet check above lines up</h3>
+        <p>Same title, same chassis code, no contradicting bullet, same photo family. At that point the $40.45 gap between B07RC27S9G and B09V9Z8HCX isn't buying you anything — it's just two sellers pricing the identical item differently. Pay the lower one.</p>
+      </div>
+      <div class="panel">
+        <span class="eyebrow">Stop and look closer if</span>
+        <h3 class="serif">Anything contradicts</h3>
+        <p>A different place-setting count, a width that doesn't match, a chassis code that's actually different (SD-9254 vs SD-9263), or a seller field you don't recognize with no return policy stated. A lower price attached to genuine uncertainty isn't a bargain — it's a reason to buy the listing you can verify, even if it costs more.</p>
+      </div>
+    </div>
+    <div class="prose" style="margin-top:22px">
+      <p>One more thing worth saying plainly: a price difference alone isn't evidence either listing is fake. Both ASINs here carry the same brand, specification and product photos — the same appliance sold through two routes into Amazon's catalog, not a bait listing. The checklist above lets you confirm that in a minute, rather than guessing.</p>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="kicker"><span class="eyebrow">FAQ</span></div>
+    <h2 class="h2">Common questions</h2>
+    <div class="panel faq" style="margin-top:22px">
+      <details open><summary>Are B07RC27S9G and B09V9Z8HCX actually the same dishwasher?</summary><p>Based on the published data for both listings, yes: identical title text, identical model code (SD-9254SSB), identical stated capacity and wash-program count, and feature bullets that overlap rather than contradict. The only way to be completely certain before you buy is to open both Amazon listings yourself and run the same checks, since a title match alone doesn't guarantee every detail of a live listing.</p></details>
+      <details><summary>Why does Amazon let the same product have two ASINs and two prices?</summary><p>Because a single ASIN is supposed to map to one unique product, but in practice gets created independently by different sellers, different fulfillment setups, or catalog entries that were never merged after a re-listing. Appliance categories see this often because manufacturers sell through their own storefront and through multiple resellers and distributors at once.</p></details>
+      <details><summary>Is the SPT SD-9263SSA a cheaper alternative to the SD-9254SSB?</summary><p>No — it's a different installation class, not a cheaper version of the same machine. The SD-9254SSB is a built-in, top-mount dishwasher designed to slide under a counter; the SD-9263SSA is a portable, freestanding dishwasher from the same brand's wheeled product line. They happen to share a similar place-setting count and finish, which is exactly why the model numbers get confused.</p></details>
+      <details><summary>Which price should I pay for the SD-9254SSB?</summary><p>Whichever listing is cheaper, once you've confirmed the title, model code, feature bullets and photos all match — which they do for the two ASINs compared on this page. Absent a stated difference in what ships in the box, paying more for an identical listing buys you nothing.</p></details>
+    </div>
+  </section>
+
+  <section id="keep-reading">
+    <div class="kicker"><span class="eyebrow">Keep reading</span></div>
+    <h2 class="h2">Next, from this site</h2>
+    <div class="cols" style="margin-top:22px">
+      <a class="panel" style="text-decoration:none;display:block" href="/euhomy-portable-dishwasher-lineup-explained">
+        <span class="eyebrow" style="color:var(--brass-text)">Explainer</span>
+        <h3 class="serif" style="margin-top:6px">EUHOMY's Portable Dishwasher Lineup: Seven Listings, What Actually Differs</h3>
+        <p>A different brand, the same underlying problem: seven listings that look almost interchangeable until you read the fine print. <span style="color:var(--aqua-deep);font-weight:700">Read →</span></p>
+      </a>
+      <a class="panel" style="text-decoration:none;display:block" href="/danby-and-edgestar-portable-dishwashers-compared">
+        <span class="eyebrow" style="color:var(--brass-text)">Comparison</span>
+        <h3 class="serif" style="margin-top:6px">Danby and EdgeStar Portable Dishwashers Compared</h3>
+        <p>Two brands with their own naming quirks, compared on what the listings actually say rather than what the titles imply. <span style="color:var(--aqua-deep);font-weight:700">Read →</span></p>
+      </a>
+      <a class="panel" style="text-decoration:none;display:block" href="/why-this-guide-has-no-star-ratings">
+        <span class="eyebrow" style="color:var(--brass-text)">Honest take</span>
+        <h3 class="serif" style="margin-top:6px">Why You Won't See a Star Rating Anywhere in This Guide</h3>
+        <p>Why we compare specs and listing data instead of ratings we can't verify — the same discipline behind this page. <span style="color:var(--aqua-deep);font-weight:700">Read →</span></p>
+      </a>
+    </div>
+  </section>
+
+</div>
+
+<footer class="site"><div class="wrap">
+  <div class="fbrand">Best Portable Dishwashers</div>
+  <p>Independent, research-based comparisons of portable and countertop dishwashers for kitchens without a hookup.</p>
+  <p style="margin:.5rem 0 0"><a href="/about">About</a> · <a href="/guides">All guides</a> · <a href="/contact">Contact</a> · <a href="/privacy">Privacy</a></p>
+  <p>Reader-supported: we may earn a commission when you buy through our links, at no additional cost to you. Comparisons are based on published specifications and pricing; we do not physically test products and we do not publish ratings we cannot verify. Prices change frequently — confirm the current price on Amazon. As an Amazon Associate, we earn from qualifying purchases. © 2026 Best Portable Dishwashers.</p>
+</div></footer>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Why the Same Portable Dishwasher Shows Up at Two Different Prices on Amazon","description":"SPT's SD-9254SSB appears under at least two separate ASINs, one priced at $461.99 and another at $502.44 — same name, same specs, different listing. How to tell a genuine duplicate from a different model wearing a similar name.","image":"https://best-portable-dishwashers.com/images/hero-same-model-different-price-portable-dishwasher-listings-explained.webp","datePublished":"2026-11-11","dateModified":"2026-11-11","author":{"@type":"Person","name":"Ilane Tall"},"publisher":{"@type":"Organization","name":"Best Portable Dishwashers"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://best-portable-dishwashers.com/same-model-different-price-portable-dishwasher-listings-explained"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+ {"@type":"Question","name":"Are B07RC27S9G and B09V9Z8HCX actually the same dishwasher?","acceptedAnswer":{"@type":"Answer","text":"Based on the published data for both listings, yes: identical title text, identical model code (SD-9254SSB), identical stated capacity and wash-program count, and feature bullets that overlap rather than contradict. The only way to be completely certain before you buy is to open both Amazon listings yourself and run the same checks, since a title match alone doesn't guarantee every detail of a live listing."}},
+ {"@type":"Question","name":"Why does Amazon let the same product have two ASINs and two prices?","acceptedAnswer":{"@type":"Answer","text":"Because a single ASIN is supposed to map to one unique product, but in practice gets created independently by different sellers, different fulfillment setups, or catalog entries that were never merged after a re-listing. Appliance categories see this often because manufacturers sell through their own storefront and through multiple resellers and distributors at once."}},
+ {"@type":"Question","name":"Is the SPT SD-9263SSA a cheaper alternative to the SD-9254SSB?","acceptedAnswer":{"@type":"Answer","text":"No — it's a different installation class, not a cheaper version of the same machine. The SD-9254SSB is a built-in, top-mount dishwasher designed to slide under a counter; the SD-9263SSA is a portable, freestanding dishwasher from the same brand's wheeled product line. They happen to share a similar place-setting count and finish, which is exactly why the model numbers get confused."}},
+ {"@type":"Question","name":"Which price should I pay for the SD-9254SSB?","acceptedAnswer":{"@type":"Answer","text":"Whichever listing is cheaper, once you've confirmed the title, model code, feature bullets and photos all match — which they do for the two ASINs compared on this page. Absent a stated difference in what ships in the box, paying more for an identical listing buys you nothing."}}
+]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HowTo","name":"How to tell whether two Amazon appliance listings are the same product","step":[
+ {"@type":"HowToStep","name":"Match the full title","text":"Copy both product titles and compare them character by character, including the model code. An exact match is the strongest signal of a true duplicate rather than a variant."},
+ {"@type":"HowToStep","name":"Check the chassis or model digits","text":"Identify the core numeric model code. A different core code (for example SD-9254 vs SD-9263) means a different physical product, even if the brand, finish and price range look similar."},
+ {"@type":"HowToStep","name":"Scan the feature bullets for a contradiction","text":"Look for a different capacity, dimension, or material stated in one listing's bullets. A contradicting spec overrides a matching title."},
+ {"@type":"HowToStep","name":"Compare the full photo set","text":"Open every image on both listings, not just the thumbnail. The same manufacturer photo pool reused across listings supports a duplicate; unrelated staging photos are a reason to slow down."},
+ {"@type":"HowToStep","name":"Choose the lower price once everything matches","text":"If the title, model code, feature bullets and photos all line up, buy the cheaper listing — the price gap reflects the seller or fulfillment path, not a different product."}
+]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ItemList","name":"Listings discussed in this article","itemListElement":[
+ {"@type":"ListItem","position":1,"item":{"@type":"Product","name":"SPT SD-9254SSB 18″ Wide Built-In Stainless Steel Dishwasher (Listing A)","brand":{"@type":"Brand","name":"SPT"},"offers":{"@type":"Offer","price":"461.99","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B07RC27S9G?tag=bestportabledish-20"}}},
+ {"@type":"ListItem","position":2,"item":{"@type":"Product","name":"SPT SD-9254SSB 18″ Wide Built-In Stainless Steel Dishwasher (Listing B)","brand":{"@type":"Brand","name":"SPT"},"offers":{"@type":"Offer","price":"502.44","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B09V9Z8HCX?tag=bestportabledish-20"}}},
+ {"@type":"ListItem","position":3,"item":{"@type":"Product","name":"SPT SD-9263SSA 18″ Wide Portable Stainless Steel Dishwasher","brand":{"@type":"Brand","name":"SPT"},"offers":{"@type":"Offer","price":"623.48","priceCurrency":"USD","availability":"https://schema.org/InStock","url":"https://www.amazon.com/dp/B08ZVNRB1C?tag=bestportabledish-20"}}}
+]}
+</script>
+
+<script src="/site.js" defer></script>
+</body>
+</html>
