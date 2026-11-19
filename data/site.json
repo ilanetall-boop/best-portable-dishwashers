@@ -919,6 +919,16 @@
       "minutes": 12,
       "date": "2026-11-18",
       "featured": true
+    },
+    {
+      "slug": "black-decker-countertop-vs-18-inch-portable-dishwashers",
+      "title": "BLACK+DECKER Makes a $299 Countertop and a $610 18-Inch Portable: Which One to Buy",
+      "description": "Both carry the same Energy Star badge, but the countertop BCD6W/BCD6SD and the 18-inch BPD8B sit in completely different capacity and price classes. Here's what the $300 gap actually buys.",
+      "category": "Comparison",
+      "hero": "hero-black-decker-countertop-vs-18-inch-portable-dishwashers",
+      "minutes": 13,
+      "date": "2026-11-19",
+      "featured": true
     }
   ]
 }
